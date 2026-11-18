@@ -1,0 +1,14 @@
+{
+  "native": {
+    "status": "PASS_WITH_LICENSE_WARNING",
+    "bytes": 477,
+    "reset_vector": [
+      2,
+      9,
+      206
+    ],
+    "hex_sha256": "4186e19b2208e65c264336c48b3c6eb02cea0ab945c1a844689c04188a0ce193",
+    "runtime": "NOT_VERIFIED",
+    "note": "Keil evaluation relocates code to 0x0800; license registry warning retained. Reset vector must be inspected; no hardware flash or native execution verified."
+  }
+}

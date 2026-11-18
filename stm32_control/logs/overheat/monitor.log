@@ -1,0 +1,618 @@
+[16:07:20.9431] [INFO] Loaded monitor commands from: D:\codex\单片机\stm32_bluepill\tools\renode\renode_1.17.0-portable\scripts/monitor.py
+Renode, version 1.17.0 (1.17.0+20260906gitf1dd1b4af)
+
+
+(monitor) i @D:\codex\单片机\stm32_control\logs\overheat\run.resc
+
+[16:07:21.0423] [INFO] Including script(s): D:\codex\单片机\stm32_control\logs\overheat\run.resc
+[16:07:21.0517] [INFO] System bus created.
+[16:07:21.5473] [INFO] sysbus: Loading block of 11520 bytes length at 0x8000000.
+[16:07:21.5545] [INFO] sysbus: Loading block of 784 bytes length at 0x8002D00.
+[16:07:21.5546] [INFO] sysbus: Loading block of 1536 bytes length at 0x8002EDC.
+[16:07:21.7037] [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+[16:07:21.7098] [INFO] cpu: Setting initial values: PC = 0x8002AB1, SP = 0x20005000.
+[16:07:21.7109] [INFO] smart_fan: Machine started.
+[16:07:21.7646] [WARNING] gpioPortB: Trying to set the state of the input pin #12
+[16:07:21.7767] [WARNING] timer2: Unhandled write to offset 0x18. Unhandled bits: [3] when writing value 0x68. Tags: Output compare 1 preload enable (OC1PE) (0x1).
+[16:07:21.8124] [INFO] smart_fan: Machine paused.
+PLANT 0.10 55.125 0.00 0 0 300.0 1 1 11
+[16:07:21.8620] [INFO] smart_fan: Machine resumed.
+[16:07:21.9615] [INFO] smart_fan: Machine paused.
+PLANT 0.20 54.081 53.00 1 0 459.0 1 1 11
+[16:07:21.9642] [INFO] smart_fan: Machine resumed.
+[16:07:22.0642] [INFO] smart_fan: Machine paused.
+PLANT 0.30 53.063 53.00 1 0 459.0 1 1 11
+[16:07:22.0652] [INFO] smart_fan: Machine resumed.
+[16:07:22.1652] [INFO] smart_fan: Machine paused.
+PLANT 0.40 52.070 53.00 1 0 459.0 1 1 11
+[16:07:22.1662] [INFO] smart_fan: Machine resumed.
+[16:07:22.2663] [INFO] smart_fan: Machine paused.
+PLANT 0.50 51.081 54.00 1 0 462.0 1 1 11
+[16:07:22.2674] [INFO] smart_fan: Machine resumed.
+[16:07:22.3675] [INFO] smart_fan: Machine paused.
+PLANT 0.60 50.116 54.00 1 0 462.0 1 1 11
+[16:07:22.3686] [INFO] smart_fan: Machine resumed.
+[16:07:22.4686] [INFO] smart_fan: Machine paused.
+PLANT 0.70 49.175 54.00 1 0 462.0 1 1 11
+[16:07:22.4699] [INFO] smart_fan: Machine resumed.
+[16:07:22.5700] [INFO] smart_fan: Machine paused.
+PLANT 0.80 48.257 54.00 1 0 462.0 1 1 11
+[16:07:22.5712] [INFO] smart_fan: Machine resumed.
+[16:07:22.6712] [INFO] smart_fan: Machine paused.
+PLANT 0.90 47.341 55.00 1 0 465.0 1 1 11
+[16:07:22.6723] [INFO] smart_fan: Machine resumed.
+[16:07:22.7733] [INFO] smart_fan: Machine paused.
+PLANT 1.00 46.469 54.00 1 0 462.0 1 1 11
+[16:07:22.7744] [INFO] smart_fan: Machine resumed.
+[16:07:22.8737] [INFO] smart_fan: Machine paused.
+PLANT 1.10 45.642 53.00 1 0 459.0 1 1 11
+[16:07:22.8748] [INFO] smart_fan: Machine resumed.
+[16:07:22.9749] [INFO] smart_fan: Machine paused.
+PLANT 1.20 44.835 53.00 1 0 459.0 1 1 11
+[16:07:22.9763] [INFO] smart_fan: Machine resumed.
+[16:07:23.0764] [INFO] smart_fan: Machine paused.
+PLANT 1.30 44.048 53.00 1 0 459.0 1 1 11
+[16:07:23.0774] [INFO] smart_fan: Machine resumed.
+[16:07:23.1775] [INFO] smart_fan: Machine paused.
+PLANT 1.40 43.302 52.00 1 0 456.0 1 1 11
+[16:07:23.1789] [INFO] smart_fan: Machine resumed.
+[16:07:23.2791] [INFO] smart_fan: Machine paused.
+PLANT 1.50 42.532 54.00 1 0 462.0 1 1 11
+[16:07:23.2801] [INFO] smart_fan: Machine resumed.
+[16:07:23.3801] [INFO] smart_fan: Machine paused.
+PLANT 1.60 41.803 53.00 1 0 459.0 1 1 11
+[16:07:23.3813] [INFO] smart_fan: Machine resumed.
+[16:07:23.4814] [INFO] smart_fan: Machine paused.
+PLANT 1.70 41.114 52.00 1 0 456.0 1 1 11
+[16:07:23.4827] [INFO] smart_fan: Machine resumed.
+[16:07:23.5828] [INFO] smart_fan: Machine paused.
+PLANT 1.80 40.442 52.00 1 0 456.0 1 1 11
+[16:07:23.5838] [INFO] smart_fan: Machine resumed.
+[16:07:23.6839] [INFO] smart_fan: Machine paused.
+PLANT 1.90 39.787 52.00 1 0 456.0 1 1 11
+[16:07:23.6853] [INFO] smart_fan: Machine resumed.
+[16:07:23.7854] [INFO] smart_fan: Machine paused.
+PLANT 2.00 85.000 50.00 1 0 450.0 1 1 11
+[16:07:23.7875] [INFO] smart_fan: Machine resumed.
+[16:07:23.8879] [INFO] smart_fan: Machine paused.
+PLANT 2.10 85.000 100.00 1 1 600.0 1 1 11
+[16:07:23.8890] [INFO] smart_fan: Machine resumed.
+[16:07:23.9889] [INFO] smart_fan: Machine paused.
+PLANT 2.20 85.000 100.00 1 1 600.0 1 1 11
+[16:07:23.9902] [INFO] smart_fan: Machine resumed.
+[16:07:24.0904] [INFO] smart_fan: Machine paused.
+PLANT 2.30 85.000 100.00 1 1 600.0 1 1 11
+[16:07:24.0917] [INFO] smart_fan: Machine resumed.
+[16:07:24.1919] [INFO] smart_fan: Machine paused.
+PLANT 2.40 85.000 100.00 1 1 600.0 1 1 11
+[16:07:24.1929] [INFO] smart_fan: Machine resumed.
+[16:07:24.2929] [INFO] smart_fan: Machine paused.
+PLANT 2.50 82.175 100.00 1 1 600.0 1 1 11
+[16:07:24.2939] [INFO] smart_fan: Machine resumed.
+[16:07:24.3940] [INFO] smart_fan: Machine paused.
+PLANT 2.60 79.421 100.00 1 1 600.0 1 1 11
+[16:07:24.3954] [INFO] smart_fan: Machine resumed.
+[16:07:24.4955] [INFO] smart_fan: Machine paused.
+PLANT 2.70 76.735 100.00 1 1 600.0 1 1 11
+[16:07:24.4964] [INFO] smart_fan: Machine resumed.
+[16:07:24.5964] [INFO] smart_fan: Machine paused.
+PLANT 2.80 74.117 100.00 1 1 600.0 1 1 11
+[16:07:24.5973] [INFO] smart_fan: Machine resumed.
+[16:07:24.6974] [INFO] smart_fan: Machine paused.
+PLANT 2.90 71.564 100.00 1 1 600.0 1 1 11
+[16:07:24.6986] [INFO] smart_fan: Machine resumed.
+[16:07:24.7986] [INFO] smart_fan: Machine paused.
+PLANT 3.00 69.075 100.00 1 1 600.0 1 1 11
+[16:07:24.8000] [INFO] smart_fan: Machine resumed.
+[16:07:24.8998] [INFO] smart_fan: Machine paused.
+PLANT 3.10 66.648 100.00 1 1 600.0 1 1 11
+[16:07:24.9008] [INFO] smart_fan: Machine resumed.
+[16:07:25.0010] [INFO] smart_fan: Machine paused.
+PLANT 3.20 64.282 100.00 1 1 600.0 1 1 11
+[16:07:25.0021] [INFO] smart_fan: Machine resumed.
+[16:07:25.1021] [INFO] smart_fan: Machine paused.
+PLANT 3.30 61.975 100.00 1 1 600.0 1 1 11
+[16:07:25.1029] [INFO] smart_fan: Machine resumed.
+[16:07:25.2031] [INFO] smart_fan: Machine paused.
+PLANT 3.40 59.725 100.00 1 1 600.0 1 1 11
+[16:07:25.2173] [INFO] smart_fan: Machine resumed.
+[16:07:25.3172] [INFO] smart_fan: Machine paused.
+PLANT 3.50 57.532 100.00 1 1 600.0 1 1 11
+[16:07:25.3180] [INFO] smart_fan: Machine resumed.
+[16:07:25.4181] [INFO] smart_fan: Machine paused.
+PLANT 3.60 55.394 100.00 1 1 600.0 1 1 11
+[16:07:25.4189] [INFO] smart_fan: Machine resumed.
+[16:07:25.5189] [INFO] smart_fan: Machine paused.
+PLANT 3.70 53.309 100.00 1 1 600.0 1 1 11
+[16:07:25.5198] [INFO] smart_fan: Machine resumed.
+[16:07:25.6197] [INFO] smart_fan: Machine paused.
+PLANT 3.80 51.276 100.00 1 1 600.0 1 1 11
+[16:07:25.6206] [INFO] smart_fan: Machine resumed.
+[16:07:25.7207] [INFO] smart_fan: Machine paused.
+PLANT 3.90 49.294 100.00 1 1 600.0 1 1 11
+[16:07:25.7214] [INFO] smart_fan: Machine resumed.
+[16:07:25.8214] [INFO] smart_fan: Machine paused.
+PLANT 4.00 47.362 100.00 1 1 600.0 1 1 11
+[16:07:25.8221] [INFO] smart_fan: Machine resumed.
+[16:07:25.9223] [INFO] smart_fan: Machine paused.
+PLANT 4.10 45.478 100.00 1 1 600.0 1 1 11
+[16:07:25.9230] [INFO] smart_fan: Machine resumed.
+[16:07:26.0230] [INFO] smart_fan: Machine paused.
+PLANT 4.20 43.641 100.00 1 1 600.0 1 1 11
+[16:07:26.0237] [INFO] smart_fan: Machine resumed.
+[16:07:26.1237] [INFO] smart_fan: Machine paused.
+PLANT 4.30 41.850 100.00 1 1 600.0 1 1 11
+[16:07:26.1246] [INFO] smart_fan: Machine resumed.
+[16:07:26.2247] [INFO] smart_fan: Machine paused.
+PLANT 4.40 40.104 100.00 1 1 600.0 1 1 11
+[16:07:26.2254] [INFO] smart_fan: Machine resumed.
+[16:07:26.3254] [INFO] smart_fan: Machine paused.
+PLANT 4.50 38.401 100.00 1 1 600.0 1 1 11
+[16:07:26.3262] [INFO] smart_fan: Machine resumed.
+[16:07:26.4262] [INFO] smart_fan: Machine paused.
+PLANT 4.60 36.741 100.00 1 1 600.0 1 1 11
+[16:07:26.4269] [INFO] smart_fan: Machine resumed.
+[16:07:26.5270] [INFO] smart_fan: Machine paused.
+PLANT 4.70 35.123 100.00 1 1 600.0 1 1 11
+[16:07:26.5277] [INFO] smart_fan: Machine resumed.
+[16:07:26.6277] [INFO] smart_fan: Machine paused.
+PLANT 4.80 33.544 100.00 1 1 600.0 1 1 11
+[16:07:26.6288] [INFO] smart_fan: Machine resumed.
+[16:07:26.7288] [INFO] smart_fan: Machine paused.
+PLANT 4.90 32.006 100.00 1 1 600.0 1 1 11
+[16:07:26.7298] [INFO] smart_fan: Machine resumed.
+[16:07:26.8304] [INFO] smart_fan: Machine paused.
+PLANT 5.00 30.506 100.00 1 1 600.0 1 1 11
+[16:07:26.8309] [INFO] smart_fan: Machine resumed.
+[16:07:26.9306] [INFO] smart_fan: Machine paused.
+PLANT 5.10 29.043 100.00 1 1 600.0 1 1 11
+[16:07:26.9314] [INFO] smart_fan: Machine resumed.
+[16:07:27.0314] [INFO] smart_fan: Machine paused.
+PLANT 5.20 27.617 100.00 1 1 600.0 1 1 11
+[16:07:27.0321] [INFO] smart_fan: Machine resumed.
+[16:07:27.1321] [INFO] smart_fan: Machine paused.
+PLANT 5.30 26.227 100.00 1 1 600.0 1 1 11
+[16:07:27.1328] [INFO] smart_fan: Machine resumed.
+[16:07:27.2330] [INFO] smart_fan: Machine paused.
+PLANT 5.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.2336] [INFO] smart_fan: Machine resumed.
+[16:07:27.3337] [INFO] smart_fan: Machine paused.
+PLANT 5.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.3343] [INFO] smart_fan: Machine resumed.
+[16:07:27.4343] [INFO] smart_fan: Machine paused.
+PLANT 5.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.4350] [INFO] smart_fan: Machine resumed.
+[16:07:27.5351] [INFO] smart_fan: Machine paused.
+PLANT 5.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.5358] [INFO] smart_fan: Machine resumed.
+[16:07:27.6357] [INFO] smart_fan: Machine paused.
+PLANT 5.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.6363] [INFO] smart_fan: Machine resumed.
+[16:07:27.7365] [INFO] smart_fan: Machine paused.
+PLANT 5.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.7374] [INFO] smart_fan: Machine resumed.
+[16:07:27.8375] [INFO] smart_fan: Machine paused.
+PLANT 6.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.8382] [INFO] smart_fan: Machine resumed.
+[16:07:27.9381] [INFO] smart_fan: Machine paused.
+PLANT 6.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:27.9387] [INFO] smart_fan: Machine resumed.
+[16:07:28.0388] [INFO] smart_fan: Machine paused.
+PLANT 6.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.0399] [INFO] smart_fan: Machine resumed.
+[16:07:28.1399] [INFO] smart_fan: Machine paused.
+PLANT 6.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.1404] [INFO] smart_fan: Machine resumed.
+[16:07:28.2406] [INFO] smart_fan: Machine paused.
+PLANT 6.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.2413] [INFO] smart_fan: Machine resumed.
+[16:07:28.3414] [INFO] smart_fan: Machine paused.
+PLANT 6.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.3422] [INFO] smart_fan: Machine resumed.
+[16:07:28.4421] [INFO] smart_fan: Machine paused.
+PLANT 6.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.4432] [INFO] smart_fan: Machine resumed.
+[16:07:28.5432] [INFO] smart_fan: Machine paused.
+PLANT 6.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.5439] [INFO] smart_fan: Machine resumed.
+[16:07:28.6439] [INFO] smart_fan: Machine paused.
+PLANT 6.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.6447] [INFO] smart_fan: Machine resumed.
+[16:07:28.7448] [INFO] smart_fan: Machine paused.
+PLANT 6.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.7458] [INFO] smart_fan: Machine resumed.
+[16:07:28.8460] [INFO] smart_fan: Machine paused.
+PLANT 7.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.8467] [INFO] smart_fan: Machine resumed.
+[16:07:28.9466] [INFO] smart_fan: Machine paused.
+PLANT 7.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:28.9472] [INFO] smart_fan: Machine resumed.
+[16:07:29.0472] [INFO] smart_fan: Machine paused.
+PLANT 7.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.0477] [INFO] smart_fan: Machine resumed.
+[16:07:29.1476] [INFO] smart_fan: Machine paused.
+PLANT 7.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.1482] [INFO] smart_fan: Machine resumed.
+[16:07:29.2483] [INFO] smart_fan: Machine paused.
+PLANT 7.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.2489] [INFO] smart_fan: Machine resumed.
+[16:07:29.3488] [INFO] smart_fan: Machine paused.
+PLANT 7.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.3495] [INFO] smart_fan: Machine resumed.
+[16:07:29.4496] [INFO] smart_fan: Machine paused.
+PLANT 7.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.4502] [INFO] smart_fan: Machine resumed.
+[16:07:29.5501] [INFO] smart_fan: Machine paused.
+PLANT 7.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.5507] [INFO] smart_fan: Machine resumed.
+[16:07:29.6507] [INFO] smart_fan: Machine paused.
+PLANT 7.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.6512] [INFO] smart_fan: Machine resumed.
+[16:07:29.7513] [INFO] smart_fan: Machine paused.
+PLANT 7.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.7518] [INFO] smart_fan: Machine resumed.
+[16:07:29.8519] [INFO] smart_fan: Machine paused.
+PLANT 8.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.8530] [INFO] smart_fan: Machine resumed.
+[16:07:29.9532] [INFO] smart_fan: Machine paused.
+PLANT 8.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:29.9540] [INFO] smart_fan: Machine resumed.
+[16:07:30.0541] [INFO] smart_fan: Machine paused.
+PLANT 8.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.0547] [INFO] smart_fan: Machine resumed.
+[16:07:30.1546] [INFO] smart_fan: Machine paused.
+PLANT 8.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.1552] [INFO] smart_fan: Machine resumed.
+[16:07:30.2552] [INFO] smart_fan: Machine paused.
+PLANT 8.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.2559] [INFO] smart_fan: Machine resumed.
+[16:07:30.3559] [INFO] smart_fan: Machine paused.
+PLANT 8.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.3565] [INFO] smart_fan: Machine resumed.
+[16:07:30.4566] [INFO] smart_fan: Machine paused.
+PLANT 8.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.4572] [INFO] smart_fan: Machine resumed.
+[16:07:30.5571] [INFO] smart_fan: Machine paused.
+PLANT 8.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.5578] [INFO] smart_fan: Machine resumed.
+[16:07:30.6579] [INFO] smart_fan: Machine paused.
+PLANT 8.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.6585] [INFO] smart_fan: Machine resumed.
+[16:07:30.7585] [INFO] smart_fan: Machine paused.
+PLANT 8.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.7590] [INFO] smart_fan: Machine resumed.
+[16:07:30.8590] [INFO] smart_fan: Machine paused.
+PLANT 9.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.8596] [INFO] smart_fan: Machine resumed.
+[16:07:30.9597] [INFO] smart_fan: Machine paused.
+PLANT 9.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:30.9602] [INFO] smart_fan: Machine resumed.
+[16:07:31.0601] [INFO] smart_fan: Machine paused.
+PLANT 9.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.0607] [INFO] smart_fan: Machine resumed.
+[16:07:31.1607] [INFO] smart_fan: Machine paused.
+PLANT 9.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.1612] [INFO] smart_fan: Machine resumed.
+[16:07:31.2613] [INFO] smart_fan: Machine paused.
+PLANT 9.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.2622] [INFO] smart_fan: Machine resumed.
+[16:07:31.3622] [INFO] smart_fan: Machine paused.
+PLANT 9.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.3628] [INFO] smart_fan: Machine resumed.
+[16:07:31.4628] [INFO] smart_fan: Machine paused.
+PLANT 9.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.4634] [INFO] smart_fan: Machine resumed.
+[16:07:31.5634] [INFO] smart_fan: Machine paused.
+PLANT 9.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.5639] [INFO] smart_fan: Machine resumed.
+[16:07:31.6640] [INFO] smart_fan: Machine paused.
+PLANT 9.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.6645] [INFO] smart_fan: Machine resumed.
+[16:07:31.7646] [INFO] smart_fan: Machine paused.
+PLANT 9.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.7651] [INFO] smart_fan: Machine resumed.
+[16:07:31.8651] [INFO] smart_fan: Machine paused.
+PLANT 10.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.8658] [INFO] smart_fan: Machine resumed.
+[16:07:31.9659] [INFO] smart_fan: Machine paused.
+PLANT 10.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:31.9665] [INFO] smart_fan: Machine resumed.
+[16:07:32.0666] [INFO] smart_fan: Machine paused.
+PLANT 10.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.0673] [INFO] smart_fan: Machine resumed.
+[16:07:32.1673] [INFO] smart_fan: Machine paused.
+PLANT 10.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.1681] [INFO] smart_fan: Machine resumed.
+[16:07:32.2680] [INFO] smart_fan: Machine paused.
+PLANT 10.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.2686] [INFO] smart_fan: Machine resumed.
+[16:07:32.3687] [INFO] smart_fan: Machine paused.
+PLANT 10.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.3691] [INFO] smart_fan: Machine resumed.
+[16:07:32.4692] [INFO] smart_fan: Machine paused.
+PLANT 10.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.4697] [INFO] smart_fan: Machine resumed.
+[16:07:32.5697] [INFO] smart_fan: Machine paused.
+PLANT 10.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.5702] [INFO] smart_fan: Machine resumed.
+[16:07:32.6701] [INFO] smart_fan: Machine paused.
+PLANT 10.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.6707] [INFO] smart_fan: Machine resumed.
+[16:07:32.7708] [INFO] smart_fan: Machine paused.
+PLANT 10.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.7713] [INFO] smart_fan: Machine resumed.
+[16:07:32.8713] [INFO] smart_fan: Machine paused.
+PLANT 11.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.8718] [INFO] smart_fan: Machine resumed.
+[16:07:32.9718] [INFO] smart_fan: Machine paused.
+PLANT 11.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:32.9723] [INFO] smart_fan: Machine resumed.
+[16:07:33.0724] [INFO] smart_fan: Machine paused.
+PLANT 11.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.0729] [INFO] smart_fan: Machine resumed.
+[16:07:33.1729] [INFO] smart_fan: Machine paused.
+PLANT 11.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.1734] [INFO] smart_fan: Machine resumed.
+[16:07:33.2734] [INFO] smart_fan: Machine paused.
+PLANT 11.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.2739] [INFO] smart_fan: Machine resumed.
+[16:07:33.3741] [INFO] smart_fan: Machine paused.
+PLANT 11.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.3747] [INFO] smart_fan: Machine resumed.
+[16:07:33.4746] [INFO] smart_fan: Machine paused.
+PLANT 11.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.4751] [INFO] smart_fan: Machine resumed.
+[16:07:33.5752] [INFO] smart_fan: Machine paused.
+PLANT 11.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.5757] [INFO] smart_fan: Machine resumed.
+[16:07:33.6757] [INFO] smart_fan: Machine paused.
+PLANT 11.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.6762] [INFO] smart_fan: Machine resumed.
+[16:07:33.7763] [INFO] smart_fan: Machine paused.
+PLANT 11.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.7769] [INFO] smart_fan: Machine resumed.
+[16:07:33.8769] [INFO] smart_fan: Machine paused.
+PLANT 12.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.8774] [INFO] smart_fan: Machine resumed.
+[16:07:33.9775] [INFO] smart_fan: Machine paused.
+PLANT 12.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:33.9781] [INFO] smart_fan: Machine resumed.
+[16:07:34.0780] [INFO] smart_fan: Machine paused.
+PLANT 12.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.0787] [INFO] smart_fan: Machine resumed.
+[16:07:34.1788] [INFO] smart_fan: Machine paused.
+PLANT 12.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.1793] [INFO] smart_fan: Machine resumed.
+[16:07:34.2794] [INFO] smart_fan: Machine paused.
+PLANT 12.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.2798] [INFO] smart_fan: Machine resumed.
+[16:07:34.3797] [INFO] smart_fan: Machine paused.
+PLANT 12.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.3802] [INFO] smart_fan: Machine resumed.
+[16:07:34.4803] [INFO] smart_fan: Machine paused.
+PLANT 12.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.4809] [INFO] smart_fan: Machine resumed.
+[16:07:34.5810] [INFO] smart_fan: Machine paused.
+PLANT 12.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.5814] [INFO] smart_fan: Machine resumed.
+[16:07:34.6813] [INFO] smart_fan: Machine paused.
+PLANT 12.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.6818] [INFO] smart_fan: Machine resumed.
+[16:07:34.7821] [INFO] smart_fan: Machine paused.
+PLANT 12.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.7830] [INFO] smart_fan: Machine resumed.
+[16:07:34.8829] [INFO] smart_fan: Machine paused.
+PLANT 13.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.8836] [INFO] smart_fan: Machine resumed.
+[16:07:34.9835] [INFO] smart_fan: Machine paused.
+PLANT 13.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:34.9840] [INFO] smart_fan: Machine resumed.
+[16:07:35.0840] [INFO] smart_fan: Machine paused.
+PLANT 13.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.0846] [INFO] smart_fan: Machine resumed.
+[16:07:35.1846] [INFO] smart_fan: Machine paused.
+PLANT 13.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.1851] [INFO] smart_fan: Machine resumed.
+[16:07:35.2853] [INFO] smart_fan: Machine paused.
+PLANT 13.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.2858] [INFO] smart_fan: Machine resumed.
+[16:07:35.3879] [INFO] smart_fan: Machine paused.
+PLANT 13.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.3898] [INFO] smart_fan: Machine resumed.
+[16:07:35.4876] [INFO] smart_fan: Machine paused.
+PLANT 13.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.4883] [INFO] smart_fan: Machine resumed.
+[16:07:35.5884] [INFO] smart_fan: Machine paused.
+PLANT 13.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.5888] [INFO] smart_fan: Machine resumed.
+[16:07:35.6889] [INFO] smart_fan: Machine paused.
+PLANT 13.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.6894] [INFO] smart_fan: Machine resumed.
+[16:07:35.7895] [INFO] smart_fan: Machine paused.
+PLANT 13.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.7901] [INFO] smart_fan: Machine resumed.
+[16:07:35.8900] [INFO] smart_fan: Machine paused.
+PLANT 14.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.8905] [INFO] smart_fan: Machine resumed.
+[16:07:35.9907] [INFO] smart_fan: Machine paused.
+PLANT 14.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:35.9912] [INFO] smart_fan: Machine resumed.
+[16:07:36.0910] [INFO] smart_fan: Machine paused.
+PLANT 14.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.0915] [INFO] smart_fan: Machine resumed.
+[16:07:36.1921] [INFO] smart_fan: Machine paused.
+PLANT 14.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.1931] [INFO] smart_fan: Machine resumed.
+[16:07:36.2926] [INFO] smart_fan: Machine paused.
+PLANT 14.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.2932] [INFO] smart_fan: Machine resumed.
+[16:07:36.3932] [INFO] smart_fan: Machine paused.
+PLANT 14.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.3938] [INFO] smart_fan: Machine resumed.
+[16:07:36.4938] [INFO] smart_fan: Machine paused.
+PLANT 14.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.4943] [INFO] smart_fan: Machine resumed.
+[16:07:36.5944] [INFO] smart_fan: Machine paused.
+PLANT 14.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.5949] [INFO] smart_fan: Machine resumed.
+[16:07:36.6950] [INFO] smart_fan: Machine paused.
+PLANT 14.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.6957] [INFO] smart_fan: Machine resumed.
+[16:07:36.7958] [INFO] smart_fan: Machine paused.
+PLANT 14.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.7964] [INFO] smart_fan: Machine resumed.
+[16:07:36.8964] [INFO] smart_fan: Machine paused.
+PLANT 15.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.8969] [INFO] smart_fan: Machine resumed.
+[16:07:36.9969] [INFO] smart_fan: Machine paused.
+PLANT 15.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:36.9974] [INFO] smart_fan: Machine resumed.
+[16:07:37.0975] [INFO] smart_fan: Machine paused.
+PLANT 15.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.0979] [INFO] smart_fan: Machine resumed.
+[16:07:37.1980] [INFO] smart_fan: Machine paused.
+PLANT 15.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.1985] [INFO] smart_fan: Machine resumed.
+[16:07:37.2985] [INFO] smart_fan: Machine paused.
+PLANT 15.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.2990] [INFO] smart_fan: Machine resumed.
+[16:07:37.3992] [INFO] smart_fan: Machine paused.
+PLANT 15.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.3998] [INFO] smart_fan: Machine resumed.
+[16:07:37.4998] [INFO] smart_fan: Machine paused.
+PLANT 15.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.5003] [INFO] smart_fan: Machine resumed.
+[16:07:37.6003] [INFO] smart_fan: Machine paused.
+PLANT 15.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.6008] [INFO] smart_fan: Machine resumed.
+[16:07:37.7008] [INFO] smart_fan: Machine paused.
+PLANT 15.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.7016] [INFO] smart_fan: Machine resumed.
+[16:07:37.8017] [INFO] smart_fan: Machine paused.
+PLANT 15.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.8022] [INFO] smart_fan: Machine resumed.
+[16:07:37.9021] [INFO] smart_fan: Machine paused.
+PLANT 16.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:37.9028] [INFO] smart_fan: Machine resumed.
+[16:07:38.0028] [INFO] smart_fan: Machine paused.
+PLANT 16.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.0034] [INFO] smart_fan: Machine resumed.
+[16:07:38.1034] [INFO] smart_fan: Machine paused.
+PLANT 16.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.1039] [INFO] smart_fan: Machine resumed.
+[16:07:38.2039] [INFO] smart_fan: Machine paused.
+PLANT 16.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.2044] [INFO] smart_fan: Machine resumed.
+[16:07:38.3044] [INFO] smart_fan: Machine paused.
+PLANT 16.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.3048] [INFO] smart_fan: Machine resumed.
+[16:07:38.4048] [INFO] smart_fan: Machine paused.
+PLANT 16.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.4054] [INFO] smart_fan: Machine resumed.
+[16:07:38.5054] [INFO] smart_fan: Machine paused.
+PLANT 16.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.5059] [INFO] smart_fan: Machine resumed.
+[16:07:38.6059] [INFO] smart_fan: Machine paused.
+PLANT 16.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.6064] [INFO] smart_fan: Machine resumed.
+[16:07:38.7065] [INFO] smart_fan: Machine paused.
+PLANT 16.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.7070] [INFO] smart_fan: Machine resumed.
+[16:07:38.8070] [INFO] smart_fan: Machine paused.
+PLANT 16.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.8078] [INFO] smart_fan: Machine resumed.
+[16:07:38.9078] [INFO] smart_fan: Machine paused.
+PLANT 17.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:38.9084] [INFO] smart_fan: Machine resumed.
+[16:07:39.0084] [INFO] smart_fan: Machine paused.
+PLANT 17.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.0090] [INFO] smart_fan: Machine resumed.
+[16:07:39.1090] [INFO] smart_fan: Machine paused.
+PLANT 17.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.1096] [INFO] smart_fan: Machine resumed.
+[16:07:39.2096] [INFO] smart_fan: Machine paused.
+PLANT 17.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.2101] [INFO] smart_fan: Machine resumed.
+[16:07:39.3103] [INFO] smart_fan: Machine paused.
+PLANT 17.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.3108] [INFO] smart_fan: Machine resumed.
+[16:07:39.4108] [INFO] smart_fan: Machine paused.
+PLANT 17.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.4113] [INFO] smart_fan: Machine resumed.
+[16:07:39.5115] [INFO] smart_fan: Machine paused.
+PLANT 17.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.5120] [INFO] smart_fan: Machine resumed.
+[16:07:39.6118] [INFO] smart_fan: Machine paused.
+PLANT 17.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.6125] [INFO] smart_fan: Machine resumed.
+[16:07:39.7125] [INFO] smart_fan: Machine paused.
+PLANT 17.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.7131] [INFO] smart_fan: Machine resumed.
+[16:07:39.8131] [INFO] smart_fan: Machine paused.
+PLANT 17.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.8138] [INFO] smart_fan: Machine resumed.
+[16:07:39.9140] [INFO] smart_fan: Machine paused.
+PLANT 18.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:39.9145] [INFO] smart_fan: Machine resumed.
+[16:07:40.0145] [INFO] smart_fan: Machine paused.
+PLANT 18.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.0151] [INFO] smart_fan: Machine resumed.
+[16:07:40.1152] [INFO] smart_fan: Machine paused.
+PLANT 18.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.1159] [INFO] smart_fan: Machine resumed.
+[16:07:40.2158] [INFO] smart_fan: Machine paused.
+PLANT 18.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.2164] [INFO] smart_fan: Machine resumed.
+[16:07:40.3164] [INFO] smart_fan: Machine paused.
+PLANT 18.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.3171] [INFO] smart_fan: Machine resumed.
+[16:07:40.4171] [INFO] smart_fan: Machine paused.
+PLANT 18.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.4177] [INFO] smart_fan: Machine resumed.
+[16:07:40.5178] [INFO] smart_fan: Machine paused.
+PLANT 18.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.5184] [INFO] smart_fan: Machine resumed.
+[16:07:40.6183] [INFO] smart_fan: Machine paused.
+PLANT 18.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.6189] [INFO] smart_fan: Machine resumed.
+[16:07:40.7191] [INFO] smart_fan: Machine paused.
+PLANT 18.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.7196] [INFO] smart_fan: Machine resumed.
+[16:07:40.8195] [INFO] smart_fan: Machine paused.
+PLANT 18.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.8201] [INFO] smart_fan: Machine resumed.
+[16:07:40.9202] [INFO] smart_fan: Machine paused.
+PLANT 19.00 25.000 100.00 1 1 600.0 1 1 11
+[16:07:40.9209] [INFO] smart_fan: Machine resumed.
+[16:07:41.0208] [INFO] smart_fan: Machine paused.
+PLANT 19.10 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.0213] [INFO] smart_fan: Machine resumed.
+[16:07:41.1215] [INFO] smart_fan: Machine paused.
+PLANT 19.20 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.1220] [INFO] smart_fan: Machine resumed.
+[16:07:41.2219] [INFO] smart_fan: Machine paused.
+PLANT 19.30 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.2224] [INFO] smart_fan: Machine resumed.
+[16:07:41.3225] [INFO] smart_fan: Machine paused.
+PLANT 19.40 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.3230] [INFO] smart_fan: Machine resumed.
+[16:07:41.4230] [INFO] smart_fan: Machine paused.
+PLANT 19.50 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.4236] [INFO] smart_fan: Machine resumed.
+[16:07:41.5236] [INFO] smart_fan: Machine paused.
+PLANT 19.60 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.5242] [INFO] smart_fan: Machine resumed.
+[16:07:41.6244] [INFO] smart_fan: Machine paused.
+PLANT 19.70 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.6249] [INFO] smart_fan: Machine resumed.
+[16:07:41.7249] [INFO] smart_fan: Machine paused.
+PLANT 19.80 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.7254] [INFO] smart_fan: Machine resumed.
+[16:07:41.8253] [INFO] smart_fan: Machine paused.
+PLANT 19.90 25.000 100.00 1 1 600.0 1 1 11
+[16:07:41.8258] [INFO] smart_fan: Machine resumed.
+[16:07:41.9259] [INFO] smart_fan: Machine paused.
+PLANT 20.00 25.000 100.00 1 1 600.0 1 1 11
+Renode is quitting
+
+[16:07:41.9428] [INFO] smart_fan: Disposed.

@@ -1,0 +1,1802 @@
+[
+  {
+    "t": 0.1,
+    "temp": 5500,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 299
+  },
+  {
+    "t": 0.2,
+    "temp": 5400,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 0.3,
+    "temp": 5290,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 0.4,
+    "temp": 5200,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 0.5,
+    "temp": 5100,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 0.6,
+    "temp": 5000,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 0.7,
+    "temp": 4910,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 0.8,
+    "temp": 4820,
+    "target": 3500,
+    "duty": 55,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 0.9,
+    "temp": 4720,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 464
+  },
+  {
+    "t": 1.0,
+    "temp": 4640,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 1.1,
+    "temp": 4550,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 1.2,
+    "temp": 4470,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 1.3,
+    "temp": 4400,
+    "target": 3500,
+    "duty": 52,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 1.4,
+    "temp": 4400,
+    "target": 3500,
+    "duty": 54,
+    "mode": 1,
+    "fault": 0,
+    "current": 455
+  },
+  {
+    "t": 1.5,
+    "temp": 4320,
+    "target": 3500,
+    "duty": 53,
+    "mode": 1,
+    "fault": 0,
+    "current": 461
+  },
+  {
+    "t": 1.6,
+    "temp": 4250,
+    "target": 3500,
+    "duty": 52,
+    "mode": 1,
+    "fault": 0,
+    "current": 458
+  },
+  {
+    "t": 1.7,
+    "temp": 4170,
+    "target": 3500,
+    "duty": 52,
+    "mode": 1,
+    "fault": 0,
+    "current": 455
+  },
+  {
+    "t": 1.8,
+    "temp": 4100,
+    "target": 3500,
+    "duty": 52,
+    "mode": 1,
+    "fault": 0,
+    "current": 455
+  },
+  {
+    "t": 1.9,
+    "temp": 4040,
+    "target": 3500,
+    "duty": 50,
+    "mode": 1,
+    "fault": 0,
+    "current": 455
+  },
+  {
+    "t": 2.0,
+    "temp": 3970,
+    "target": 3500,
+    "duty": 49,
+    "mode": 1,
+    "fault": 0,
+    "current": 455
+  },
+  {
+    "t": 2.1,
+    "temp": 8490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 449
+  },
+  {
+    "t": 2.2,
+    "temp": 8490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.3,
+    "temp": 8490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.4,
+    "temp": 8490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.5,
+    "temp": 8490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.6,
+    "temp": 8210,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.7,
+    "temp": 7930,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.8,
+    "temp": 7660,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 2.9,
+    "temp": 7410,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.0,
+    "temp": 7150,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.1,
+    "temp": 6900,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.2,
+    "temp": 6660,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.3,
+    "temp": 6420,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.4,
+    "temp": 6190,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.5,
+    "temp": 5960,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.6,
+    "temp": 5750,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.7,
+    "temp": 5530,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.8,
+    "temp": 5320,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 3.9,
+    "temp": 5120,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.0,
+    "temp": 4920,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.1,
+    "temp": 4730,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.2,
+    "temp": 4540,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.3,
+    "temp": 4350,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.4,
+    "temp": 4170,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.5,
+    "temp": 4000,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.6,
+    "temp": 3830,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.7,
+    "temp": 3670,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.8,
+    "temp": 3500,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 4.9,
+    "temp": 3340,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.0,
+    "temp": 3190,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.1,
+    "temp": 3050,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.2,
+    "temp": 2890,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.3,
+    "temp": 2760,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.4,
+    "temp": 2610,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 5.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 6.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 7.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 8.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 9.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 10.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 11.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 12.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 13.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 14.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 15.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 16.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 17.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 18.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.1,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.2,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.3,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.4,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.5,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.6,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.7,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.8,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 19.9,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  },
+  {
+    "t": 20.0,
+    "temp": 2490,
+    "target": 3500,
+    "duty": 100,
+    "mode": 1,
+    "fault": 2,
+    "current": 599
+  }
+]

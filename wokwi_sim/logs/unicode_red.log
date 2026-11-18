@@ -1,0 +1,27 @@
+test_adapter_not_native (test_workflow.WorkflowTests.test_adapter_not_native) ... ok
+test_board_valid (test_workflow.WorkflowTests.test_board_valid) ... ok
+test_cli_unicode_output_decoded (test_workflow.WorkflowTests.test_cli_unicode_output_decoded) ... ERROR
+test_duplicate_simulation_pin_rejected (test_workflow.WorkflowTests.test_duplicate_simulation_pin_rejected) ... ok
+test_failure_cannot_pass_serial (test_workflow.WorkflowTests.test_failure_cannot_pass_serial) ... ok
+test_generated_connections_have_endpoints (test_workflow.WorkflowTests.test_generated_connections_have_endpoints) ... ok
+test_inventory_missing_folder_rejected (test_workflow.WorkflowTests.test_inventory_missing_folder_rejected) ... ok
+test_missing_evidence_rejected (test_workflow.WorkflowTests.test_missing_evidence_rejected) ... ok
+test_partial_boot_cannot_pass_serial (test_workflow.WorkflowTests.test_partial_boot_cannot_pass_serial) ... ok
+test_stale_log_not_reused (test_workflow.WorkflowTests.test_stale_log_not_reused) ... ok
+test_unknown_connection_pin_rejected (test_workflow.WorkflowTests.test_unknown_connection_pin_rejected) ... ok
+test_unknown_mcu_rejected (test_workflow.WorkflowTests.test_unknown_mcu_rejected) ... ok
+test_unknown_voltage_rejected (test_workflow.WorkflowTests.test_unknown_voltage_rejected) ... ok
+
+======================================================================
+ERROR: test_cli_unicode_output_decoded (test_workflow.WorkflowTests.test_cli_unicode_output_decoded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 82, in test_cli_unicode_output_decoded
+    result = run_simulation.run_process([sys.executable, '-c', "import sys; sys.stdout.buffer.write('\u2713 passed'.encode('utf-8'))"], ROOT, 10)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'run_simulation' has no attribute 'run_process'. Did you mean: 'subprocess'?
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.037s
+
+FAILED (errors=1)

@@ -1,0 +1,10 @@
+{
+  "case": "wrong_pwm",
+  "status": "FAIL",
+  "validation": "Final temperature within \u00b11.5\u00b0C",
+  "samples": 200,
+  "states": 200,
+  "complete": true,
+  "monitor_errors": false,
+  "exit_code": 0
+}

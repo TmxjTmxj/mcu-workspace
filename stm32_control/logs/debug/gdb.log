@@ -1,0 +1,7 @@
+Reset_Handler () at D:\codex\��Ƭ��\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\gcc\startup_stm32f103xb.S:64
+64	    bl  SystemInit
+Breakpoint 1 at 0x8001a74: file firmware\controller\control.c, line 8.
+
+Breakpoint 1, control_step (c=c@entry=0x20000228 <controller>, temperature=temperature@entry=5000, current=current@entry=399, estop=0) at firmware\controller\control.c:8
+8	void control_step(Control *c,int temperature,int current,int estop) {
+$1 = 5000

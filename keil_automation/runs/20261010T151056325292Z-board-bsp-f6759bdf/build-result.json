@@ -1,0 +1,31 @@
+{
+  "status": "FAIL",
+  "profile": "board-bsp",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151056325292Z-board-bsp-f6759bdf\\project\\STC8.uvproj",
+  "target": "STC8",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151056325292Z-board-bsp-f6759bdf",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151056325292Z-board-bsp-f6759bdf\\project\\STC8.uvproj",
+      "-t",
+      "STC8",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151056325292Z-board-bsp-f6759bdf\\build.log"
+    ],
+    "pid": 27552,
+    "exit_code": 3,
+    "timed_out": false,
+    "elapsed_seconds": 2.669
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151056325292Z-board-bsp-f6759bdf\\build.log",
+  "artifacts": [],
+  "image_bytes": null,
+  "error": null,
+  "license": "EVALUATION_RESTRICTION_OBSERVED",
+  "limitation": "C51_L250_CODE_SIZE_LIMIT",
+  "hardware_verified": false
+}

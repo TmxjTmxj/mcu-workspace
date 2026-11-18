@@ -1,0 +1,11 @@
+test_actual_cpu_gpio_uart_button_i2c_adc (test_runtime.RuntimeTests.test_actual_cpu_gpio_uart_button_i2c_adc) ... ok
+test_button_disconnected_detected (test_runtime.RuntimeTests.test_button_disconnected_detected) ... ok
+test_missing_oled_power_detected (test_runtime.RuntimeTests.test_missing_oled_power_detected) ... ok
+test_swapped_sda_scl_detected (test_runtime.RuntimeTests.test_swapped_sda_scl_detected) ... ok
+test_wrong_i2c_address_detected (test_runtime.RuntimeTests.test_wrong_i2c_address_detected) ... ok
+test_wrong_led_gpio_detected (test_runtime.RuntimeTests.test_wrong_led_gpio_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.405s
+
+OK

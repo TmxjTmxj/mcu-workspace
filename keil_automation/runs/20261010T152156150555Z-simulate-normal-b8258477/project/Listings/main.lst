@@ -1,0 +1,89 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:21:57 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE main.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.) DEBUG PRINT(.\Listings\main.l
+                    -st) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF main.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          /* Standard 12T 8051 simulator fixture. This is not the STC board firmware. */
+   2          #include <REG51.H>
+   3          
+   4          #ifndef LED_BIT
+   5          #define LED_BIT 0
+   6          #endif
+   7          
+   8          volatile unsigned char timer_ticks;
+   9          volatile unsigned int checksum;
+  10          volatile unsigned char input_high;
+  11          volatile unsigned char input_low;
+  12          
+  13          void timer0_isr(void) interrupt 1 {
+  14   1          ++timer_ticks;
+  15   1          TR0 = 0;
+  16   1      }
+  17          
+  18          void checkpoint_high(void) { P1 = 0xff; }
+  19          void checkpoint_low(void) { P1 = 0xff; }
+  20          void test_done(void) { for (;;) {} }
+  21          
+  22          static void serial(char code *text) {
+  23   1          while (*text) {
+  24   2              SBUF = *text++;
+  25   2              while (!TI) {}
+  26   2              TI = 0;
+  27   2          }
+  28   1      }
+  29          
+  30          void main(void) {
+  31   1          unsigned char i;
+  32   1          EA = 0;
+  33   1          timer_ticks = 0;
+  34   1          checksum = 0;
+  35   1          P3 = 0xff;
+  36   1          checkpoint_high();
+  37   1          input_high = (P3 & 0x04) ? 1 : 0;
+  38   1          checkpoint_low();
+  39   1          input_low = (P3 & 0x04) ? 1 : 0;
+  40   1          for (i = 1; i <= 10; ++i) checksum += i;
+  41   1          P1 = (unsigned char) ~(1 << LED_BIT);
+  42   1          TMOD = 0x21; /* Timer1 baud generator; Timer0 16-bit timer. */
+  43   1          TH0 = 0xfc;
+  44   1          TL0 = 0x18;
+  45   1          ET0 = 1;
+  46   1          EA = 1;
+  47   1          TR0 = 1;
+  48   1          while (!timer_ticks) {}
+  49   1          EA = 0;
+  50   1          SCON = 0x50;
+  51   1          TH1 = 0xfd; /* 9600 baud at 11.0592MHz, standard 12T 8051. */
+  52   1          TL1 = 0xfd;
+  53   1          TR1 = 1;
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:21:57 PAGE 2   
+
+  54   1          TI = 0;
+  55   1          serial("KEIL_UART_OK\r\n");
+  56   1          test_done();
+  57   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    183    ----
+   CONSTANT SIZE    =     15    ----
+   XDATA SIZE       =      5    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

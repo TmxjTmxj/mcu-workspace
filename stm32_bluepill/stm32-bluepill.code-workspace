@@ -1,0 +1,9 @@
+{
+  "folders": [{"path":".","name":"STM32F103C8 原生开发与仿真"}],
+  "settings": {
+    "files.exclude":{"**/__pycache__":true,"tools":true},
+    "search.exclude":{"tools/**":true,"build/**":true,"logs/**":true},
+    "files.associations":{"*.h":"c"}
+  },
+  "extensions":{"recommendations":["wokwi.wokwi-vscode","ms-vscode.cpptools"]}
+}

@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "platformio.ini": "0ac5f0cd28936454c132e22794f2b4e02aa3b2548834e73fedd5eab1f3fd091d",
+    "src/main.c": "d28d6bddf08e7204de86c00bfb9d96e72aa5b0ab60ddae3ed9ae289e8b924987"
+  },
+  "artifacts": {
+    "firmware.bin": "0151cb98b8082abe820be0c02e4178b3fbf7832cdd59d0a90aca182880970217",
+    "firmware.elf": "0aa798ff3845f0990c5c3a2d5210134c831fc35355f5f870cc530a871b606ea0"
+  }
+}

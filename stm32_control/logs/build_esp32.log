@@ -1,0 +1,143 @@
+Processing esp32 (platform: espressif32@6.10.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- ESP32 BLE Arduino @ 2.0.0
+|-- WebServer @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Compiling build\radio\esp32\src\bridge\main.cpp.o
+Building build\radio\esp32\bootloader.bin
+Generating partitions build\radio\esp32\partitions.bin
+Compiling build\radio\esp32\lib1ce\BLE\BLE2902.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLE2904.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEAddress.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEAdvertisedDevice.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEAdvertising.cpp.o
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling build\radio\esp32\lib1ce\BLE\BLEBeacon.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLECharacteristic.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLECharacteristicMap.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEClient.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEDescriptor.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEDescriptorMap.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEDevice.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEEddystoneTLM.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEEddystoneURL.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEExceptions.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEHIDDevice.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLERemoteCharacteristic.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLERemoteDescriptor.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLERemoteService.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEScan.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLESecurity.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEServer.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEService.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEServiceMap.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEUUID.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEUtils.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\BLEValue.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\FreeRTOS.cpp.o
+Compiling build\radio\esp32\lib1ce\BLE\GeneralUtils.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFi.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiAP.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiClient.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiGeneric.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiMulti.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiSTA.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiScan.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiServer.cpp.o
+Compiling build\radio\esp32\lib98f\WiFi\WiFiUdp.cpp.o
+Compiling build\radio\esp32\lib55b\FS\FS.cpp.o
+Compiling build\radio\esp32\lib55b\FS\vfs_api.cpp.o
+Compiling build\radio\esp32\libcd4\WebServer\Parsing.cpp.o
+Compiling build\radio\esp32\libcd4\WebServer\WebServer.cpp.o
+Compiling build\radio\esp32\libcd4\WebServer\detail\mimetable.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\Esp.cpp.o
+Archiving build\radio\esp32\lib1ce\libBLE.a
+Compiling build\radio\esp32\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\HWCDC.cpp.o
+Indexing build\radio\esp32\lib1ce\libBLE.a
+Compiling build\radio\esp32\FrameworkArduino\HardwareSerial.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\IPAddress.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\IPv6Address.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\MD5Builder.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\Print.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\Stream.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\StreamString.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\Tone.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\USB.cpp.o
+Archiving build\radio\esp32\lib98f\libWiFi.a
+Indexing build\radio\esp32\lib98f\libWiFi.a
+Compiling build\radio\esp32\FrameworkArduino\USBCDC.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\USBMSC.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\WMath.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\WString.cpp.o
+Archiving build\radio\esp32\lib55b\libFS.a
+Compiling build\radio\esp32\FrameworkArduino\base64.cpp.o
+Indexing build\radio\esp32\lib55b\libFS.a
+Compiling build\radio\esp32\FrameworkArduino\cbuf.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-adc.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-bt.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-dac.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-ledc.c.o
+Archiving build\radio\esp32\libcd4\libWebServer.a
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-misc.c.o
+Indexing build\radio\esp32\libcd4\libWebServer.a
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-psram.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-spi.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-time.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-timer.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-touch.c.o
+Compiling build\radio\esp32\FrameworkArduino\esp32-hal-uart.c.o
+Compiling build\radio\esp32\FrameworkArduino\firmware_msc_fat.c.o
+Compiling build\radio\esp32\FrameworkArduino\libb64\cdecode.c.o
+Compiling build\radio\esp32\FrameworkArduino\libb64\cencode.c.o
+Compiling build\radio\esp32\FrameworkArduino\main.cpp.o
+Compiling build\radio\esp32\FrameworkArduino\stdlib_noniso.c.o
+Compiling build\radio\esp32\FrameworkArduino\wiring_pulse.c.o
+Compiling build\radio\esp32\FrameworkArduino\wiring_shift.c.o
+Archiving build\radio\esp32\libFrameworkArduino.a
+Indexing build\radio\esp32\libFrameworkArduino.a
+Linking build\radio\esp32\firmware.elf
+Retrieving maximum program size build\radio\esp32\firmware.elf
+Checking size build\radio\esp32\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  17.7% (used 58148 bytes from 327680 bytes)
+Flash: [========  ]  80.0% (used 1573365 bytes from 1966080 bytes)
+Building build\radio\esp32\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 27 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 22.62 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+esp32          SUCCESS   00:00:22.620
+========================= 1 succeeded in 00:00:22.620 =========================

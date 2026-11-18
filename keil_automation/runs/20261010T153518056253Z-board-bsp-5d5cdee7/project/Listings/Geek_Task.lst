@@ -1,0 +1,85 @@
+C51 COMPILER V9.60.7.0   GEEK_TASK                                                         10/10/2026 23:35:20 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE GEEK_TASK
+OBJECT MODULE PLACED IN .\Objects\Geek_Task.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE UserDevices\Geek_Task.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.\User;.\APP;.\
+                    -ChipDevices;.\ISR;.\UserDevices) DEBUG PRINT(.\Listings\Geek_Task.lst) TABS(2) OBJECT(.\Objects\Geek_Task.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF UserDevices\Geek_Task.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          #include  "Geek_Task.h"
+   2          
+   3          /***************************
+   4          任务处理相关回调函数，勿动
+   5          ***************************/
+   6          
+   7          
+   8          extern  TASK_COMPONENTS Task_Comps[];
+   9          extern u8 Tasks_Max;
+  10          //========================================================================
+  11          // 函数: Task_Handler_Callback
+  12          // 描述: 任务标记回调函数.
+  13          // 参数: None.
+  14          // 返回: None.
+  15          // 版本: V1.0, 2012-10-22
+  16          //========================================================================
+  17          void Task_Marks_Handler_Callback(void)
+  18          {
+  19   1        u8 i;
+  20   1        for(i=0; i<Tasks_Max; i++)
+  21   1        {
+  22   2          if(Task_Comps[i].TIMCount)    /* If the time is not 0 */
+  23   2          {
+  24   3            Task_Comps[i].TIMCount--;  /* Time counter decrement */
+  25   3            if(Task_Comps[i].TIMCount == 0)  /* If time arrives */
+  26   3            {
+  27   4              /*Resume the timer value and try again */
+  28   4              Task_Comps[i].TIMCount = Task_Comps[i].TRITime;  
+  29   4              Task_Comps[i].Run = 1;    /* The task can be run */
+  30   4            }
+  31   3          }
+  32   2        }
+  33   1      }
+  34          
+  35          //========================================================================
+  36          // 函数: Task_Pro_Handler_Callback
+  37          // 描述: 任务处理回调函数.
+  38          // 参数: None.
+  39          // 返回: None.
+  40          // 版本: V1.0, 2012-10-22
+  41          //========================================================================
+  42          void Task_Pro_Handler_Callback(void)
+  43          {
+  44   1        u8 i;
+  45   1        for(i=0; i<Tasks_Max; i++)
+  46   1        {
+  47   2          if(Task_Comps[i].Run) /* If task can be run */
+  48   2          {
+  49   3            Task_Comps[i].Run = 0;    /* Flag clear 0 */
+  50   3            Task_Comps[i].TaskHook();  /* Run task */
+  51   3          }
+  52   2        }
+  53   1      }
+C51 COMPILER V9.60.7.0   GEEK_TASK                                                         10/10/2026 23:35:20 PAGE 2   
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    235    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----       1
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

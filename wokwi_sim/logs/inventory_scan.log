@@ -1,0 +1,1 @@
+{"total": 496, "unique_contents": 313, "categories": {"D": 31, "C": 365, "B": 1, "E": 97, "A": 2}, "statuses": {"IMAGE_VALIDATED": 26, "TEXT_PARSED": 355, "TEXT_EXTRACTED": 3, "UNPARSED": 97, "HEX_VALIDATED": 4, "XML_PARSED": 7, "ARCHIVE_VALIDATED": 1, "NOT_ELECTRICALLY_PARSED": 3}}

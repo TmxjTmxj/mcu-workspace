@@ -1,0 +1,4 @@
+Rebuild target 'Simulator'
+compiling main.c...
+--- Error: failed to execute 'D:\keil\C51\BIN\C51.EXE'
+Target not created.

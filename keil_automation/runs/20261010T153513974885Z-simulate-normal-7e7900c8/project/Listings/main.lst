@@ -1,0 +1,77 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:35:14 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE main.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.) DEBUG PRINT(.\Listings\main.l
+                    -st) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF main.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          /* Offline board probe: schematic LED0=P6.0, K3=P3.3, both active low.
+   2           * No timer/baud/pin electrical characteristics are asserted here.
+   3           * Uses the board's STC header and STC8H8K64U project selection unchanged.
+   4           */
+   5          #include "STC8xxxx.H"
+   6          
+   7          #ifndef LED_BIT
+   8          #define LED_BIT 0
+   9          #endif
+  10          
+  11          volatile unsigned char phase;
+  12          volatile unsigned char key_idle, key_down, key_up;
+  13          volatile unsigned char led_idle, led_down, led_up;
+  14          
+  15          void checkpoint_idle(void) { phase = 1; }
+  16          void checkpoint_pressed(void) { phase = 2; }
+  17          void checkpoint_released(void) { phase = 3; }
+  18          void test_done(void) { for (;;) {} }
+  19          
+  20          static void update_led(void) {
+  21   1          P6 = P33 ? 0xff : (unsigned char) ~(1 << LED_BIT);
+  22   1      }
+  23          
+  24          void main(void) {
+  25   1          EA = 0;
+  26   1          P6M1 = 0;
+  27   1          P6M0 = 0xff;
+  28   1          P3M1 &= ~0x08;
+  29   1          P3M0 &= ~0x08;
+  30   1          P33 = 1;
+  31   1          P6 = 0xff;
+  32   1          checkpoint_idle();
+  33   1          key_idle = P33;
+  34   1          update_led();
+  35   1          led_idle = P6;
+  36   1          checkpoint_pressed();
+  37   1          key_down = P33;
+  38   1          update_led();
+  39   1          led_down = P6;
+  40   1          checkpoint_released();
+  41   1          key_up = P33;
+  42   1          update_led();
+  43   1          led_up = P6;
+  44   1          test_done();
+  45   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    112    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      7    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:35:14 PAGE 2   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,27 @@
+test_actual_cpu_gpio_uart_button_i2c_adc (test_runtime.RuntimeTests.test_actual_cpu_gpio_uart_button_i2c_adc) ... ok
+test_button_disconnected_detected (test_runtime.RuntimeTests.test_button_disconnected_detected) ... ok
+test_missing_oled_power_detected (test_runtime.RuntimeTests.test_missing_oled_power_detected) ... ok
+test_swapped_sda_scl_detected (test_runtime.RuntimeTests.test_swapped_sda_scl_detected) ... ok
+test_wrong_i2c_address_detected (test_runtime.RuntimeTests.test_wrong_i2c_address_detected) ... ok
+test_wrong_led_gpio_detected (test_runtime.RuntimeTests.test_wrong_led_gpio_detected) ... ok
+test_adapter_not_native (test_workflow.WorkflowTests.test_adapter_not_native) ... ok
+test_board_valid (test_workflow.WorkflowTests.test_board_valid) ... ok
+test_changed_schematic_requires_reanalysis (test_workflow.WorkflowTests.test_changed_schematic_requires_reanalysis) ... ok
+test_cli_unicode_output_decoded (test_workflow.WorkflowTests.test_cli_unicode_output_decoded) ... ok
+test_duplicate_package_pin_rejected (test_workflow.WorkflowTests.test_duplicate_package_pin_rejected) ... ok
+test_duplicate_simulation_pin_rejected (test_workflow.WorkflowTests.test_duplicate_simulation_pin_rejected) ... ok
+test_failure_cannot_pass_serial (test_workflow.WorkflowTests.test_failure_cannot_pass_serial) ... ok
+test_generated_connections_have_endpoints (test_workflow.WorkflowTests.test_generated_connections_have_endpoints) ... ok
+test_inventory_missing_folder_rejected (test_workflow.WorkflowTests.test_inventory_missing_folder_rejected) ... ok
+test_low_confidence_mcu_rejected (test_workflow.WorkflowTests.test_low_confidence_mcu_rejected) ... ok
+test_missing_evidence_rejected (test_workflow.WorkflowTests.test_missing_evidence_rejected) ... ok
+test_partial_boot_cannot_pass_serial (test_workflow.WorkflowTests.test_partial_boot_cannot_pass_serial) ... ok
+test_stale_log_not_reused (test_workflow.WorkflowTests.test_stale_log_not_reused) ... ok
+test_unknown_connection_pin_rejected (test_workflow.WorkflowTests.test_unknown_connection_pin_rejected) ... ok
+test_unknown_mcu_rejected (test_workflow.WorkflowTests.test_unknown_mcu_rejected) ... ok
+test_unknown_voltage_rejected (test_workflow.WorkflowTests.test_unknown_voltage_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.394s
+
+OK

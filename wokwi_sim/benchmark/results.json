@@ -1,0 +1,52 @@
+{
+  "scope": "AVR peripheral-equivalent baseline and fault detection; not original STC or Wokwi execution",
+  "cases": {
+    "none": {
+      "expected_status": "PASS",
+      "observed_status": "PASS",
+      "cpu_cycles": 8800000,
+      "wall_ms": 210,
+      "serial_evidence": "logs/local_none_serial.log"
+    },
+    "wrong_address": {
+      "expected_status": "FAIL",
+      "observed_status": "FAIL",
+      "cpu_cycles": 8800000,
+      "wall_ms": 129,
+      "serial_evidence": "logs/local_wrong_address_serial.log"
+    },
+    "missing_vcc": {
+      "expected_status": "FAIL",
+      "observed_status": "FAIL",
+      "cpu_cycles": 8800000,
+      "wall_ms": 132,
+      "serial_evidence": "logs/local_missing_vcc_serial.log"
+    },
+    "swapped_i2c": {
+      "expected_status": "FAIL",
+      "observed_status": "FAIL",
+      "cpu_cycles": 8800000,
+      "wall_ms": 128,
+      "serial_evidence": "logs/local_swapped_i2c_serial.log"
+    },
+    "wrong_gpio": {
+      "expected_status": "FAIL",
+      "observed_status": "FAIL",
+      "cpu_cycles": 8800000,
+      "wall_ms": 204,
+      "serial_evidence": "logs/local_wrong_gpio_serial.log"
+    },
+    "missing_button": {
+      "expected_status": "FAIL",
+      "observed_status": "FAIL",
+      "cpu_cycles": 8800001,
+      "wall_ms": 202,
+      "serial_evidence": "logs/local_missing_button_serial.log"
+    }
+  },
+  "baseline_success_rate": 1.0,
+  "fault_detection_success_rate": 1.0,
+  "automated_repair_success_rate": null,
+  "automated_repair_iterations": null,
+  "reason": "No general agent repair benchmark implemented; only detection measured"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "profile": "stc-native",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\project\\firmware.uvproj",
+  "target": "STC8",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\project\\firmware.uvproj",
+      "-t",
+      "STC8",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\build.log"
+    ],
+    "pid": 15676,
+    "exit_code": 1,
+    "timed_out": false,
+    "elapsed_seconds": 1.04
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\build.log",
+  "artifacts": [
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\project\\Objects\\firmware",
+      "size": 6956,
+      "sha256": "80f5a7e11a040b5159bc36a76050a2d6a00b7250292d3beab5e67b93f2c229b6"
+    },
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153517011555Z-stc-native-cb62ee37\\project\\Objects\\firmware.hex",
+      "size": 1370,
+      "sha256": "df19d1552f4c89d93b4498b06fd42ed5218dd50abf2473d6aff48acd5e66e00d"
+    }
+  ],
+  "image_bytes": 477,
+  "error": null,
+  "license": "LICENSE_READ_WARNING",
+  "warnings": [
+    "main.c(1): warning C500: LICENSE ERROR (R207(3): REGISTRY READ ERROR)"
+  ],
+  "limitation": null,
+  "hardware_verified": false
+}

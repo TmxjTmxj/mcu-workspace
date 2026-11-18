@@ -1,0 +1,7 @@
+{
+  "version": "1.17.0",
+  "source": "https://builds.renode.io/renode-1.17.0.windows-portable.zip",
+  "sha256": "18bcf145422039e8702c3e5f9864c7787561bfd5deb7a3ee6e168ecf19e2b9db",
+  "integrity": "Zip CRC verified; SHA256 recorded, not compared with a publisher signature",
+  "executable": "tools/renode/renode_1.17.0-portable/Renode.exe"
+}

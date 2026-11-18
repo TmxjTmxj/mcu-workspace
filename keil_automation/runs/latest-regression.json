@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "normal": {
+    "status": "PASS",
+    "run_id": "1f61afd3bd114d459687423cead703e5",
+    "assertions": {
+      "checksum": {
+        "status": "PASS",
+        "value": 55
+      },
+      "timer": {
+        "status": "PASS",
+        "value": 1
+      },
+      "input_high": {
+        "status": "PASS",
+        "value": 1
+      },
+      "input_low": {
+        "status": "PASS",
+        "value": 0
+      },
+      "led": {
+        "status": "PASS",
+        "value": 254
+      }
+    },
+    "missing": [],
+    "duplicate_assertions": [],
+    "debug_errors": [],
+    "complete": true,
+    "profile": "smoke8051",
+    "case": "normal",
+    "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74",
+    "process": {
+      "args": [
+        "D:/keil/UV4/UV4.exe",
+        "-d",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\firmware.uvproj",
+        "-t",
+        "Simulator",
+        "-j0"
+      ],
+      "pid": 18040,
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 1.992
+    },
+    "build": {
+      "status": "PASS_WITH_WARNINGS",
+      "profile": "smoke8051",
+      "case": "normal",
+      "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\firmware.uvproj",
+      "target": "Simulator",
+      "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74",
+      "process": {
+        "args": [
+          "D:/keil/UV4/UV4.exe",
+          "-r",
+          "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\firmware.uvproj",
+          "-t",
+          "Simulator",
+          "-j0",
+          "-o",
+          "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\build.log"
+        ],
+        "pid": 24196,
+        "exit_code": 1,
+        "timed_out": false,
+        "elapsed_seconds": 1.008
+      },
+      "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\build.log",
+      "artifacts": [
+        {
+          "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\Objects\\firmware",
+          "size": 3191,
+          "sha256": "c374600d32d5ebad713fdcfc0c2ede74a3e76cba48c6a1e0f016d6999fa353db"
+        },
+        {
+          "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\Objects\\firmware.hex",
+          "size": 634,
+          "sha256": "008853a3a3ae797ae851b5c854ffb6153d365cddb6a4fb3d85a37063224f1b89"
+        }
+      ],
+      "image_bytes": 213,
+      "error": null,
+      "license": "LICENSE_READ_WARNING",
+      "warnings": [
+        "main.c(1): warning C500: LICENSE ERROR (R207(3): REGISTRY READ ERROR)"
+      ],
+      "limitation": null,
+      "hardware_verified": false
+    },
+    "script": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\debug.ini",
+    "debug_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\debug.log",
+    "serial_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153507975321Z-simulate-normal-a8dcee74\\project\\serial.log",
+    "uart_ok": true,
+    "uart_check_enabled": true,
+    "simulation_scope": "configured_Keil_SIMULATOR; STC8H_specific_peripherals_NOT_VERIFIED",
+    "hardware_verified": false
+  },
+  "wrong_led": {
+    "status": "FAIL",
+    "run_id": "860579ab5ecf43dfb7974d1941b488e6",
+    "assertions": {
+      "checksum": {
+        "status": "PASS",
+        "value": 55
+      },
+      "timer": {
+        "status": "PASS",
+        "value": 1
+      },
+      "input_high": {
+        "status": "PASS",
+        "value": 1
+      },
+      "input_low": {
+        "status": "PASS",
+        "value": 0
+      },
+      "led": {
+        "status": "FAIL",
+        "value": 253
+      }
+    },
+    "missing": [],
+    "duplicate_assertions": [],
+    "debug_errors": [],
+    "complete": true,
+    "profile": "smoke8051",
+    "case": "wrong-led",
+    "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820",
+    "process": {
+      "args": [
+        "D:/keil/UV4/UV4.exe",
+        "-d",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\firmware.uvproj",
+        "-t",
+        "Simulator",
+        "-j0"
+      ],
+      "pid": 12840,
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 1.956
+    },
+    "build": {
+      "status": "PASS_WITH_WARNINGS",
+      "profile": "smoke8051",
+      "case": "wrong-led",
+      "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\firmware.uvproj",
+      "target": "Simulator",
+      "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820",
+      "process": {
+        "args": [
+          "D:/keil/UV4/UV4.exe",
+          "-r",
+          "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\firmware.uvproj",
+          "-t",
+          "Simulator",
+          "-j0",
+          "-o",
+          "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\build.log"
+        ],
+        "pid": 27576,
+        "exit_code": 1,
+        "timed_out": false,
+        "elapsed_seconds": 1.024
+      },
+      "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\build.log",
+      "artifacts": [
+        {
+          "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\Objects\\firmware",
+          "size": 3209,
+          "sha256": "bdc7ca99bb3c8eaef7eb30f1f1e95b019e7592fc327053fc161689d31248039f"
+        },
+        {
+          "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\Objects\\firmware.hex",
+          "size": 634,
+          "sha256": "4b54fc7478e5620d699198a509e76565d29d8b69156812556038aeaacd867a49"
+        }
+      ],
+      "image_bytes": 213,
+      "error": null,
+      "license": "LICENSE_READ_WARNING",
+      "warnings": [
+        "main.c(1): warning C500: LICENSE ERROR (R207(3): REGISTRY READ ERROR)"
+      ],
+      "limitation": null,
+      "hardware_verified": false
+    },
+    "script": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\debug.ini",
+    "debug_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\debug.log",
+    "serial_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153510986423Z-simulate-wrong-led-c62fb820\\project\\serial.log",
+    "uart_ok": true,
+    "uart_check_enabled": true,
+    "simulation_scope": "configured_Keil_SIMULATOR; STC8H_specific_peripherals_NOT_VERIFIED",
+    "hardware_verified": false
+  },
+  "fault_detected": true,
+  "other_assertions_passed": true
+}

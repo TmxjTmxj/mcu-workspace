@@ -1,0 +1,7133 @@
+[
+  {
+    "path": "bottom.png",
+    "bytes": 1192541,
+    "sha256": "8564912ef14392e43ff13e20f7ea58f4db0cce79176114a4706bda6d7e67684a",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "reset_mcu.ps1",
+    "bytes": 195,
+    "sha256": "bce2c65be3fb76de584693f4b4892d2fcb0d0d60754a54c1c30ae2c673c5813c",
+    "type": ".ps1",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "stc8h.pdf",
+    "bytes": 59101121,
+    "sha256": "f674d78338c6c250dd69b1e87e182500d94c45f184fcfe4cdd66b9e7278f0e0c",
+    "type": ".pdf",
+    "category": "B",
+    "status": "TEXT_EXTRACTED",
+    "detail": "Text extraction; image-only pages need visual inspection",
+    "pages": 2103,
+    "image_only_pages": []
+  },
+  {
+    "path": "STC8H工程标准框架/APP/app.c",
+    "bytes": 1478,
+    "sha256": "2b8ff0252dc8285442dfe334ad83a25dd58203e7a740d59908aaf99fda4955f8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/Encoder.c",
+    "bytes": 162,
+    "sha256": "839d666912034bd689d8dd1a625665302ed242f09851eb84bc0543a2e8b3104f",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 11,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/Encoder.h",
+    "bytes": 215,
+    "sha256": "50dd24ea73df3d9c40d15abc8e7ac5dc6b079fd09ab5073a9022ec501d0a5a07",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": [
+        "P3.2",
+        "P32",
+        "P33"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/Led1.c",
+    "bytes": 888,
+    "sha256": "4a86b976632b7d722dc63e617007a515ffb04dd9a52f486d0621266c29eb653c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/Led1.h",
+    "bytes": 86,
+    "sha256": "915a04568c85ea987f341b48f24f1cee77a9288fa395f872c1f8a6df84d56f95",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 8,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/WaterLight.c",
+    "bytes": 410,
+    "sha256": "f3d1840f64febfcfa17bfd3947818e17706930286d913ffbef4329167d9366fb",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 20,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/APP/WaterLight.h",
+    "bytes": 107,
+    "sha256": "6bc255c12260862a623e316db3a2b5b91f02852b6cff745a3c30f11fe7ac189a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/AutoFlash.ps1",
+    "bytes": 1777,
+    "sha256": "e01d6573052ec45825331a06eb79f26814c9d5c94ae5f7432ed73fe1b3900011",
+    "type": ".ps1",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 43,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Build.ps1",
+    "bytes": 924,
+    "sha256": "2428f2152d343ce71a14eda60ce84bb7de379b9906419f573a616002b5b09f37",
+    "type": ".ps1",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/ADC.c",
+    "bytes": 3932,
+    "sha256": "97b78bf4e8b8c7e2d9072cad508dd231d4e30a30be5f65d347f9381fa75a7516",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 114,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/ADC.h",
+    "bytes": 3336,
+    "sha256": "cdd5d1b34494cb4520e9ba0502eb7487e85686e7d8fefe27a770fe7b074e6f4c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/compare.c",
+    "bytes": 2619,
+    "sha256": "9c261fdd836f881ff35619226e687a993502faf59db67424272ccbe075cb5091",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 44,
+      "pins": [
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/compare.h",
+    "bytes": 2714,
+    "sha256": "670a6d9195de05c45220d089029a60c98d8e0536263c57732a159872d9483ed9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/config.h",
+    "bytes": 1327,
+    "sha256": "eacce8b4ee0439a5d8710dd9454db189994d797c326b949446efcd6e1280f94f",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 33,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/delay.c",
+    "bytes": 1460,
+    "sha256": "f46e6b428705a51cf688928cbe7ec765c905b2616b7da15e572ce1f58fde4368",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 37,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/delay.h",
+    "bytes": 935,
+    "sha256": "fd0c68a11852f135cd191395c9f0fa195b23ecfbb4e22b48e2d279c77c29478a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 20,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/EEPROM.c",
+    "bytes": 5257,
+    "sha256": "057868b89a79a758edb787db55620af367c29b4357ec6ca0799312415cbd0b36",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 127,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/EEPROM.h",
+    "bytes": 2053,
+    "sha256": "4451f18b98468bbde22f0d467859d91ae298e8985681d6a4ca5482095f6ac4d6",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 55,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/Exti.c",
+    "bytes": 3939,
+    "sha256": "bd1f8a3185b2cd9740125e6868cbf058d3e7bb16e65e3bf8f5ed104fd0139bb7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 116,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/Exti.h",
+    "bytes": 1469,
+    "sha256": "1a99398bb8373e31641bda4fe0d211252ad2cd9b72b725ae63093e2e74ff8dbf",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 36,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/GPIO.c",
+    "bytes": 4643,
+    "sha256": "7ab41a252206c623800c11942ddc964ea68b1ce88e6e32927c69d6604649429d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/GPIO.h",
+    "bytes": 1779,
+    "sha256": "8d897089bce512c87d3b4686b2848c8222f117030cbcde6d2ff53564e2510bea",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 51,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/I2C.c",
+    "bytes": 8342,
+    "sha256": "0d25d3df38ba8fd32b7fab33118166b55cf627e16ccc8558be0d9d3ccde64bf6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 244,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/I2C.h",
+    "bytes": 2079,
+    "sha256": "2579ec8b4626511b1569742e1319bf79bcb492223cb4f4d5d94c2c7abcb84579",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PCA.c",
+    "bytes": 6079,
+    "sha256": "cf96d6cfe6e0142608f67b3bd69fbba9a477e9b2130962beca1d24b74c8e83d8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 187,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PCA.h",
+    "bytes": 2599,
+    "sha256": "0a61aaafcf89e09d525df9d09b85d870d2b0e864bdd475bf83d4550ab02c5e3d",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 72,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PWM.C",
+    "bytes": 7236,
+    "sha256": "930f387fec690fa3e7f09dd66790cee29ba7992a2c0bbef30ec44d35de60b850",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 152,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PWM.h",
+    "bytes": 6137,
+    "sha256": "3980f6e7a8bcb4a5345bb82aa6c06af40b73548ed60291f19bc1bae95bf77415",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 141,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PWM15bit.c",
+    "bytes": 15534,
+    "sha256": "a7de43feef641cb7c18f071dd89df12d5e0c33b0aef74b7037cab809343baf28",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 516,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/PWM15bit.h",
+    "bytes": 2682,
+    "sha256": "c8a70c417d7741112692d7d427b2625a8bdb1653acab62dbdd34ae27a06f7ea5",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 94,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/Soft_UART.c",
+    "bytes": 1683,
+    "sha256": "ee53a2e57ca1e782d7ebdf740e1e7efaf21399d26cf8c035111e66ac1bc13d91",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 73,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/soft_uart.h",
+    "bytes": 151,
+    "sha256": "2ca8acf61e39291ebf862035cd7938bb59822779184c5ad936c5c342811707a9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 10,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/spi.c",
+    "bytes": 3949,
+    "sha256": "b81d758ff6212536228490709c9ac02811997130612ec15900799060b9ee17e8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 109,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/spi.h",
+    "bytes": 2134,
+    "sha256": "9b91008670eecb8f2f2d60da584d8f51c1c23fffe54183a85cf54c2e42150fc1",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/STC8xxxx.H",
+    "bytes": 154453,
+    "sha256": "7c7861022f35d3aa86cd89942a75a9ddcf2073e94f7bb3c9cf43c1a421e15a45",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2747,
+      "pins": [
+        "P0.4",
+        "P0.6",
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.4",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/timer.c",
+    "bytes": 6450,
+    "sha256": "b737dc2019089975051b0f2317d49bc56e359449bdfd58d16f57b8cd245578e1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/timer.h",
+    "bytes": 1748,
+    "sha256": "ac9dc3a66758619bdc3fcc08665dbbc8421c525c48e8076515c8826f44e2d017",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/UART.C",
+    "bytes": 12769,
+    "sha256": "13fdd6fd5346ee2037a253ddae856bede796a7ee50916923b335a4b69c8ba6ed",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 451,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/UART.h",
+    "bytes": 4077,
+    "sha256": "08d2dff15819a4da60c004baef79b738b3bb652e3f9ae816de13160c8b303c17",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 136,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/WDT.c",
+    "bytes": 1710,
+    "sha256": "e24189efb0da14d13336e1fac9cb5f4e7dddc85d6ed0924e2201237cb428e959",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 35,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ChipDevices/WDT.h",
+    "bytes": 1573,
+    "sha256": "a8d3a2ab1129f416d75b939e191909309df1a85db4a0b3fa9dc49fbb8203e56a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Flash.ps1",
+    "bytes": 1761,
+    "sha256": "6e3d454994db73ed899833fea1139dc5c187ad826e146fdd4638d1b1c957b529",
+    "type": ".ps1",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 43,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_ADC_Isr.c",
+    "bytes": 1250,
+    "sha256": "9b11da530b5b64820435203162722cfb13b85326053e69248497278beac12d5e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_Compare_Isr.c",
+    "bytes": 1304,
+    "sha256": "c55bb4b0b44dac005cee373fe24619ccf0f5fd469ee5b5b4569d1ac407211c0c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 28,
+      "pins": [
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_Exti_Isr.c",
+    "bytes": 3223,
+    "sha256": "561977c3b48515d28304ede9ff0f3dad56eb146ba7cde0913977b6a48beba76d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 98,
+      "pins": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_GPIO_Isr.c",
+    "bytes": 860,
+    "sha256": "68ff12190952ad8613d26fae4fb69f3579de69592c4cd51a34e9fb05e433bf44",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 14,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_I2C_Isr.c",
+    "bytes": 2668,
+    "sha256": "ef2f644f9f4a134aefa3fa78823b919dbe806558bc36e9a87bf703939a8f0734",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 86,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_SPI_Isr.c",
+    "bytes": 1636,
+    "sha256": "b3a99b32d15bd477cf16f0df6aabc2af846192edc18c65b61b460278a837f057",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 42,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_Timer_Isr.c",
+    "bytes": 2982,
+    "sha256": "313b7caf13304fbbfae8b6a6efd161a0867b6669dccb571ef96ce0e74b93c37e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 85,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_H_UART_Isr.c",
+    "bytes": 4004,
+    "sha256": "943f3a888fe7b05f1452321f1a9feea5a2ef501442233a0ba49da67dd1c179c7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 157,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_PCA_Isr.c",
+    "bytes": 3248,
+    "sha256": "dac5dc7d16f5746416198515242694b202b8f1e77dbdcd70b96ad846274c8c1d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 97,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8G_PWM15bit_Isr.c",
+    "bytes": 4429,
+    "sha256": "15701e8920e04dfe9ae5eba41a259fd14457cefc39633064dbd4605fdfe6d8a6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 159,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/ISR/STC8H_PWM_Isr.c",
+    "bytes": 859,
+    "sha256": "3ef8cb3e4883aa9747e4e4ad372e9c85bb9f38166f0aace5c95ffcbb304a9b75",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 15,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/monitor_hid.py",
+    "bytes": 868,
+    "sha256": "d0e2012ba13e282e61246035260abdfd6151bca61b176d8fe69a912b56bcb3cb",
+    "type": ".py",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/ADC.lst",
+    "bytes": 6985,
+    "sha256": "a5e935638091d5c336452ce2464591e5332b81c3da48c4012bae570cf90286f4",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/ADC.obj",
+    "bytes": 113013,
+    "sha256": "08c2e8e07213f7751ff27c72f7fa950308b5c796bbe2fa2041d7e7aa1647f721",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/app.lst",
+    "bytes": 3044,
+    "sha256": "953cbb0e5f42632f5dcbc6fdddc197cea499cb22cc7d2e817ad1f2baac120672",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 63,
+      "pins": []
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/app.obj",
+    "bytes": 106291,
+    "sha256": "fea3d7b4b8e4acf03cf2b88dd60fc01e3c0cf06648bcc7d2b5c0b6a04e1fc727",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/build.log",
+    "bytes": 185,
+    "sha256": "0abdf562e32804babab6375671a99c9e3cd19f6ed276e408d794ded39aee4c41",
+    "type": ".log",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 5,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/compare.lst",
+    "bytes": 4517,
+    "sha256": "b16988bf132ce5de533125eb8c31a7dbc2df8b663dc95b86a676e4fb0358262f",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 77,
+      "pins": [
+        "P3.6",
+        "P3.7",
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/compare.obj",
+    "bytes": 108784,
+    "sha256": "d4ae630341e0437a74c94b8c72266df026708a4a612d15a189d57528dcfd3228",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/delay.lst",
+    "bytes": 3037,
+    "sha256": "33b6b80a0c0e5914eb01b177828bc5120e586b4a5333dff6ec32db3ba42710e3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/delay.obj",
+    "bytes": 105116,
+    "sha256": "6a7bd3c657294390d1d65bc8db35a53ad46aac2ac4bbda32dee642843e29bf16",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/EEPROM.lst",
+    "bytes": 8483,
+    "sha256": "6a674eafdd506d03110d0de51e4ce1988b8614de7d2666e169b2892a947f3eda",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/EEPROM.obj",
+    "bytes": 110129,
+    "sha256": "c11e34198020779b0d19b44a9873ce87299b91483c0f8ffbe56a3e126c917fe8",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Exti.lst",
+    "bytes": 7050,
+    "sha256": "f7e3c425efbee7e3a5df52ed0f7dafd7b395a4bf6a09e057e5506428bc4b5de0",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 150,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Exti.obj",
+    "bytes": 110236,
+    "sha256": "de3168d823c9200912033238c8a4c98286781d61707cd240fb1d99cebf71fd05",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8",
+    "bytes": 2332769,
+    "sha256": "7fd8aba42e86a9a81bdcf4162ef13d596bf41f6858b3cbf460d9a212e10e2b43",
+    "type": "",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8.build_log.htm",
+    "bytes": 957,
+    "sha256": "85ff5e8dd1506d14a781b807561a031f339ea99bd8a2b1f4f62863037f342aca",
+    "type": ".htm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 32,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8.hex",
+    "bytes": 10503,
+    "sha256": "cb4b623cbe09c8d32d292664ce6f0098214dd069cedca23ecc4e99f4b4b6096a",
+    "type": ".hex",
+    "category": "C",
+    "status": "HEX_VALIDATED",
+    "detail": {
+      "program_bytes": 3581
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8.lnp",
+    "bytes": 609,
+    "sha256": "5f3b729cb1f964293b20605b3687565c077e3f8f1aeabb0c60429e9a1f14e7af",
+    "type": ".lnp",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8.map",
+    "bytes": 420650,
+    "sha256": "5f607b764a0f88e5d5d1298a80d23dd98e8581477d7db28a40fb0a4784262c58",
+    "type": ".map",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 8258,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_STC8.SBR",
+    "bytes": 2193812,
+    "sha256": "7762f3aa0f570fc5e88be3cae238afc9f75c8068a114c451aef6d0ef85e345b1",
+    "type": ".sbr",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_Task.lst",
+    "bytes": 3409,
+    "sha256": "f58b74a507cccfce58d6dd1d2a0eec208fc5033ba1bd62ea041e705166072deb",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 84,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Geek_Task.obj",
+    "bytes": 107382,
+    "sha256": "ecd06a48b710cbfa4b2f2721169748a5d27a05e483c4cb2126046ee248cea7f5",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/GPIO.lst",
+    "bytes": 7277,
+    "sha256": "ab7e9ee1dfcb843c8236452ebba143d338563115380da186526d1cdfbc9bc276",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 120,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/GPIO.obj",
+    "bytes": 112581,
+    "sha256": "b062d29e9c1fc4a767ffa0805fec20334d9e96ca9bc28780f10179be26ad4543",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/I2C.lst",
+    "bytes": 13493,
+    "sha256": "d7f7e77d7ad56678f2f8cc0111fc8ea3621a98be5a3a15b748c067f68b3d4164",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 284,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/I2C.obj",
+    "bytes": 115633,
+    "sha256": "f5fde6f00785851bd4abe077b5107dd333639e87dffab886e66fd372fa1377f5",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/isr.lst",
+    "bytes": 6188,
+    "sha256": "26110ad94d641550757ee5d48fb9438f3ea3195443e12c3191eb1a318756f261",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 126,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/isr.obj",
+    "bytes": 1400,
+    "sha256": "5ca0d1f23ead9d17ded273a31026e534db22a10d6003bfb1c0a5a202e83258b9",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Led1.lst",
+    "bytes": 2360,
+    "sha256": "e9341c8f49539a5a7f8550ff69b0434ad33e322d051cc9745fe5573e0872e7e5",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Led1.obj",
+    "bytes": 107775,
+    "sha256": "55deba9141db283e74ec5be356469cffc60c6b0a63a00b4f19912670ebd71b04",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/main.lst",
+    "bytes": 1485,
+    "sha256": "fea6c57f5062aff0f438f8b458ef6bebc8f905dd431e010ecd97c76172a13cb3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/main.obj",
+    "bytes": 105786,
+    "sha256": "0ccaf4b26df31b24de10193b332309796605012b5eea68b036ccb61a1014f9f1",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PCA.lst",
+    "bytes": 10388,
+    "sha256": "bdebf631826d2b4901e1f88089febac66033284df0b4bf5b6e9fef22c4ff8e11",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 224,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PCA.obj",
+    "bytes": 116669,
+    "sha256": "902a395f75ce34668b89c512ce535deaccc54aec4cd3cbeea66c8ec682c4d7ac",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PWM.lst",
+    "bytes": 11103,
+    "sha256": "2854a40d1a109ceb849c15faed22b2b40012f9a11543cd5ef704493d9604a6aa",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 191,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PWM.obj",
+    "bytes": 122243,
+    "sha256": "ba3877347e2efe2ef16f8470c54d9744d3197d1840724d3b31750c1f980fb491",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PWM15bit.lst",
+    "bytes": 25568,
+    "sha256": "5b5e55aa6a18cb7c8eff76c38feea874fc2fa08c1af800142a2d77f06f37de4c",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 569,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/PWM15bit.obj",
+    "bytes": 121807,
+    "sha256": "aa87393f7617ef3f13078b62c111a12347b4ed2be97a7680f75507fb3eaea102",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Soft_UART.lst",
+    "bytes": 3935,
+    "sha256": "9f98f9deb87beb5e8638da555504b8a9995c49d234d6324b9c1a590b3f34149e",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 104,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/Soft_UART.obj",
+    "bytes": 106651,
+    "sha256": "29cea909f0ceffbdbf340577eb81a39029399661e19873f81e9dc8cd041cb0b8",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/spi.lst",
+    "bytes": 6911,
+    "sha256": "e01709a7eafa8ccb22b1e4ab481c1b354540b2fc47208aa050f67b559a9cde78",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 143,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/spi.obj",
+    "bytes": 110974,
+    "sha256": "ba1a1f109f6339618098f82e2d713cc5348792c9eeb4523fe7d83d57d7ac264f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/System_init.lst",
+    "bytes": 21777,
+    "sha256": "9079cd80a784fda7ba7a8b28d92f8d6450dde657847cbb763dd4b0cb04d7b124",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 324,
+      "pins": []
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/System_init.obj",
+    "bytes": 132710,
+    "sha256": "e7a7895064929d814515f5496f569be8bc61c4b65ffcc2d32d2e2946dcf7d6b6",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/timer.lst",
+    "bytes": 10471,
+    "sha256": "28621a3af2d08fafa0ef3b3b82c61d17ea32f77b626f1afbe1066180c1327d65",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 202,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/timer.obj",
+    "bytes": 116751,
+    "sha256": "476251e065f8d418f5d21bf1a33e6ef75e5c68b8d47cefec05506ed8d299c778",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/UART.lst",
+    "bytes": 22082,
+    "sha256": "f8bf1741a133ae9861186f8d5e3447dde7ff7f6982e5eeffbc4d546b8f39087f",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 504,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/UART.obj",
+    "bytes": 116645,
+    "sha256": "c69761cbee0b2472c768ca22d96f5c7420d5a89f4500e9c9c5b2c4bd5cd22d35",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/WaterLight.lst",
+    "bytes": 1776,
+    "sha256": "f928d70da7f2f514fa021c8a7998abf2a37babe5b2c93e7b515c8bc4007a47e3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 48,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/WaterLight.obj",
+    "bytes": 108325,
+    "sha256": "05a7c7804a11cae8836cc2c0028730901fe4128b8af2357e75631c9e37468dfa",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/WDT.lst",
+    "bytes": 3275,
+    "sha256": "20127d0dd127efe301f9d536ea429f572e0240d11e409f6b8798154120dcb791",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/Outputs/WDT.obj",
+    "bytes": 106680,
+    "sha256": "c21c61aff1f29ebcb0b8d8e3b00efb71a6cfe85182001bc2ff8c190a8aaee3a6",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/readme.assets/QQ_1728991064974.png",
+    "bytes": 1038037,
+    "sha256": "65fc018ad46c4f187215faf614a863fcbcf52d6d7aebbbffe78c84da2c3efcdf",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "STC8H工程标准框架/readme.md",
+    "bytes": 1242,
+    "sha256": "a17608097e5d544f575a1b1caf03e475337b215fc535f3de2799f740df8c56f6",
+    "type": ".md",
+    "category": "D",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 28,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/APP/app.c",
+    "bytes": 568,
+    "sha256": "b25ea3b705277e0f0e8b3e9da531a18bce7fe7af997daae62b84047ac059b871",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 21,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/APP/Encoder.c",
+    "bytes": 162,
+    "sha256": "839d666912034bd689d8dd1a625665302ed242f09851eb84bc0543a2e8b3104f",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 11,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/APP/Encoder.h",
+    "bytes": 215,
+    "sha256": "50dd24ea73df3d9c40d15abc8e7ac5dc6b079fd09ab5073a9022ec501d0a5a07",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": [
+        "P3.2",
+        "P32",
+        "P33"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/APP/Led1.c",
+    "bytes": 888,
+    "sha256": "4a86b976632b7d722dc63e617007a515ffb04dd9a52f486d0621266c29eb653c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/APP/Led1.h",
+    "bytes": 86,
+    "sha256": "915a04568c85ea987f341b48f24f1cee77a9288fa395f872c1f8a6df84d56f95",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 8,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/ADC.c",
+    "bytes": 3932,
+    "sha256": "97b78bf4e8b8c7e2d9072cad508dd231d4e30a30be5f65d347f9381fa75a7516",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 114,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/ADC.h",
+    "bytes": 3336,
+    "sha256": "cdd5d1b34494cb4520e9ba0502eb7487e85686e7d8fefe27a770fe7b074e6f4c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/compare.c",
+    "bytes": 2619,
+    "sha256": "9c261fdd836f881ff35619226e687a993502faf59db67424272ccbe075cb5091",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 44,
+      "pins": [
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/compare.h",
+    "bytes": 2714,
+    "sha256": "670a6d9195de05c45220d089029a60c98d8e0536263c57732a159872d9483ed9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/config.h",
+    "bytes": 1327,
+    "sha256": "eacce8b4ee0439a5d8710dd9454db189994d797c326b949446efcd6e1280f94f",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 33,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/delay.c",
+    "bytes": 1460,
+    "sha256": "f46e6b428705a51cf688928cbe7ec765c905b2616b7da15e572ce1f58fde4368",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 37,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/delay.h",
+    "bytes": 935,
+    "sha256": "fd0c68a11852f135cd191395c9f0fa195b23ecfbb4e22b48e2d279c77c29478a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 20,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/EEPROM.c",
+    "bytes": 5257,
+    "sha256": "057868b89a79a758edb787db55620af367c29b4357ec6ca0799312415cbd0b36",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 127,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/EEPROM.h",
+    "bytes": 2053,
+    "sha256": "4451f18b98468bbde22f0d467859d91ae298e8985681d6a4ca5482095f6ac4d6",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 55,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/Exti.c",
+    "bytes": 3939,
+    "sha256": "bd1f8a3185b2cd9740125e6868cbf058d3e7bb16e65e3bf8f5ed104fd0139bb7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 116,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/Exti.h",
+    "bytes": 1469,
+    "sha256": "1a99398bb8373e31641bda4fe0d211252ad2cd9b72b725ae63093e2e74ff8dbf",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 36,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/GPIO.c",
+    "bytes": 4643,
+    "sha256": "7ab41a252206c623800c11942ddc964ea68b1ce88e6e32927c69d6604649429d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/GPIO.h",
+    "bytes": 1779,
+    "sha256": "8d897089bce512c87d3b4686b2848c8222f117030cbcde6d2ff53564e2510bea",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 51,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/I2C.c",
+    "bytes": 8342,
+    "sha256": "0d25d3df38ba8fd32b7fab33118166b55cf627e16ccc8558be0d9d3ccde64bf6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 244,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/I2C.h",
+    "bytes": 2079,
+    "sha256": "2579ec8b4626511b1569742e1319bf79bcb492223cb4f4d5d94c2c7abcb84579",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PCA.c",
+    "bytes": 6079,
+    "sha256": "cf96d6cfe6e0142608f67b3bd69fbba9a477e9b2130962beca1d24b74c8e83d8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 187,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PCA.h",
+    "bytes": 2599,
+    "sha256": "0a61aaafcf89e09d525df9d09b85d870d2b0e864bdd475bf83d4550ab02c5e3d",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 72,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PWM.C",
+    "bytes": 7236,
+    "sha256": "930f387fec690fa3e7f09dd66790cee29ba7992a2c0bbef30ec44d35de60b850",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 152,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PWM.h",
+    "bytes": 6137,
+    "sha256": "3980f6e7a8bcb4a5345bb82aa6c06af40b73548ed60291f19bc1bae95bf77415",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 141,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PWM15bit.c",
+    "bytes": 15534,
+    "sha256": "a7de43feef641cb7c18f071dd89df12d5e0c33b0aef74b7037cab809343baf28",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 516,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/PWM15bit.h",
+    "bytes": 2682,
+    "sha256": "c8a70c417d7741112692d7d427b2625a8bdb1653acab62dbdd34ae27a06f7ea5",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 94,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/Soft_UART.c",
+    "bytes": 1683,
+    "sha256": "ee53a2e57ca1e782d7ebdf740e1e7efaf21399d26cf8c035111e66ac1bc13d91",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 73,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/soft_uart.h",
+    "bytes": 151,
+    "sha256": "2ca8acf61e39291ebf862035cd7938bb59822779184c5ad936c5c342811707a9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 10,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/spi.c",
+    "bytes": 3949,
+    "sha256": "b81d758ff6212536228490709c9ac02811997130612ec15900799060b9ee17e8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 109,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/spi.h",
+    "bytes": 2134,
+    "sha256": "9b91008670eecb8f2f2d60da584d8f51c1c23fffe54183a85cf54c2e42150fc1",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/STC8xxxx.H",
+    "bytes": 154453,
+    "sha256": "7c7861022f35d3aa86cd89942a75a9ddcf2073e94f7bb3c9cf43c1a421e15a45",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2747,
+      "pins": [
+        "P0.4",
+        "P0.6",
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.4",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/timer.c",
+    "bytes": 6450,
+    "sha256": "39b79c04cc6830561fd8465079c8c430bbf7af3319a9771e891922e7a9f8dba4",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": [
+        "P35",
+        "P63",
+        "P64",
+        "P65"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/timer.h",
+    "bytes": 1748,
+    "sha256": "ac9dc3a66758619bdc3fcc08665dbbc8421c525c48e8076515c8826f44e2d017",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/UART.C",
+    "bytes": 12769,
+    "sha256": "13fdd6fd5346ee2037a253ddae856bede796a7ee50916923b335a4b69c8ba6ed",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 451,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/UART.h",
+    "bytes": 4077,
+    "sha256": "08d2dff15819a4da60c004baef79b738b3bb652e3f9ae816de13160c8b303c17",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 136,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/WDT.c",
+    "bytes": 1710,
+    "sha256": "e24189efb0da14d13336e1fac9cb5f4e7dddc85d6ed0924e2201237cb428e959",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 35,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ChipDevices/WDT.h",
+    "bytes": 1573,
+    "sha256": "a8d3a2ab1129f416d75b939e191909309df1a85db4a0b3fa9dc49fbb8203e56a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_ADC_Isr.c",
+    "bytes": 1250,
+    "sha256": "9b11da530b5b64820435203162722cfb13b85326053e69248497278beac12d5e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_Compare_Isr.c",
+    "bytes": 1304,
+    "sha256": "c55bb4b0b44dac005cee373fe24619ccf0f5fd469ee5b5b4569d1ac407211c0c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 28,
+      "pins": [
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_Exti_Isr.c",
+    "bytes": 3223,
+    "sha256": "561977c3b48515d28304ede9ff0f3dad56eb146ba7cde0913977b6a48beba76d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 98,
+      "pins": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_GPIO_Isr.c",
+    "bytes": 860,
+    "sha256": "68ff12190952ad8613d26fae4fb69f3579de69592c4cd51a34e9fb05e433bf44",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 14,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_I2C_Isr.c",
+    "bytes": 2668,
+    "sha256": "ef2f644f9f4a134aefa3fa78823b919dbe806558bc36e9a87bf703939a8f0734",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 86,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_SPI_Isr.c",
+    "bytes": 1636,
+    "sha256": "b3a99b32d15bd477cf16f0df6aabc2af846192edc18c65b61b460278a837f057",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 42,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_Timer_Isr.c",
+    "bytes": 2982,
+    "sha256": "313b7caf13304fbbfae8b6a6efd161a0867b6669dccb571ef96ce0e74b93c37e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 85,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_H_UART_Isr.c",
+    "bytes": 4004,
+    "sha256": "943f3a888fe7b05f1452321f1a9feea5a2ef501442233a0ba49da67dd1c179c7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 157,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_PCA_Isr.c",
+    "bytes": 3248,
+    "sha256": "dac5dc7d16f5746416198515242694b202b8f1e77dbdcd70b96ad846274c8c1d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 97,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8G_PWM15bit_Isr.c",
+    "bytes": 4429,
+    "sha256": "15701e8920e04dfe9ae5eba41a259fd14457cefc39633064dbd4605fdfe6d8a6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 159,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/ISR/STC8H_PWM_Isr.c",
+    "bytes": 859,
+    "sha256": "3ef8cb3e4883aa9747e4e4ad372e9c85bb9f38166f0aace5c95ffcbb304a9b75",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 15,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/ADC.lst",
+    "bytes": 6988,
+    "sha256": "81fbd48b435f9789b384c6bff1f0f6bd81a01d45fdbee0d09eafa94b1e3514d6",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/ADC.obj",
+    "bytes": 113077,
+    "sha256": "ecd7ccf4bf1cde94adff30fde19db9592fc1b073851c222f6d43a697b607db8e",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/app.lst",
+    "bytes": 1916,
+    "sha256": "41c5dbe1d3bfcc94d4b1c3e071429e9353dbc3b6a70dfd5735ef1aceb3963452",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 49,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/app.obj",
+    "bytes": 106149,
+    "sha256": "b1d42d40ca96c40ef1a034eb28915673a8ccefd082c3713bade590c3996c1ba7",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/compare.lst",
+    "bytes": 4520,
+    "sha256": "4e00e2330f379c706f573ca3da9eb6473219cc432b182fb2f5e0c52915ff86f4",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 77,
+      "pins": [
+        "P3.6",
+        "P3.7",
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/compare.obj",
+    "bytes": 108812,
+    "sha256": "dc87ebad7b92071a23e8eba9eb67a2eabe3aa8df01e28a02c1ef58893812ad63",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/delay.lst",
+    "bytes": 3040,
+    "sha256": "c3da30e7f63cf6d9dba3df426790096b0f8e82a390840ea52f0a6b68dc9403e0",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/delay.obj",
+    "bytes": 105125,
+    "sha256": "9a7e63b4a5bc707b942655deddb7131d69114634239d385112d07bd5496a3b6c",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/EEPROM.lst",
+    "bytes": 8486,
+    "sha256": "cdd1f9b21d268cfb2d82db13103bef8ccb8dff21f48c3fd5da5cad102a8e6edc",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/EEPROM.obj",
+    "bytes": 110138,
+    "sha256": "b874808c81821bceb7a0c5e9e1a4c63520fc8bec3aefaf1f40fbf00de8083b23",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Exti.lst",
+    "bytes": 7053,
+    "sha256": "e2b4c369e4430f3a7d27a5f1849633df3c5b3935735848c588cc9eae4a66b760",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 150,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Exti.obj",
+    "bytes": 110215,
+    "sha256": "3d6c6c3b9a4d0087b91812c9be85d42d62a8e463f49c3b237eeba8c5f42a2d62",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8",
+    "bytes": 2225109,
+    "sha256": "960edc1527be1640e3962465ac107fdccd2b085299a72133f9d5a33e145ee65e",
+    "type": "",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8.build_log.htm",
+    "bytes": 1513,
+    "sha256": "b0b07472da8c5b6c2ad0588de6ceafea65cca669e5d7fd728bb349f6b87ae964",
+    "type": ".htm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8.hex",
+    "bytes": 10404,
+    "sha256": "5d99cf19c2f0ca234e1dc26551f78fea2fa5a78db04f44872fc05c9ad7e23aa8",
+    "type": ".hex",
+    "category": "C",
+    "status": "HEX_VALIDATED",
+    "detail": {
+      "program_bytes": 3538
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8.lnp",
+    "bytes": 580,
+    "sha256": "56223d414c3b3a80f0acbb7aa9a852ca40d719d10b9258eb6caaa966451dd884",
+    "type": ".lnp",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 24,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8.map",
+    "bytes": 401722,
+    "sha256": "3128bad76a6ab53d6252e727ec94c9d35e01ab8bc04730fc4cef928539804fe8",
+    "type": ".map",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7886,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_STC8.SBR",
+    "bytes": 2091763,
+    "sha256": "7e866e0428ee26112047df377ff86557e80274148bae7fb1ec3af910f09cfd39",
+    "type": ".sbr",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_Task.lst",
+    "bytes": 3250,
+    "sha256": "82bd4b209666707d451d5a1792b155c79f7c510db45b5531a17db93b5c6a647e",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 79,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Geek_Task.obj",
+    "bytes": 107539,
+    "sha256": "05a2510faa623ffacd6b67bfbfd2c53f7df74e2946ec810da6da7c4626a55d2d",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/GPIO.lst",
+    "bytes": 7280,
+    "sha256": "e7dc85ed925e80f48cac0091c8583fb2298978c4d92a96ad2f48b5bc073490ae",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 120,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/GPIO.obj",
+    "bytes": 112625,
+    "sha256": "d66061f4546328e3ed87b4c191dbd34faad00c09083f3a7413c2b43bc8cfc6ad",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/I2C.lst",
+    "bytes": 13496,
+    "sha256": "f91964d3d31d4fddd68775946643ea461c7bd0fd588110f72c09651a01591343",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 284,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/I2C.obj",
+    "bytes": 115648,
+    "sha256": "7b56c75752c1baded7778a6e8fc0e28e1ab9810293a322220b705ee4a7f38e26",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/isr.lst",
+    "bytes": 6194,
+    "sha256": "7f66f141e1f685762472d85baa12b7628dc36e93d3de553c032270e089507b84",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 126,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/isr.obj",
+    "bytes": 1400,
+    "sha256": "a63687a62a6033458e02c2a435c627885b2ad6f04fe6caab1630123195c1f039",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Led1.lst",
+    "bytes": 2363,
+    "sha256": "5d57259cb4642a2bd37599c2f8d8b0dff6b24d783cdd0fe1004f7f8b21f46e1d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Led1.obj",
+    "bytes": 108080,
+    "sha256": "35b60c91b990b67ddb9878415eed97a978983303f743162abc85c60a9a49faeb",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/main.lst",
+    "bytes": 1490,
+    "sha256": "8fbf0bda8abf94cd88df26c08d5c75d5e19646810e5419b5449fbbae53fe495c",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/main.obj",
+    "bytes": 105708,
+    "sha256": "44e9538420f9f4da85815e805c9d8a2f84c276f112d43489b6c1bfd722fe5520",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PCA.lst",
+    "bytes": 10391,
+    "sha256": "eebf02a51a7ce8555264b7cbcaef2059b34d07ff4c4315be9fdb8a3d3e10a4a1",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 224,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PCA.obj",
+    "bytes": 116719,
+    "sha256": "b6f139756f3e69e303e35833e812c884477a3a51bd7027b235eb5b137118ee2f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PWM.lst",
+    "bytes": 11106,
+    "sha256": "99787fe85181ddefd007ee00e4e364dd2540a489d37dd0522d3e479d2ae4ef76",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 191,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PWM.obj",
+    "bytes": 122334,
+    "sha256": "fdf7d49b7b9bc2e4e8ed709996c0df2bbb130efe5bb999ed32c2e0c56127165e",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PWM15bit.lst",
+    "bytes": 25571,
+    "sha256": "db0e7bdd81cb679810ac9373acf043bc11458b6e367caeec4fdc224a9add38a2",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 569,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/PWM15bit.obj",
+    "bytes": 121908,
+    "sha256": "1d4987f6db1ec17cd7fa7163aeb8c7f9b73c96e5130cee8f9da37f61cb808b4c",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Soft_UART.lst",
+    "bytes": 3938,
+    "sha256": "3fe4db582a4ae37385675679a3eb21f0048a1c55d08d08b67e2266c5b4c43ea3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 104,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/Soft_UART.obj",
+    "bytes": 106676,
+    "sha256": "42fa05bc8190cca1bea1dda31d07812f0ef6736ff5aa522e8f589a133388699c",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/spi.lst",
+    "bytes": 6914,
+    "sha256": "e2a3bb972f507fa634567713f4d2205c50c78ef6dd25ab5c087206c30eab5f9b",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 143,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/spi.obj",
+    "bytes": 110992,
+    "sha256": "d2de44c5e2fb23898c84c8f42ccb0a27066ce2f4865f68d3312c53ef25a2e5ab",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/System_init.lst",
+    "bytes": 18968,
+    "sha256": "12da5a6f262e1bdc473c15f548729f6adb95238821339bd330adb6b7b38460a9",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 294,
+      "pins": []
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/System_init.obj",
+    "bytes": 132228,
+    "sha256": "2603cf81b962231d433ee589f2cfd97e50c2e22d95944487386af4d1961cbbdd",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/timer.lst",
+    "bytes": 10474,
+    "sha256": "785b98fa9f83f7827fbd319e3f689e5da3da94df009949a9429056822273e192",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 202,
+      "pins": [
+        "P35",
+        "P63",
+        "P64",
+        "P65"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/timer.obj",
+    "bytes": 116733,
+    "sha256": "7114c6f028f6e0e8bdaff2b5d01909190a9ee346b85ce41a5ad127aa5b80e48f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/UART.lst",
+    "bytes": 22085,
+    "sha256": "8aa91f746a7ac5321e9ed102d4b582cd558b79730c56de1ca3e77bd38d3ae60e",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 504,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/UART.obj",
+    "bytes": 116778,
+    "sha256": "7193e4e315086e5a8a5c1a9e57ae458c2219e262deb786dee02eb77e3fdc2950",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/WDT.lst",
+    "bytes": 3278,
+    "sha256": "9ec70a61402769c8963c7b22c7b1bc76c94d6b90479490e4fa96c6bab9d6d40a",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/Outputs/WDT.obj",
+    "bytes": 106690,
+    "sha256": "03af12d932f17bfdfff4087411340b241af25929d0bfd42504f730c0ad5a3971",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/STC8.uvgui.Chensj",
+    "bytes": 93002,
+    "sha256": "174a4b9c94182a08b36d70fb5c55dccadb50044adb6a90c7a243c234ae86136f",
+    "type": ".chensj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/STC8.uvopt",
+    "bytes": 13023,
+    "sha256": "fe517204fee42a591939f7a20145292c73e81cb1bdcecb4b7e0eab197139685d",
+    "type": ".uvopt",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [],
+      "files": []
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/STC8.uvproj",
+    "bytes": 18183,
+    "sha256": "b020acbd7f7a71fa7ec85c2b6883ad2b3a738a57e69ab58a571740a686a46ee2",
+    "type": ".uvproj",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [
+        "STC8H8K64U Series"
+      ],
+      "files": [
+        ".\\User\\main.c",
+        ".\\User\\System_init.c",
+        ".\\User\\isr.asm",
+        ".\\App\\Led1.c",
+        ".\\APP\\app.c",
+        ".\\ChipDevices\\ADC.c",
+        ".\\ChipDevices\\compare.c",
+        ".\\ChipDevices\\delay.c",
+        ".\\ChipDevices\\EEPROM.c",
+        ".\\ChipDevices\\Exti.c",
+        ".\\ChipDevices\\GPIO.c",
+        ".\\ChipDevices\\I2C.c",
+        ".\\ChipDevices\\PCA.c",
+        ".\\ChipDevices\\PWM.C",
+        ".\\ChipDevices\\PWM15bit.c",
+        ".\\ChipDevices\\Soft_UART.c",
+        ".\\ChipDevices\\spi.c",
+        ".\\ChipDevices\\timer.c",
+        ".\\ChipDevices\\UART.C",
+        ".\\ChipDevices\\WDT.c",
+        ".\\UserDevices\\Geek_Task.c"
+      ]
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/Config.h����",
+    "bytes": 1801,
+    "sha256": "5d7247bb35f487d48140e5332f13cbc948de537a30d94209ac0032833a8f98af",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/isr.asm",
+    "bytes": 2198,
+    "sha256": "6609937c69c318fa81e2f1cb0899e2e7a463303f8c8b0b5f1deb04c3106f2571",
+    "type": ".asm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 75,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/main.c",
+    "bytes": 187,
+    "sha256": "903597f49158e02390c6d3d3f08dea428e7ab2bdf798f72f1b8ec65122f5aa39",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 18,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/STC8xxxx.Hold",
+    "bytes": 143248,
+    "sha256": "7ab0e92e735250a143ef5137bbeaad55d4f96327adc5464dff168826ea79359b",
+    "type": ".hold",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2596,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/System_init.c",
+    "bytes": 13281,
+    "sha256": "eed5c57ab185b816c914cd6cb88516d475247ad105ec0f2139217e23800a9e34",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/System_init.h",
+    "bytes": 919,
+    "sha256": "ad22a0c787e538fbe4381d9b77f08dabe8c5e5d8264b746ce1de276e48bf88dd",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 19,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/User/Type_def.h����",
+    "bytes": 1965,
+    "sha256": "42011c4af96a4e59dc663bedaef5e3bed19040160554f3cadf4e1d716412327d",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/etp.c",
+    "bytes": 5045,
+    "sha256": "1f612d59ed9b0d832e94b89d9dce79cbfeab0c825c04b3136cecc540e93140ca",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 108,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/etp.h",
+    "bytes": 6317,
+    "sha256": "441ccce1b6950e53f9627ff521ff32cc140f147b47b264dd543ce4556bcb4955",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/Geek_Task.c",
+    "bytes": 1330,
+    "sha256": "c2aee3af6d54ce14637148d901d2cb2fb56b29590cab7be62a0657914f12bec3",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 48,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/Geek_Task.h",
+    "bytes": 899,
+    "sha256": "aea9c40032f607ebddab220ebc854d202f91d41971a880cb8c1340c5c1bba02c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/NixieTube.c",
+    "bytes": 6657,
+    "sha256": "702259e1bba3ef371900e883b26bd0847d7c2c582cacf7a073a92105a66f3aa1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/UserDevices/NixieTube.h",
+    "bytes": 2125,
+    "sha256": "7026c3237529b5929150ce93b37bb79de0f91798f282b29e2cd57afe82db3f40",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_beep/��������.bat",
+    "bytes": 216,
+    "sha256": "712c5ee8a19bf605c87196fa1c869022956a0b486ed189e7a92982c1188bceb1",
+    "type": ".bat",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 13,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/APP/app.c",
+    "bytes": 568,
+    "sha256": "b25ea3b705277e0f0e8b3e9da531a18bce7fe7af997daae62b84047ac059b871",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 21,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/APP/Encoder.c",
+    "bytes": 162,
+    "sha256": "839d666912034bd689d8dd1a625665302ed242f09851eb84bc0543a2e8b3104f",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 11,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/APP/Encoder.h",
+    "bytes": 215,
+    "sha256": "50dd24ea73df3d9c40d15abc8e7ac5dc6b079fd09ab5073a9022ec501d0a5a07",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": [
+        "P3.2",
+        "P32",
+        "P33"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/APP/Led1.c",
+    "bytes": 888,
+    "sha256": "4a86b976632b7d722dc63e617007a515ffb04dd9a52f486d0621266c29eb653c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/APP/Led1.h",
+    "bytes": 86,
+    "sha256": "915a04568c85ea987f341b48f24f1cee77a9288fa395f872c1f8a6df84d56f95",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 8,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/ADC.c",
+    "bytes": 3932,
+    "sha256": "97b78bf4e8b8c7e2d9072cad508dd231d4e30a30be5f65d347f9381fa75a7516",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 114,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/ADC.h",
+    "bytes": 3336,
+    "sha256": "cdd5d1b34494cb4520e9ba0502eb7487e85686e7d8fefe27a770fe7b074e6f4c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/compare.c",
+    "bytes": 2619,
+    "sha256": "9c261fdd836f881ff35619226e687a993502faf59db67424272ccbe075cb5091",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 44,
+      "pins": [
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/compare.h",
+    "bytes": 2714,
+    "sha256": "670a6d9195de05c45220d089029a60c98d8e0536263c57732a159872d9483ed9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/config.h",
+    "bytes": 1327,
+    "sha256": "eacce8b4ee0439a5d8710dd9454db189994d797c326b949446efcd6e1280f94f",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 33,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/delay.c",
+    "bytes": 1460,
+    "sha256": "f46e6b428705a51cf688928cbe7ec765c905b2616b7da15e572ce1f58fde4368",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 37,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/delay.h",
+    "bytes": 935,
+    "sha256": "fd0c68a11852f135cd191395c9f0fa195b23ecfbb4e22b48e2d279c77c29478a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 20,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/EEPROM.c",
+    "bytes": 5257,
+    "sha256": "057868b89a79a758edb787db55620af367c29b4357ec6ca0799312415cbd0b36",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 127,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/EEPROM.h",
+    "bytes": 2053,
+    "sha256": "4451f18b98468bbde22f0d467859d91ae298e8985681d6a4ca5482095f6ac4d6",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 55,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/Exti.c",
+    "bytes": 3939,
+    "sha256": "bd1f8a3185b2cd9740125e6868cbf058d3e7bb16e65e3bf8f5ed104fd0139bb7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 116,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/Exti.h",
+    "bytes": 1469,
+    "sha256": "1a99398bb8373e31641bda4fe0d211252ad2cd9b72b725ae63093e2e74ff8dbf",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 36,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/GPIO.c",
+    "bytes": 4643,
+    "sha256": "7ab41a252206c623800c11942ddc964ea68b1ce88e6e32927c69d6604649429d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/GPIO.h",
+    "bytes": 1779,
+    "sha256": "8d897089bce512c87d3b4686b2848c8222f117030cbcde6d2ff53564e2510bea",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 51,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/I2C.c",
+    "bytes": 8342,
+    "sha256": "0d25d3df38ba8fd32b7fab33118166b55cf627e16ccc8558be0d9d3ccde64bf6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 244,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/I2C.h",
+    "bytes": 2079,
+    "sha256": "2579ec8b4626511b1569742e1319bf79bcb492223cb4f4d5d94c2c7abcb84579",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PCA.c",
+    "bytes": 6079,
+    "sha256": "cf96d6cfe6e0142608f67b3bd69fbba9a477e9b2130962beca1d24b74c8e83d8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 187,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PCA.h",
+    "bytes": 2599,
+    "sha256": "0a61aaafcf89e09d525df9d09b85d870d2b0e864bdd475bf83d4550ab02c5e3d",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 72,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PWM.C",
+    "bytes": 7236,
+    "sha256": "930f387fec690fa3e7f09dd66790cee29ba7992a2c0bbef30ec44d35de60b850",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 152,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PWM.h",
+    "bytes": 6137,
+    "sha256": "3980f6e7a8bcb4a5345bb82aa6c06af40b73548ed60291f19bc1bae95bf77415",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 141,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PWM15bit.c",
+    "bytes": 15534,
+    "sha256": "a7de43feef641cb7c18f071dd89df12d5e0c33b0aef74b7037cab809343baf28",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 516,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/PWM15bit.h",
+    "bytes": 2682,
+    "sha256": "c8a70c417d7741112692d7d427b2625a8bdb1653acab62dbdd34ae27a06f7ea5",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 94,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/Soft_UART.c",
+    "bytes": 1683,
+    "sha256": "ee53a2e57ca1e782d7ebdf740e1e7efaf21399d26cf8c035111e66ac1bc13d91",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 73,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/soft_uart.h",
+    "bytes": 151,
+    "sha256": "2ca8acf61e39291ebf862035cd7938bb59822779184c5ad936c5c342811707a9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 10,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/spi.c",
+    "bytes": 3949,
+    "sha256": "b81d758ff6212536228490709c9ac02811997130612ec15900799060b9ee17e8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 109,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/spi.h",
+    "bytes": 2134,
+    "sha256": "9b91008670eecb8f2f2d60da584d8f51c1c23fffe54183a85cf54c2e42150fc1",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/STC8xxxx.H",
+    "bytes": 154453,
+    "sha256": "7c7861022f35d3aa86cd89942a75a9ddcf2073e94f7bb3c9cf43c1a421e15a45",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2747,
+      "pins": [
+        "P0.4",
+        "P0.6",
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.4",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/timer.c",
+    "bytes": 6450,
+    "sha256": "b737dc2019089975051b0f2317d49bc56e359449bdfd58d16f57b8cd245578e1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/timer.h",
+    "bytes": 1748,
+    "sha256": "ac9dc3a66758619bdc3fcc08665dbbc8421c525c48e8076515c8826f44e2d017",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/UART.C",
+    "bytes": 12769,
+    "sha256": "13fdd6fd5346ee2037a253ddae856bede796a7ee50916923b335a4b69c8ba6ed",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 451,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/UART.h",
+    "bytes": 4077,
+    "sha256": "08d2dff15819a4da60c004baef79b738b3bb652e3f9ae816de13160c8b303c17",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 136,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/WDT.c",
+    "bytes": 1710,
+    "sha256": "e24189efb0da14d13336e1fac9cb5f4e7dddc85d6ed0924e2201237cb428e959",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 35,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ChipDevices/WDT.h",
+    "bytes": 1573,
+    "sha256": "a8d3a2ab1129f416d75b939e191909309df1a85db4a0b3fa9dc49fbb8203e56a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_ADC_Isr.c",
+    "bytes": 1250,
+    "sha256": "9b11da530b5b64820435203162722cfb13b85326053e69248497278beac12d5e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_Compare_Isr.c",
+    "bytes": 1304,
+    "sha256": "c55bb4b0b44dac005cee373fe24619ccf0f5fd469ee5b5b4569d1ac407211c0c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 28,
+      "pins": [
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_Exti_Isr.c",
+    "bytes": 3223,
+    "sha256": "561977c3b48515d28304ede9ff0f3dad56eb146ba7cde0913977b6a48beba76d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 98,
+      "pins": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_GPIO_Isr.c",
+    "bytes": 860,
+    "sha256": "68ff12190952ad8613d26fae4fb69f3579de69592c4cd51a34e9fb05e433bf44",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 14,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_I2C_Isr.c",
+    "bytes": 2668,
+    "sha256": "ef2f644f9f4a134aefa3fa78823b919dbe806558bc36e9a87bf703939a8f0734",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 86,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_SPI_Isr.c",
+    "bytes": 1636,
+    "sha256": "b3a99b32d15bd477cf16f0df6aabc2af846192edc18c65b61b460278a837f057",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 42,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_Timer_Isr.c",
+    "bytes": 2982,
+    "sha256": "313b7caf13304fbbfae8b6a6efd161a0867b6669dccb571ef96ce0e74b93c37e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 85,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_H_UART_Isr.c",
+    "bytes": 4004,
+    "sha256": "943f3a888fe7b05f1452321f1a9feea5a2ef501442233a0ba49da67dd1c179c7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 157,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_PCA_Isr.c",
+    "bytes": 3248,
+    "sha256": "dac5dc7d16f5746416198515242694b202b8f1e77dbdcd70b96ad846274c8c1d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 97,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8G_PWM15bit_Isr.c",
+    "bytes": 4429,
+    "sha256": "15701e8920e04dfe9ae5eba41a259fd14457cefc39633064dbd4605fdfe6d8a6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 159,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/ISR/STC8H_PWM_Isr.c",
+    "bytes": 859,
+    "sha256": "3ef8cb3e4883aa9747e4e4ad372e9c85bb9f38166f0aace5c95ffcbb304a9b75",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 15,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/ADC.lst",
+    "bytes": 6988,
+    "sha256": "c9038ca3148303d54a5c92620eaa7f01dc63821ff6d868957c39714324742c70",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/ADC.obj",
+    "bytes": 113077,
+    "sha256": "484706f8b2a80e298b4444b78edd0536d1462958c1a7d88d6ca660d151e98266",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/app.lst",
+    "bytes": 1916,
+    "sha256": "d70b137ecbf4f9595d29e1f29d2f6b71b1757d5e3c6e34c5837b1398d10ae754",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 49,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/app.obj",
+    "bytes": 106146,
+    "sha256": "066a1b458c12b9ebb8b98d2711be743c62f9f653abfa0990b23102c373fadc3f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/compare.lst",
+    "bytes": 4520,
+    "sha256": "4bf7b88baaf14c35d73868e75c12752977438e210770b2e7ca09629aaa77abc0",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 77,
+      "pins": [
+        "P3.6",
+        "P3.7",
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/compare.obj",
+    "bytes": 108812,
+    "sha256": "f61038bcac335d3687d9f63ab5ee974b34ff031601902931c1e78aa1e0d19afe",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/delay.lst",
+    "bytes": 3040,
+    "sha256": "4cabf4c27a6f58fb376ca5b79adc7c9ce6d9c208319ed399bfc63b3c940211e1",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/delay.obj",
+    "bytes": 105125,
+    "sha256": "16b06df3f0ca18d1c63ddd5d1ac93a8a36f3ed4871a668df93b1fe6ba1f1696e",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/EEPROM.lst",
+    "bytes": 8486,
+    "sha256": "362ad220404c99bda0a787e2dd56ff95a69af587adae59435695fcfad15bde44",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/EEPROM.obj",
+    "bytes": 110138,
+    "sha256": "8b8c460e2fbfe3f027384fc12f4a32c9681459ee8da3689e1c9d747d9d41f4cf",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Exti.lst",
+    "bytes": 7053,
+    "sha256": "c491a685acb7f1922ceb2a160bddd3fb80f930c7d4f4e7387e4039fb53583d2a",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 150,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Exti.obj",
+    "bytes": 110215,
+    "sha256": "1ad460ac7584143368cdd089fb273fc5f1e4f7d532776b66d31ff38978896ca9",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8",
+    "bytes": 2225889,
+    "sha256": "449f567c9105d3297f10b04856ee34b0fa6cbab3f7cd452341bce78a3436cf00",
+    "type": "",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8.build_log.htm",
+    "bytes": 1512,
+    "sha256": "e515d5a5ea267f1ae5dca22f27736b9f017843b63f0f1bf8088d6d946c5fb2b6",
+    "type": ".htm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8.hex",
+    "bytes": 10716,
+    "sha256": "a139080310d76df3c2e3fb87926ce0206b5ffe8ba60291340eb949de267725a8",
+    "type": ".hex",
+    "category": "C",
+    "status": "HEX_VALIDATED",
+    "detail": {
+      "program_bytes": 3655
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8.lnp",
+    "bytes": 580,
+    "sha256": "56223d414c3b3a80f0acbb7aa9a852ca40d719d10b9258eb6caaa966451dd884",
+    "type": ".lnp",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 24,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8.map",
+    "bytes": 402899,
+    "sha256": "ce47d5547a88c5332668cbfae1696419e92bc3207ffab76b2fabb45663649f95",
+    "type": ".map",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7911,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_STC8.SBR",
+    "bytes": 2092055,
+    "sha256": "e8758e4a109398d7ca61910fd0ceb578b1112c4f35fc0a5a7f88dda08c30e6b0",
+    "type": ".sbr",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_Task.lst",
+    "bytes": 3250,
+    "sha256": "3b84ff9407b37a8517ddd8d374775126188ac6ea54a605f977489206452163de",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 79,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Geek_Task.obj",
+    "bytes": 107536,
+    "sha256": "beb3e097978f56d1f0e486a5c4f249020460ee1680120733186de026ca5dbbf8",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/GPIO.lst",
+    "bytes": 7280,
+    "sha256": "a6a7da2e1b2f9f362b4cf346a2d8672cf54d07dc29db3b6a69a8757fa8ee93c5",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 120,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/GPIO.obj",
+    "bytes": 112625,
+    "sha256": "89536535ec82d5d9649cfe16e6f0b9c8076def1ba1ac388ea7c562b0b8538025",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/I2C.lst",
+    "bytes": 13496,
+    "sha256": "ead9339e366f7c5254e23f228565a63c582ad5eee20438eb9c0661d68348da90",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 284,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/I2C.obj",
+    "bytes": 115648,
+    "sha256": "9d57531b36c25abae2f59a479204f49520bfd2cd4cacef4c889d94603d760dcb",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/isr.lst",
+    "bytes": 6194,
+    "sha256": "8e9a99054ca61413b942440e72d1a0eab72cfea1ab98f683c827aae81e7a9594",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 126,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/isr.obj",
+    "bytes": 1400,
+    "sha256": "30d70f2c8e30d0745cd5b32bd6ed6d2fcac496f293cdf71f0f563dcc572924ea",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Led1.lst",
+    "bytes": 2363,
+    "sha256": "95f29fb03d9b1db35c6f66267cdc157d2453928034c8e9c5744a75ee9d2c37a3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Led1.obj",
+    "bytes": 108074,
+    "sha256": "7c5d55171856389a51a43620f6051c3a019f45fcf3d42542916851e2161144a1",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/main.lst",
+    "bytes": 1488,
+    "sha256": "e18be59d21feddcbcc389c547979ada79649197ad737f7087eaafd583f02b843",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/main.obj",
+    "bytes": 105940,
+    "sha256": "7a68f9680900cd1550602c42551d2ca7673d108f9a720c643f6aa8e3859cbe49",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PCA.lst",
+    "bytes": 10391,
+    "sha256": "a93491954bbecdcec874fcf6575ac938e5e1d923d7793abb83f782693d6e2c17",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 224,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PCA.obj",
+    "bytes": 116719,
+    "sha256": "45e8e30e0f192a057dd253e47f765fcf6108b3ac75c7eb02c60622e6c620e5a2",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PWM.lst",
+    "bytes": 11106,
+    "sha256": "ce3491e164778a54064305cee7ed0f5d144ac46e149cdc388c61242900871b03",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 191,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PWM.obj",
+    "bytes": 122334,
+    "sha256": "13345175774523baa408ec56ac50f56d27c1b2946765e3570656f0dff2624f81",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PWM15bit.lst",
+    "bytes": 25571,
+    "sha256": "ca2de0bb11d1ab91b42f04a87ed8323c677223365b217357fc431b7143e5a109",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 569,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/PWM15bit.obj",
+    "bytes": 121908,
+    "sha256": "4550ee33cc64c53c103d58f200f4285907d41e2aea8b00e83626ac8089530190",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Soft_UART.lst",
+    "bytes": 3938,
+    "sha256": "5cfba88960e886a066a0f9eb97601829415eb0a42be46c1ad8e1f1605966dcb8",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 104,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/Soft_UART.obj",
+    "bytes": 106676,
+    "sha256": "12bcb95ba8e63e08b0c8dfac6e383d961a9f0751d12498bfdc8a2ef2028666ba",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/spi.lst",
+    "bytes": 6914,
+    "sha256": "80650cb2a1c0cdc9877ab13596be85d40c56c0fb2dc5c97b02726e5a8671a56f",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 143,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/spi.obj",
+    "bytes": 110992,
+    "sha256": "40d8afcd6a5d1eb8466e9b50d60d3570cfa4929885dfff477a3bb3c55079fa14",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/System_init.lst",
+    "bytes": 18962,
+    "sha256": "c6b4ca464a68e0ff2b4256ce217f9ac2853d9f39120700fb443e86bd359711f3",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 294,
+      "pins": []
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/System_init.obj",
+    "bytes": 132503,
+    "sha256": "e44904d3b9fd48f8e5995cd60d87ff6671c9ffba9faea7e4aa7a31d44cf69714",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/timer.lst",
+    "bytes": 10474,
+    "sha256": "057b12ab85408fdde65621a2d65809efa472b00fff0aa88e063d48b5fbe4a0ac",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 202,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/timer.obj",
+    "bytes": 116733,
+    "sha256": "ad8d3af8797e0ff5d6ef4fc6af4cb31a9f704446f120a762fab047e6ac850ef7",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/UART.lst",
+    "bytes": 22085,
+    "sha256": "3c088ebf8edd339d2c35ab58f0fa913e108d727b043c7a4d48f9c0774fe61a8b",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 504,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/UART.obj",
+    "bytes": 116778,
+    "sha256": "5eb573bf24b93b34718dfd466a1aeef8809f0e04f9b630ec9a05b53b137cc84f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/WDT.lst",
+    "bytes": 3278,
+    "sha256": "32232c0bb9774c6a85855b1698d17fecc726a91ec311f50b7b341ac113c4db7d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/Outputs/WDT.obj",
+    "bytes": 106690,
+    "sha256": "1463a5bd1ce7331a9dd148976a7716b72bcd02aa972393ec1981223ae993e3bb",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/STC8.uvgui.Chensj",
+    "bytes": 95640,
+    "sha256": "877f01686b9a60f5d111f1359cb6db1b2116c55ea9fb1fe78d2665f318f92c4a",
+    "type": ".chensj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/STC8.uvopt",
+    "bytes": 13023,
+    "sha256": "657b56df24670816b91630dd71a4217b9c8e4df4c7e5396194fdcb8298dc52bf",
+    "type": ".uvopt",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [],
+      "files": []
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/STC8.uvproj",
+    "bytes": 18183,
+    "sha256": "b020acbd7f7a71fa7ec85c2b6883ad2b3a738a57e69ab58a571740a686a46ee2",
+    "type": ".uvproj",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [
+        "STC8H8K64U Series"
+      ],
+      "files": [
+        ".\\User\\main.c",
+        ".\\User\\System_init.c",
+        ".\\User\\isr.asm",
+        ".\\App\\Led1.c",
+        ".\\APP\\app.c",
+        ".\\ChipDevices\\ADC.c",
+        ".\\ChipDevices\\compare.c",
+        ".\\ChipDevices\\delay.c",
+        ".\\ChipDevices\\EEPROM.c",
+        ".\\ChipDevices\\Exti.c",
+        ".\\ChipDevices\\GPIO.c",
+        ".\\ChipDevices\\I2C.c",
+        ".\\ChipDevices\\PCA.c",
+        ".\\ChipDevices\\PWM.C",
+        ".\\ChipDevices\\PWM15bit.c",
+        ".\\ChipDevices\\Soft_UART.c",
+        ".\\ChipDevices\\spi.c",
+        ".\\ChipDevices\\timer.c",
+        ".\\ChipDevices\\UART.C",
+        ".\\ChipDevices\\WDT.c",
+        ".\\UserDevices\\Geek_Task.c"
+      ]
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/Config.h����",
+    "bytes": 1801,
+    "sha256": "5d7247bb35f487d48140e5332f13cbc948de537a30d94209ac0032833a8f98af",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/isr.asm",
+    "bytes": 2198,
+    "sha256": "6609937c69c318fa81e2f1cb0899e2e7a463303f8c8b0b5f1deb04c3106f2571",
+    "type": ".asm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 75,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/main.c",
+    "bytes": 185,
+    "sha256": "7ceaebf676abf9307ee00183ee5e868fd793842001cc566ff1c5e8c06318011c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 18,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/STC8xxxx.Hold",
+    "bytes": 143248,
+    "sha256": "7ab0e92e735250a143ef5137bbeaad55d4f96327adc5464dff168826ea79359b",
+    "type": ".hold",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2596,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/System_init.c",
+    "bytes": 13275,
+    "sha256": "7e2e06c42bcdaab21c6f782f94834b4b9605731be5f217291e89c9762d585b39",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/System_init.h",
+    "bytes": 919,
+    "sha256": "ad22a0c787e538fbe4381d9b77f08dabe8c5e5d8264b746ce1de276e48bf88dd",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 19,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/User/Type_def.h����",
+    "bytes": 1965,
+    "sha256": "42011c4af96a4e59dc663bedaef5e3bed19040160554f3cadf4e1d716412327d",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/etp.c",
+    "bytes": 5045,
+    "sha256": "1f612d59ed9b0d832e94b89d9dce79cbfeab0c825c04b3136cecc540e93140ca",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 108,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/etp.h",
+    "bytes": 6317,
+    "sha256": "441ccce1b6950e53f9627ff521ff32cc140f147b47b264dd543ce4556bcb4955",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/Geek_Task.c",
+    "bytes": 1330,
+    "sha256": "c2aee3af6d54ce14637148d901d2cb2fb56b29590cab7be62a0657914f12bec3",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 48,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/Geek_Task.h",
+    "bytes": 899,
+    "sha256": "aea9c40032f607ebddab220ebc854d202f91d41971a880cb8c1340c5c1bba02c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/NixieTube.c",
+    "bytes": 6657,
+    "sha256": "702259e1bba3ef371900e883b26bd0847d7c2c582cacf7a073a92105a66f3aa1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/UserDevices/NixieTube.h",
+    "bytes": 2125,
+    "sha256": "7026c3237529b5929150ce93b37bb79de0f91798f282b29e2cd57afe82db3f40",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/Geek_LED/��������.bat",
+    "bytes": 216,
+    "sha256": "712c5ee8a19bf605c87196fa1c869022956a0b486ed189e7a92982c1188bceb1",
+    "type": ".bat",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 13,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/APP/app.c",
+    "bytes": 568,
+    "sha256": "b25ea3b705277e0f0e8b3e9da531a18bce7fe7af997daae62b84047ac059b871",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 21,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/APP/Encoder.c",
+    "bytes": 162,
+    "sha256": "839d666912034bd689d8dd1a625665302ed242f09851eb84bc0543a2e8b3104f",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 11,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/APP/Encoder.h",
+    "bytes": 215,
+    "sha256": "50dd24ea73df3d9c40d15abc8e7ac5dc6b079fd09ab5073a9022ec501d0a5a07",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7,
+      "pins": [
+        "P3.2",
+        "P32",
+        "P33"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/APP/Led1.c",
+    "bytes": 888,
+    "sha256": "4a86b976632b7d722dc63e617007a515ffb04dd9a52f486d0621266c29eb653c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/APP/Led1.h",
+    "bytes": 86,
+    "sha256": "915a04568c85ea987f341b48f24f1cee77a9288fa395f872c1f8a6df84d56f95",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 8,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/ADC.c",
+    "bytes": 3932,
+    "sha256": "97b78bf4e8b8c7e2d9072cad508dd231d4e30a30be5f65d347f9381fa75a7516",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 114,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/ADC.h",
+    "bytes": 3336,
+    "sha256": "cdd5d1b34494cb4520e9ba0502eb7487e85686e7d8fefe27a770fe7b074e6f4c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/compare.c",
+    "bytes": 2619,
+    "sha256": "9c261fdd836f881ff35619226e687a993502faf59db67424272ccbe075cb5091",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 44,
+      "pins": [
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/compare.h",
+    "bytes": 2714,
+    "sha256": "670a6d9195de05c45220d089029a60c98d8e0536263c57732a159872d9483ed9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/config.h",
+    "bytes": 1327,
+    "sha256": "eacce8b4ee0439a5d8710dd9454db189994d797c326b949446efcd6e1280f94f",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 33,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/delay.c",
+    "bytes": 1460,
+    "sha256": "f46e6b428705a51cf688928cbe7ec765c905b2616b7da15e572ce1f58fde4368",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 37,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/delay.h",
+    "bytes": 935,
+    "sha256": "fd0c68a11852f135cd191395c9f0fa195b23ecfbb4e22b48e2d279c77c29478a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 20,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/EEPROM.c",
+    "bytes": 5257,
+    "sha256": "057868b89a79a758edb787db55620af367c29b4357ec6ca0799312415cbd0b36",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 127,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/EEPROM.h",
+    "bytes": 2053,
+    "sha256": "4451f18b98468bbde22f0d467859d91ae298e8985681d6a4ca5482095f6ac4d6",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 55,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/Exti.c",
+    "bytes": 3939,
+    "sha256": "bd1f8a3185b2cd9740125e6868cbf058d3e7bb16e65e3bf8f5ed104fd0139bb7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 116,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/Exti.h",
+    "bytes": 1469,
+    "sha256": "1a99398bb8373e31641bda4fe0d211252ad2cd9b72b725ae63093e2e74ff8dbf",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 36,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/GPIO.c",
+    "bytes": 4643,
+    "sha256": "7ab41a252206c623800c11942ddc964ea68b1ce88e6e32927c69d6604649429d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 89,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/GPIO.h",
+    "bytes": 1779,
+    "sha256": "8d897089bce512c87d3b4686b2848c8222f117030cbcde6d2ff53564e2510bea",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 51,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/I2C.c",
+    "bytes": 8342,
+    "sha256": "0d25d3df38ba8fd32b7fab33118166b55cf627e16ccc8558be0d9d3ccde64bf6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 244,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/I2C.h",
+    "bytes": 2079,
+    "sha256": "2579ec8b4626511b1569742e1319bf79bcb492223cb4f4d5d94c2c7abcb84579",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PCA.c",
+    "bytes": 6079,
+    "sha256": "cf96d6cfe6e0142608f67b3bd69fbba9a477e9b2130962beca1d24b74c8e83d8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 187,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PCA.h",
+    "bytes": 2599,
+    "sha256": "0a61aaafcf89e09d525df9d09b85d870d2b0e864bdd475bf83d4550ab02c5e3d",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 72,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PWM.C",
+    "bytes": 7236,
+    "sha256": "930f387fec690fa3e7f09dd66790cee29ba7992a2c0bbef30ec44d35de60b850",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 152,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PWM.h",
+    "bytes": 6137,
+    "sha256": "3980f6e7a8bcb4a5345bb82aa6c06af40b73548ed60291f19bc1bae95bf77415",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 141,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PWM15bit.c",
+    "bytes": 15534,
+    "sha256": "a7de43feef641cb7c18f071dd89df12d5e0c33b0aef74b7037cab809343baf28",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 516,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/PWM15bit.h",
+    "bytes": 2682,
+    "sha256": "c8a70c417d7741112692d7d427b2625a8bdb1653acab62dbdd34ae27a06f7ea5",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 94,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/Soft_UART.c",
+    "bytes": 1683,
+    "sha256": "ee53a2e57ca1e782d7ebdf740e1e7efaf21399d26cf8c035111e66ac1bc13d91",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 73,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/soft_uart.h",
+    "bytes": 151,
+    "sha256": "2ca8acf61e39291ebf862035cd7938bb59822779184c5ad936c5c342811707a9",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 10,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/spi.c",
+    "bytes": 3949,
+    "sha256": "b81d758ff6212536228490709c9ac02811997130612ec15900799060b9ee17e8",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 109,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/spi.h",
+    "bytes": 2134,
+    "sha256": "9b91008670eecb8f2f2d60da584d8f51c1c23fffe54183a85cf54c2e42150fc1",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/STC8xxxx.H",
+    "bytes": 154453,
+    "sha256": "7c7861022f35d3aa86cd89942a75a9ddcf2073e94f7bb3c9cf43c1a421e15a45",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2747,
+      "pins": [
+        "P0.4",
+        "P0.6",
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.4",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/timer.c",
+    "bytes": 6450,
+    "sha256": "b737dc2019089975051b0f2317d49bc56e359449bdfd58d16f57b8cd245578e1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/timer.h",
+    "bytes": 1748,
+    "sha256": "ac9dc3a66758619bdc3fcc08665dbbc8421c525c48e8076515c8826f44e2d017",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/UART.C",
+    "bytes": 12769,
+    "sha256": "13fdd6fd5346ee2037a253ddae856bede796a7ee50916923b335a4b69c8ba6ed",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 451,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/UART.h",
+    "bytes": 4077,
+    "sha256": "08d2dff15819a4da60c004baef79b738b3bb652e3f9ae816de13160c8b303c17",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 136,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/WDT.c",
+    "bytes": 1710,
+    "sha256": "e24189efb0da14d13336e1fac9cb5f4e7dddc85d6ed0924e2201237cb428e959",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 35,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ChipDevices/WDT.h",
+    "bytes": 1573,
+    "sha256": "a8d3a2ab1129f416d75b939e191909309df1a85db4a0b3fa9dc49fbb8203e56a",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_ADC_Isr.c",
+    "bytes": 1250,
+    "sha256": "9b11da530b5b64820435203162722cfb13b85326053e69248497278beac12d5e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 30,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_Compare_Isr.c",
+    "bytes": 1304,
+    "sha256": "c55bb4b0b44dac005cee373fe24619ccf0f5fd469ee5b5b4569d1ac407211c0c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 28,
+      "pins": [
+        "P47"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_Exti_Isr.c",
+    "bytes": 3223,
+    "sha256": "561977c3b48515d28304ede9ff0f3dad56eb146ba7cde0913977b6a48beba76d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 98,
+      "pins": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_GPIO_Isr.c",
+    "bytes": 860,
+    "sha256": "68ff12190952ad8613d26fae4fb69f3579de69592c4cd51a34e9fb05e433bf44",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 14,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_I2C_Isr.c",
+    "bytes": 2668,
+    "sha256": "ef2f644f9f4a134aefa3fa78823b919dbe806558bc36e9a87bf703939a8f0734",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 86,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_SPI_Isr.c",
+    "bytes": 1636,
+    "sha256": "b3a99b32d15bd477cf16f0df6aabc2af846192edc18c65b61b460278a837f057",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 42,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_Timer_Isr.c",
+    "bytes": 2982,
+    "sha256": "313b7caf13304fbbfae8b6a6efd161a0867b6669dccb571ef96ce0e74b93c37e",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 85,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_H_UART_Isr.c",
+    "bytes": 4004,
+    "sha256": "943f3a888fe7b05f1452321f1a9feea5a2ef501442233a0ba49da67dd1c179c7",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 157,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_PCA_Isr.c",
+    "bytes": 3248,
+    "sha256": "dac5dc7d16f5746416198515242694b202b8f1e77dbdcd70b96ad846274c8c1d",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 97,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8G_PWM15bit_Isr.c",
+    "bytes": 4429,
+    "sha256": "15701e8920e04dfe9ae5eba41a259fd14457cefc39633064dbd4605fdfe6d8a6",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 159,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/ISR/STC8H_PWM_Isr.c",
+    "bytes": 859,
+    "sha256": "3ef8cb3e4883aa9747e4e4ad372e9c85bb9f38166f0aace5c95ffcbb304a9b75",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 15,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/ADC.lst",
+    "bytes": 6988,
+    "sha256": "6d952c88c62da2faf98080e019a9a2935b7d660efdb1eb158b58fce4b4e82ff7",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/ADC.obj",
+    "bytes": 113077,
+    "sha256": "7a186c26ea10210417d94b66e2b69085bb4c6e562cc2e8674c8ba18a39f3b1fa",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/app.lst",
+    "bytes": 1916,
+    "sha256": "fd9a1bf83f44c3d5c45ec6e86cdc7c34fda0d030249150bc1dd542f1e352cbc1",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 49,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/app.obj",
+    "bytes": 106146,
+    "sha256": "178202cbbe1bd0aac79b765f0be4d7b238ec10a06179ed75071e14047e9615f1",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/compare.lst",
+    "bytes": 4520,
+    "sha256": "c6192277164812c620bab378ede6c8189459b767934ff4d80d95fd427078ac70",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 77,
+      "pins": [
+        "P3.6",
+        "P3.7",
+        "P4.1",
+        "P47"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/compare.obj",
+    "bytes": 108812,
+    "sha256": "5417600a9b891acccbebdfdce15a628e2a0df7ad6989b8261d942e1da6f765e7",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/delay.lst",
+    "bytes": 3040,
+    "sha256": "b6f2792ca837b66e8846aef1ef53d22d9a26c46fdcb5b7229b6a7648da813388",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/delay.obj",
+    "bytes": 105125,
+    "sha256": "90f5ed3ecf465c169f58ed3c884b005240cb2fc0a68a6b3481bbf41db45a7b37",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/EEPROM.lst",
+    "bytes": 8486,
+    "sha256": "996b3d937f85b4a69ff371718a33b1146e3aa49b36efc95186a3bffdc309e141",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 161,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/EEPROM.obj",
+    "bytes": 110138,
+    "sha256": "2eaf26678f70239db9da676e15362dea00dac64b49e047fa4a176f1bc65b8d9f",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Exti.lst",
+    "bytes": 7053,
+    "sha256": "ed1411ddbeeae89e81b2ce4c639d02d163daeedee573463a8b65301212565a1a",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 150,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Exti.obj",
+    "bytes": 110215,
+    "sha256": "5a7e1a4294a98f646c4bc86eb1897c104c0f7382decfe1f1c70a1d091f7eb71d",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8",
+    "bytes": 2225869,
+    "sha256": "8d0bd4ad4e165d2c78b5a89e3118bd559ecfaccd7acc848067d5d4ac23313fb3",
+    "type": "",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8.build_log.htm",
+    "bytes": 1512,
+    "sha256": "8b331ac8f49bdf20f62f6816d60b87622d6aedd57be9d11dfff4c6966188c96d",
+    "type": ".htm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8.hex",
+    "bytes": 10657,
+    "sha256": "3f0150b8adb4cc519ebcd7af9da729d8db1f66ca3cb62bafb1e00ed259665fdf",
+    "type": ".hex",
+    "category": "C",
+    "status": "HEX_VALIDATED",
+    "detail": {
+      "program_bytes": 3632
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8.lnp",
+    "bytes": 580,
+    "sha256": "56223d414c3b3a80f0acbb7aa9a852ca40d719d10b9258eb6caaa966451dd884",
+    "type": ".lnp",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 24,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8.map",
+    "bytes": 402686,
+    "sha256": "fa4cb925169b87ff036d376f1eb76377d94b9df9200a25967252f1ebc0a35e73",
+    "type": ".map",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 7907,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_STC8.SBR",
+    "bytes": 2092112,
+    "sha256": "7868b2c6463f339d9451a2b0e6885a0bcd411975cca0f6dea811f4afddf15a0e",
+    "type": ".sbr",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_Task.lst",
+    "bytes": 3250,
+    "sha256": "e59f8108ac7694f0405368fe3c98008716ad8e95df38e413a5eab3fb3f84bc6d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 79,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Geek_Task.obj",
+    "bytes": 107536,
+    "sha256": "f7f667cc115c098a31fb0d987b9bb7b7dccb3089ce67b3c8426d344291c8d8fe",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/GPIO.lst",
+    "bytes": 7280,
+    "sha256": "4c7af75d988134ceeae1c4a2f70bb4ed9120897faabd3f73d89a9faeee2aa32b",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 120,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/GPIO.obj",
+    "bytes": 112625,
+    "sha256": "efc99552672cca19942b60a2f99c0977dd2e086319e3bc9b1fc1f7e0e87f6d84",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/I2C.lst",
+    "bytes": 13496,
+    "sha256": "48e8266ca90a769082a5e8e90e89003ae4ded0c917b6df2ce1c0327a8a1d59eb",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 284,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/I2C.obj",
+    "bytes": 115648,
+    "sha256": "83551ca66d36edbbb367e84d57202b149caf8ba8d2d685aa84a6f21a4d4f2a04",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/isr.lst",
+    "bytes": 6194,
+    "sha256": "be32cd79bf20716ff047fc0a58375a8aa51967a060222d26aa92654a06c60924",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 126,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/isr.obj",
+    "bytes": 1400,
+    "sha256": "707decbd004342b4352c1b80fd7fc0b805a04e2b692a2ef060aac07a0708c414",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Led1.lst",
+    "bytes": 2363,
+    "sha256": "47ace5669a384e1655ee739c1d5963e29b962c1cbcde483a107b9a33b6001d88",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 57,
+      "pins": [
+        "P37"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Led1.obj",
+    "bytes": 108074,
+    "sha256": "139c00456bd3d025fe51604cae8d2629aa5831b9acbf2d4c3a2c90303edccc39",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/main.lst",
+    "bytes": 1488,
+    "sha256": "9010d69bc198c8514a40a711f2eef6888406da1e37f0ad74de9938a379611c76",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 46,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/main.obj",
+    "bytes": 105940,
+    "sha256": "d64985a512f5ff8d7e0c792036ef27b3db40384d8267cf90ddb249bad0ff23ba",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PCA.lst",
+    "bytes": 10391,
+    "sha256": "2c4774be77cfe54ffb7590caece361baaf9969994d508d0104ffa9c93fcc0494",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 224,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PCA.obj",
+    "bytes": 116719,
+    "sha256": "311e49b0cce2e42710071dac28ea5427984e9750068db5cc28cf362d5251cbb9",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PWM.lst",
+    "bytes": 11106,
+    "sha256": "ca961e9d8c4ff2ca7bb218dcc1024adeb0e5c2537136cc73d1db56227819937d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 191,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PWM.obj",
+    "bytes": 122334,
+    "sha256": "9728e556185482184ee16956dd685793992b5286b2cb934fb0c30110fc5a310a",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PWM15bit.lst",
+    "bytes": 25571,
+    "sha256": "d91e5c534018454bb952941024122b3d8885dc94f0dee7739bd67fe7e2c7edf5",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 569,
+      "pins": [
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/PWM15bit.obj",
+    "bytes": 121908,
+    "sha256": "604f952a01b6268504a2c015deb0c61b9fc19ea478cee4b8b8a57736373dd2fc",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Soft_UART.lst",
+    "bytes": 3938,
+    "sha256": "29678c52173fc7e3ce87e98de7bbd0a41e91e9a47af86e9ea20860886227b6ff",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 104,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/Soft_UART.obj",
+    "bytes": 106676,
+    "sha256": "74d7d007aa6b8871897ea905eb7afdf31804df50feacfd84ec359ebae525c754",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/spi.lst",
+    "bytes": 6914,
+    "sha256": "9d7abff565ab28a196a62e6d477dcb9d6f0fab544fb02088943fdc1f582d352d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 143,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/spi.obj",
+    "bytes": 110992,
+    "sha256": "195bd035f0d3f3bbf40ac10d3a88bfde4117f3ed4ae10c46a82c2c83cc7cb012",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/System_init.lst",
+    "bytes": 18980,
+    "sha256": "5caf329696f911d89a7b13c76f7317c246815b644e0c77ed1ccc9abeae758591",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 295,
+      "pins": []
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/System_init.obj",
+    "bytes": 132609,
+    "sha256": "bda7f8b807eb5122fc4d3fa00543fe8eb6c36b506b59659d08ff33255647c627",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/timer.lst",
+    "bytes": 10474,
+    "sha256": "a41eaeea01c75b456839a8f1953d0a8db7bbbb30cda129efbda873a0d7e17c11",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 202,
+      "pins": [
+        "P63",
+        "P64",
+        "P65",
+        "P66"
+      ]
+    },
+    "encoding": "cp1252"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/timer.obj",
+    "bytes": 116733,
+    "sha256": "3ecca15c4a401a53fd5da537a1d943a46099d58dbbe56f52b116563cf3a7acb6",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/UART.lst",
+    "bytes": 22085,
+    "sha256": "75e557b6ea80b3e03ec8419cb8826d014104da417321d7883b7cf06a4815b75d",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 504,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/UART.obj",
+    "bytes": 116778,
+    "sha256": "8f38cef096915fbe15b7bcdef72eebe6329c203841fbf7e8d7493c8208746cdd",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/WDT.lst",
+    "bytes": 3278,
+    "sha256": "bf497677d323a493e153832637cdd6b269d2b29f7770dbd5a55a6c9065aec265",
+    "type": ".lst",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 64,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/Outputs/WDT.obj",
+    "bytes": 106690,
+    "sha256": "2523a64c3cbbe00a21085a03abc63da7c87a8d6d2144ac7470f6aeac7fcbd27e",
+    "type": ".obj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/STC8.uvgui.Chensj",
+    "bytes": 91881,
+    "sha256": "e3701c711e2bda6f50d560942cf7cb7769705e2e0cedde03864313c358a8a0bf",
+    "type": ".chensj",
+    "category": "E",
+    "status": "UNPARSED",
+    "detail": "Keil binary/debug/user-state artifact; no electrical semantics claimed"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/STC8.uvopt",
+    "bytes": 13023,
+    "sha256": "8cda00f18556f91c0bfdcfe61c077e798f30560410746726ea75b661cbe5ea63",
+    "type": ".uvopt",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [],
+      "files": []
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/STC8.uvproj",
+    "bytes": 18183,
+    "sha256": "b020acbd7f7a71fa7ec85c2b6883ad2b3a738a57e69ab58a571740a686a46ee2",
+    "type": ".uvproj",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [
+        "STC8H8K64U Series"
+      ],
+      "files": [
+        ".\\User\\main.c",
+        ".\\User\\System_init.c",
+        ".\\User\\isr.asm",
+        ".\\App\\Led1.c",
+        ".\\APP\\app.c",
+        ".\\ChipDevices\\ADC.c",
+        ".\\ChipDevices\\compare.c",
+        ".\\ChipDevices\\delay.c",
+        ".\\ChipDevices\\EEPROM.c",
+        ".\\ChipDevices\\Exti.c",
+        ".\\ChipDevices\\GPIO.c",
+        ".\\ChipDevices\\I2C.c",
+        ".\\ChipDevices\\PCA.c",
+        ".\\ChipDevices\\PWM.C",
+        ".\\ChipDevices\\PWM15bit.c",
+        ".\\ChipDevices\\Soft_UART.c",
+        ".\\ChipDevices\\spi.c",
+        ".\\ChipDevices\\timer.c",
+        ".\\ChipDevices\\UART.C",
+        ".\\ChipDevices\\WDT.c",
+        ".\\UserDevices\\Geek_Task.c"
+      ]
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/Config.h����",
+    "bytes": 1801,
+    "sha256": "5d7247bb35f487d48140e5332f13cbc948de537a30d94209ac0032833a8f98af",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/isr.asm",
+    "bytes": 2198,
+    "sha256": "6609937c69c318fa81e2f1cb0899e2e7a463303f8c8b0b5f1deb04c3106f2571",
+    "type": ".asm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 75,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/main.c",
+    "bytes": 185,
+    "sha256": "7ceaebf676abf9307ee00183ee5e868fd793842001cc566ff1c5e8c06318011c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 18,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/STC8xxxx.Hold",
+    "bytes": 143248,
+    "sha256": "7ab0e92e735250a143ef5137bbeaad55d4f96327adc5464dff168826ea79359b",
+    "type": ".hold",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2596,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/System_init.c",
+    "bytes": 13278,
+    "sha256": "9fb53bd12bed7978ea5aa99a202e40481be1c88a48dfa00199a734b115ac9b70",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 223,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/System_init.h",
+    "bytes": 919,
+    "sha256": "ad22a0c787e538fbe4381d9b77f08dabe8c5e5d8264b746ce1de276e48bf88dd",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 19,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/User/Type_def.h����",
+    "bytes": 1965,
+    "sha256": "42011c4af96a4e59dc663bedaef5e3bed19040160554f3cadf4e1d716412327d",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/etp.c",
+    "bytes": 5045,
+    "sha256": "1f612d59ed9b0d832e94b89d9dce79cbfeab0c825c04b3136cecc540e93140ca",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 108,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/etp.h",
+    "bytes": 6317,
+    "sha256": "441ccce1b6950e53f9627ff521ff32cc140f147b47b264dd543ce4556bcb4955",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/Geek_Task.c",
+    "bytes": 1330,
+    "sha256": "c2aee3af6d54ce14637148d901d2cb2fb56b29590cab7be62a0657914f12bec3",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 48,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/Geek_Task.h",
+    "bytes": 899,
+    "sha256": "aea9c40032f607ebddab220ebc854d202f91d41971a880cb8c1340c5c1bba02c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/NixieTube.c",
+    "bytes": 6657,
+    "sha256": "702259e1bba3ef371900e883b26bd0847d7c2c582cacf7a073a92105a66f3aa1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/UserDevices/NixieTube.h",
+    "bytes": 2125,
+    "sha256": "7026c3237529b5929150ce93b37bb79de0f91798f282b29e2cd57afe82db3f40",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/samples/STC8_LED/��������.bat",
+    "bytes": 216,
+    "sha256": "712c5ee8a19bf605c87196fa1c869022956a0b486ed189e7a92982c1188bceb1",
+    "type": ".bat",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 13,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/STC8.uvproj",
+    "bytes": 18361,
+    "sha256": "b3f64449db96a1dbfcc85598de13dfba2bbd4dba7dfb66bbb78fb3f67232ad75",
+    "type": ".uvproj",
+    "category": "C",
+    "status": "XML_PARSED",
+    "detail": {
+      "devices": [
+        "STC8H8K64U Series"
+      ],
+      "files": [
+        ".\\User\\main.c",
+        ".\\User\\System_init.c",
+        ".\\User\\isr.asm",
+        ".\\App\\Led1.c",
+        ".\\APP\\WaterLight.c",
+        ".\\APP\\app.c",
+        ".\\ChipDevices\\ADC.c",
+        ".\\ChipDevices\\compare.c",
+        ".\\ChipDevices\\delay.c",
+        ".\\ChipDevices\\EEPROM.c",
+        ".\\ChipDevices\\Exti.c",
+        ".\\ChipDevices\\GPIO.c",
+        ".\\ChipDevices\\I2C.c",
+        ".\\ChipDevices\\PCA.c",
+        ".\\ChipDevices\\PWM.C",
+        ".\\ChipDevices\\PWM15bit.c",
+        ".\\ChipDevices\\Soft_UART.c",
+        ".\\ChipDevices\\spi.c",
+        ".\\ChipDevices\\timer.c",
+        ".\\ChipDevices\\UART.C",
+        ".\\ChipDevices\\WDT.c",
+        ".\\UserDevices\\Geek_Task.c"
+      ]
+    }
+  },
+  {
+    "path": "STC8H工程标准框架/User/Config.h����",
+    "bytes": 1801,
+    "sha256": "5d7247bb35f487d48140e5332f13cbc948de537a30d94209ac0032833a8f98af",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 40,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/User/isr.asm",
+    "bytes": 2198,
+    "sha256": "6609937c69c318fa81e2f1cb0899e2e7a463303f8c8b0b5f1deb04c3106f2571",
+    "type": ".asm",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 75,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/User/main.c",
+    "bytes": 185,
+    "sha256": "7ceaebf676abf9307ee00183ee5e868fd793842001cc566ff1c5e8c06318011c",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 18,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/User/STC8xxxx.Hold",
+    "bytes": 143248,
+    "sha256": "7ab0e92e735250a143ef5137bbeaad55d4f96327adc5464dff168826ea79359b",
+    "type": ".hold",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 2596,
+      "pins": [
+        "P00",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P1.5",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P2.5",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P3.2",
+        "P3.5",
+        "P3.7",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P60",
+        "P61",
+        "P62",
+        "P63",
+        "P64",
+        "P65",
+        "P66",
+        "P67",
+        "P7.7",
+        "P70",
+        "P71",
+        "P72",
+        "P73",
+        "P74",
+        "P75",
+        "P76",
+        "P77"
+      ]
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/User/System_init.c",
+    "bytes": 15618,
+    "sha256": "72ccd6db4122bf86d96682ba6671a7e84bbe46620bec42b252bdd9f20c66bad9",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 225,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架/User/System_init.h",
+    "bytes": 919,
+    "sha256": "ad22a0c787e538fbe4381d9b77f08dabe8c5e5d8264b746ce1de276e48bf88dd",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 19,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/User/Type_def.h����",
+    "bytes": 1965,
+    "sha256": "42011c4af96a4e59dc663bedaef5e3bed19040160554f3cadf4e1d716412327d",
+    "type": ".h����",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 54,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/etp.c",
+    "bytes": 5045,
+    "sha256": "1f612d59ed9b0d832e94b89d9dce79cbfeab0c825c04b3136cecc540e93140ca",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 108,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/etp.h",
+    "bytes": 6317,
+    "sha256": "441ccce1b6950e53f9627ff521ff32cc140f147b47b264dd543ce4556bcb4955",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 149,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/Geek_Task.c",
+    "bytes": 1422,
+    "sha256": "33dee53bbe3224d47293111bccdb4f9b453e0347a39cbb993487b96488dca428",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 53,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/Geek_Task.h",
+    "bytes": 899,
+    "sha256": "aea9c40032f607ebddab220ebc854d202f91d41971a880cb8c1340c5c1bba02c",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 25,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/NixieTube.c",
+    "bytes": 6657,
+    "sha256": "702259e1bba3ef371900e883b26bd0847d7c2c582cacf7a073a92105a66f3aa1",
+    "type": ".c",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 222,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/UserDevices/NixieTube.h",
+    "bytes": 2125,
+    "sha256": "7026c3237529b5929150ce93b37bb79de0f91798f282b29e2cd57afe82db3f40",
+    "type": ".h",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 65,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/�½�����.bat",
+    "bytes": 725,
+    "sha256": "ae07a56bfa62f3317276b15707fb7122659546befbc1e7ffec33a9a75244e1a1",
+    "type": ".bat",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 29,
+      "pins": []
+    },
+    "encoding": "gb18030"
+  },
+  {
+    "path": "STC8H工程标准框架/��������.bat",
+    "bytes": 216,
+    "sha256": "712c5ee8a19bf605c87196fa1c869022956a0b486ed189e7a92982c1188bceb1",
+    "type": ".bat",
+    "category": "C",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 13,
+      "pins": []
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "STC8H工程标准框架.zip",
+    "bytes": 6174294,
+    "sha256": "432e88664cf60dd2fe4804438f700c6cbe6677b105704a6fc6b0053794db3b31",
+    "type": ".zip",
+    "category": "C",
+    "status": "ARCHIVE_VALIDATED",
+    "detail": "Manifest/CRC read; existing extracted SDK used",
+    "members": 435
+  },
+  {
+    "path": "top.png",
+    "bytes": 1294225,
+    "sha256": "63896dd654787c9519fe2bf439b117b2bcef9cb544b9a76a0a5485708cea3305",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "串口.md",
+    "bytes": 6544,
+    "sha256": "a8c923ae2238a9db985b64e3fd84f298c32889c3ea50bdad5f5585107191eb06",
+    "type": ".md",
+    "category": "D",
+    "status": "TEXT_PARSED",
+    "detail": {
+      "lines": 157,
+      "pins": [
+        "P0.0",
+        "P0.1",
+        "P0.2",
+        "P0.3",
+        "P1.0",
+        "P1.1",
+        "P3.0",
+        "P3.1",
+        "P3.2",
+        "P3.3",
+        "P3.6",
+        "P3.7",
+        "P5.0",
+        "P5.1",
+        "P5.2",
+        "P5.3"
+      ]
+    },
+    "encoding": "utf-8-sig"
+  },
+  {
+    "path": "图片/1.png",
+    "bytes": 174704,
+    "sha256": "ea63d8784523d12ba8b267737b0a407eb4b726c47327f2c3426d74307f3ef244",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/10.png",
+    "bytes": 21412,
+    "sha256": "ada9183d55433f40c298bbe8eaa1dfd120ca6c2a51274742650f357e4f49fdda",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/11.png",
+    "bytes": 9143,
+    "sha256": "26e423605873ed976c7ccf704e5d7565dc575cd7d7726ec024434ef13656aa09",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/12.png",
+    "bytes": 34079,
+    "sha256": "52e2f81379904cf7a5204ad51a60047cdad0723f3664051cf2cf41f1c2289a59",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/13.png",
+    "bytes": 9629,
+    "sha256": "8a3b44488b7eb0c0d7fa8e4d25eb0343391569723f7bd9de2cc3990b7d997f79",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/14.png",
+    "bytes": 15473,
+    "sha256": "e8dfa9719ea5caa97aaae2a0180f5c2e858badb109f0e1279b5ecc6df6bf9d9b",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/15.png",
+    "bytes": 11567,
+    "sha256": "b7481cf3d811741f6a13e1720137fffed26177a5f5cbbe6fd10ee9744a444d49",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/16.png",
+    "bytes": 42826,
+    "sha256": "7d0330f4d3b18741348aa6d0094910d17d56e62794e475fe39ec09cd4084cdbe",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/17.png",
+    "bytes": 25399,
+    "sha256": "575c651bbed50a09fa87199dfed659706185ff6f6d7b57f1c856f7d3b7a95b58",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/18.png",
+    "bytes": 20734,
+    "sha256": "7160c8b3b6252ef925f4da5701e17f49e8ebfe941471645dba2c96a9b45c3547",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/19.png",
+    "bytes": 14321,
+    "sha256": "77c119279624a2a6ab97c8181e0a05e5c827a4e90572bff9e842cc05bfc81c71",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/2.png",
+    "bytes": 62543,
+    "sha256": "b81a004cfa314cb5cf29b218026a4d136802d9f14ed6498328d0f340f52a61c7",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/3.png",
+    "bytes": 27598,
+    "sha256": "2b0145ba6fe93f8be35fe20c3b35cbd7ac5c9f329a2703415eeed08e771c8deb",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/4.png",
+    "bytes": 11461,
+    "sha256": "5259a0a2c792fce54c7298b49deaafb81e842224dc1653524d97911c6e098a96",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/5.png",
+    "bytes": 30240,
+    "sha256": "9b4050318528de5612dbcf23814507146a157baa83b6e2820e5f49e24a55857b",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/6.png",
+    "bytes": 29034,
+    "sha256": "7d2ccd87213e72246bb2d718845721a3cec855a9b2dfc38c4b1fccb32ea98a37",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/7.png",
+    "bytes": 30304,
+    "sha256": "4c62dd40567d6d1eded5f9cafd5bbd04676806340c8bdecebdbdfe67868f5a58",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/8.png",
+    "bytes": 45382,
+    "sha256": "67ae57d5c82f1686f90c64f416f79bf7221913bfa3f5c36474db60f2c63b9a22",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "图片/9.png",
+    "bytes": 26327,
+    "sha256": "02f46ef6b07d67e5a6a77cf10fa1559348b2ea009598df62667ca1f85cec1a20",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "外壳.STEP",
+    "bytes": 147066,
+    "sha256": "97248fe6b84a4fef13f9ce7751b45af13d06e42890f253c8cbead4cdd92868e5",
+    "type": ".step",
+    "category": "D",
+    "status": "NOT_ELECTRICALLY_PARSED",
+    "detail": "Mechanical enclosure; no electrical connectivity evidence"
+  },
+  {
+    "path": "底部挖空外壳.STL",
+    "bytes": 2553384,
+    "sha256": "3a9a989af80126241a4275ad54925115f0e590ffb5d8861b69fac696a6465268",
+    "type": ".stl",
+    "category": "D",
+    "status": "NOT_ELECTRICALLY_PARSED",
+    "detail": "Mechanical enclosure; no electrical connectivity evidence"
+  },
+  {
+    "path": "开发板.pdf",
+    "bytes": 2579242,
+    "sha256": "6ab51ec4e8443b649c7845fdc5be6b25e3ccc19071a7a57a09e9eb97e18b6221",
+    "type": ".pdf",
+    "category": "A",
+    "status": "TEXT_EXTRACTED",
+    "detail": "Text extraction; image-only pages need visual inspection",
+    "pages": 5,
+    "image_only_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "path": "开发板.png",
+    "bytes": 1477682,
+    "sha256": "71235a0c194ce860c219b9f6638c087a9a75b1fb0cf1987b522331bd32bbe40d",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "开发板使用说明.png",
+    "bytes": 791354,
+    "sha256": "becb6a6ee50dc75c5e8224e91058ca0f1871c21bf73c0a6c4da8ac7d4568f478",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "开发板原理图.pdf",
+    "bytes": 1440685,
+    "sha256": "74279e44c9eb629ecf1a2b2ef28c2f4f0f25caef4f16739748320d6ff1d8ce2d",
+    "type": ".pdf",
+    "category": "A",
+    "status": "TEXT_EXTRACTED",
+    "detail": "Text extraction; image-only pages need visual inspection",
+    "pages": 1,
+    "image_only_pages": []
+  },
+  {
+    "path": "开发板模块说明.png",
+    "bytes": 1573926,
+    "sha256": "fe72974f2bf7e2fcae4fd6e6ccec2779b335490048b9da3f062dec8382b98e2b",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "模块说明.png",
+    "bytes": 769000,
+    "sha256": "df336b2c1c96dff0131d6ffe96af312a8b668f0ac585ab710e4ae416ee3fcd53",
+    "type": ".png",
+    "category": "D",
+    "status": "IMAGE_VALIDATED",
+    "detail": "Visual evidence; no automatic net extraction"
+  },
+  {
+    "path": "盒子.stl",
+    "bytes": 887563,
+    "sha256": "d5e4f9b7f9743761290765e399612ded2d39c6c9e187b95a7750c95514070c4d",
+    "type": ".stl",
+    "category": "D",
+    "status": "NOT_ELECTRICALLY_PARSED",
+    "detail": "Mechanical enclosure; no electrical connectivity evidence"
+  }
+]

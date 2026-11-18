@@ -1,0 +1,15 @@
+{
+  "target": "STM32F103C8T6",
+  "action": "check",
+  "status": "CHECK_PASS",
+  "time": 1790494600.298733,
+  "check": "Wiring matches tested digital platform",
+  "firmware.elf": {
+    "bytes": 217880,
+    "sha256": "0aa798ff3845f0990c5c3a2d5210134c831fc35355f5f870cc530a871b606ea0"
+  },
+  "firmware.bin": {
+    "bytes": 4488,
+    "sha256": "0151cb98b8082abe820be0c02e4178b3fbf7832cdd59d0a90aca182880970217"
+  }
+}

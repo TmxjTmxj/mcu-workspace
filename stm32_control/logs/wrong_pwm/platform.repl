@@ -1,0 +1,35 @@
+flash: Memory.MappedMemory @ sysbus 0x08000000
+    size: 0x10000
+sram: Memory.MappedMemory @ sysbus 0x20000000
+    size: 0x5000
+bitband: Miscellaneous.BitBanding @ sysbus <0x42000000, +0x2000000>
+    peripheralBase: 0x40000000
+nvic: IRQControllers.NVIC @ sysbus 0xE000E000
+    priorityMask: 0xF0
+    systickFrequency: 72000000
+    IRQ -> cpu@0
+cpu: CPU.CortexM @ sysbus
+    cpuType: "cortex-m3"
+    nvic: nvic
+usart1: UART.STM32_UART @ sysbus <0x40013800, +0x100>
+    -> nvic@37
+gpioPortA: GPIOPort.STM32F1GPIOPort @ sysbus <0x40010800, +0x400>
+gpioPortB: GPIOPort.STM32F1GPIOPort @ sysbus <0x40010C00, +0x400>
+gpioPortC: GPIOPort.STM32F1GPIOPort @ sysbus <0x40011000, +0x400>
+timer2: Timers.STM32_Timer @ sysbus 0x40000000
+    frequency: 72000000
+    initialLimit: 0xFFFF
+    UpdateInterrupt -> nvic@28
+    0 -> gpioPortA#00@02
+gpioPortA:
+    0 -> timer2@00
+rcc: Python.PythonPeripheral @ sysbus 0x40021000
+    size: 0x400
+    initable: true
+    filename: "D:/codex/单片机/stm32_bluepill/renode/rcc.py"
+adc: Python.PythonPeripheral @ sysbus 0x40012400
+    size: 0x100
+    initable: true
+    filename: "D:/codex/单片机/stm32_control/renode/adc.py"
+flashControl: Memory.ArrayMemory @ sysbus 0x40022000
+    size: 0x400

@@ -1,0 +1,11 @@
+{
+  "backend": "Renode 1.17.0",
+  "case": "disconnected_button",
+  "status": "FAIL",
+  "exit_code": 0,
+  "protocol": "Missing or out-of-order: BUTTON PRESSED",
+  "gpio": "PB12 never went low",
+  "led_connection": true,
+  "complete_trace": true,
+  "monitor_errors": false
+}

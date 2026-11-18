@@ -1,0 +1,9 @@
+{"version":"2.0.0","tasks":[
+ {"label":"控制系统: 编译STM32","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","build"],"group":{"kind":"build","isDefault":true},"problemMatcher":"$gcc"},
+ {"label":"控制系统: 编译ESP32无线桥","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","bridge"],"problemMatcher":"$gcc"},
+ {"label":"控制系统: 一键闭环验收","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","all"],"problemMatcher":[]},
+ {"label":"控制系统: 故障与接线回归","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","regression"],"problemMatcher":[]},
+ {"label":"控制系统: 启动图形控制实验室","type":"process","command":"python","args":["${workspaceFolder}/scripts/serve.py"],"problemMatcher":[]},
+ {"label":"控制系统: 控制器单元测试","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","test"],"problemMatcher":[]},
+ {"label":"控制系统: 启动GDB调试","type":"process","command":"python","args":["${workspaceFolder}/scripts/debug.py"],"problemMatcher":[]}
+]}

@@ -1,0 +1,43 @@
+// Focused STM32F103C8 digital platform: 64 KiB Flash, 20 KiB SRAM.
+flash: Memory.MappedMemory @ sysbus 0x08000000
+    size: 0x10000
+
+sram: Memory.MappedMemory @ sysbus 0x20000000
+    size: 0x5000
+
+bitbandPeripherals: Miscellaneous.BitBanding @ sysbus <0x42000000, +0x2000000>
+    peripheralBase: 0x40000000
+
+nvic: IRQControllers.NVIC @ sysbus 0xE000E000
+    priorityMask: 0xF0
+    systickFrequency: 72000000
+    IRQ -> cpu@0
+
+cpu: CPU.CortexM @ sysbus
+    cpuType: "cortex-m3"
+    nvic: nvic
+
+usart1: UART.STM32_UART @ sysbus <0x40013800, +0x100>
+    -> nvic@37
+
+gpioPortA: GPIOPort.STM32F1GPIOPort @ sysbus <0x40010800, +0x400>
+    0 -> externalLed@0
+
+gpioPortB: GPIOPort.STM32F1GPIOPort @ sysbus <0x40010C00, +0x400>
+
+gpioPortC: GPIOPort.STM32F1GPIOPort @ sysbus <0x40011000, +0x400>
+    13 -> onboardLed@0
+
+externalLed: Miscellaneous.LED @ gpioPortA 0
+
+// PC13 LED is active low; monitor reports its raw pin level.
+onboardLed: Miscellaneous.LED @ gpioPortC 0
+
+rcc: Python.PythonPeripheral @ sysbus 0x40021000
+    size: 0x400
+    initable: true
+    filename: "D:/codex/单片机/stm32_bluepill/renode/rcc.py"
+
+// Only ACR read/write is used by this firmware. No flash programming model.
+flashControl: Memory.ArrayMemory @ sysbus 0x40022000
+    size: 0x400

@@ -1,0 +1,14 @@
+{
+  "version":"0.2.0",
+  "configurations":[{
+    "name":"STM32 本地 Renode GDB（先运行启动任务）",
+    "type":"cppdbg",
+    "request":"launch",
+    "program":"${workspaceFolder}/build/bluepill/firmware.elf",
+    "cwd":"${workspaceFolder}",
+    "MIMode":"gdb",
+    "miDebuggerPath":"${workspaceFolder}/tools/platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gdb.exe",
+    "miDebuggerServerAddress":"localhost:3333",
+    "stopAtEntry":true
+  }]
+}

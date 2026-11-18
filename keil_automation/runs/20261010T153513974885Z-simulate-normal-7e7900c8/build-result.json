@@ -1,0 +1,45 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "profile": "stc8h-gpio",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\project\\firmware.uvproj",
+  "target": "STC8",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\project\\firmware.uvproj",
+      "-t",
+      "STC8",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\build.log"
+    ],
+    "pid": 20320,
+    "exit_code": 1,
+    "timed_out": false,
+    "elapsed_seconds": 1.029
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\build.log",
+  "artifacts": [
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\project\\Objects\\firmware",
+      "size": 6737,
+      "sha256": "a311256b0ae6a62030b00b6666c5929275562a5fdaebf1f9fc30f3550ba89a19"
+    },
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153513974885Z-simulate-normal-7e7900c8\\project\\Objects\\firmware.hex",
+      "size": 384,
+      "sha256": "7eb296e3712079e5f304fcf91afae36da288b982cb50e98db8097f78f27b5a59"
+    }
+  ],
+  "image_bytes": 127,
+  "error": null,
+  "license": "LICENSE_READ_WARNING",
+  "warnings": [
+    "main.c(1): warning C500: LICENSE ERROR (R207(3): REGISTRY READ ERROR)"
+  ],
+  "limitation": null,
+  "hardware_verified": false
+}

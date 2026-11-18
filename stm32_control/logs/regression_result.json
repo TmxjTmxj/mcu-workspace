@@ -1,0 +1,79 @@
+{
+  "status": "REGRESSION_PASS",
+  "action": "regression",
+  "target": "STM32F103C8 + ESP32",
+  "time": 1790496371.7259467,
+  "cases": [
+    {
+      "case": "normal",
+      "status": "SIMULATION_PASS",
+      "validation": "Final temperature within \u00b11.5\u00b0C",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "commands",
+      "status": "SIMULATION_PASS",
+      "validation": "Manual42%, OFF, remote target40\u00b0C and convergence",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "sensor",
+      "status": "SIMULATION_PASS",
+      "validation": "Protection output 1",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "overheat",
+      "status": "SIMULATION_PASS",
+      "validation": "Protection output 2",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "stall",
+      "status": "SIMULATION_PASS",
+      "validation": "Protection output 3",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "estop",
+      "status": "SIMULATION_PASS",
+      "validation": "Protection output 4",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    },
+    {
+      "case": "wrong_pwm",
+      "status": "FAIL",
+      "validation": "Final temperature within \u00b11.5\u00b0C",
+      "samples": 200,
+      "states": 200,
+      "complete": true,
+      "monitor_errors": false,
+      "exit_code": 0
+    }
+  ],
+  "radio": "ESP32 build/hardware test separate; no RF simulation"
+}

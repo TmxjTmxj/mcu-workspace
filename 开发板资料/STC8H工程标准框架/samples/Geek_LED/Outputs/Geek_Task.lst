@@ -1,0 +1,78 @@
+C51 COMPILER V9.60.0.0   GEEK_TASK                                                         11/18/2023 20:46:43 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE GEEK_TASK
+OBJECT MODULE PLACED IN .\Outputs\Geek_Task.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE UserDevices\Geek_Task.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE INCDIR(.\Use
+                    -r;.\App;.\ChipDevices;.\ISR;.\UserDevices) DEBUG PRINT(.\Outputs\Geek_Task.lst) TABS(2) OBJECT(.\Outputs\Geek_Task.obj)
+
+line level    source
+
+   1          #include  "Geek_Task.h"
+   2          
+   3          extern  TASK_COMPONENTS Task_Comps[];
+   4          extern u8 Tasks_Max;
+   5          //========================================================================
+   6          // 函数: Task_Handler_Callback
+   7          // 描述: 任务标记回调函数.
+   8          // 参数: None.
+   9          // 返回: None.
+  10          // 版本: V1.0, 2012-10-22
+  11          //========================================================================
+  12          void Task_Marks_Handler_Callback(void)
+  13          {
+  14   1        u8 i;
+  15   1        for(i=0; i<Tasks_Max; i++)
+  16   1        {
+  17   2          if(Task_Comps[i].TIMCount)    /* If the time is not 0 */
+  18   2          {
+  19   3            Task_Comps[i].TIMCount--;  /* Time counter decrement */
+  20   3            if(Task_Comps[i].TIMCount == 0)  /* If time arrives */
+  21   3            {
+  22   4              /*Resume the timer value and try again */
+  23   4              Task_Comps[i].TIMCount = Task_Comps[i].TRITime;  
+  24   4              Task_Comps[i].Run = 1;    /* The task can be run */
+  25   4            }
+  26   3          }
+  27   2        }
+  28   1      }
+  29          
+  30          //========================================================================
+  31          // 函数: Task_Pro_Handler_Callback
+  32          // 描述: 任务处理回调函数.
+  33          // 参数: None.
+  34          // 返回: None.
+  35          // 版本: V1.0, 2012-10-22
+  36          //========================================================================
+  37          void Task_Pro_Handler_Callback(void)
+  38          {
+  39   1        u8 i;
+  40   1        for(i=0; i<Tasks_Max; i++)
+  41   1        {
+  42   2          if(Task_Comps[i].Run) /* If task can be run */
+  43   2          {
+  44   3            Task_Comps[i].Run = 0;    /* Flag clear 0 */
+  45   3            Task_Comps[i].TaskHook();  /* Run task */
+  46   3          }
+  47   2        }
+  48   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    235    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----       1
+C51 COMPILER V9.60.0.0   GEEK_TASK                                                         11/18/2023 20:46:43 PAGE 2   
+
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

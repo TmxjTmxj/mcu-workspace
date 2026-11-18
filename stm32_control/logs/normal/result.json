@@ -1,0 +1,11 @@
+{
+  "case": "normal",
+  "status": "SIMULATION_PASS",
+  "validation": "Final temperature within \u00b11.5\u00b0C",
+  "samples": 200,
+  "states": 200,
+  "complete": true,
+  "telemetry_complete": true,
+  "monitor_errors": false,
+  "exit_code": 0
+}

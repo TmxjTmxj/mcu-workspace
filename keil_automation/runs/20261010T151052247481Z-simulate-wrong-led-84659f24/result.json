@@ -1,0 +1,95 @@
+{
+  "status": "FAIL",
+  "run_id": "5c0bcad8c2d44a07b442f8aa8ed729fb",
+  "assertions": {
+    "checksum": {
+      "status": "PASS",
+      "value": 55
+    },
+    "timer": {
+      "status": "PASS",
+      "value": 1
+    },
+    "input_high": {
+      "status": "PASS",
+      "value": 1
+    },
+    "input_low": {
+      "status": "PASS",
+      "value": 0
+    },
+    "led": {
+      "status": "FAIL",
+      "value": 253
+    }
+  },
+  "missing": [],
+  "duplicate_assertions": [],
+  "debug_errors": [],
+  "complete": true,
+  "profile": "smoke8051",
+  "case": "wrong-led",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-d",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\firmware.uvproj",
+      "-t",
+      "Simulator",
+      "-j0"
+    ],
+    "pid": 4080,
+    "exit_code": 0,
+    "timed_out": false,
+    "elapsed_seconds": 2.021
+  },
+  "build": {
+    "status": "PASS_WITH_WARNINGS",
+    "profile": "smoke8051",
+    "case": "wrong-led",
+    "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\firmware.uvproj",
+    "target": "Simulator",
+    "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24",
+    "process": {
+      "args": [
+        "D:/keil/UV4/UV4.exe",
+        "-r",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\firmware.uvproj",
+        "-t",
+        "Simulator",
+        "-j0",
+        "-o",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\build.log"
+      ],
+      "pid": 27568,
+      "exit_code": 1,
+      "timed_out": false,
+      "elapsed_seconds": 0.974
+    },
+    "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\build.log",
+    "artifacts": [
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\Objects\\firmware",
+        "size": 3209,
+        "sha256": "00aae05e062ac54d2d71e186efe75b86de6013a2baf7fe82ba069e9602c60934"
+      },
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\Objects\\firmware.hex",
+        "size": 634,
+        "sha256": "4b54fc7478e5620d699198a509e76565d29d8b69156812556038aeaacd867a49"
+      }
+    ],
+    "image_bytes": 213,
+    "error": null,
+    "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+    "limitation": null,
+    "hardware_verified": false
+  },
+  "script": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\debug.ini",
+  "debug_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\debug.log",
+  "serial_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\serial.log",
+  "uart_ok": true,
+  "simulation_scope": "standard_8051_cpu_timer_uart_gpio; NOT_STC8H_PERIPHERALS",
+  "hardware_verified": false
+}

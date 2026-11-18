@@ -1,0 +1,13 @@
+[16:14:56.7060] [INFO] Loaded monitor commands from: D:\codex\单片机\stm32_bluepill\tools\renode\renode_1.17.0-portable\scripts/monitor.py
+[16:14:56.7934] [INFO] Including script(s): D:\codex\单片机\stm32_control\logs\debug\debug.resc
+[16:14:56.8021] [INFO] System bus created.
+[16:14:57.2801] [INFO] sysbus: Loading block of 11520 bytes length at 0x8000000.
+[16:14:57.2872] [INFO] sysbus: Loading block of 784 bytes length at 0x8002D00.
+[16:14:57.2873] [INFO] sysbus: Loading block of 1536 bytes length at 0x8002EDC.
+[16:14:57.3890] [INFO] smart_fan: CPUs: ["smart_fan.cpu"] were added to a new GDB server created on port :3333
+[16:14:57.3890] [INFO] smart_fan: GDB server with all CPUs started on port :3333
+[16:14:57.7663] [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+[16:14:57.7723] [INFO] cpu: Setting initial values: PC = 0x8002AB1, SP = 0x20005000.
+[16:14:57.7733] [INFO] smart_fan: Machine started.
+[16:14:57.9741] [WARNING] gpioPortB: Trying to set the state of the input pin #12
+[16:14:57.9868] [WARNING] timer2: Unhandled write to offset 0x18. Unhandled bits: [3] when writing value 0x68. Tags: Output compare 1 preload enable (OC1PE) (0x1).

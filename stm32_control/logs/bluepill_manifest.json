@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "platformio.ini": "baa18ef64f112b347b55b834e37bfaf396d3bf82a7ea85e3f9fce1ad5c38ad24",
+    "firmware/controller/control.c": "342793f8ab06aa74fb4e1129dc369b4691fd348b66e4ebd3da71a53278c79f9b",
+    "firmware/controller/control.h": "dd27487e794f2e5b353d061732b0f58d6d3e055481699443500bfc378b48dead",
+    "firmware/controller/main.c": "062976ca1aae3cbd0c6c4d99e98f5b108817b88ccc1a0b4a43c11cfb8e345703",
+    "firmware/controller/protocol.c": "7c9828f0459339535957379535297a7e8b510d91069ae17d22afa62185cf6c7f",
+    "firmware/controller/protocol.h": "9b64a02e1638e06bc8e58e4f7b90cf765827e6f49a70971516967962b7183a69"
+  },
+  "artifacts": {
+    "firmware.elf": "ca0f0912ec7efafe326e005d0625f4bea9f1eb288856c4c73e8b465df5608b8e",
+    "firmware.bin": "a0654548556b9cf82e381c9115285724c6b1f45b247238d20d34f3836ca2bcd2"
+  }
+}

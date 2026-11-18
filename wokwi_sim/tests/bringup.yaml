@@ -1,0 +1,13 @@
+name: Equivalent board bring-up and button
+version: 1
+steps:
+  - wait-serial: "SYSTEM READY EQUIVALENT"
+  - set-control:
+      part-id: k3
+      control: pressed
+      value: 1
+  - wait-serial: "[EVENT] BUTTON K3 PRESSED"
+  - set-control:
+      part-id: k3
+      control: pressed
+      value: 0

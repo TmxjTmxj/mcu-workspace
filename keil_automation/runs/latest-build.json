@@ -1,0 +1,31 @@
+{
+  "status": "FAIL",
+  "profile": "smoke8051",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T150951736567Z-build-smoke8051-b8bd8ecf\\project\\firmware.uvproj",
+  "target": "Simulator",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T150951736567Z-build-smoke8051-b8bd8ecf",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T150951736567Z-build-smoke8051-b8bd8ecf\\project\\firmware.uvproj",
+      "-t",
+      "Simulator",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T150951736567Z-build-smoke8051-b8bd8ecf\\build.log"
+    ],
+    "pid": 16364,
+    "exit_code": 3,
+    "timed_out": false,
+    "elapsed_seconds": 2.421
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T150951736567Z-build-smoke8051-b8bd8ecf\\build.log",
+  "artifacts": [],
+  "image_bytes": null,
+  "error": null,
+  "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+  "limitation": null,
+  "hardware_verified": false
+}

@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "action": "all",
+  "target": "STM32F103C8 + ESP32",
+  "time": 1790497177.2055678,
+  "reason": "[Errno 2] No such file or directory: 'D:\\\\codex\\\\\u5355\u7247\u673a\\\\stm32_control\\\\logs\\\\debug\\\\telemetry.json'"
+}

@@ -1,0 +1,50 @@
+C51 COMPILER V9.60.7.0   WATERLIGHT                                                        10/10/2026 23:22:04 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE WATERLIGHT
+OBJECT MODULE PLACED IN .\Objects\WaterLight.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE APP\WaterLight.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.\User;.\APP;.\ChipDev
+                    -ices;.\ISR;.\UserDevices) DEBUG PRINT(.\Listings\WaterLight.lst) TABS(2) OBJECT(.\Objects\WaterLight.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF APP\WaterLight.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          #include "WaterLight.h"
+   2          #include "GPIO.h"
+   3          
+   4          static u8 water_index = 0;
+   5          
+   6          void WaterLightInit(void)
+   7          {
+   8   1          GPIO_InitTypeDef GPIO_InitStructure;
+   9   1          GPIO_InitStructure.Pin = GPIO_Pin_All;
+  10   1          GPIO_InitStructure.Mode = GPIO_PullUp;
+  11   1          GPIO_Inilize(GPIO_P6, &GPIO_InitStructure);
+  12   1          P6 = 0xFF;
+  13   1      }
+  14          
+  15          void WaterLight(void)
+  16          {
+  17   1          P6 = ~(1 << water_index);
+  18   1          water_index++;
+  19   1          if (water_index >= 8) water_index = 0;
+  20   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     59    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      1       2
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,408 @@
+mach create "smart_fan"
+machine LoadPlatformDescription @D:/codex/单片机/stm32_control/logs/wrong_pwm/platform.repl
+sysbus LoadELF @D:/codex/单片机/stm32_control/build/stm32/bluepill/firmware.elf
+sysbus.usart1 CreateFileBackend @D:/codex/单片机/stm32_control/logs/wrong_pwm/serial.log true
+sysbus.gpioPortB OnGPIO 12 true
+include @D:/codex/单片机/stm32_control/renode/plant.py
+case "wrong_pwm"
+emulation RunFor "0.1"
+plant 0.1
+emulation RunFor "0.1"
+plant 0.2
+emulation RunFor "0.1"
+plant 0.3
+emulation RunFor "0.1"
+plant 0.4
+emulation RunFor "0.1"
+plant 0.5
+emulation RunFor "0.1"
+plant 0.6
+emulation RunFor "0.1"
+plant 0.7
+emulation RunFor "0.1"
+plant 0.8
+emulation RunFor "0.1"
+plant 0.9
+emulation RunFor "0.1"
+plant 1.0
+emulation RunFor "0.1"
+plant 1.1
+emulation RunFor "0.1"
+plant 1.2
+emulation RunFor "0.1"
+plant 1.3
+emulation RunFor "0.1"
+plant 1.4
+emulation RunFor "0.1"
+plant 1.5
+emulation RunFor "0.1"
+plant 1.6
+emulation RunFor "0.1"
+plant 1.7
+emulation RunFor "0.1"
+plant 1.8
+emulation RunFor "0.1"
+plant 1.9
+emulation RunFor "0.1"
+plant 2.0
+emulation RunFor "0.1"
+plant 2.1
+emulation RunFor "0.1"
+plant 2.2
+emulation RunFor "0.1"
+plant 2.3
+emulation RunFor "0.1"
+plant 2.4
+emulation RunFor "0.1"
+plant 2.5
+emulation RunFor "0.1"
+plant 2.6
+emulation RunFor "0.1"
+plant 2.7
+emulation RunFor "0.1"
+plant 2.8
+emulation RunFor "0.1"
+plant 2.9
+emulation RunFor "0.1"
+plant 3.0
+emulation RunFor "0.1"
+plant 3.1
+emulation RunFor "0.1"
+plant 3.2
+emulation RunFor "0.1"
+plant 3.3
+emulation RunFor "0.1"
+plant 3.4
+emulation RunFor "0.1"
+plant 3.5
+emulation RunFor "0.1"
+plant 3.6
+emulation RunFor "0.1"
+plant 3.7
+emulation RunFor "0.1"
+plant 3.8
+emulation RunFor "0.1"
+plant 3.9
+emulation RunFor "0.1"
+plant 4.0
+emulation RunFor "0.1"
+plant 4.1
+emulation RunFor "0.1"
+plant 4.2
+emulation RunFor "0.1"
+plant 4.3
+emulation RunFor "0.1"
+plant 4.4
+emulation RunFor "0.1"
+plant 4.5
+emulation RunFor "0.1"
+plant 4.6
+emulation RunFor "0.1"
+plant 4.7
+emulation RunFor "0.1"
+plant 4.8
+emulation RunFor "0.1"
+plant 4.9
+emulation RunFor "0.1"
+plant 5.0
+emulation RunFor "0.1"
+plant 5.1
+emulation RunFor "0.1"
+plant 5.2
+emulation RunFor "0.1"
+plant 5.3
+emulation RunFor "0.1"
+plant 5.4
+emulation RunFor "0.1"
+plant 5.5
+emulation RunFor "0.1"
+plant 5.6
+emulation RunFor "0.1"
+plant 5.7
+emulation RunFor "0.1"
+plant 5.8
+emulation RunFor "0.1"
+plant 5.9
+emulation RunFor "0.1"
+plant 6.0
+emulation RunFor "0.1"
+plant 6.1
+emulation RunFor "0.1"
+plant 6.2
+emulation RunFor "0.1"
+plant 6.3
+emulation RunFor "0.1"
+plant 6.4
+emulation RunFor "0.1"
+plant 6.5
+emulation RunFor "0.1"
+plant 6.6
+emulation RunFor "0.1"
+plant 6.7
+emulation RunFor "0.1"
+plant 6.8
+emulation RunFor "0.1"
+plant 6.9
+emulation RunFor "0.1"
+plant 7.0
+emulation RunFor "0.1"
+plant 7.1
+emulation RunFor "0.1"
+plant 7.2
+emulation RunFor "0.1"
+plant 7.3
+emulation RunFor "0.1"
+plant 7.4
+emulation RunFor "0.1"
+plant 7.5
+emulation RunFor "0.1"
+plant 7.6
+emulation RunFor "0.1"
+plant 7.7
+emulation RunFor "0.1"
+plant 7.8
+emulation RunFor "0.1"
+plant 7.9
+emulation RunFor "0.1"
+plant 8.0
+emulation RunFor "0.1"
+plant 8.1
+emulation RunFor "0.1"
+plant 8.2
+emulation RunFor "0.1"
+plant 8.3
+emulation RunFor "0.1"
+plant 8.4
+emulation RunFor "0.1"
+plant 8.5
+emulation RunFor "0.1"
+plant 8.6
+emulation RunFor "0.1"
+plant 8.7
+emulation RunFor "0.1"
+plant 8.8
+emulation RunFor "0.1"
+plant 8.9
+emulation RunFor "0.1"
+plant 9.0
+emulation RunFor "0.1"
+plant 9.1
+emulation RunFor "0.1"
+plant 9.2
+emulation RunFor "0.1"
+plant 9.3
+emulation RunFor "0.1"
+plant 9.4
+emulation RunFor "0.1"
+plant 9.5
+emulation RunFor "0.1"
+plant 9.6
+emulation RunFor "0.1"
+plant 9.7
+emulation RunFor "0.1"
+plant 9.8
+emulation RunFor "0.1"
+plant 9.9
+emulation RunFor "0.1"
+plant 10.0
+emulation RunFor "0.1"
+plant 10.1
+emulation RunFor "0.1"
+plant 10.2
+emulation RunFor "0.1"
+plant 10.3
+emulation RunFor "0.1"
+plant 10.4
+emulation RunFor "0.1"
+plant 10.5
+emulation RunFor "0.1"
+plant 10.6
+emulation RunFor "0.1"
+plant 10.7
+emulation RunFor "0.1"
+plant 10.8
+emulation RunFor "0.1"
+plant 10.9
+emulation RunFor "0.1"
+plant 11.0
+emulation RunFor "0.1"
+plant 11.1
+emulation RunFor "0.1"
+plant 11.2
+emulation RunFor "0.1"
+plant 11.3
+emulation RunFor "0.1"
+plant 11.4
+emulation RunFor "0.1"
+plant 11.5
+emulation RunFor "0.1"
+plant 11.6
+emulation RunFor "0.1"
+plant 11.7
+emulation RunFor "0.1"
+plant 11.8
+emulation RunFor "0.1"
+plant 11.9
+emulation RunFor "0.1"
+plant 12.0
+emulation RunFor "0.1"
+plant 12.1
+emulation RunFor "0.1"
+plant 12.2
+emulation RunFor "0.1"
+plant 12.3
+emulation RunFor "0.1"
+plant 12.4
+emulation RunFor "0.1"
+plant 12.5
+emulation RunFor "0.1"
+plant 12.6
+emulation RunFor "0.1"
+plant 12.7
+emulation RunFor "0.1"
+plant 12.8
+emulation RunFor "0.1"
+plant 12.9
+emulation RunFor "0.1"
+plant 13.0
+emulation RunFor "0.1"
+plant 13.1
+emulation RunFor "0.1"
+plant 13.2
+emulation RunFor "0.1"
+plant 13.3
+emulation RunFor "0.1"
+plant 13.4
+emulation RunFor "0.1"
+plant 13.5
+emulation RunFor "0.1"
+plant 13.6
+emulation RunFor "0.1"
+plant 13.7
+emulation RunFor "0.1"
+plant 13.8
+emulation RunFor "0.1"
+plant 13.9
+emulation RunFor "0.1"
+plant 14.0
+emulation RunFor "0.1"
+plant 14.1
+emulation RunFor "0.1"
+plant 14.2
+emulation RunFor "0.1"
+plant 14.3
+emulation RunFor "0.1"
+plant 14.4
+emulation RunFor "0.1"
+plant 14.5
+emulation RunFor "0.1"
+plant 14.6
+emulation RunFor "0.1"
+plant 14.7
+emulation RunFor "0.1"
+plant 14.8
+emulation RunFor "0.1"
+plant 14.9
+emulation RunFor "0.1"
+plant 15.0
+emulation RunFor "0.1"
+plant 15.1
+emulation RunFor "0.1"
+plant 15.2
+emulation RunFor "0.1"
+plant 15.3
+emulation RunFor "0.1"
+plant 15.4
+emulation RunFor "0.1"
+plant 15.5
+emulation RunFor "0.1"
+plant 15.6
+emulation RunFor "0.1"
+plant 15.7
+emulation RunFor "0.1"
+plant 15.8
+emulation RunFor "0.1"
+plant 15.9
+emulation RunFor "0.1"
+plant 16.0
+emulation RunFor "0.1"
+plant 16.1
+emulation RunFor "0.1"
+plant 16.2
+emulation RunFor "0.1"
+plant 16.3
+emulation RunFor "0.1"
+plant 16.4
+emulation RunFor "0.1"
+plant 16.5
+emulation RunFor "0.1"
+plant 16.6
+emulation RunFor "0.1"
+plant 16.7
+emulation RunFor "0.1"
+plant 16.8
+emulation RunFor "0.1"
+plant 16.9
+emulation RunFor "0.1"
+plant 17.0
+emulation RunFor "0.1"
+plant 17.1
+emulation RunFor "0.1"
+plant 17.2
+emulation RunFor "0.1"
+plant 17.3
+emulation RunFor "0.1"
+plant 17.4
+emulation RunFor "0.1"
+plant 17.5
+emulation RunFor "0.1"
+plant 17.6
+emulation RunFor "0.1"
+plant 17.7
+emulation RunFor "0.1"
+plant 17.8
+emulation RunFor "0.1"
+plant 17.9
+emulation RunFor "0.1"
+plant 18.0
+emulation RunFor "0.1"
+plant 18.1
+emulation RunFor "0.1"
+plant 18.2
+emulation RunFor "0.1"
+plant 18.3
+emulation RunFor "0.1"
+plant 18.4
+emulation RunFor "0.1"
+plant 18.5
+emulation RunFor "0.1"
+plant 18.6
+emulation RunFor "0.1"
+plant 18.7
+emulation RunFor "0.1"
+plant 18.8
+emulation RunFor "0.1"
+plant 18.9
+emulation RunFor "0.1"
+plant 19.0
+emulation RunFor "0.1"
+plant 19.1
+emulation RunFor "0.1"
+plant 19.2
+emulation RunFor "0.1"
+plant 19.3
+emulation RunFor "0.1"
+plant 19.4
+emulation RunFor "0.1"
+plant 19.5
+emulation RunFor "0.1"
+plant 19.6
+emulation RunFor "0.1"
+plant 19.7
+emulation RunFor "0.1"
+plant 19.8
+emulation RunFor "0.1"
+plant 19.9
+emulation RunFor "0.1"
+plant 20.0
+quit

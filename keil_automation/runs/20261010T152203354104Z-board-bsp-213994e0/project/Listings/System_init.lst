@@ -1,0 +1,322 @@
+C51 COMPILER V9.60.7.0   SYSTEM_INIT                                                       10/10/2026 23:22:04 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE SYSTEM_INIT
+OBJECT MODULE PLACED IN .\Objects\System_init.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE User\System_init.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.\User;.\APP;.\ChipD
+                    -evices;.\ISR;.\UserDevices) DEBUG PRINT(.\Listings\System_init.lst) TABS(2) OBJECT(.\Objects\System_init.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF User\System_init.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          /*---------------------------------------------------------------------*/
+   2          /* --- STC MCU Limited ------------------------------------------------*/
+   3          /* --- STC 1T Series MCU Demo Programme -------------------------------*/
+   4          /* --- Mobile: (86)13922805190 ----------------------------------------*/
+   5          /* --- Fax: 86-0513-55012956,55012947,55012969 ------------------------*/
+   6          /* --- Tel: 86-0513-55012928,55012929,55012966 ------------------------*/
+   7          /* --- Web: www.STCMCU.com --------------------------------------------*/
+   8          /* --- Web: www.STCMCUDATA.com  ---------------------------------------*/
+   9          /* --- QQ:  800003751 -------------------------------------------------*/
+  10          /* ���Ҫ�ڳ�����ʹ�ô˴���,���ڳ�����ע��ʹ����STC�
+             -�����ϼ�����            */
+  11          /*---------------------------------------------------------------------*/
+  12          
+  13          
+  14          #include  "config.h"
+  15          #include  "System_init.h"
+  16          
+  17          #include  "gpio.h"
+  18          #include  "exti.h"
+  19          #include  "timer.h"
+  20          #include  "uart.h"
+  21          #include  "pwm.h"
+  22          
+  23          //��App������Ҫʹ�ó�ʼ���������������������
+             -���app�����ͷ�ļ�
+  24          #include "Led1.h"
+  25          #include "WaterLight.h"
+  26          
+  27          
+  28          
+  29          
+  30          /*************  ���س�������  **************/
+  31          
+  32          
+  33          /*************  ���ر�������  **************/
+  34          
+  35          PWMx_Duty PWMA_Duty;
+  36          
+  37          /*************  ���غ�������  **************/
+  38          
+  39          
+  40          
+  41          /*************  �ⲿ�����ͱ������� *****************/
+  42          
+  43          
+  44          //========================================================================
+  45          //                                IO������
+  46          //========================================================================
+  47          void  GPIO_config(void)
+  48          {
+  49   1        GPIO_InitTypeDef  GPIO_InitStructure;   //�ṹ����
+  50   1        
+  51   1        GPIO_InitStructure.Pin  = GPIO_Pin_All;   //ָ��Ҫ��ʼ����IO,
+C51 COMPILER V9.60.7.0   SYSTEM_INIT                                                       10/10/2026 23:22:04 PAGE 2   
+
+  52   1        GPIO_InitStructure.Mode = GPIO_PullUp;    //ָ��IO������������ʽ,GPIO_PullUp,GP
+             -IO_HighZ,GPIO_OUT_OD,GPIO_OUT_PP
+  53   1        GPIO_Inilize(GPIO_P6,&GPIO_InitStructure);  //��ʼ��
+  54   1      
+  55   1        GPIO_InitStructure.Pin  = GPIO_Pin_2;   //ָ��Ҫ��ʼ����IO,
+  56   1        GPIO_InitStructure.Mode = GPIO_PullUp;    //ָ��IO������������ʽ,GPIO_PullUp,GP
+             -IO_HighZ,GPIO_OUT_OD,GPIO_OUT_PP
+  57   1        GPIO_Inilize(GPIO_P3,&GPIO_InitStructure);  //��ʼ��  
+  58   1      
+  59   1      }
+  60          
+  61          //========================================================================
+  62          //                               ��ʱ������
+  63          //========================================================================
+  64          void  Timer_config(void)
+  65          {
+  66   1        TIM_InitTypeDef   TIM_InitStructure;            //�ṹ����
+  67   1        TIM_InitStructure.TIM_Mode      = TIM_16BitAutoReload;  //ָ������ģʽ,   TIM_16BitAutoReload,
+             -TIM_16Bit,TIM_8BitAutoReload,TIM_16BitAutoReloadNoMask
+  68   1        TIM_InitStructure.TIM_Priority    = Priority_0;     //ָ���ж����ȼ�(�͵���) Priori
+             -ty_0,Priority_1,Priority_2,Priority_3
+  69   1        TIM_InitStructure.TIM_Interrupt = ENABLE;         //�ж��Ƿ�����,   ENABLE��DISABLE
+  70   1        TIM_InitStructure.TIM_ClkSource = TIM_CLOCK_1T;   //ָ��ʱ��Դ,     TIM_CLOCK_1T,TIM_CLOCK_12T,TIM
+             -_CLOCK_Ext
+  71   1        TIM_InitStructure.TIM_ClkOut    = DISABLE;        //�Ƿ������������, ENABLE��DI
+             -SABLE
+  72   1        TIM_InitStructure.TIM_Value     = 65536UL - (MAIN_Fosc / 1000UL);   //��ֵ,
+  73   1        TIM_InitStructure.TIM_Run       = ENABLE;         //�Ƿ��ʼ����������ʱ��, ENAB
+             -LE��DISABLE
+  74   1        Timer_Inilize(Timer0,&TIM_InitStructure);         //��ʼ��Timer0    Timer0,Timer1,Timer2,Timer3,Timer4
+  75   1        
+  76   1      //  TIM_InitStructure.TIM_Mode      = TIM_16BitAutoReload;  //ָ������ģʽ,   TIM_16BitAutoReloa
+             -d,TIM_16Bit,TIM_8BitAutoReload,TIM_16BitAutoReloadNoMask
+  77   1      //  TIM_InitStructure.TIM_Priority    = Priority_0;     //ָ���ж����ȼ�(�͵���) Prio
+             -rity_0,Priority_1,Priority_2,Priority_3
+  78   1      //  TIM_InitStructure.TIM_Interrupt = ENABLE;         //�ж��Ƿ�����,   ENABLE��DISABLE
+  79   1      //  TIM_InitStructure.TIM_ClkSource = TIM_CLOCK_1T;   //ָ��ʱ��Դ, TIM_CLOCK_1T,TIM_CLOCK_12T,TIM_C
+             -LOCK_Ext
+  80   1      //  TIM_InitStructure.TIM_ClkOut    = DISABLE;        //�Ƿ������������, ENABLE��
+             -DISABLE
+  81   1      //  TIM_InitStructure.TIM_Value     = 65536UL - (MAIN_Fosc / 10000);      //��ֵ,
+  82   1      //  TIM_InitStructure.TIM_Run       = ENABLE;         //�Ƿ��ʼ����������ʱ��, EN
+             -ABLE��DISABLE
+  83   1      //  Timer_Inilize(Timer1,&TIM_InitStructure);         //��ʼ��Timer1    Timer0,Timer1,Timer2,Timer3,Time
+             -r4
+  84   1      
+  85   1      //  TIM_InitStructure.TIM_Interrupt = ENABLE;         //�ж��Ƿ�����,   ENABLE��DISABLE. (�
+             -���: Timer2�̶�Ϊ16λ�Զ���װ, �жϹ̶�Ϊ�����ȼ�)
+  86   1      //  TIM_InitStructure.TIM_ClkSource = TIM_CLOCK_1T;   //ָ��ʱ��Դ,     TIM_CLOCK_1T,TIM_CLOCK_12T,T
+             -IM_CLOCK_Ext
+  87   1      //  TIM_InitStructure.TIM_ClkOut    = DISABLE;        //�Ƿ������������, ENABLE��
+             -DISABLE
+  88   1      //  TIM_InitStructure.TIM_Value     = 65536UL - (MAIN_Fosc / 1000);       //��ֵ
+  89   1      //  TIM_InitStructure.TIM_Run       = ENABLE;         //�Ƿ��ʼ����������ʱ��, EN
+             -ABLE��DISABLE
+  90   1      //  Timer_Inilize(Timer2,&TIM_InitStructure);         //��ʼ��Timer2    Timer0,Timer1,Timer2,Timer3,Time
+             -r4
+  91   1      
+  92   1      //  TIM_InitStructure.TIM_Interrupt = DISABLE;          //�ж��Ƿ�����,   ENABLE��DISABLE. (
+             -ע��: Timer2�̶�Ϊ16λ�Զ���װ, �жϹ̶�Ϊ�����ȼ�)
+  93   1      //  TIM_InitStructure.TIM_ClkSource = TIM_CLOCK_12T;  //ָ��ʱ��Դ,     TIM_CLOCK_1T,TIM_CLOCK_12T,T
+             -IM_CLOCK_Ext
+C51 COMPILER V9.60.7.0   SYSTEM_INIT                                                       10/10/2026 23:22:04 PAGE 3   
+
+  94   1      //  TIM_InitStructure.TIM_ClkOut    = ENABLE;         //�Ƿ������������, ENABLE��
+             -DISABLE
+  95   1      //  TIM_InitStructure.TIM_Value     = 65536UL - (MAIN_Fosc / (100*12));   //��ֵ
+  96   1      //  TIM_InitStructure.TIM_Run       = ENABLE;         //�Ƿ��ʼ����������ʱ��, EN
+             -ABLE��DISABLE
+  97   1      //  Timer_Inilize(Timer3,&TIM_InitStructure);         //��ʼ��Timer3    Timer0,Timer1,Timer2,Timer3,Time
+             -r4
+  98   1      
+  99   1      //  TIM_InitStructure.TIM_Interrupt = ENABLE;         //�ж��Ƿ�����,   ENABLE��DISABLE. (�
+             -���: Timer2�̶�Ϊ16λ�Զ���װ, �жϹ̶�Ϊ�����ȼ�)
+ 100   1      //  TIM_InitStructure.TIM_ClkSource = TIM_CLOCK_12T;  //ָ��ʱ��Դ,     TIM_CLOCK_1T,TIM_CLOCK_12T,T
+             -IM_CLOCK_Ext
+ 101   1      //  TIM_InitStructure.TIM_ClkOut    = ENABLE;         //�Ƿ������������, ENABLE��
+             -DISABLE
+ 102   1      //  TIM_InitStructure.TIM_Value     = 65536UL - (MAIN_Fosc / (50*12));    //��ֵ
+ 103   1      //  TIM_InitStructure.TIM_Run       = ENABLE;         //�Ƿ��ʼ����������ʱ��, EN
+             -ABLE��DISABLE
+ 104   1      //  Timer_Inilize(Timer4,&TIM_InitStructure);         //��ʼ��Timer4    Timer0,Timer1,Timer2,Timer3,Time
+             -r4
+ 105   1      }
+ 106          
+ 107          
+ 108          //========================================================================
+ 109          //                              ���ڳ�ʼ��
+ 110          //========================================================================
+ 111          void  UART_config(void)
+ 112          {
+ 113   1        COMx_InitDefine   COMx_InitStructure;         //�ṹ����
+ 114   1        COMx_InitStructure.UART_Mode      = UART_8bit_BRTx;   //ģʽ,       UART_ShiftRight,UART_8bit_BRTx,UART_9b
+             -it,UART_9bit_BRTx
+ 115   1        COMx_InitStructure.UART_BRT_Use   = BRT_Timer1;     //ѡ�����ʷ�����,   BRT_Timer1, BRT
+             -_Timer2 (ע��: ����2�̶�ʹ��BRT_Timer2)
+ 116   1        COMx_InitStructure.UART_BaudRate  = 115200ul;     //������, һ�� 110 ~ 115200
+ 117   1        COMx_InitStructure.UART_RxEnable  = ENABLE;       //��������,   ENABLE��DISABLE
+ 118   1        COMx_InitStructure.BaudRateDouble = DISABLE;      //�����ʼӱ�, ENABLE��DISABLE
+ 119   1        COMx_InitStructure.UART_Interrupt = ENABLE;       //�ж�����,   ENABLE��DISABLE
+ 120   1        COMx_InitStructure.UART_Priority    = Priority_0;     //ָ���ж����ȼ�(�͵���) Prio
+             -rity_0,Priority_1,Priority_2,Priority_3
+ 121   1        COMx_InitStructure.UART_P_SW      = UART1_SW_P30_P31; //�л��˿�,   UART1_SW_P30_P31,UART1_SW_P36
+             -_P37,UART1_SW_P16_P17,UART1_SW_P43_P44
+ 122   1        UART_Configuration(UART1, &COMx_InitStructure);   //��ʼ������1 UART1,UART2,UART3,UART4
+ 123   1      
+ 124   1      //  COMx_InitStructure.UART_Mode      = UART_8bit_BRTx;   //ģʽ,       UART_ShiftRight,UART_8bit_BRTx,UART_
+             -9bit,UART_9bit_BRTx
+ 125   1      ////  COMx_InitStructure.UART_BRT_Use   = BRT_Timer2;     //ѡ�����ʷ�����, BRT_Timer2 (�
+             -���: ����2�̶�ʹ��BRT_Timer2, ���Բ���ѡ��)
+ 126   1      //  COMx_InitStructure.UART_BaudRate  = 57600ul;      //������,     110 ~ 115200
+ 127   1      //  COMx_InitStructure.UART_RxEnable  = ENABLE;       //��������,   ENABLE��DISABLE
+ 128   1      //  COMx_InitStructure.UART_Interrupt = ENABLE;       //�ж�����,   ENABLE��DISABLE
+ 129   1      //  COMx_InitStructure.UART_Priority    = Priority_0;     //ָ���ж����ȼ�(�͵���) Pr
+             -iority_0,Priority_1,Priority_2,Priority_3
+ 130   1      //  COMx_InitStructure.UART_P_SW      = UART2_SW_P46_P47; //�л��˿�,   UART2_SW_P10_P11,UART2_SW_P
+             -46_P47
+ 131   1      //  UART_Configuration(UART2, &COMx_InitStructure);   //��ʼ������2 UART1,UART2,UART3,UART4
+ 132   1      
+ 133   1      //  PrintString1("STC8 UART1 Test Programme!\r\n"); //UART1����һ���ַ���
+ 134   1      //  PrintString2("STC8 UART2 Test Programme!\r\n"); //UART2����һ���ַ���
+ 135   1      }
+ 136          
+ 137          //========================================================================
+ 138          //                             �ⲿ�жϳ�ʼ��
+ 139          //========================================================================
+C51 COMPILER V9.60.7.0   SYSTEM_INIT                                                       10/10/2026 23:22:04 PAGE 4   
+
+ 140          void  Exti_config(void)
+ 141          {
+ 142   1        EXTI_InitTypeDef  Exti_InitStructure;             //�ṹ����
+ 143   1      
+ 144   1        Exti_InitStructure.EXTI_Interrupt = ENABLE;       //�ж�ʹ��,   ENABLE��DISABLE
+ 145   1        Exti_InitStructure.EXTI_Mode      = EXT_MODE_Fall;//�ж�ģʽ,   EXT_MODE_RiseFall,EXT_MODE_Fall
+ 146   1        Exti_InitStructure.EXTI_Priority  = Priority_0;   //ָ���ж����ȼ�(�͵���) Priorit
+             -y_0,Priority_1,Priority_2,Priority_3
+ 147   1        Ext_Inilize(EXT_INT0,&Exti_InitStructure);        //��ʼ��
+ 148   1      
+ 149   1      //  Exti_InitStructure.EXTI_Interrupt = ENABLE;       //�ж�ʹ��,   ENABLE��DISABLE
+ 150   1      //  Exti_InitStructure.EXTI_Mode      = EXT_MODE_Fall;//�ж�ģʽ,   EXT_MODE_RiseFall,EXT_MODE_Fall
+ 151   1      //  Exti_InitStructure.EXTI_Priority  = Priority_0;   //ָ���ж����ȼ�(�͵���) Prior
+             -ity_0,Priority_1,Priority_2,Priority_3
+ 152   1      //  Ext_Inilize(EXT_INT1,&Exti_InitStructure);        //��ʼ��
+ 153   1      
+ 154   1      //  Exti_InitStructure.EXTI_Interrupt = ENABLE;       //�ж�ʹ��,   ENABLE��DISABLE
+ 155   1      //  Ext_Inilize(EXT_INT2,&Exti_InitStructure);        //��ʼ��
+ 156   1      
+ 157   1      //  Exti_InitStructure.EXTI_Interrupt = ENABLE;       //�ж�ʹ��,   ENABLE��DISABLE
+ 158   1      //  Ext_Inilize(EXT_INT3,&Exti_InitStructure);        //��ʼ��
+ 159   1      
+ 160   1      //  Exti_InitStructure.EXTI_Interrupt = ENABLE;       //�ж�ʹ��,   ENABLE��DISABLE
+ 161   1      //  Ext_Inilize(EXT_INT4,&Exti_InitStructure);        //��ʼ��
+ 162   1      }
+ 163          
+ 164          /***************  PWM��ʼ������ *****************/
+ 165          void  PWM_config(void)
+ 166          {
+ 167   1        PWMx_InitDefine   PWMx_InitStructure;
+ 168   1        
+ 169   1        PWMx_InitStructure.PWM1_Mode    = CCMRn_PWM_MODE1;  //ģʽ,   CCMRn_FREEZE,CCMRn_MATCH_VALID,CCMRn_MATCH_IN
+             -VALID,CCMRn_ROLLOVER,CCMRn_FORCE_INVALID,CCMRn_FORCE_VALID,CCMRn_PWM_MODE1,CCMRn_PWM_MODE2
+ 170   1        PWMx_InitStructure.PWM2_Mode    = CCMRn_PWM_MODE1;  //ģʽ,   CCMRn_FREEZE,CCMRn_MATCH_VALID,CCMRn_MATCH_IN
+             -VALID,CCMRn_ROLLOVER,CCMRn_FORCE_INVALID,CCMRn_FORCE_VALID,CCMRn_PWM_MODE1,CCMRn_PWM_MODE2
+ 171   1        PWMx_InitStructure.PWM3_Mode    = CCMRn_PWM_MODE1;  //ģʽ,   CCMRn_FREEZE,CCMRn_MATCH_VALID,CCMRn_MATCH_IN
+             -VALID,CCMRn_ROLLOVER,CCMRn_FORCE_INVALID,CCMRn_FORCE_VALID,CCMRn_PWM_MODE1,CCMRn_PWM_MODE2
+ 172   1        PWMx_InitStructure.PWM4_Mode    = CCMRn_PWM_MODE1;  //ģʽ,   CCMRn_FREEZE,CCMRn_MATCH_VALID,CCMRn_MATCH_IN
+             -VALID,CCMRn_ROLLOVER,CCMRn_FORCE_INVALID,CCMRn_FORCE_VALID,CCMRn_PWM_MODE1,CCMRn_PWM_MODE2
+ 173   1      
+ 174   1        PWMx_InitStructure.PWM1_SetPriority  = Priority_0;      //ָ���ж����ȼ�(�͵���) Pri
+             -ority_0,Priority_1,Priority_2,Priority_3
+ 175   1        PWMx_InitStructure.PWM2_SetPriority  = Priority_0;      //ָ���ж����ȼ�(�͵���) Pri
+             -ority_0,Priority_1,Priority_2,Priority_3
+ 176   1        PWMx_InitStructure.PWM3_SetPriority  = Priority_0;      //ָ���ж����ȼ�(�͵���) Pri
+             -ority_0,Priority_1,Priority_2,Priority_3
+ 177   1        PWMx_InitStructure.PWM4_SetPriority  = Priority_0;      //ָ���ж����ȼ�(�͵���) Pri
+             -ority_0,Priority_1,Priority_2,Priority_3
+ 178   1        
+ 179   1        PWMx_InitStructure.PWM_Period   = MAIN_Fosc /1000;     //2047;              //����ʱ��,   0~65535
+ 180   1        PWMx_InitStructure.PWM1_Duty    = PWMA_Duty.PWM1_Duty;  //PWM1ռ�ձ�ʱ��, 0~Period
+ 181   1        PWMx_InitStructure.PWM2_Duty    = PWMA_Duty.PWM2_Duty;  //PWM2ռ�ձ�ʱ��, 0~Period
+ 182   1        PWMx_InitStructure.PWM3_Duty    = PWMA_Duty.PWM3_Duty;  //PWM3ռ�ձ�ʱ��, 0~Period
+ 183   1        PWMx_InitStructure.PWM4_Duty    = PWMA_Duty.PWM4_Duty;  //PWM4ռ�ձ�ʱ��, 0~Period
+ 184   1        PWMx_InitStructure.PWM_DeadTime = 0;                //��������������, 0~255
+ 185   1        
+ 186   1        PWMx_InitStructure.PWM_EnoSelect   = ENO1P | ENO1N | ENO2P | ENO2N | ENO3P | ENO3N | ENO4P | ENO4N; //�
+             -��ͨ��ѡ��, ENO1P,ENO1N,ENO2P,ENO2N,ENO3P,ENO3N,ENO4P,ENO4N / ENO5P,ENO6P,ENO7P,ENO8P
+ 187   1        PWMx_InitStructure.PWM_PS_SW       = PWM1_SW_P60_P61| PWM2_SW_P62_P63 | PWM3_SW_P64_P65 | PWM4_SW_P66_P67
+             -;  
+ 188   1                              //�л��˿�,   PWM1_SW_P10_P11,PWM1_SW_P20_P21,PWM1_SW_P60_P61
+ 189   1                              //            PWM2_SW_P12_P13,PWM2_SW_P22_P23,PWM2_SW_P62_P63
+C51 COMPILER V9.60.7.0   SYSTEM_INIT                                                       10/10/2026 23:22:04 PAGE 5   
+
+ 190   1                              //            PWM3_SW_P14_P15,PWM3_SW_P24_P25,PWM3_SW_P64_P65
+ 191   1                              //            PWM4_SW_P16_P17,PWM4_SW_P26_P27,PWM4_SW_P66_P67,PWM4_SW_P34_P33
+ 192   1      
+ 193   1        PWMx_InitStructure.PWM_CC1Enable   = ENABLE;        //����PWM1P���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 194   1        PWMx_InitStructure.PWM_CC1NEnable  = ENABLE;        //����PWM1N���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 195   1        PWMx_InitStructure.PWM_CC2Enable   = ENABLE;        //����PWM2P���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 196   1        PWMx_InitStructure.PWM_CC2NEnable  = ENABLE;        //����PWM2N���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 197   1        PWMx_InitStructure.PWM_CC3Enable   = ENABLE;        //����PWM3P���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 198   1        PWMx_InitStructure.PWM_CC3NEnable  = ENABLE;        //����PWM3N���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 199   1        PWMx_InitStructure.PWM_CC4Enable   = ENABLE;        //����PWM4P���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 200   1        PWMx_InitStructure.PWM_CC4NEnable  = ENABLE;        //����PWM4N���벶��/�Ƚ����, 
+             - ENABLE,DISABLE
+ 201   1        
+ 202   1        PWMx_InitStructure.PWM_MainOutEnable= ENABLE;       //�����ʹ��, ENABLE,DISABLE
+ 203   1        PWMx_InitStructure.PWM_CEN_Enable   = ENABLE;       //ʹ�ܼ�����, ENABLE,DISABLE
+ 204   1        PWM_Configuration(PWMA, &PWMx_InitStructure);       //��ʼ��PWM,  PWMA,PWMB
+ 205   1      }
+ 206          
+ 207          
+ 208          //========================================================================
+ 209          //                                ϵͳ��ʼ��
+ 210          //========================================================================
+ 211          void  SYS_Init(void)
+ 212          {
+ 213   1        // Ƭ���豸�ĳ�ʼ��
+ 214   1        
+ 215   1        Timer_config();    // �������������ʱ��T0����һ��1ms�Ļ�׼�
+             -���ʱ������������������������1ms�Ķ�ʱ���δ���
+ 216   1      
+ 217   1        EA = 1; 
+ 218   1        
+ 219   1        // �û��豸�ĳ�ʼ��
+ 220   1        Led1Init();
+ 221   1        WaterLightInit();
+ 222   1      
+ 223   1      
+ 224   1      }
+ 225          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    308    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =     16      77
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,108 @@
+Processing bluepill (platform: ststm32@19.4.0; board: bluepill_f103c8; framework: stm32cube)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/ststm32/bluepill_f103c8.html
+PLATFORM: ST STM32 (19.4.0) > BluePill F103C8
+HARDWARE: STM32F103C8T6 72MHz, 20KB RAM, 64KB Flash
+DEBUG: Current (stlink) External (blackmagic, cmsis-dap, jlink, stlink)
+PACKAGES: 
+ - framework-stm32cubef1 @ 1.8.7 
+ - tool-ldscripts-ststm32 @ 0.2.0 
+ - toolchain-gccarmnoneeabi @ 1.70201.0 (7.2.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 28 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in debug mode
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_adc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_adc_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_can.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_cec.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_cortex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_crc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_dac.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_dac_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_dma.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_eth.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_exti.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_flash.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_flash_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_gpio.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_gpio_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_hcd.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_i2c.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_i2s.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_irda.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_iwdg.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_mmc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_nand.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_nor.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_pccard.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_pcd.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_pcd_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_pwr.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_rcc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_rcc_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_rtc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_rtc_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_sd.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_smartcard.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_spi.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_sram.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_tim.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_tim_ex.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_uart.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_usart.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_hal_wwdg.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_adc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_crc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_dac.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_dma.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_exti.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_fsmc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_gpio.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_i2c.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_pwr.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_rcc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_rtc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_sdmmc.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_spi.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_tim.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_usart.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_usb.o
+Compiling build\stm32\bluepill\FrameworkHALDriver\Src\stm32f1xx_ll_utils.o
+Compiling build\stm32\bluepill\src\controller\control.o
+Compiling build\stm32\bluepill\src\controller\main.o
+Compiling build\stm32\bluepill\src\controller\protocol.o
+Compiling build\stm32\bluepill\FrameworkCMSISDevice\gcc\startup_stm32f103xb.o
+Compiling build\stm32\bluepill\FrameworkCMSISDevice\system_stm32f1xx.o
+Archiving build\stm32\bluepill\libFrameworkCMSISDevice.a
+Indexing build\stm32\bluepill\libFrameworkCMSISDevice.a
+Linking build\stm32\bluepill\firmware.elf
+Checking size build\stm32\bluepill\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   4.5% (used 928 bytes from 20480 bytes)
+Flash: [==        ]  20.2% (used 13256 bytes from 65536 bytes)
+Building build\stm32\bluepill\firmware.bin
+========================= [SUCCESS] Took 2.15 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+bluepill       SUCCESS   00:00:02.147
+========================= 1 succeeded in 00:00:02.147 =========================
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c: In function 'HAL_PCD_WKUP_IRQHandler':
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c:1456:49: warning: unused parameter 'hpcd' [-Wunused-parameter]
+ void HAL_PCD_WKUP_IRQHandler(PCD_HandleTypeDef *hpcd)
+                                                 ^~~~
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c: In function 'UTILS_PLL_HSE_ConfigSystemClock':
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c:571:61: warning: unused parameter 'PLL_InputFrequency' [-Wunused-parameter]
+ static ErrorStatus UTILS_PLL_HSE_ConfigSystemClock(uint32_t PLL_InputFrequency, uint32_t HSEBypass,
+                                                             ^~~~~~~~~~~~~~~~~~
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c:572:77: warning: unused parameter 'UTILS_PLLInitStruct' [-Wunused-parameter]
+                                                    LL_UTILS_PLLInitTypeDef *UTILS_PLLInitStruct,
+                                                                             ^~~~~~~~~~~~~~~~~~~
+D:\codex\\xb5\xa5Ƭ\xbb\xfa\stm32_bluepill\tools\platformio\packages\framework-stm32cubef1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c:573:77: warning: unused parameter 'UTILS_ClkInitStruct' [-Wunused-parameter]
+                                                    LL_UTILS_ClkInitTypeDef *UTILS_ClkInitStruct)
+                                                                             ^~~~~~~~~~~~~~~~~~~

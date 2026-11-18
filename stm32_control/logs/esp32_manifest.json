@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "platformio.ini": "baa18ef64f112b347b55b834e37bfaf396d3bf82a7ea85e3f9fce1ad5c38ad24",
+    "firmware/bridge/main.cpp": "5133cdc76bf0f932be6d8fe4516b71be0e75d668c3c36d11a79a43e1b41766bb"
+  },
+  "artifacts": {
+    "firmware.elf": "987ad9a3b0d6c33d9efefa9e68cf9bf4b68c086e259459ed7cf68085d1a9d3d0",
+    "firmware.bin": "d4a94822b51191415a3f317a8fdf04bee90181b761e54d1bdeb67d46328a1652"
+  }
+}

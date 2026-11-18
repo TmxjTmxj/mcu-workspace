@@ -1,0 +1,6 @@
+{
+  "status": "BUILD_PASS",
+  "action": "build",
+  "target": "STM32F103C8 + ESP32",
+  "time": 1790497089.1639962
+}

@@ -1,0 +1,11 @@
+[15:32:37.8354] [INFO] Loaded monitor commands from: D:\codex\单片机\stm32_bluepill\tools\renode\renode_1.17.0-portable\scripts/monitor.py
+[15:32:37.9181] [INFO] Including script(s): D:\codex\单片机\stm32_bluepill\logs\renode_debug\debug.resc
+[15:32:37.9272] [INFO] System bus created.
+[15:32:38.3946] [INFO] sysbus: Loading block of 4476 bytes length at 0x8000000.
+[15:32:38.4014] [INFO] sysbus: Loading block of 116 bytes length at 0x800117C.
+[15:32:38.4015] [INFO] sysbus: Loading block of 1540 bytes length at 0x8001188.
+[15:32:38.4592] [INFO] bluepill: CPUs: ["bluepill.cpu"] were added to a new GDB server created on port :3333
+[15:32:38.4592] [INFO] bluepill: GDB server with all CPUs started on port :3333
+[15:32:38.7775] [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+[15:32:38.7835] [INFO] cpu: Setting initial values: PC = 0x8001061, SP = 0x20005000.
+[15:32:38.7845] [INFO] bluepill: Machine started.

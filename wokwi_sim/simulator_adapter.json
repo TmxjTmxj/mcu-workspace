@@ -1,0 +1,32 @@
+{
+  "backend": "wokwi",
+  "cpu": "ATmega2560",
+  "fidelity": "BEHAVIORALLY_SIMULATED",
+  "original_firmware_compatible": false,
+  "clock_hz": 16000000,
+  "pin_map": {
+    "P6.0": "22",
+    "P6.1": "23",
+    "P6.2": "24",
+    "P6.3": "25",
+    "P6.4": "26",
+    "P6.5": "27",
+    "P6.6": "28",
+    "P6.7": "29",
+    "P3.0": "0",
+    "P3.1": "1",
+    "P3.3": "2",
+    "P1.0": "A0",
+    "P1.4": "20",
+    "P1.5": "21"
+  },
+  "optional_models": {
+    "oled": {
+      "model": "SSD1306",
+      "address": "0x3C",
+      "real_controller": "UNKNOWN",
+      "real_address": "UNKNOWN",
+      "purpose": "synthetic attached test device; not proven physical board OLED"
+    }
+  }
+}

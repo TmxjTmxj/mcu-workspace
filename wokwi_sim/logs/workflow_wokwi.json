@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL",
+  "diagram_lint": "PASS",
+  "simulation": "BLOCKED",
+  "execution_evidence": "logs/wokwi_attempt.log",
+  "reason": "Initial CLI attempt: Missing WOKWI_CLI_TOKEN. Subsequent elevated default workflow rejected by automatic approval for potential external upload. No retry/workaround after rejection.",
+  "native_runtime": "NOT_VERIFIED"
+}

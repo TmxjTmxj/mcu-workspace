@@ -1,0 +1,20 @@
+SLOG > serial.log
+printf("RUN_BEGIN 5c0bcad8c2d44a07b442f8aa8ed729fb\n");
+RUN_BEGIN 5c0bcad8c2d44a07b442f8aa8ed729fb
+RESET
+G, main
+G, checkpoint_high
+PORT3 = 0xff
+G, checkpoint_low
+PORT3 = 0xfb
+G, test_done
+check_results()
+ASSERT checksum PASS value=55
+ASSERT timer PASS value=1
+ASSERT input_high PASS value=1
+ASSERT input_low PASS value=0
+ASSERT led FAIL value=253
+printf("RUN_END 5c0bcad8c2d44a07b442f8aa8ed729fb\n");
+RUN_END 5c0bcad8c2d44a07b442f8aa8ed729fb
+SLOG OFF
+LOG OFF

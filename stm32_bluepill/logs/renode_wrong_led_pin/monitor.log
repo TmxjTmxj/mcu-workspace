@@ -1,0 +1,917 @@
+[15:35:29.2346] [INFO] Loaded monitor commands from: D:\codex\单片机\stm32_bluepill\tools\renode\renode_1.17.0-portable\scripts/monitor.py
+Renode, version 1.17.0 (1.17.0+20260906gitf1dd1b4af)
+
+
+(monitor) i @D:\codex\单片机\stm32_bluepill\logs\renode_wrong_led_pin\run.resc
+
+[15:35:29.3192] [INFO] Including script(s): D:\codex\单片机\stm32_bluepill\logs\renode_wrong_led_pin\run.resc
+[15:35:29.3279] [INFO] System bus created.
+[15:35:29.8055] [INFO] sysbus: Loading block of 4476 bytes length at 0x8000000.
+[15:35:29.8124] [INFO] sysbus: Loading block of 116 bytes length at 0x800117C.
+[15:35:29.8124] [INFO] sysbus: Loading block of 1540 bytes length at 0x8001188.
+[15:35:29.9667] [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+[15:35:29.9734] [INFO] cpu: Setting initial values: PC = 0x8001061, SP = 0x20005000.
+[15:35:29.9745] [INFO] bluepill: Machine started.
+[15:35:30.0278] [WARNING] gpioPortB: Trying to set the state of the input pin #12
+[15:35:30.1082] [INFO] bluepill: Machine paused.
+SAMPLE 0.010 0 1 1 0
+
+
+[15:35:30.1388] [INFO] bluepill: Machine resumed.
+[15:35:30.2121] [INFO] bluepill: Machine paused.
+SAMPLE 0.020 0 1 1 0
+
+
+[15:35:30.2131] [INFO] bluepill: Machine resumed.
+[15:35:30.2851] [INFO] bluepill: Machine paused.
+SAMPLE 0.030 0 1 1 0
+
+
+[15:35:30.2858] [INFO] bluepill: Machine resumed.
+[15:35:30.3574] [INFO] bluepill: Machine paused.
+SAMPLE 0.040 0 1 1 0
+
+
+[15:35:30.3640] [INFO] bluepill: Machine resumed.
+[15:35:30.4420] [INFO] bluepill: Machine paused.
+SAMPLE 0.050 0 1 1 0
+
+
+[15:35:30.4430] [INFO] bluepill: Machine resumed.
+[15:35:30.5194] [INFO] bluepill: Machine paused.
+SAMPLE 0.060 0 1 1 0
+
+
+[15:35:30.5203] [INFO] bluepill: Machine resumed.
+[15:35:30.5958] [INFO] bluepill: Machine paused.
+SAMPLE 0.070 0 1 1 0
+
+
+[15:35:30.5969] [INFO] bluepill: Machine resumed.
+[15:35:30.6694] [INFO] bluepill: Machine paused.
+SAMPLE 0.080 0 1 1 0
+
+
+[15:35:30.6707] [INFO] bluepill: Machine resumed.
+[15:35:30.7434] [INFO] bluepill: Machine paused.
+SAMPLE 0.090 0 1 1 0
+
+
+[15:35:30.7445] [INFO] bluepill: Machine resumed.
+[15:35:30.8193] [INFO] bluepill: Machine paused.
+SAMPLE 0.100 0 1 1 0
+
+
+[15:35:30.8203] [INFO] bluepill: Machine resumed.
+[15:35:30.9035] [INFO] bluepill: Machine paused.
+SAMPLE 0.110 0 1 1 0
+
+
+[15:35:30.9046] [INFO] bluepill: Machine resumed.
+[15:35:30.9937] [INFO] bluepill: Machine paused.
+SAMPLE 0.120 0 1 1 0
+
+
+[15:35:30.9949] [INFO] bluepill: Machine resumed.
+[15:35:31.0807] [INFO] bluepill: Machine paused.
+SAMPLE 0.130 0 1 1 0
+
+
+[15:35:31.0816] [INFO] bluepill: Machine resumed.
+[15:35:31.1632] [INFO] bluepill: Machine paused.
+SAMPLE 0.140 0 1 1 0
+
+
+[15:35:31.1642] [INFO] bluepill: Machine resumed.
+[15:35:31.2585] [INFO] bluepill: Machine paused.
+SAMPLE 0.150 0 1 1 0
+
+
+[15:35:31.2595] [INFO] bluepill: Machine resumed.
+[15:35:31.3349] [INFO] bluepill: Machine paused.
+SAMPLE 0.160 0 1 1 0
+
+
+[15:35:31.3358] [INFO] bluepill: Machine resumed.
+[15:35:31.4305] [INFO] bluepill: Machine paused.
+SAMPLE 0.170 0 1 1 0
+
+
+[15:35:31.4319] [INFO] bluepill: Machine resumed.
+[15:35:31.5162] [INFO] bluepill: Machine paused.
+SAMPLE 0.180 0 1 1 0
+
+
+[15:35:31.5172] [INFO] bluepill: Machine resumed.
+[15:35:31.5996] [INFO] bluepill: Machine paused.
+SAMPLE 0.190 0 1 1 0
+
+
+[15:35:31.6009] [INFO] bluepill: Machine resumed.
+[15:35:31.6847] [INFO] bluepill: Machine paused.
+SAMPLE 0.200 0 1 1 0
+
+
+[15:35:31.6858] [INFO] bluepill: Machine resumed.
+[15:35:31.7760] [INFO] bluepill: Machine paused.
+SAMPLE 0.210 0 1 1 0
+
+
+[15:35:31.7769] [INFO] bluepill: Machine resumed.
+[15:35:31.8797] [INFO] bluepill: Machine paused.
+SAMPLE 0.220 0 1 1 0
+
+
+[15:35:31.8811] [INFO] bluepill: Machine resumed.
+[15:35:31.9769] [INFO] bluepill: Machine paused.
+SAMPLE 0.230 0 1 1 0
+
+
+[15:35:31.9780] [INFO] bluepill: Machine resumed.
+[15:35:32.0767] [INFO] bluepill: Machine paused.
+SAMPLE 0.240 0 1 1 0
+
+
+[15:35:32.0778] [INFO] bluepill: Machine resumed.
+[15:35:32.1788] [INFO] bluepill: Machine paused.
+SAMPLE 0.250 0 1 1 0
+
+
+[15:35:32.1801] [INFO] bluepill: Machine resumed.
+[15:35:32.2368] [INFO] bluepill: Machine paused.
+SAMPLE 0.260 0 1 1 0
+
+
+[15:35:32.2376] [INFO] bluepill: Machine resumed.
+[15:35:32.2659] [INFO] bluepill: Machine paused.
+SAMPLE 0.270 0 1 1 0
+
+
+[15:35:32.2669] [INFO] bluepill: Machine resumed.
+[15:35:32.2975] [INFO] bluepill: Machine paused.
+SAMPLE 0.280 0 1 1 0
+
+
+[15:35:32.2982] [INFO] bluepill: Machine resumed.
+[15:35:32.3266] [INFO] bluepill: Machine paused.
+SAMPLE 0.290 0 1 1 0
+
+
+[15:35:32.3273] [INFO] bluepill: Machine resumed.
+[15:35:32.3565] [INFO] bluepill: Machine paused.
+SAMPLE 0.300 0 1 1 0
+
+
+[15:35:32.3573] [INFO] bluepill: Machine resumed.
+[15:35:32.3915] [INFO] bluepill: Machine paused.
+SAMPLE 0.310 0 1 1 0
+
+
+[15:35:32.3925] [INFO] bluepill: Machine resumed.
+[15:35:32.4267] [INFO] bluepill: Machine paused.
+SAMPLE 0.320 0 1 1 0
+
+
+[15:35:32.4275] [INFO] bluepill: Machine resumed.
+[15:35:32.4530] [INFO] bluepill: Machine paused.
+SAMPLE 0.330 0 1 1 0
+
+
+[15:35:32.4538] [INFO] bluepill: Machine resumed.
+[15:35:32.4873] [INFO] bluepill: Machine paused.
+SAMPLE 0.340 0 1 1 0
+
+
+[15:35:32.4922] [INFO] bluepill: Machine resumed.
+[15:35:32.5248] [INFO] bluepill: Machine paused.
+SAMPLE 0.350 0 1 1 0
+
+
+[15:35:32.5261] [INFO] bluepill: Machine resumed.
+[15:35:32.5602] [INFO] bluepill: Machine paused.
+SAMPLE 0.360 0 1 1 0
+
+
+[15:35:32.5609] [INFO] bluepill: Machine resumed.
+[15:35:32.5868] [INFO] bluepill: Machine paused.
+SAMPLE 0.370 0 1 1 0
+
+
+[15:35:32.5877] [INFO] bluepill: Machine resumed.
+[15:35:32.6148] [INFO] bluepill: Machine paused.
+SAMPLE 0.380 0 1 1 0
+
+
+[15:35:32.6155] [INFO] bluepill: Machine resumed.
+[15:35:32.6486] [INFO] bluepill: Machine paused.
+SAMPLE 0.390 0 1 1 0
+
+
+[15:35:32.6494] [INFO] bluepill: Machine resumed.
+[15:35:32.6858] [INFO] bluepill: Machine paused.
+SAMPLE 0.400 0 1 1 0
+
+
+[15:35:32.6865] [INFO] bluepill: Machine resumed.
+[15:35:32.7171] [INFO] bluepill: Machine paused.
+SAMPLE 0.410 0 1 1 0
+
+
+[15:35:32.7178] [INFO] bluepill: Machine resumed.
+[15:35:32.7467] [INFO] bluepill: Machine paused.
+SAMPLE 0.420 0 1 1 0
+
+
+[15:35:32.7473] [INFO] bluepill: Machine resumed.
+[15:35:32.7845] [INFO] bluepill: Machine paused.
+SAMPLE 0.430 0 1 1 0
+
+
+[15:35:32.7851] [INFO] bluepill: Machine resumed.
+[15:35:32.8177] [INFO] bluepill: Machine paused.
+SAMPLE 0.440 0 1 1 0
+
+
+[15:35:32.8184] [INFO] bluepill: Machine resumed.
+[15:35:32.8518] [INFO] bluepill: Machine paused.
+SAMPLE 0.450 0 1 1 0
+
+
+[15:35:32.8526] [INFO] bluepill: Machine resumed.
+[15:35:32.8887] [INFO] bluepill: Machine paused.
+SAMPLE 0.460 0 1 1 0
+
+
+[15:35:32.8894] [INFO] bluepill: Machine resumed.
+[15:35:32.9162] [INFO] bluepill: Machine paused.
+SAMPLE 0.470 0 1 1 0
+
+
+[15:35:32.9168] [INFO] bluepill: Machine resumed.
+[15:35:32.9435] [INFO] bluepill: Machine paused.
+SAMPLE 0.480 0 1 1 0
+
+
+[15:35:32.9440] [INFO] bluepill: Machine resumed.
+[15:35:32.9733] [INFO] bluepill: Machine paused.
+SAMPLE 0.490 0 1 1 0
+
+
+[15:35:32.9741] [INFO] bluepill: Machine resumed.
+[15:35:33.0039] [INFO] bluepill: Machine paused.
+SAMPLE 0.500 1 0 1 0
+
+
+[15:35:33.0045] [INFO] bluepill: Machine resumed.
+[15:35:33.0381] [INFO] bluepill: Machine paused.
+SAMPLE 0.510 1 0 1 0
+
+
+[15:35:33.0391] [INFO] bluepill: Machine resumed.
+[15:35:33.0700] [INFO] bluepill: Machine paused.
+SAMPLE 0.520 1 0 1 0
+
+
+[15:35:33.0706] [INFO] bluepill: Machine resumed.
+[15:35:33.1046] [INFO] bluepill: Machine paused.
+SAMPLE 0.530 1 0 1 0
+
+
+[15:35:33.1051] [INFO] bluepill: Machine resumed.
+[15:35:33.1351] [INFO] bluepill: Machine paused.
+SAMPLE 0.540 1 0 1 0
+
+
+[15:35:33.1356] [INFO] bluepill: Machine resumed.
+[15:35:33.1685] [INFO] bluepill: Machine paused.
+SAMPLE 0.550 1 0 1 0
+
+
+[15:35:33.1694] [INFO] bluepill: Machine resumed.
+[15:35:33.2018] [INFO] bluepill: Machine paused.
+SAMPLE 0.560 1 0 1 0
+
+
+[15:35:33.2024] [INFO] bluepill: Machine resumed.
+[15:35:33.2334] [INFO] bluepill: Machine paused.
+SAMPLE 0.570 1 0 1 0
+
+
+[15:35:33.2341] [INFO] bluepill: Machine resumed.
+[15:35:33.2664] [INFO] bluepill: Machine paused.
+SAMPLE 0.580 1 0 1 0
+
+
+[15:35:33.2671] [INFO] bluepill: Machine resumed.
+[15:35:33.2977] [INFO] bluepill: Machine paused.
+SAMPLE 0.590 1 0 1 0
+
+
+[15:35:33.2982] [INFO] bluepill: Machine resumed.
+[15:35:33.3231] [INFO] bluepill: Machine paused.
+SAMPLE 0.600 1 0 1 0
+
+
+[15:35:33.3236] [INFO] bluepill: Machine resumed.
+[15:35:33.3544] [INFO] bluepill: Machine paused.
+SAMPLE 0.610 1 0 1 0
+
+
+[15:35:33.3551] [INFO] bluepill: Machine resumed.
+[15:35:33.3849] [INFO] bluepill: Machine paused.
+SAMPLE 0.620 1 0 1 0
+
+
+[15:35:33.3855] [INFO] bluepill: Machine resumed.
+[15:35:33.4160] [INFO] bluepill: Machine paused.
+SAMPLE 0.630 1 0 1 0
+
+
+[15:35:33.4166] [INFO] bluepill: Machine resumed.
+[15:35:33.4472] [INFO] bluepill: Machine paused.
+SAMPLE 0.640 1 0 1 0
+
+
+[15:35:33.4478] [INFO] bluepill: Machine resumed.
+[15:35:33.4732] [INFO] bluepill: Machine paused.
+SAMPLE 0.650 1 0 1 0
+
+
+[15:35:33.4738] [INFO] bluepill: Machine resumed.
+[15:35:33.5061] [INFO] bluepill: Machine paused.
+SAMPLE 0.660 1 0 1 0
+
+
+[15:35:33.5068] [INFO] bluepill: Machine resumed.
+[15:35:33.5421] [INFO] bluepill: Machine paused.
+SAMPLE 0.670 1 0 1 0
+
+
+[15:35:33.5428] [INFO] bluepill: Machine resumed.
+[15:35:33.5738] [INFO] bluepill: Machine paused.
+SAMPLE 0.680 1 0 1 0
+
+
+[15:35:33.5747] [INFO] bluepill: Machine resumed.
+[15:35:33.6084] [INFO] bluepill: Machine paused.
+SAMPLE 0.690 1 0 1 0
+
+
+[15:35:33.6092] [INFO] bluepill: Machine resumed.
+[15:35:33.6377] [INFO] bluepill: Machine paused.
+SAMPLE 0.700 1 0 1 0
+
+
+[15:35:33.6382] [INFO] bluepill: Machine resumed.
+[15:35:33.6717] [INFO] bluepill: Machine paused.
+SAMPLE 0.710 1 0 1 0
+
+
+[15:35:33.6723] [INFO] bluepill: Machine resumed.
+[15:35:33.7016] [INFO] bluepill: Machine paused.
+SAMPLE 0.720 1 0 1 0
+
+
+[15:35:33.7021] [INFO] bluepill: Machine resumed.
+[15:35:33.7350] [INFO] bluepill: Machine paused.
+SAMPLE 0.730 1 0 1 0
+
+
+[15:35:33.7356] [INFO] bluepill: Machine resumed.
+[15:35:33.7649] [INFO] bluepill: Machine paused.
+SAMPLE 0.740 1 0 1 0
+
+
+[15:35:33.7654] [INFO] bluepill: Machine resumed.
+[15:35:33.7994] [INFO] bluepill: Machine paused.
+SAMPLE 0.750 1 0 1 0
+
+
+[15:35:33.8001] [INFO] bluepill: Machine resumed.
+[15:35:33.8348] [INFO] bluepill: Machine paused.
+SAMPLE 0.760 1 0 1 0
+
+
+[15:35:33.8354] [INFO] bluepill: Machine resumed.
+[15:35:33.8676] [INFO] bluepill: Machine paused.
+SAMPLE 0.770 1 0 1 0
+
+
+[15:35:33.8682] [INFO] bluepill: Machine resumed.
+[15:35:33.9024] [INFO] bluepill: Machine paused.
+SAMPLE 0.780 1 0 1 0
+
+
+[15:35:33.9030] [INFO] bluepill: Machine resumed.
+[15:35:33.9313] [INFO] bluepill: Machine paused.
+SAMPLE 0.790 1 0 1 0
+
+
+[15:35:33.9319] [INFO] bluepill: Machine resumed.
+[15:35:33.9667] [INFO] bluepill: Machine paused.
+SAMPLE 0.800 1 0 1 0
+
+
+[15:35:33.9676] [INFO] bluepill: Machine resumed.
+[15:35:33.9923] [INFO] bluepill: Machine paused.
+SAMPLE 0.810 1 0 1 0
+
+
+[15:35:33.9930] [INFO] bluepill: Machine resumed.
+[15:35:34.0208] [INFO] bluepill: Machine paused.
+SAMPLE 0.820 1 0 1 0
+
+
+[15:35:34.0214] [INFO] bluepill: Machine resumed.
+[15:35:34.0525] [INFO] bluepill: Machine paused.
+SAMPLE 0.830 1 0 1 0
+
+
+[15:35:34.0531] [INFO] bluepill: Machine resumed.
+[15:35:34.0881] [INFO] bluepill: Machine paused.
+SAMPLE 0.840 1 0 1 0
+
+
+[15:35:34.0886] [INFO] bluepill: Machine resumed.
+[15:35:34.1229] [INFO] bluepill: Machine paused.
+SAMPLE 0.850 1 0 1 0
+
+
+[15:35:34.1235] [INFO] bluepill: Machine resumed.
+[15:35:34.1557] [INFO] bluepill: Machine paused.
+SAMPLE 0.860 1 0 1 0
+
+
+[15:35:34.1563] [INFO] bluepill: Machine resumed.
+[15:35:34.1881] [INFO] bluepill: Machine paused.
+SAMPLE 0.870 1 0 1 0
+
+
+[15:35:34.1887] [INFO] bluepill: Machine resumed.
+[15:35:34.2197] [INFO] bluepill: Machine paused.
+SAMPLE 0.880 1 0 1 0
+
+
+[15:35:34.2202] [INFO] bluepill: Machine resumed.
+[15:35:34.2542] [INFO] bluepill: Machine paused.
+SAMPLE 0.890 1 0 1 0
+
+
+[15:35:34.2547] [INFO] bluepill: Machine resumed.
+[15:35:34.2848] [INFO] bluepill: Machine paused.
+SAMPLE 0.900 1 0 1 0
+
+
+[15:35:34.2852] [INFO] bluepill: Machine resumed.
+[15:35:34.3178] [INFO] bluepill: Machine paused.
+SAMPLE 0.910 1 0 1 0
+
+
+[15:35:34.3182] [INFO] bluepill: Machine resumed.
+[15:35:34.3562] [INFO] bluepill: Machine paused.
+SAMPLE 0.920 1 0 1 0
+
+
+[15:35:34.3567] [INFO] bluepill: Machine resumed.
+[15:35:34.3962] [INFO] bluepill: Machine paused.
+SAMPLE 0.930 1 0 1 0
+
+
+[15:35:34.3968] [INFO] bluepill: Machine resumed.
+[15:35:34.4284] [INFO] bluepill: Machine paused.
+SAMPLE 0.940 1 0 1 0
+
+
+[15:35:34.4290] [INFO] bluepill: Machine resumed.
+[15:35:34.4605] [INFO] bluepill: Machine paused.
+SAMPLE 0.950 1 0 1 0
+
+
+[15:35:34.4610] [INFO] bluepill: Machine resumed.
+[15:35:34.4945] [INFO] bluepill: Machine paused.
+SAMPLE 0.960 1 0 1 0
+
+
+[15:35:34.4951] [INFO] bluepill: Machine resumed.
+[15:35:34.5310] [INFO] bluepill: Machine paused.
+SAMPLE 0.970 1 0 1 0
+
+
+[15:35:34.5315] [INFO] bluepill: Machine resumed.
+[15:35:34.5670] [INFO] bluepill: Machine paused.
+SAMPLE 0.980 1 0 1 0
+
+
+[15:35:34.5675] [INFO] bluepill: Machine resumed.
+[15:35:34.5971] [INFO] bluepill: Machine paused.
+SAMPLE 0.990 1 0 1 0
+
+
+[15:35:34.5976] [INFO] bluepill: Machine resumed.
+[15:35:34.6275] [INFO] bluepill: Machine paused.
+SAMPLE 1.000 0 1 1 0
+
+
+[15:35:34.6280] [INFO] bluepill: Machine resumed.
+[15:35:34.6589] [INFO] bluepill: Machine paused.
+SAMPLE 1.010 0 1 1 0
+
+
+[15:35:34.6594] [INFO] bluepill: Machine resumed.
+[15:35:34.6902] [INFO] bluepill: Machine paused.
+SAMPLE 1.020 0 1 1 0
+
+
+[15:35:34.6908] [INFO] bluepill: Machine resumed.
+[15:35:34.7217] [INFO] bluepill: Machine paused.
+SAMPLE 1.030 0 1 1 0
+
+
+[15:35:34.7224] [INFO] bluepill: Machine resumed.
+[15:35:34.7533] [INFO] bluepill: Machine paused.
+SAMPLE 1.040 0 1 1 0
+
+
+[15:35:34.7538] [INFO] bluepill: Machine resumed.
+[15:35:34.7884] [INFO] bluepill: Machine paused.
+SAMPLE 1.050 0 1 1 0
+
+
+[15:35:34.7889] [INFO] bluepill: Machine resumed.
+[15:35:34.8244] [INFO] bluepill: Machine paused.
+SAMPLE 1.060 0 1 1 0
+
+
+[15:35:34.8249] [INFO] bluepill: Machine resumed.
+[15:35:34.8588] [INFO] bluepill: Machine paused.
+SAMPLE 1.070 0 1 1 0
+
+
+[15:35:34.8593] [INFO] bluepill: Machine resumed.
+[15:35:34.8901] [INFO] bluepill: Machine paused.
+SAMPLE 1.080 0 1 1 0
+
+
+[15:35:34.8905] [INFO] bluepill: Machine resumed.
+[15:35:34.9238] [INFO] bluepill: Machine paused.
+SAMPLE 1.090 0 1 1 0
+
+
+[15:35:34.9242] [INFO] bluepill: Machine resumed.
+[15:35:34.9570] [INFO] bluepill: Machine paused.
+SAMPLE 1.100 0 1 1 0
+
+
+[15:35:34.9577] [INFO] bluepill: Machine resumed.
+[15:35:34.9883] [INFO] bluepill: Machine paused.
+SAMPLE 1.110 0 1 1 0
+
+
+[15:35:34.9889] [INFO] bluepill: Machine resumed.
+[15:35:35.0199] [INFO] bluepill: Machine paused.
+SAMPLE 1.120 0 1 1 0
+
+
+[15:35:35.0204] [INFO] bluepill: Machine resumed.
+[15:35:35.0472] [INFO] bluepill: Machine paused.
+SAMPLE 1.130 0 1 1 0
+
+
+[15:35:35.0476] [INFO] bluepill: Machine resumed.
+[15:35:35.0786] [INFO] bluepill: Machine paused.
+SAMPLE 1.140 0 1 1 0
+
+
+[15:35:35.0792] [INFO] bluepill: Machine resumed.
+[15:35:35.1095] [INFO] bluepill: Machine paused.
+SAMPLE 1.150 0 1 1 0
+
+
+[15:35:35.1102] [INFO] bluepill: Machine resumed.
+[15:35:35.1323] [INFO] bluepill: Machine paused.
+SAMPLE 1.160 0 1 0 0
+
+
+[15:35:35.1328] [INFO] bluepill: Machine resumed.
+[15:35:35.1634] [INFO] bluepill: Machine paused.
+SAMPLE 1.170 0 1 0 0
+
+
+[15:35:35.1640] [INFO] bluepill: Machine resumed.
+[15:35:35.1990] [INFO] bluepill: Machine paused.
+SAMPLE 1.180 1 0 0 0
+
+
+[15:35:35.1995] [INFO] bluepill: Machine resumed.
+[15:35:35.2319] [INFO] bluepill: Machine paused.
+SAMPLE 1.190 1 0 0 0
+
+
+[15:35:35.2323] [INFO] bluepill: Machine resumed.
+[15:35:35.2700] [INFO] bluepill: Machine paused.
+SAMPLE 1.200 1 0 0 0
+
+
+[15:35:35.2705] [INFO] bluepill: Machine resumed.
+[15:35:35.3013] [INFO] bluepill: Machine paused.
+SAMPLE 1.210 1 0 0 0
+
+
+[15:35:35.3018] [INFO] bluepill: Machine resumed.
+[15:35:35.3371] [INFO] bluepill: Machine paused.
+SAMPLE 1.220 1 0 0 0
+
+
+[15:35:35.3376] [INFO] bluepill: Machine resumed.
+[15:35:35.3720] [INFO] bluepill: Machine paused.
+SAMPLE 1.230 1 0 0 0
+
+
+[15:35:35.3725] [INFO] bluepill: Machine resumed.
+[15:35:35.4041] [INFO] bluepill: Machine paused.
+SAMPLE 1.240 1 0 0 0
+
+
+[15:35:35.4047] [INFO] bluepill: Machine resumed.
+[15:35:35.4363] [INFO] bluepill: Machine paused.
+SAMPLE 1.250 1 0 0 0
+
+
+[15:35:35.4369] [INFO] bluepill: Machine resumed.
+[15:35:35.4660] [INFO] bluepill: Machine paused.
+SAMPLE 1.260 1 0 1 0
+
+
+[15:35:35.4665] [INFO] bluepill: Machine resumed.
+[15:35:35.5005] [INFO] bluepill: Machine paused.
+SAMPLE 1.270 0 1 1 0
+
+
+[15:35:35.5010] [INFO] bluepill: Machine resumed.
+[15:35:35.5349] [INFO] bluepill: Machine paused.
+SAMPLE 1.280 0 1 1 0
+
+
+[15:35:35.5354] [INFO] bluepill: Machine resumed.
+[15:35:35.5691] [INFO] bluepill: Machine paused.
+SAMPLE 1.290 0 1 1 0
+
+
+[15:35:35.5695] [INFO] bluepill: Machine resumed.
+[15:35:35.6092] [INFO] bluepill: Machine paused.
+SAMPLE 1.300 0 1 1 0
+
+
+[15:35:35.6096] [INFO] bluepill: Machine resumed.
+[15:35:35.6349] [INFO] bluepill: Machine paused.
+SAMPLE 1.310 0 1 1 0
+
+
+[15:35:35.6354] [INFO] bluepill: Machine resumed.
+[15:35:35.6736] [INFO] bluepill: Machine paused.
+SAMPLE 1.320 0 1 1 0
+
+
+[15:35:35.6740] [INFO] bluepill: Machine resumed.
+[15:35:35.7129] [INFO] bluepill: Machine paused.
+SAMPLE 1.330 0 1 1 0
+
+
+[15:35:35.7133] [INFO] bluepill: Machine resumed.
+[15:35:35.7478] [INFO] bluepill: Machine paused.
+SAMPLE 1.340 0 1 1 0
+
+
+[15:35:35.7484] [INFO] bluepill: Machine resumed.
+[15:35:35.7858] [INFO] bluepill: Machine paused.
+SAMPLE 1.350 0 1 1 0
+
+
+[15:35:35.7863] [INFO] bluepill: Machine resumed.
+[15:35:35.8198] [INFO] bluepill: Machine paused.
+SAMPLE 1.360 0 1 1 0
+
+
+[15:35:35.8205] [INFO] bluepill: Machine resumed.
+[15:35:35.8516] [INFO] bluepill: Machine paused.
+SAMPLE 1.370 1 0 1 0
+
+
+[15:35:35.8520] [INFO] bluepill: Machine resumed.
+[15:35:35.8874] [INFO] bluepill: Machine paused.
+SAMPLE 1.380 1 0 1 0
+
+
+[15:35:35.8879] [INFO] bluepill: Machine resumed.
+[15:35:35.9179] [INFO] bluepill: Machine paused.
+SAMPLE 1.390 1 0 1 0
+
+
+[15:35:35.9183] [INFO] bluepill: Machine resumed.
+[15:35:35.9552] [INFO] bluepill: Machine paused.
+SAMPLE 1.400 1 0 1 0
+
+
+[15:35:35.9557] [INFO] bluepill: Machine resumed.
+[15:35:35.9925] [INFO] bluepill: Machine paused.
+SAMPLE 1.410 1 0 1 0
+
+
+[15:35:35.9931] [INFO] bluepill: Machine resumed.
+[15:35:36.0231] [INFO] bluepill: Machine paused.
+SAMPLE 1.420 1 0 1 0
+
+
+[15:35:36.0235] [INFO] bluepill: Machine resumed.
+[15:35:36.0602] [INFO] bluepill: Machine paused.
+SAMPLE 1.430 1 0 1 0
+
+
+[15:35:36.0609] [INFO] bluepill: Machine resumed.
+[15:35:36.0904] [INFO] bluepill: Machine paused.
+SAMPLE 1.440 1 0 1 0
+
+
+[15:35:36.0909] [INFO] bluepill: Machine resumed.
+[15:35:36.1282] [INFO] bluepill: Machine paused.
+SAMPLE 1.450 1 0 1 0
+
+
+[15:35:36.1286] [INFO] bluepill: Machine resumed.
+[15:35:36.1597] [INFO] bluepill: Machine paused.
+SAMPLE 1.460 1 0 1 0
+
+
+[15:35:36.1601] [INFO] bluepill: Machine resumed.
+[15:35:36.1926] [INFO] bluepill: Machine paused.
+SAMPLE 1.470 0 1 1 0
+
+
+[15:35:36.1932] [INFO] bluepill: Machine resumed.
+[15:35:36.2283] [INFO] bluepill: Machine paused.
+SAMPLE 1.480 0 1 1 0
+
+
+[15:35:36.2290] [INFO] bluepill: Machine resumed.
+[15:35:36.2587] [INFO] bluepill: Machine paused.
+SAMPLE 1.490 0 1 1 0
+
+
+[15:35:36.2594] [INFO] bluepill: Machine resumed.
+[15:35:36.2932] [INFO] bluepill: Machine paused.
+SAMPLE 1.500 0 1 1 0
+
+
+[15:35:36.2936] [INFO] bluepill: Machine resumed.
+[15:35:36.3255] [INFO] bluepill: Machine paused.
+SAMPLE 1.510 0 1 1 0
+
+
+[15:35:36.3259] [INFO] bluepill: Machine resumed.
+[15:35:36.3608] [INFO] bluepill: Machine paused.
+SAMPLE 1.520 0 1 1 0
+
+
+[15:35:36.3613] [INFO] bluepill: Machine resumed.
+[15:35:36.3911] [INFO] bluepill: Machine paused.
+SAMPLE 1.530 0 1 1 0
+
+
+[15:35:36.3916] [INFO] bluepill: Machine resumed.
+[15:35:36.4178] [INFO] bluepill: Machine paused.
+SAMPLE 1.540 0 1 1 0
+
+
+[15:35:36.4184] [INFO] bluepill: Machine resumed.
+[15:35:36.4478] [INFO] bluepill: Machine paused.
+SAMPLE 1.550 0 1 1 0
+
+
+[15:35:36.4486] [INFO] bluepill: Machine resumed.
+[15:35:36.4746] [INFO] bluepill: Machine paused.
+SAMPLE 1.560 0 1 1 0
+
+
+[15:35:36.4751] [INFO] bluepill: Machine resumed.
+[15:35:36.5013] [INFO] bluepill: Machine paused.
+SAMPLE 1.570 1 0 1 0
+
+
+[15:35:36.5019] [INFO] bluepill: Machine resumed.
+[15:35:36.5293] [INFO] bluepill: Machine paused.
+SAMPLE 1.580 1 0 1 0
+
+
+[15:35:36.5297] [INFO] bluepill: Machine resumed.
+[15:35:36.5617] [INFO] bluepill: Machine paused.
+SAMPLE 1.590 1 0 1 0
+
+
+[15:35:36.5622] [INFO] bluepill: Machine resumed.
+[15:35:36.5962] [INFO] bluepill: Machine paused.
+SAMPLE 1.600 1 0 1 0
+
+
+[15:35:36.5967] [INFO] bluepill: Machine resumed.
+[15:35:36.6252] [INFO] bluepill: Machine paused.
+SAMPLE 1.610 1 0 1 0
+
+
+[15:35:36.6259] [INFO] bluepill: Machine resumed.
+[15:35:36.6615] [INFO] bluepill: Machine paused.
+SAMPLE 1.620 1 0 1 0
+
+
+[15:35:36.6620] [INFO] bluepill: Machine resumed.
+[15:35:36.7002] [INFO] bluepill: Machine paused.
+SAMPLE 1.630 1 0 1 0
+
+
+[15:35:36.7008] [INFO] bluepill: Machine resumed.
+[15:35:36.7331] [INFO] bluepill: Machine paused.
+SAMPLE 1.640 1 0 1 0
+
+
+[15:35:36.7336] [INFO] bluepill: Machine resumed.
+[15:35:36.7638] [INFO] bluepill: Machine paused.
+SAMPLE 1.650 1 0 1 0
+
+
+[15:35:36.7643] [INFO] bluepill: Machine resumed.
+[15:35:36.7939] [INFO] bluepill: Machine paused.
+SAMPLE 1.660 1 0 1 0
+
+
+[15:35:36.7945] [INFO] bluepill: Machine resumed.
+[15:35:36.8219] [INFO] bluepill: Machine paused.
+SAMPLE 1.670 0 1 1 0
+
+
+[15:35:36.8225] [INFO] bluepill: Machine resumed.
+[15:35:36.8511] [INFO] bluepill: Machine paused.
+SAMPLE 1.680 0 1 1 0
+
+
+[15:35:36.8515] [INFO] bluepill: Machine resumed.
+[15:35:36.8810] [INFO] bluepill: Machine paused.
+SAMPLE 1.690 0 1 1 0
+
+
+[15:35:36.8815] [INFO] bluepill: Machine resumed.
+[15:35:36.9098] [INFO] bluepill: Machine paused.
+SAMPLE 1.700 0 1 1 0
+
+
+[15:35:36.9103] [INFO] bluepill: Machine resumed.
+[15:35:36.9439] [INFO] bluepill: Machine paused.
+SAMPLE 1.710 0 1 1 0
+
+
+[15:35:36.9446] [INFO] bluepill: Machine resumed.
+[15:35:36.9749] [INFO] bluepill: Machine paused.
+SAMPLE 1.720 0 1 1 0
+
+
+[15:35:36.9757] [INFO] bluepill: Machine resumed.
+[15:35:37.0018] [INFO] bluepill: Machine paused.
+SAMPLE 1.730 0 1 1 0
+
+
+[15:35:37.0044] [INFO] bluepill: Machine resumed.
+[15:35:37.0387] [INFO] bluepill: Machine paused.
+SAMPLE 1.740 0 1 1 0
+
+
+[15:35:37.0392] [INFO] bluepill: Machine resumed.
+[15:35:37.0723] [INFO] bluepill: Machine paused.
+SAMPLE 1.750 0 1 1 0
+
+
+[15:35:37.0728] [INFO] bluepill: Machine resumed.
+[15:35:37.1017] [INFO] bluepill: Machine paused.
+SAMPLE 1.760 0 1 1 0
+
+
+[15:35:37.1024] [INFO] bluepill: Machine resumed.
+[15:35:37.1341] [INFO] bluepill: Machine paused.
+SAMPLE 1.770 1 0 1 0
+
+
+[15:35:37.1346] [INFO] bluepill: Machine resumed.
+[15:35:37.1699] [INFO] bluepill: Machine paused.
+SAMPLE 1.780 1 0 1 0
+
+
+[15:35:37.1703] [INFO] bluepill: Machine resumed.
+[15:35:37.2057] [INFO] bluepill: Machine paused.
+SAMPLE 1.790 1 0 1 0
+
+
+[15:35:37.2063] [INFO] bluepill: Machine resumed.
+[15:35:37.2353] [INFO] bluepill: Machine paused.
+SAMPLE 1.800 1 0 1 0
+
+
+Renode is quitting
+
+[15:35:37.2492] [INFO] bluepill: Disposed.

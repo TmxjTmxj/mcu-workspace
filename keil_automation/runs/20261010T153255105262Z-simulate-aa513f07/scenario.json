@@ -1,0 +1,53 @@
+{
+  "profile": "stc8h-gpio",
+  "target": "STC8",
+  "commands": [
+    "RESET",
+    "G, main",
+    "G, checkpoint_idle",
+    "PORT3 = 0xff",
+    "G, checkpoint_pressed",
+    "PORT3 = 0xf7",
+    "G, checkpoint_released",
+    "PORT3 = 0xff",
+    "G, test_done"
+  ],
+  "checks": [
+    {
+      "name": "key_idle",
+      "symbol": "key_idle",
+      "equals": 1
+    },
+    {
+      "name": "key_down",
+      "symbol": "key_down",
+      "equals": 0
+    },
+    {
+      "name": "key_up",
+      "symbol": "key_up",
+      "equals": 1
+    },
+    {
+      "name": "led_idle",
+      "symbol": "led_idle",
+      "equals": 255
+    },
+    {
+      "name": "led_down",
+      "symbol": "led_down",
+      "equals": 254
+    },
+    {
+      "name": "led_up",
+      "symbol": "led_up",
+      "equals": 255
+    },
+    {
+      "name": "p6_final",
+      "symbol": "P6",
+      "equals": 255
+    }
+  ],
+  "uart_marker": null
+}

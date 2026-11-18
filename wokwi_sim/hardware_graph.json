@@ -1,0 +1,2727 @@
+{
+  "schema_version": 1,
+  "board": {
+    "name": {
+      "value": "STC8H_32G_LQFP64 / Geek teaching board",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "designer": {
+      "value": "S.J. Chen",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "manufacturer": {
+      "value": null,
+      "confidence": "UNKNOWN",
+      "evidence": []
+    },
+    "revision": {
+      "value": null,
+      "confidence": "UNKNOWN",
+      "evidence": []
+    },
+    "schematic_updated": {
+      "value": "2023-06-01",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "population_note": "STC32G12K128 footprint alternative; installed chip marking not provided",
+    "headers": {
+      "H1": {
+        "pins": {
+          "1": "P1.7",
+          "2": "P1.3",
+          "3": "P1.5",
+          "4": "P1.6",
+          "5": "P4.7",
+          "6": "P1.4",
+          "7": "P1.0",
+          "8": "P1.1",
+          "9": "P6.2",
+          "10": "P6.3",
+          "11": "P6.0",
+          "12": "P6.1",
+          "13": "P0.6",
+          "14": "P0.7",
+          "15": "P5.3",
+          "16": "P0.5",
+          "17": "P0.4",
+          "18": "P5.2",
+          "19": "P0.2",
+          "20": "P0.3",
+          "21": "P0.0",
+          "22": "P0.1",
+          "23": "P4.5",
+          "24": "P4.6",
+          "25": "P7.6",
+          "26": "P7.7",
+          "27": "P7.4",
+          "28": "P7.5",
+          "29": "P2.6",
+          "30": "P2.7",
+          "31": "P2.4",
+          "32": "P2.5"
+        },
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1",
+          "开发板资料/图片/2.png"
+        ]
+      },
+      "H2": {
+        "pins": {
+          "1": "UCap",
+          "2": "P5.4",
+          "3": "VCC",
+          "4": "VCC",
+          "5": "GND",
+          "6": "P4.0",
+          "7": "P6.4",
+          "8": "P6.5",
+          "9": "P6.6",
+          "10": "P6.7",
+          "11": "P3.0",
+          "12": "P3.1",
+          "13": "P3.2",
+          "14": "P3.3",
+          "15": "P3.4",
+          "16": "P5.0",
+          "17": "P3.6",
+          "18": "P5.1",
+          "19": "P3.5",
+          "20": "P3.7",
+          "21": "P7.0",
+          "22": "P7.1",
+          "23": "P7.2",
+          "24": "P7.3",
+          "25": "P4.1",
+          "26": "P4.2",
+          "27": "P4.3",
+          "28": "P4.4",
+          "29": "P2.0",
+          "30": "P2.1",
+          "31": "P2.2",
+          "32": "P2.3"
+        },
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1",
+          "开发板资料/图片/2.png"
+        ]
+      },
+      "P1": {
+        "pins": {
+          "1": "3V3",
+          "2": "GND",
+          "3": "3V3",
+          "4": "GND",
+          "5": "3V3",
+          "6": "GND",
+          "7": "3V3",
+          "8": "GND",
+          "9": "VCC",
+          "10": "GND",
+          "11": "VCC",
+          "12": "GND",
+          "13": "VCC",
+          "14": "GND",
+          "15": "VCC",
+          "16": "GND"
+        },
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      }
+    }
+  },
+  "mcu": {
+    "model": {
+      "value": "STC8H8K64U-LQFP64",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "architecture": {
+      "value": "8051 1T",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/stc8h.pdf#page=204"
+      ]
+    },
+    "flash_bytes": {
+      "value": 65536,
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/stc8h.pdf#page=204"
+      ]
+    },
+    "idata_bytes": {
+      "value": 256,
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/stc8h.pdf#page=204"
+      ]
+    },
+    "xdata_bytes": {
+      "value": 8192,
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/stc8h.pdf#page=204"
+      ]
+    },
+    "usb_ram_bytes": {
+      "value": 1280,
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/stc8h.pdf#page=205"
+      ]
+    },
+    "configured_clock_hz": {
+      "value": 24000000,
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/STC8H工程标准框架/ChipDevices/config.h:22"
+      ]
+    },
+    "actual_isp_clock_hz": {
+      "value": null,
+      "confidence": "UNKNOWN",
+      "evidence": []
+    },
+    "pins": [
+      {
+        "package_pin": 1,
+        "name": "P5.3",
+        "alternate_functions": [
+          "TxD4_2",
+          "P5.3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 2,
+        "name": "P0.5",
+        "alternate_functions": [
+          "T3CLKO",
+          "ADC13",
+          "AD5",
+          "P0.5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 3,
+        "name": "P0.6",
+        "alternate_functions": [
+          "PWMETI2_2",
+          "T4",
+          "ADC14",
+          "AD6",
+          "P0.6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 4,
+        "name": "P0.7",
+        "alternate_functions": [
+          "T4CLKO",
+          "AD7",
+          "P0.7"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 5,
+        "name": "P6.0",
+        "alternate_functions": [
+          "PWM1P_3",
+          "P6.0"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 6,
+        "name": "P6.1",
+        "alternate_functions": [
+          "PWM1N_3",
+          "P6.1"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 7,
+        "name": "P6.2",
+        "alternate_functions": [
+          "PWM2P_3",
+          "P6.2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 8,
+        "name": "P6.3",
+        "alternate_functions": [
+          "PWM2N_3",
+          "P6.3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 9,
+        "name": "P1.0",
+        "alternate_functions": [
+          "RxD2",
+          "PWM1P",
+          "ADC0",
+          "P1.0"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 10,
+        "name": "P1.1",
+        "alternate_functions": [
+          "TxD2",
+          "PWM1N",
+          "ADC1",
+          "P1.1"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 11,
+        "name": "P4.7",
+        "alternate_functions": [
+          "TxD2_2",
+          "P4.7"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 12,
+        "name": "P1.4",
+        "alternate_functions": [
+          "SDA",
+          "MISO",
+          "PWM3P",
+          "ADC4",
+          "P1.4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 13,
+        "name": "P1.5",
+        "alternate_functions": [
+          "SCL",
+          "SCLK",
+          "PWM3N",
+          "ADC5",
+          "P1.5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 14,
+        "name": "P1.6",
+        "alternate_functions": [
+          "XTALO",
+          "MCLKO_2",
+          "RxD_3",
+          "PWM4P",
+          "ADC6",
+          "P1.6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 15,
+        "name": "P1.7",
+        "alternate_functions": [
+          "XTALI",
+          "PWM5_2",
+          "TxD_3",
+          "PWM4N",
+          "ADC7",
+          "P1.7"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 16,
+        "name": "P1.3",
+        "alternate_functions": [
+          "T2CLKO",
+          "MOSI",
+          "PWM2N",
+          "ADC3",
+          "P1.3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 17,
+        "name": "UCap",
+        "alternate_functions": [
+          "UCap"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 18,
+        "name": "P5.4",
+        "alternate_functions": [
+          "P5.4",
+          "RST",
+          "MCLKO",
+          "SS",
+          "SS_3",
+          "PWM2P",
+          "PWM6_2",
+          "ADC2",
+          "T2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 19,
+        "name": "Vcc/AVcc",
+        "alternate_functions": [
+          "Vcc",
+          "AVcc"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 20,
+        "name": "ADC_VRef+",
+        "alternate_functions": [
+          "ADC_VRef+"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 21,
+        "name": "Gnd/AGnd",
+        "alternate_functions": [
+          "Gnd",
+          "AGnd"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 22,
+        "name": "P4.0",
+        "alternate_functions": [
+          "P4.0",
+          "MOSI_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 23,
+        "name": "P6.4",
+        "alternate_functions": [
+          "P6.4",
+          "PWM3P_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 24,
+        "name": "P6.5",
+        "alternate_functions": [
+          "P6.5",
+          "PWM3N_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 25,
+        "name": "P6.6",
+        "alternate_functions": [
+          "P6.6",
+          "PWM4P_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 26,
+        "name": "P6.7",
+        "alternate_functions": [
+          "P6.7",
+          "PWM4N_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 27,
+        "name": "P3.0",
+        "alternate_functions": [
+          "P3.0",
+          "RxD",
+          "D-",
+          "INT4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 28,
+        "name": "P3.1",
+        "alternate_functions": [
+          "P3.1",
+          "TxD",
+          "D+"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 29,
+        "name": "P3.2",
+        "alternate_functions": [
+          "P3.2",
+          "INT0",
+          "SCLK_4",
+          "SCL_4",
+          "PWMETI",
+          "PWMETI2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 30,
+        "name": "P3.3",
+        "alternate_functions": [
+          "P3.3",
+          "INT1",
+          "MISO_4",
+          "SDA_4",
+          "PWM4N_4",
+          "PWM7_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 31,
+        "name": "P3.4",
+        "alternate_functions": [
+          "P3.4",
+          "T0",
+          "T1CLKO",
+          "MOSI_4",
+          "PWM4P_4",
+          "PWM8_2",
+          "CMPO"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 32,
+        "name": "P5.0",
+        "alternate_functions": [
+          "P5.0",
+          "RxD3_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 33,
+        "name": "P5.1",
+        "alternate_functions": [
+          "P5.1",
+          "TxD3_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 34,
+        "name": "P3.5",
+        "alternate_functions": [
+          "P3.5",
+          "T1",
+          "T0CLKO",
+          "SS_4",
+          "PWMFLT",
+          "PWMFLT2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 35,
+        "name": "P3.6",
+        "alternate_functions": [
+          "P3.6",
+          "INT2",
+          "RxD_2",
+          "CMP-"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 36,
+        "name": "P3.7",
+        "alternate_functions": [
+          "P3.7",
+          "INT3",
+          "TxD_2",
+          "CMP+"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 37,
+        "name": "P7.0",
+        "alternate_functions": [
+          "P7.0"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 38,
+        "name": "P7.1",
+        "alternate_functions": [
+          "P7.1"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 39,
+        "name": "P7.2",
+        "alternate_functions": [
+          "P7.2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 40,
+        "name": "P7.3",
+        "alternate_functions": [
+          "P7.3",
+          "PWMETI_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 41,
+        "name": "P4.1",
+        "alternate_functions": [
+          "P4.1",
+          "MISO_3",
+          "CMPO_2",
+          "PWMETI_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 42,
+        "name": "P4.2",
+        "alternate_functions": [
+          "P4.2",
+          "WR"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 43,
+        "name": "P4.3",
+        "alternate_functions": [
+          "P4.3",
+          "RxD_4",
+          "SCLK_3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 44,
+        "name": "P4.4",
+        "alternate_functions": [
+          "P4.4",
+          "RD",
+          "TxD_4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 45,
+        "name": "P2.0",
+        "alternate_functions": [
+          "P2.0",
+          "A8",
+          "PWM1P_2",
+          "PWM5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 46,
+        "name": "P2.1",
+        "alternate_functions": [
+          "P2.1",
+          "A9",
+          "PWM1N_2",
+          "PWM6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 47,
+        "name": "P2.2",
+        "alternate_functions": [
+          "P2.2",
+          "A10",
+          "PWM2P_2",
+          "PWM7",
+          "SS_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 48,
+        "name": "P2.3",
+        "alternate_functions": [
+          "P2.3",
+          "A11",
+          "PWM2N_2",
+          "PWM8",
+          "MOSI_2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 49,
+        "name": "P2.4",
+        "alternate_functions": [
+          "MISO_2",
+          "SDA_2",
+          "PWM3P_2",
+          "A12",
+          "P2.4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 50,
+        "name": "P2.5",
+        "alternate_functions": [
+          "SCLK_2",
+          "SCL_2",
+          "PWM3N_2",
+          "A13",
+          "P2.5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 51,
+        "name": "P2.6",
+        "alternate_functions": [
+          "PWM4P_2",
+          "A14",
+          "P2.6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 52,
+        "name": "P2.7",
+        "alternate_functions": [
+          "PWM4N_2",
+          "A15",
+          "P2.7"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 53,
+        "name": "P7.4",
+        "alternate_functions": [
+          "PWM5_4",
+          "P7.4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 54,
+        "name": "P7.5",
+        "alternate_functions": [
+          "PWM6_4",
+          "P7.5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 55,
+        "name": "P7.6",
+        "alternate_functions": [
+          "PWM7_4",
+          "P7.6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 56,
+        "name": "P7.7",
+        "alternate_functions": [
+          "PWM8_4",
+          "P7.7"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 57,
+        "name": "P4.5",
+        "alternate_functions": [
+          "ALE",
+          "P4.5"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 58,
+        "name": "P4.6",
+        "alternate_functions": [
+          "RxD2_2",
+          "P4.6"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 59,
+        "name": "P0.0",
+        "alternate_functions": [
+          "T3_2",
+          "PWM5_3",
+          "RxD3",
+          "ADC8",
+          "AD0",
+          "P0.0"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 60,
+        "name": "P0.1",
+        "alternate_functions": [
+          "T3CLKO_2",
+          "PWM6_3",
+          "TxD3",
+          "ADC9",
+          "AD1",
+          "P0.1"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 61,
+        "name": "P0.2",
+        "alternate_functions": [
+          "T4_2",
+          "PWM7_3",
+          "RxD4",
+          "ADC10",
+          "AD2",
+          "P0.2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 62,
+        "name": "P0.3",
+        "alternate_functions": [
+          "T4CLKO_2",
+          "PWM8_3",
+          "TxD4",
+          "ADC11",
+          "AD3",
+          "P0.3"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 63,
+        "name": "P0.4",
+        "alternate_functions": [
+          "T3",
+          "ADC12",
+          "AD4",
+          "P0.4"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      },
+      {
+        "package_pin": 64,
+        "name": "P5.2",
+        "alternate_functions": [
+          "RxD4_2",
+          "P5.2"
+        ],
+        "confidence": "CONFIRMED",
+        "evidence": [
+          "开发板资料/开发板原理图.pdf#page=1"
+        ]
+      }
+    ],
+    "capabilities": {
+      "gpio": 60,
+      "adc": "12-bit, 15 external channels; internal reference channel 15",
+      "dac": "PWM-derived only; no independent analog DAC assumed",
+      "timers": 5,
+      "uart": 4,
+      "spi": "master/slave",
+      "i2c": "master/slave",
+      "pwm": "8 channels / 2 advanced groups",
+      "usb": "full speed; P3.0 D-, P3.1 D+",
+      "rtc": true,
+      "watchdog": true,
+      "dma": "revision-dependent; A revision excludes DMA",
+      "interrupts": "22 classic sources, 4 priorities; GPIO interrupts revision-dependent",
+      "can": false,
+      "ethernet": false,
+      "sdio": false,
+      "debug": "STC ISP/on-chip emulation; no SWD/JTAG header confirmed"
+    },
+    "capability_evidence": [
+      "开发板资料/stc8h.pdf#page=204-208"
+    ]
+  },
+  "power": {
+    "rails": {
+      "VBUS": {
+        "voltage": {
+          "value": 5,
+          "confidence": "CONFIRMED",
+          "evidence": [
+            "开发板资料/开发板原理图.pdf#page=1"
+          ]
+        },
+        "source": "USB1/USB2 +5V -> F1 -> VBUS"
+      },
+      "VCC": {
+        "voltage": {
+          "value": 5,
+          "confidence": "CONFIRMED",
+          "evidence": [
+            "开发板资料/开发板原理图.pdf#page=1"
+          ]
+        },
+        "source": "VBUS -> ON/OFF1 -> VCC"
+      },
+      "3V3": {
+        "voltage": {
+          "value": 3.3,
+          "confidence": "CONFIRMED",
+          "evidence": [
+            "开发板资料/开发板原理图.pdf#page=1"
+          ]
+        },
+        "source": "VCC -> V1 regulator (model UNKNOWN)"
+      },
+      "GND": {
+        "voltage": {
+          "value": 0,
+          "confidence": "CONFIRMED",
+          "evidence": [
+            "开发板资料/开发板原理图.pdf#page=1"
+          ]
+        },
+        "source": "common ground"
+      }
+    },
+    "mcu_supply": {
+      "Vcc": "VCC",
+      "ADC_VRef+": "VCC",
+      "UCap": "C2 to GND; not a user supply rail"
+    },
+    "rtc_backup": "B1 -> U4.VCC1; main VCC -> U4.VCC2; actual battery chemistry/voltage UNKNOWN",
+    "external_input": "P1 is labeled power output; no VIN input circuitry confirmed"
+  },
+  "devices": {
+    "led0": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led1": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led2": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led3": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led4": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led5": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led6": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "led7": {
+      "type": "led",
+      "pins": [
+        "A",
+        "C"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0,
+      "resistor_ohms": 1000,
+      "power_jumper": "J2"
+    },
+    "k0": {
+      "type": "pushbutton",
+      "pins": [
+        "signal",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0
+    },
+    "k1": {
+      "type": "pushbutton",
+      "pins": [
+        "signal",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0
+    },
+    "k2": {
+      "type": "pushbutton",
+      "pins": [
+        "signal",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0
+    },
+    "k3": {
+      "type": "pushbutton",
+      "pins": [
+        "signal",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "active_level": 0
+    },
+    "reset": {
+      "type": "reset_button",
+      "pins": [
+        "signal",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "oled": {
+      "type": "oled_header",
+      "pins": [
+        "GND",
+        "VCC",
+        "SCL",
+        "SDA"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "controller": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "evidence": []
+      },
+      "address": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "evidence": []
+      }
+    },
+    "pot": {
+      "type": "potentiometer",
+      "pins": [
+        "VCC",
+        "WIPER",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "rtc": {
+      "type": "DS1302",
+      "pins": [
+        "VCC1",
+        "VCC2",
+        "GND",
+        "CE",
+        "IO",
+        "SCLK",
+        "X1",
+        "X2"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "buzzer": {
+      "type": "buzzer_transistor_driver",
+      "pins": [
+        "CONTROL",
+        "VCC",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "sensor": {
+      "type": "sensor_socket",
+      "pins": [
+        "VCC",
+        "DATA",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "ir": {
+      "type": "ir_receiver",
+      "pins": [
+        "VCC",
+        "GND",
+        "OUT"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "wifi": {
+      "type": "ESP8266_socket",
+      "pins": [
+        "VCC",
+        "GND",
+        "TXD",
+        "RXD"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "bluetooth": {
+      "type": "bluetooth_socket",
+      "pins": [
+        "VCC",
+        "GND",
+        "TXD",
+        "RXD"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "rgb": {
+      "type": "rgb_common_anode",
+      "pins": [
+        "A",
+        "R",
+        "G",
+        "B"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "ultrasonic": {
+      "type": "ultrasonic_socket",
+      "pins": [
+        "VCC",
+        "GND",
+        "TRIG",
+        "ECHO"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "uart_bridge": {
+      "type": "CH340N",
+      "pins": [
+        "TXD",
+        "RXD",
+        "UD+",
+        "UD-",
+        "VCC",
+        "GND",
+        "RTS#"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "usb_native": {
+      "type": "USB_C",
+      "pins": [
+        "DP",
+        "DN",
+        "VBUS",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "usb_uart": {
+      "type": "USB_C",
+      "pins": [
+        "DP",
+        "DN",
+        "VBUS",
+        "GND"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "j1": {
+      "type": "mode_select_header",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "lcd": {
+      "type": "LCD1602_12864_header",
+      "pins": [
+        "VCC",
+        "GND",
+        "RS",
+        "RW",
+        "E",
+        "RST",
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "tft": {
+      "type": "TFT480x320_parallel_header",
+      "pins": [
+        "VCC",
+        "GND",
+        "CS",
+        "RS",
+        "WR",
+        "RST",
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    "segments": {
+      "type": "four_digit_common_anode",
+      "pins": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "dp",
+        "DIG1",
+        "DIG2",
+        "DIG3",
+        "DIG4"
+      ],
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    }
+  },
+  "buses": {
+    "uart1": {
+      "rx": "P3.0",
+      "tx": "P3.1",
+      "route": "J1 selection -> CH340N"
+    },
+    "uart2": {
+      "rx": "P1.0",
+      "tx": "P1.1",
+      "clients": [
+        "wifi",
+        "bluetooth"
+      ],
+      "conflicts": [
+        "rtc",
+        "pot"
+      ]
+    },
+    "i2c": {
+      "sda": "P1.4",
+      "scl": "P1.5",
+      "clients": [
+        "oled"
+      ]
+    },
+    "rtc_3wire": {
+      "sclk": "P1.0",
+      "io": "P1.1",
+      "ce": "P1.3"
+    },
+    "spi": {
+      "clients": [],
+      "note": "SPI MCU capability; TFT connector SPI pins NC in schematic"
+    },
+    "usb": {
+      "dm": "P3.0",
+      "dp": "P3.1",
+      "route": "USB1 -> J1"
+    },
+    "can": {
+      "status": "NOT_PRESENT"
+    },
+    "rs485": {
+      "status": "NOT_PRESENT"
+    },
+    "parallel_display": {
+      "clients": [
+        "lcd",
+        "tft",
+        "segments"
+      ]
+    }
+  },
+  "connections": [
+    {
+      "from": "mcu.P6.0",
+      "to": "led0.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.1",
+      "to": "led1.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.2",
+      "to": "led2.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.3",
+      "to": "led3.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.4",
+      "to": "led4.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.5",
+      "to": "led5.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.6",
+      "to": "led6.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P6.7",
+      "to": "led7.C",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.0",
+      "to": "k0.signal",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "k0.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.1",
+      "to": "k1.signal",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "k1.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.2",
+      "to": "k2.signal",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "k2.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.3",
+      "to": "k3.signal",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "k3.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P5.4",
+      "to": "reset.signal",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.4",
+      "to": "oled.SDA",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.5",
+      "to": "oled.SCL",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.0",
+      "to": "pot.WIPER",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.0",
+      "to": "rtc.SCLK",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.1",
+      "to": "rtc.IO",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.3",
+      "to": "rtc.CE",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.5",
+      "to": "buzzer.CONTROL",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "J7 + R21 + Q5"
+    },
+    {
+      "from": "mcu.P3.6",
+      "to": "sensor.DATA",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.2",
+      "to": "ir.OUT",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "J5 closed"
+    },
+    {
+      "from": "mcu.P1.0",
+      "to": "wifi.TXD",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.1",
+      "to": "wifi.RXD",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.0",
+      "to": "bluetooth.TXD",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P1.1",
+      "to": "bluetooth.RXD",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.4",
+      "to": "rgb.R",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.5",
+      "to": "rgb.G",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.6",
+      "to": "rgb.B",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.4",
+      "to": "ultrasonic.TRIG",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.5",
+      "to": "ultrasonic.ECHO",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.1",
+      "to": "j1.3",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P3.0",
+      "to": "j1.4",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.1",
+      "to": "lcd.RS",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.2",
+      "to": "lcd.RW",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.4",
+      "to": "lcd.E",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.5",
+      "to": "lcd.RST",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.4",
+      "to": "tft.CS",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.5",
+      "to": "tft.RS",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.2",
+      "to": "tft.WR",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P4.1",
+      "to": "tft.RST",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.0",
+      "to": "lcd.D0",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.0",
+      "to": "tft.D0",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.7",
+      "to": "tft.D8",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.1",
+      "to": "lcd.D1",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.1",
+      "to": "tft.D1",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.6",
+      "to": "tft.D9",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.2",
+      "to": "lcd.D2",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.2",
+      "to": "tft.D2",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.5",
+      "to": "tft.D10",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.3",
+      "to": "lcd.D3",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.3",
+      "to": "tft.D3",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.4",
+      "to": "tft.D11",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.4",
+      "to": "lcd.D4",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.4",
+      "to": "tft.D4",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.3",
+      "to": "tft.D12",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.5",
+      "to": "lcd.D5",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.5",
+      "to": "tft.D5",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.2",
+      "to": "tft.D13",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.6",
+      "to": "lcd.D6",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.6",
+      "to": "tft.D6",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.1",
+      "to": "tft.D14",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.7",
+      "to": "lcd.D7",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.7",
+      "to": "tft.D7",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P0.0",
+      "to": "tft.D15",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.0",
+      "to": "segments.a",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.1",
+      "to": "segments.b",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.2",
+      "to": "segments.c",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.3",
+      "to": "segments.d",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.4",
+      "to": "segments.e",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.5",
+      "to": "segments.f",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.6",
+      "to": "segments.g",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P2.7",
+      "to": "segments.dp",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "mcu.P7.4",
+      "to": "segments.DIG1",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "Q1 PNP + 100ohm digit resistor; active-low base"
+    },
+    {
+      "from": "mcu.P7.5",
+      "to": "segments.DIG2",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "Q2 PNP + 100ohm digit resistor; active-low base"
+    },
+    {
+      "from": "mcu.P7.6",
+      "to": "segments.DIG3",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "Q3 PNP + 100ohm digit resistor; active-low base"
+    },
+    {
+      "from": "mcu.P7.7",
+      "to": "segments.DIG4",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "Q4 PNP + 100ohm digit resistor; active-low base"
+    },
+    {
+      "from": "usb_native.DP",
+      "to": "j1.1",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "usb_native.DN",
+      "to": "j1.2",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "uart_bridge.RXD",
+      "to": "j1.5",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "uart_bridge.TXD",
+      "to": "j1.6",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "usb_uart.DP",
+      "to": "uart_bridge.UD+",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "usb_uart.DN",
+      "to": "uart_bridge.UD-",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "oled.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "oled.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "pot.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ],
+      "via": "J6 closed"
+    },
+    {
+      "from": "power.GND",
+      "to": "pot.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "rtc.VCC2",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "rtc.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "buzzer.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "buzzer.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "sensor.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "sensor.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "ir.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "ir.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "bluetooth.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "bluetooth.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "ultrasonic.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "ultrasonic.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VBUS",
+      "to": "uart_bridge.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "uart_bridge.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "lcd.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "lcd.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "tft.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "tft.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.3V3",
+      "to": "wifi.VCC",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "wifi.GND",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led0.A",
+      "via": "J2 + R4 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led1.A",
+      "via": "J2 + R5 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led2.A",
+      "via": "J2 + R6 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led3.A",
+      "via": "J2 + R7 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led4.A",
+      "via": "J2 + R8 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led5.A",
+      "via": "J2 + R9 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led6.A",
+      "via": "J2 + R10 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "led7.A",
+      "via": "J2 + R11 1kohm",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "mcu.Vcc/AVcc",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.VCC",
+      "to": "mcu.ADC_VRef+",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "from": "power.GND",
+      "to": "mcu.Gnd/AGnd",
+      "confidence": "CONFIRMED",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "id": "J1_MODE",
+      "rule": "UART jumpers 3-5 and 4-6; USB jumpers 1-3 and 2-4; never enable both",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1",
+        "开发板资料/开发板.pdf#page=4"
+      ]
+    },
+    {
+      "id": "UART_KEYS",
+      "pins": [
+        "P3.0",
+        "P3.1"
+      ],
+      "rule": "K0/K1 share UART1 and USB; not used by serial bring-up",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "id": "UART2_ADC_RTC",
+      "pins": [
+        "P1.0",
+        "P1.1"
+      ],
+      "rule": "Pot via J6, RTC, WiFi/BT share nets; remove J6 / remove modules as required. RTC CE P1.3 must remain low outside RTC profile.",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "id": "RGB_DIGIT_ULTRA",
+      "pins": [
+        "P7.4",
+        "P7.5",
+        "P7.6",
+        "P7.7"
+      ],
+      "rule": "RGB via J8, digit driver via J4, H3 share nets; one profile at a time",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "id": "DISPLAY_DATA",
+      "pins": [
+        "P2.0",
+        "P2.1",
+        "P2.2",
+        "P2.3",
+        "P2.4",
+        "P2.5",
+        "P2.6",
+        "P2.7"
+      ],
+      "rule": "LCD, TFT and segments share P2; isolate inactive modules",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "id": "IR_KEY",
+      "pins": [
+        "P3.2"
+      ],
+      "rule": "IR through J5 conflicts with K2",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    },
+    {
+      "id": "USB_POWER",
+      "rule": "Both USB VBUS nets are shared before F1; dual-host power isolation is not shown",
+      "evidence": [
+        "开发板资料/开发板原理图.pdf#page=1"
+      ]
+    }
+  ],
+  "unknowns": [
+    "actual populated MCU and silicon revision",
+    "manufacturer and board revision",
+    "V1 regulator model",
+    "OLED controller/address and actual attached sensor population",
+    "RTC battery voltage",
+    "ISP-configured clock",
+    "TFT controller; parallel 480x320 connector does not prove ILI9341 compatibility",
+    "CH340N RTS# marked NC; D1 connects TXD/RXD nets, not reset",
+    "No external Flash/PSRAM populated in supplied schematic"
+  ],
+  "source_fingerprints": {
+    "stc8h.pdf": "f674d78338c6c250dd69b1e87e182500d94c45f184fcfe4cdd66b9e7278f0e0c",
+    "STC8H工程标准框架/ChipDevices/config.h": "eacce8b4ee0439a5d8710dd9454db189994d797c326b949446efcd6e1280f94f",
+    "STC8H工程标准框架/ChipDevices/STC8xxxx.H": "7c7861022f35d3aa86cd89942a75a9ddcf2073e94f7bb3c9cf43c1a421e15a45",
+    "STC8H工程标准框架/STC8.uvproj": "b3f64449db96a1dbfcc85598de13dfba2bbd4dba7dfb66bbb78fb3f67232ad75",
+    "串口.md": "a8c923ae2238a9db985b64e3fd84f298c32889c3ea50bdad5f5585107191eb06",
+    "开发板.pdf": "6ab51ec4e8443b649c7845fdc5be6b25e3ccc19071a7a57a09e9eb97e18b6221",
+    "开发板原理图.pdf": "74279e44c9eb629ecf1a2b2ef28c2f4f0f25caef4f16739748320d6ff1d8ce2d"
+  }
+}

@@ -1,0 +1,8 @@
+
+COMMAND D:\codex\单片机\wokwi_sim\tools\avr\bin\avr-gcc.exe -mmcu=atmega2560 -DF_CPU=16000000UL -Os -Wall -Wextra -Werror -std=c99 -g -o D:\codex\单片机\wokwi_sim\build\equivalent.elf D:\codex\单片机\wokwi_sim\firmware\equivalent\main.c
+
+COMMAND D:\codex\单片机\wokwi_sim\tools\avr\bin\avr-objcopy.exe -O ihex -R .eeprom D:\codex\单片机\wokwi_sim\build\equivalent.elf D:\codex\单片机\wokwi_sim\build\equivalent.hex
+
+COMMAND D:\codex\单片机\wokwi_sim\tools\avr\bin\avr-size.exe D:\codex\单片机\wokwi_sim\build\equivalent.elf
+   text	   data	    bss	    dec	    hex	filename
+    888	    470	      0	   1358	    54e	D:\codex\��Ƭ��\wokwi_sim\build\equivalent.elf

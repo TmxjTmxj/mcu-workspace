@@ -1,0 +1,25 @@
+name: STM32 native GPIO UART button bring-up
+version: 1
+steps:
+  - wait-serial: "READY"
+  - wait-serial: "LED ON"
+  - expect-pin:
+      part-id: mcu
+      pin: A0
+      expected: 1
+  - wait-serial: "LED OFF"
+  - expect-pin:
+      part-id: mcu
+      pin: A0
+      expected: 0
+  - set-control:
+      part-id: button
+      control: pressed
+      value: 1
+  - wait-serial: "BUTTON PRESSED"
+  - wait-serial: "MODE FAST"
+  - set-control:
+      part-id: button
+      control: pressed
+      value: 0
+  - wait-serial: "BUTTON RELEASED"

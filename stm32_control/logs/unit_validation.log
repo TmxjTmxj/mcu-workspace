@@ -1,0 +1,11 @@
+test_complete_uart_trace (test_validation.ValidationTests.test_complete_uart_trace) ... ok
+test_duplicate_uart_time_is_rejected (test_validation.ValidationTests.test_duplicate_uart_time_is_rejected) ... ok
+test_empty_evidence (test_validation.ValidationTests.test_empty_evidence) ... ok
+test_fault_does_not_stop_motor (test_validation.ValidationTests.test_fault_does_not_stop_motor) ... ok
+test_nonconvergent (test_validation.ValidationTests.test_nonconvergent) ... ok
+test_uart_must_cover_end_of_run (test_validation.ValidationTests.test_uart_must_cover_end_of_run) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

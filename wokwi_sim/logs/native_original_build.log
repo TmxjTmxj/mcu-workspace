@@ -1,0 +1,82 @@
+Rebuild target 'STC8'
+compiling main.c...
+User\main.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling System_init.c...
+User\System_init.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+assembling isr.asm...
+compiling Led1.c...
+App\Led1.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling WaterLight.c...
+APP\WaterLight.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling app.c...
+APP\app.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling ADC.c...
+ChipDevices\ADC.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling compare.c...
+ChipDevices\compare.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling delay.c...
+ChipDevices\delay.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling EEPROM.c...
+ChipDevices\EEPROM.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling Exti.c...
+ChipDevices\Exti.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling GPIO.c...
+ChipDevices\GPIO.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling I2C.c...
+ChipDevices\I2C.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling PCA.c...
+ChipDevices\PCA.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling PWM.C...
+ChipDevices\PWM.C(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling PWM15bit.c...
+ChipDevices\PWM15bit.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling Soft_UART.c...
+ChipDevices\Soft_UART.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling spi.c...
+ChipDevices\spi.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling timer.c...
+ChipDevices\timer.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling UART.C...
+ChipDevices\UART.C(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling WDT.c...
+ChipDevices\WDT.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+compiling Geek_Task.c...
+UserDevices\Geek_Task.c(1): warning C500: LICENSE ERROR (R206(3): NO REGISTRY ACCESS, ADMINISTRATION RIGHTS REQUIRED)
+linking...
+
+LX51 LINKER/LOCATER V4.66.41.0 - SN: K1DZC-P3D14C
+COPYRIGHT ARM Germany GmbH 1995 - 2015
+@.\Outputs\Geek_STC8.lnp ".\Outputs\main.obj",
+".\Outputs\System_init.obj",
+".\Outputs\isr.obj",
+".\Outputs\Led1.obj",
+".\Outputs\WaterLight.obj",
+".\Outputs\app.obj",
+".\Outputs\ADC.obj",
+".\Outputs\compare.obj",
+".\Outputs\delay.obj",
+".\Outputs\EEPROM.obj",
+".\Outputs\Exti.obj",
+".\Outputs\GPIO.obj",
+".\Outputs\I2C.obj",
+".\Outputs\PCA.obj",
+".\Outputs\PWM.obj",
+".\Outputs\PWM15bit.obj",
+".\Outputs\Soft_UART.obj",
+".\Outputs\spi.obj",
+".\Outputs\timer.obj",
+".\Outputs\UART.obj",
+".\Outputs\WDT.obj",
+".\Outputs\Geek_Task.obj" 
+TO ".\Outputs\Geek_STC8" 
+
+PRINT(".\Outputs\Geek_STC8.map") REMOVEUNUSED 
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 20B5H BYTE (408%) *
+******************************************************************************
+
+Program Size: data=9.4 xdata=579 const=0 code=3581
+*** ERROR L250: CODE SIZE LIMIT IN RESTRICTED VERSION EXCEEDED
+    LIMIT:   0800H BYTES
+Target not created.

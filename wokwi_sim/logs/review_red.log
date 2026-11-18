@@ -1,0 +1,48 @@
+test_adapter_not_native (test_workflow.WorkflowTests.test_adapter_not_native) ... ok
+test_board_valid (test_workflow.WorkflowTests.test_board_valid) ... ok
+test_changed_schematic_requires_reanalysis (test_workflow.WorkflowTests.test_changed_schematic_requires_reanalysis) ... ERROR
+test_cli_unicode_output_decoded (test_workflow.WorkflowTests.test_cli_unicode_output_decoded) ... ok
+test_duplicate_package_pin_rejected (test_workflow.WorkflowTests.test_duplicate_package_pin_rejected) ... FAIL
+test_duplicate_simulation_pin_rejected (test_workflow.WorkflowTests.test_duplicate_simulation_pin_rejected) ... ok
+test_failure_cannot_pass_serial (test_workflow.WorkflowTests.test_failure_cannot_pass_serial) ... ok
+test_generated_connections_have_endpoints (test_workflow.WorkflowTests.test_generated_connections_have_endpoints) ... ok
+test_inventory_missing_folder_rejected (test_workflow.WorkflowTests.test_inventory_missing_folder_rejected) ... ok
+test_low_confidence_mcu_rejected (test_workflow.WorkflowTests.test_low_confidence_mcu_rejected) ... FAIL
+test_missing_evidence_rejected (test_workflow.WorkflowTests.test_missing_evidence_rejected) ... ok
+test_partial_boot_cannot_pass_serial (test_workflow.WorkflowTests.test_partial_boot_cannot_pass_serial) ... ok
+test_stale_log_not_reused (test_workflow.WorkflowTests.test_stale_log_not_reused) ... ok
+test_unknown_connection_pin_rejected (test_workflow.WorkflowTests.test_unknown_connection_pin_rejected) ... ok
+test_unknown_mcu_rejected (test_workflow.WorkflowTests.test_unknown_mcu_rejected) ... ok
+test_unknown_voltage_rejected (test_workflow.WorkflowTests.test_unknown_voltage_rejected) ... ok
+
+======================================================================
+ERROR: test_changed_schematic_requires_reanalysis (test_workflow.WorkflowTests.test_changed_schematic_requires_reanalysis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 40, in test_changed_schematic_requires_reanalysis
+    self.assertTrue(self.hardware.validate_sources(self.graph, inventory))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'hardware' has no attribute 'validate_sources'
+
+======================================================================
+FAIL: test_duplicate_package_pin_rejected (test_workflow.WorkflowTests.test_duplicate_package_pin_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 33, in test_duplicate_package_pin_rejected
+    self.assertTrue(self.hardware.validate(self.graph))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_low_confidence_mcu_rejected (test_workflow.WorkflowTests.test_low_confidence_mcu_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 29, in test_low_confidence_mcu_rejected
+    self.assertTrue(self.hardware.validate(self.graph))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.072s
+
+FAILED (failures=2, errors=1)

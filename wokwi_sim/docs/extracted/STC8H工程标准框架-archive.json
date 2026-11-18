@@ -1,0 +1,1742 @@
+[
+  {
+    "name": "APP/",
+    "size": 0
+  },
+  {
+    "name": "APP/app.c",
+    "size": 933
+  },
+  {
+    "name": "APP/Encoder.c",
+    "size": 162
+  },
+  {
+    "name": "APP/Encoder.h",
+    "size": 215
+  },
+  {
+    "name": "APP/Led1.c",
+    "size": 888
+  },
+  {
+    "name": "APP/Led1.h",
+    "size": 86
+  },
+  {
+    "name": "ChipDevices/",
+    "size": 0
+  },
+  {
+    "name": "ChipDevices/ADC.c",
+    "size": 3932
+  },
+  {
+    "name": "ChipDevices/ADC.h",
+    "size": 3336
+  },
+  {
+    "name": "ChipDevices/compare.c",
+    "size": 2619
+  },
+  {
+    "name": "ChipDevices/compare.h",
+    "size": 2714
+  },
+  {
+    "name": "ChipDevices/config.h",
+    "size": 1327
+  },
+  {
+    "name": "ChipDevices/delay.c",
+    "size": 1460
+  },
+  {
+    "name": "ChipDevices/delay.h",
+    "size": 935
+  },
+  {
+    "name": "ChipDevices/EEPROM.c",
+    "size": 5257
+  },
+  {
+    "name": "ChipDevices/EEPROM.h",
+    "size": 2053
+  },
+  {
+    "name": "ChipDevices/Exti.c",
+    "size": 3939
+  },
+  {
+    "name": "ChipDevices/Exti.h",
+    "size": 1469
+  },
+  {
+    "name": "ChipDevices/GPIO.c",
+    "size": 4643
+  },
+  {
+    "name": "ChipDevices/GPIO.h",
+    "size": 1779
+  },
+  {
+    "name": "ChipDevices/I2C.c",
+    "size": 8342
+  },
+  {
+    "name": "ChipDevices/I2C.h",
+    "size": 2079
+  },
+  {
+    "name": "ChipDevices/PCA.c",
+    "size": 6079
+  },
+  {
+    "name": "ChipDevices/PCA.h",
+    "size": 2599
+  },
+  {
+    "name": "ChipDevices/PWM.C",
+    "size": 7236
+  },
+  {
+    "name": "ChipDevices/PWM.h",
+    "size": 6137
+  },
+  {
+    "name": "ChipDevices/PWM15bit.c",
+    "size": 15534
+  },
+  {
+    "name": "ChipDevices/PWM15bit.h",
+    "size": 2682
+  },
+  {
+    "name": "ChipDevices/Soft_UART.c",
+    "size": 1683
+  },
+  {
+    "name": "ChipDevices/soft_uart.h",
+    "size": 151
+  },
+  {
+    "name": "ChipDevices/spi.c",
+    "size": 3949
+  },
+  {
+    "name": "ChipDevices/spi.h",
+    "size": 2134
+  },
+  {
+    "name": "ChipDevices/STC8xxxx.H",
+    "size": 154453
+  },
+  {
+    "name": "ChipDevices/timer.c",
+    "size": 6450
+  },
+  {
+    "name": "ChipDevices/timer.h",
+    "size": 1748
+  },
+  {
+    "name": "ChipDevices/UART.C",
+    "size": 12769
+  },
+  {
+    "name": "ChipDevices/UART.h",
+    "size": 4077
+  },
+  {
+    "name": "ChipDevices/WDT.c",
+    "size": 1710
+  },
+  {
+    "name": "ChipDevices/WDT.h",
+    "size": 1573
+  },
+  {
+    "name": "ISR/",
+    "size": 0
+  },
+  {
+    "name": "ISR/STC8G_H_ADC_Isr.c",
+    "size": 1250
+  },
+  {
+    "name": "ISR/STC8G_H_Compare_Isr.c",
+    "size": 1304
+  },
+  {
+    "name": "ISR/STC8G_H_Exti_Isr.c",
+    "size": 3223
+  },
+  {
+    "name": "ISR/STC8G_H_GPIO_Isr.c",
+    "size": 860
+  },
+  {
+    "name": "ISR/STC8G_H_I2C_Isr.c",
+    "size": 2668
+  },
+  {
+    "name": "ISR/STC8G_H_SPI_Isr.c",
+    "size": 1636
+  },
+  {
+    "name": "ISR/STC8G_H_Timer_Isr.c",
+    "size": 2982
+  },
+  {
+    "name": "ISR/STC8G_H_UART_Isr.c",
+    "size": 4004
+  },
+  {
+    "name": "ISR/STC8G_PCA_Isr.c",
+    "size": 3248
+  },
+  {
+    "name": "ISR/STC8G_PWM15bit_Isr.c",
+    "size": 4429
+  },
+  {
+    "name": "ISR/STC8H_PWM_Isr.c",
+    "size": 859
+  },
+  {
+    "name": "Outputs/",
+    "size": 0
+  },
+  {
+    "name": "Outputs/Geek_STC8.hex",
+    "size": 10657
+  },
+  {
+    "name": "readme.assets/",
+    "size": 0
+  },
+  {
+    "name": "readme.assets/QQ_1728991064974.png",
+    "size": 1038037
+  },
+  {
+    "name": "readme.md",
+    "size": 1242
+  },
+  {
+    "name": "samples/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/APP/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/APP/app.c",
+    "size": 568
+  },
+  {
+    "name": "samples/Geek_beep/APP/Encoder.c",
+    "size": 162
+  },
+  {
+    "name": "samples/Geek_beep/APP/Encoder.h",
+    "size": 215
+  },
+  {
+    "name": "samples/Geek_beep/APP/Led1.c",
+    "size": 888
+  },
+  {
+    "name": "samples/Geek_beep/APP/Led1.h",
+    "size": 86
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/ADC.c",
+    "size": 3932
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/ADC.h",
+    "size": 3336
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/compare.c",
+    "size": 2619
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/compare.h",
+    "size": 2714
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/config.h",
+    "size": 1327
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/delay.c",
+    "size": 1460
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/delay.h",
+    "size": 935
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/EEPROM.c",
+    "size": 5257
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/EEPROM.h",
+    "size": 2053
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/Exti.c",
+    "size": 3939
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/Exti.h",
+    "size": 1469
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/GPIO.c",
+    "size": 4643
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/GPIO.h",
+    "size": 1779
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/I2C.c",
+    "size": 8342
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/I2C.h",
+    "size": 2079
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PCA.c",
+    "size": 6079
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PCA.h",
+    "size": 2599
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PWM.C",
+    "size": 7236
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PWM.h",
+    "size": 6137
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PWM15bit.c",
+    "size": 15534
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/PWM15bit.h",
+    "size": 2682
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/Soft_UART.c",
+    "size": 1683
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/soft_uart.h",
+    "size": 151
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/spi.c",
+    "size": 3949
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/spi.h",
+    "size": 2134
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/STC8xxxx.H",
+    "size": 154453
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/timer.c",
+    "size": 6450
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/timer.h",
+    "size": 1748
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/UART.C",
+    "size": 12769
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/UART.h",
+    "size": 4077
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/WDT.c",
+    "size": 1710
+  },
+  {
+    "name": "samples/Geek_beep/ChipDevices/WDT.h",
+    "size": 1573
+  },
+  {
+    "name": "samples/Geek_beep/ISR/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_ADC_Isr.c",
+    "size": 1250
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_Compare_Isr.c",
+    "size": 1304
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_Exti_Isr.c",
+    "size": 3223
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_GPIO_Isr.c",
+    "size": 860
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_I2C_Isr.c",
+    "size": 2668
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_SPI_Isr.c",
+    "size": 1636
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_Timer_Isr.c",
+    "size": 2982
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_H_UART_Isr.c",
+    "size": 4004
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_PCA_Isr.c",
+    "size": 3248
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8G_PWM15bit_Isr.c",
+    "size": 4429
+  },
+  {
+    "name": "samples/Geek_beep/ISR/STC8H_PWM_Isr.c",
+    "size": 859
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/ADC.lst",
+    "size": 6988
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/ADC.obj",
+    "size": 113077
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/app.lst",
+    "size": 1916
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/app.obj",
+    "size": 106149
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/compare.lst",
+    "size": 4520
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/compare.obj",
+    "size": 108812
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/delay.lst",
+    "size": 3040
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/delay.obj",
+    "size": 105125
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/EEPROM.lst",
+    "size": 8486
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/EEPROM.obj",
+    "size": 110138
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Exti.lst",
+    "size": 7053
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Exti.obj",
+    "size": 110215
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8",
+    "size": 2225109
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8.build_log.htm",
+    "size": 1513
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8.hex",
+    "size": 10404
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8.lnp",
+    "size": 580
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8.map",
+    "size": 401722
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_STC8.SBR",
+    "size": 2091763
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_Task.lst",
+    "size": 3250
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Geek_Task.obj",
+    "size": 107539
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/GPIO.lst",
+    "size": 7280
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/GPIO.obj",
+    "size": 112625
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/I2C.lst",
+    "size": 13496
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/I2C.obj",
+    "size": 115648
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/isr.lst",
+    "size": 6194
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/isr.obj",
+    "size": 1400
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Led1.lst",
+    "size": 2363
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Led1.obj",
+    "size": 108080
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/main.lst",
+    "size": 1490
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/main.obj",
+    "size": 105708
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PCA.lst",
+    "size": 10391
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PCA.obj",
+    "size": 116719
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PWM.lst",
+    "size": 11106
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PWM.obj",
+    "size": 122334
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PWM15bit.lst",
+    "size": 25571
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/PWM15bit.obj",
+    "size": 121908
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Soft_UART.lst",
+    "size": 3938
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/Soft_UART.obj",
+    "size": 106676
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/spi.lst",
+    "size": 6914
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/spi.obj",
+    "size": 110992
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/System_init.lst",
+    "size": 18968
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/System_init.obj",
+    "size": 132228
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/timer.lst",
+    "size": 10474
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/timer.obj",
+    "size": 116733
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/UART.lst",
+    "size": 22085
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/UART.obj",
+    "size": 116778
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/WDT.lst",
+    "size": 3278
+  },
+  {
+    "name": "samples/Geek_beep/Outputs/WDT.obj",
+    "size": 106690
+  },
+  {
+    "name": "samples/Geek_beep/STC8.uvgui.Chensj",
+    "size": 93002
+  },
+  {
+    "name": "samples/Geek_beep/STC8.uvopt",
+    "size": 13023
+  },
+  {
+    "name": "samples/Geek_beep/STC8.uvproj",
+    "size": 18183
+  },
+  {
+    "name": "samples/Geek_beep/User/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/User/Config.h——",
+    "size": 1801
+  },
+  {
+    "name": "samples/Geek_beep/User/isr.asm",
+    "size": 2198
+  },
+  {
+    "name": "samples/Geek_beep/User/main.c",
+    "size": 187
+  },
+  {
+    "name": "samples/Geek_beep/User/STC8xxxx.Hold",
+    "size": 143248
+  },
+  {
+    "name": "samples/Geek_beep/User/System_init.c",
+    "size": 13281
+  },
+  {
+    "name": "samples/Geek_beep/User/System_init.h",
+    "size": 919
+  },
+  {
+    "name": "samples/Geek_beep/User/Type_def.h——",
+    "size": 1965
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/etp.c",
+    "size": 5045
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/etp.h",
+    "size": 6317
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/Geek_Task.c",
+    "size": 1330
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/Geek_Task.h",
+    "size": 899
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/NixieTube.c",
+    "size": 6657
+  },
+  {
+    "name": "samples/Geek_beep/UserDevices/NixieTube.h",
+    "size": 2125
+  },
+  {
+    "name": "samples/Geek_beep/清理工程.bat",
+    "size": 216
+  },
+  {
+    "name": "samples/Geek_LED/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/APP/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/APP/app.c",
+    "size": 568
+  },
+  {
+    "name": "samples/Geek_LED/APP/Encoder.c",
+    "size": 162
+  },
+  {
+    "name": "samples/Geek_LED/APP/Encoder.h",
+    "size": 215
+  },
+  {
+    "name": "samples/Geek_LED/APP/Led1.c",
+    "size": 888
+  },
+  {
+    "name": "samples/Geek_LED/APP/Led1.h",
+    "size": 86
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/ADC.c",
+    "size": 3932
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/ADC.h",
+    "size": 3336
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/compare.c",
+    "size": 2619
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/compare.h",
+    "size": 2714
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/config.h",
+    "size": 1327
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/delay.c",
+    "size": 1460
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/delay.h",
+    "size": 935
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/EEPROM.c",
+    "size": 5257
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/EEPROM.h",
+    "size": 2053
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/Exti.c",
+    "size": 3939
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/Exti.h",
+    "size": 1469
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/GPIO.c",
+    "size": 4643
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/GPIO.h",
+    "size": 1779
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/I2C.c",
+    "size": 8342
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/I2C.h",
+    "size": 2079
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PCA.c",
+    "size": 6079
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PCA.h",
+    "size": 2599
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PWM.C",
+    "size": 7236
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PWM.h",
+    "size": 6137
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PWM15bit.c",
+    "size": 15534
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/PWM15bit.h",
+    "size": 2682
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/Soft_UART.c",
+    "size": 1683
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/soft_uart.h",
+    "size": 151
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/spi.c",
+    "size": 3949
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/spi.h",
+    "size": 2134
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/STC8xxxx.H",
+    "size": 154453
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/timer.c",
+    "size": 6450
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/timer.h",
+    "size": 1748
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/UART.C",
+    "size": 12769
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/UART.h",
+    "size": 4077
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/WDT.c",
+    "size": 1710
+  },
+  {
+    "name": "samples/Geek_LED/ChipDevices/WDT.h",
+    "size": 1573
+  },
+  {
+    "name": "samples/Geek_LED/ISR/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_ADC_Isr.c",
+    "size": 1250
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_Compare_Isr.c",
+    "size": 1304
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_Exti_Isr.c",
+    "size": 3223
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_GPIO_Isr.c",
+    "size": 860
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_I2C_Isr.c",
+    "size": 2668
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_SPI_Isr.c",
+    "size": 1636
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_Timer_Isr.c",
+    "size": 2982
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_H_UART_Isr.c",
+    "size": 4004
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_PCA_Isr.c",
+    "size": 3248
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8G_PWM15bit_Isr.c",
+    "size": 4429
+  },
+  {
+    "name": "samples/Geek_LED/ISR/STC8H_PWM_Isr.c",
+    "size": 859
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/ADC.lst",
+    "size": 6988
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/ADC.obj",
+    "size": 113077
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/app.lst",
+    "size": 1916
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/app.obj",
+    "size": 106146
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/compare.lst",
+    "size": 4520
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/compare.obj",
+    "size": 108812
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/delay.lst",
+    "size": 3040
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/delay.obj",
+    "size": 105125
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/EEPROM.lst",
+    "size": 8486
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/EEPROM.obj",
+    "size": 110138
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Exti.lst",
+    "size": 7053
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Exti.obj",
+    "size": 110215
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8",
+    "size": 2225889
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8.build_log.htm",
+    "size": 1512
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8.hex",
+    "size": 10716
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8.lnp",
+    "size": 580
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8.map",
+    "size": 402899
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_STC8.SBR",
+    "size": 2092055
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_Task.lst",
+    "size": 3250
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Geek_Task.obj",
+    "size": 107536
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/GPIO.lst",
+    "size": 7280
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/GPIO.obj",
+    "size": 112625
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/I2C.lst",
+    "size": 13496
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/I2C.obj",
+    "size": 115648
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/isr.lst",
+    "size": 6194
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/isr.obj",
+    "size": 1400
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Led1.lst",
+    "size": 2363
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Led1.obj",
+    "size": 108074
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/main.lst",
+    "size": 1488
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/main.obj",
+    "size": 105940
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PCA.lst",
+    "size": 10391
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PCA.obj",
+    "size": 116719
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PWM.lst",
+    "size": 11106
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PWM.obj",
+    "size": 122334
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PWM15bit.lst",
+    "size": 25571
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/PWM15bit.obj",
+    "size": 121908
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Soft_UART.lst",
+    "size": 3938
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/Soft_UART.obj",
+    "size": 106676
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/spi.lst",
+    "size": 6914
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/spi.obj",
+    "size": 110992
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/System_init.lst",
+    "size": 18962
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/System_init.obj",
+    "size": 132503
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/timer.lst",
+    "size": 10474
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/timer.obj",
+    "size": 116733
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/UART.lst",
+    "size": 22085
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/UART.obj",
+    "size": 116778
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/WDT.lst",
+    "size": 3278
+  },
+  {
+    "name": "samples/Geek_LED/Outputs/WDT.obj",
+    "size": 106690
+  },
+  {
+    "name": "samples/Geek_LED/STC8.uvgui.Chensj",
+    "size": 95640
+  },
+  {
+    "name": "samples/Geek_LED/STC8.uvopt",
+    "size": 13023
+  },
+  {
+    "name": "samples/Geek_LED/STC8.uvproj",
+    "size": 18183
+  },
+  {
+    "name": "samples/Geek_LED/User/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/User/Config.h——",
+    "size": 1801
+  },
+  {
+    "name": "samples/Geek_LED/User/isr.asm",
+    "size": 2198
+  },
+  {
+    "name": "samples/Geek_LED/User/main.c",
+    "size": 185
+  },
+  {
+    "name": "samples/Geek_LED/User/STC8xxxx.Hold",
+    "size": 143248
+  },
+  {
+    "name": "samples/Geek_LED/User/System_init.c",
+    "size": 13275
+  },
+  {
+    "name": "samples/Geek_LED/User/System_init.h",
+    "size": 919
+  },
+  {
+    "name": "samples/Geek_LED/User/Type_def.h——",
+    "size": 1965
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/etp.c",
+    "size": 5045
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/etp.h",
+    "size": 6317
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/Geek_Task.c",
+    "size": 1330
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/Geek_Task.h",
+    "size": 899
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/NixieTube.c",
+    "size": 6657
+  },
+  {
+    "name": "samples/Geek_LED/UserDevices/NixieTube.h",
+    "size": 2125
+  },
+  {
+    "name": "samples/Geek_LED/清理工程.bat",
+    "size": 216
+  },
+  {
+    "name": "samples/STC8_LED/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/APP/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/APP/app.c",
+    "size": 568
+  },
+  {
+    "name": "samples/STC8_LED/APP/Encoder.c",
+    "size": 162
+  },
+  {
+    "name": "samples/STC8_LED/APP/Encoder.h",
+    "size": 215
+  },
+  {
+    "name": "samples/STC8_LED/APP/Led1.c",
+    "size": 888
+  },
+  {
+    "name": "samples/STC8_LED/APP/Led1.h",
+    "size": 86
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/ADC.c",
+    "size": 3932
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/ADC.h",
+    "size": 3336
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/compare.c",
+    "size": 2619
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/compare.h",
+    "size": 2714
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/config.h",
+    "size": 1327
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/delay.c",
+    "size": 1460
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/delay.h",
+    "size": 935
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/EEPROM.c",
+    "size": 5257
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/EEPROM.h",
+    "size": 2053
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/Exti.c",
+    "size": 3939
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/Exti.h",
+    "size": 1469
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/GPIO.c",
+    "size": 4643
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/GPIO.h",
+    "size": 1779
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/I2C.c",
+    "size": 8342
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/I2C.h",
+    "size": 2079
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PCA.c",
+    "size": 6079
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PCA.h",
+    "size": 2599
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PWM.C",
+    "size": 7236
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PWM.h",
+    "size": 6137
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PWM15bit.c",
+    "size": 15534
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/PWM15bit.h",
+    "size": 2682
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/Soft_UART.c",
+    "size": 1683
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/soft_uart.h",
+    "size": 151
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/spi.c",
+    "size": 3949
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/spi.h",
+    "size": 2134
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/STC8xxxx.H",
+    "size": 154453
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/timer.c",
+    "size": 6450
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/timer.h",
+    "size": 1748
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/UART.C",
+    "size": 12769
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/UART.h",
+    "size": 4077
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/WDT.c",
+    "size": 1710
+  },
+  {
+    "name": "samples/STC8_LED/ChipDevices/WDT.h",
+    "size": 1573
+  },
+  {
+    "name": "samples/STC8_LED/ISR/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_ADC_Isr.c",
+    "size": 1250
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_Compare_Isr.c",
+    "size": 1304
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_Exti_Isr.c",
+    "size": 3223
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_GPIO_Isr.c",
+    "size": 860
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_I2C_Isr.c",
+    "size": 2668
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_SPI_Isr.c",
+    "size": 1636
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_Timer_Isr.c",
+    "size": 2982
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_H_UART_Isr.c",
+    "size": 4004
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_PCA_Isr.c",
+    "size": 3248
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8G_PWM15bit_Isr.c",
+    "size": 4429
+  },
+  {
+    "name": "samples/STC8_LED/ISR/STC8H_PWM_Isr.c",
+    "size": 859
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/ADC.lst",
+    "size": 6988
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/ADC.obj",
+    "size": 113077
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/app.lst",
+    "size": 1916
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/app.obj",
+    "size": 106146
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/compare.lst",
+    "size": 4520
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/compare.obj",
+    "size": 108812
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/delay.lst",
+    "size": 3040
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/delay.obj",
+    "size": 105125
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/EEPROM.lst",
+    "size": 8486
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/EEPROM.obj",
+    "size": 110138
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Exti.lst",
+    "size": 7053
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Exti.obj",
+    "size": 110215
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8",
+    "size": 2225869
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8.build_log.htm",
+    "size": 1512
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8.hex",
+    "size": 10657
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8.lnp",
+    "size": 580
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8.map",
+    "size": 402686
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_STC8.SBR",
+    "size": 2092112
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_Task.lst",
+    "size": 3250
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Geek_Task.obj",
+    "size": 107536
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/GPIO.lst",
+    "size": 7280
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/GPIO.obj",
+    "size": 112625
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/I2C.lst",
+    "size": 13496
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/I2C.obj",
+    "size": 115648
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/isr.lst",
+    "size": 6194
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/isr.obj",
+    "size": 1400
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Led1.lst",
+    "size": 2363
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Led1.obj",
+    "size": 108074
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/main.lst",
+    "size": 1488
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/main.obj",
+    "size": 105940
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PCA.lst",
+    "size": 10391
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PCA.obj",
+    "size": 116719
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PWM.lst",
+    "size": 11106
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PWM.obj",
+    "size": 122334
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PWM15bit.lst",
+    "size": 25571
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/PWM15bit.obj",
+    "size": 121908
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Soft_UART.lst",
+    "size": 3938
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/Soft_UART.obj",
+    "size": 106676
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/spi.lst",
+    "size": 6914
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/spi.obj",
+    "size": 110992
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/System_init.lst",
+    "size": 18980
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/System_init.obj",
+    "size": 132609
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/timer.lst",
+    "size": 10474
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/timer.obj",
+    "size": 116733
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/UART.lst",
+    "size": 22085
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/UART.obj",
+    "size": 116778
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/WDT.lst",
+    "size": 3278
+  },
+  {
+    "name": "samples/STC8_LED/Outputs/WDT.obj",
+    "size": 106690
+  },
+  {
+    "name": "samples/STC8_LED/STC8.uvgui.Chensj",
+    "size": 91881
+  },
+  {
+    "name": "samples/STC8_LED/STC8.uvopt",
+    "size": 13023
+  },
+  {
+    "name": "samples/STC8_LED/STC8.uvproj",
+    "size": 18183
+  },
+  {
+    "name": "samples/STC8_LED/User/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/User/Config.h——",
+    "size": 1801
+  },
+  {
+    "name": "samples/STC8_LED/User/isr.asm",
+    "size": 2198
+  },
+  {
+    "name": "samples/STC8_LED/User/main.c",
+    "size": 185
+  },
+  {
+    "name": "samples/STC8_LED/User/STC8xxxx.Hold",
+    "size": 143248
+  },
+  {
+    "name": "samples/STC8_LED/User/System_init.c",
+    "size": 13278
+  },
+  {
+    "name": "samples/STC8_LED/User/System_init.h",
+    "size": 919
+  },
+  {
+    "name": "samples/STC8_LED/User/Type_def.h——",
+    "size": 1965
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/",
+    "size": 0
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/etp.c",
+    "size": 5045
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/etp.h",
+    "size": 6317
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/Geek_Task.c",
+    "size": 1330
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/Geek_Task.h",
+    "size": 899
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/NixieTube.c",
+    "size": 6657
+  },
+  {
+    "name": "samples/STC8_LED/UserDevices/NixieTube.h",
+    "size": 2125
+  },
+  {
+    "name": "samples/STC8_LED/清理工程.bat",
+    "size": 216
+  },
+  {
+    "name": "STC8.uvproj",
+    "size": 18183
+  },
+  {
+    "name": "User/",
+    "size": 0
+  },
+  {
+    "name": "User/Config.h——",
+    "size": 1801
+  },
+  {
+    "name": "User/isr.asm",
+    "size": 2198
+  },
+  {
+    "name": "User/main.c",
+    "size": 185
+  },
+  {
+    "name": "User/STC8xxxx.Hold",
+    "size": 143248
+  },
+  {
+    "name": "User/System_init.c",
+    "size": 13366
+  },
+  {
+    "name": "User/System_init.h",
+    "size": 919
+  },
+  {
+    "name": "User/Type_def.h——",
+    "size": 1965
+  },
+  {
+    "name": "UserDevices/",
+    "size": 0
+  },
+  {
+    "name": "UserDevices/etp.c",
+    "size": 5045
+  },
+  {
+    "name": "UserDevices/etp.h",
+    "size": 6317
+  },
+  {
+    "name": "UserDevices/Geek_Task.c",
+    "size": 1422
+  },
+  {
+    "name": "UserDevices/Geek_Task.h",
+    "size": 899
+  },
+  {
+    "name": "UserDevices/NixieTube.c",
+    "size": 6657
+  },
+  {
+    "name": "UserDevices/NixieTube.h",
+    "size": 2125
+  },
+  {
+    "name": "新建工程.bat",
+    "size": 725
+  },
+  {
+    "name": "清理工程.bat",
+    "size": 216
+  }
+]

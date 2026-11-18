@@ -1,0 +1,368 @@
+mach create "bluepill"
+machine LoadPlatformDescription @D:/codex/单片机/stm32_bluepill/logs/renode_disconnected_button/platform.repl
+sysbus LoadELF @D:/codex/单片机/stm32_bluepill/build/bluepill/firmware.elf
+sysbus.usart1 CreateFileBackend @D:/codex/单片机/stm32_bluepill/logs/renode_disconnected_button/serial.log true
+include @D:/codex/单片机/stm32_bluepill/renode/observer.py
+sysbus.gpioPortB OnGPIO 12 true
+emulation RunFor "0.01"
+sample 0.01
+emulation RunFor "0.01"
+sample 0.02
+emulation RunFor "0.01"
+sample 0.03
+emulation RunFor "0.01"
+sample 0.04
+emulation RunFor "0.01"
+sample 0.05
+emulation RunFor "0.01"
+sample 0.06
+emulation RunFor "0.01"
+sample 0.07
+emulation RunFor "0.01"
+sample 0.08
+emulation RunFor "0.01"
+sample 0.09
+emulation RunFor "0.01"
+sample 0.1
+emulation RunFor "0.01"
+sample 0.11
+emulation RunFor "0.01"
+sample 0.12
+emulation RunFor "0.01"
+sample 0.13
+emulation RunFor "0.01"
+sample 0.14
+emulation RunFor "0.01"
+sample 0.15
+emulation RunFor "0.01"
+sample 0.16
+emulation RunFor "0.01"
+sample 0.17
+emulation RunFor "0.01"
+sample 0.18
+emulation RunFor "0.01"
+sample 0.19
+emulation RunFor "0.01"
+sample 0.2
+emulation RunFor "0.01"
+sample 0.21
+emulation RunFor "0.01"
+sample 0.22
+emulation RunFor "0.01"
+sample 0.23
+emulation RunFor "0.01"
+sample 0.24
+emulation RunFor "0.01"
+sample 0.25
+emulation RunFor "0.01"
+sample 0.26
+emulation RunFor "0.01"
+sample 0.27
+emulation RunFor "0.01"
+sample 0.28
+emulation RunFor "0.01"
+sample 0.29
+emulation RunFor "0.01"
+sample 0.3
+emulation RunFor "0.01"
+sample 0.31
+emulation RunFor "0.01"
+sample 0.32
+emulation RunFor "0.01"
+sample 0.33
+emulation RunFor "0.01"
+sample 0.34
+emulation RunFor "0.01"
+sample 0.35
+emulation RunFor "0.01"
+sample 0.36
+emulation RunFor "0.01"
+sample 0.37
+emulation RunFor "0.01"
+sample 0.38
+emulation RunFor "0.01"
+sample 0.39
+emulation RunFor "0.01"
+sample 0.4
+emulation RunFor "0.01"
+sample 0.41
+emulation RunFor "0.01"
+sample 0.42
+emulation RunFor "0.01"
+sample 0.43
+emulation RunFor "0.01"
+sample 0.44
+emulation RunFor "0.01"
+sample 0.45
+emulation RunFor "0.01"
+sample 0.46
+emulation RunFor "0.01"
+sample 0.47
+emulation RunFor "0.01"
+sample 0.48
+emulation RunFor "0.01"
+sample 0.49
+emulation RunFor "0.01"
+sample 0.5
+emulation RunFor "0.01"
+sample 0.51
+emulation RunFor "0.01"
+sample 0.52
+emulation RunFor "0.01"
+sample 0.53
+emulation RunFor "0.01"
+sample 0.54
+emulation RunFor "0.01"
+sample 0.55
+emulation RunFor "0.01"
+sample 0.56
+emulation RunFor "0.01"
+sample 0.57
+emulation RunFor "0.01"
+sample 0.58
+emulation RunFor "0.01"
+sample 0.59
+emulation RunFor "0.01"
+sample 0.6
+emulation RunFor "0.01"
+sample 0.61
+emulation RunFor "0.01"
+sample 0.62
+emulation RunFor "0.01"
+sample 0.63
+emulation RunFor "0.01"
+sample 0.64
+emulation RunFor "0.01"
+sample 0.65
+emulation RunFor "0.01"
+sample 0.66
+emulation RunFor "0.01"
+sample 0.67
+emulation RunFor "0.01"
+sample 0.68
+emulation RunFor "0.01"
+sample 0.69
+emulation RunFor "0.01"
+sample 0.7
+emulation RunFor "0.01"
+sample 0.71
+emulation RunFor "0.01"
+sample 0.72
+emulation RunFor "0.01"
+sample 0.73
+emulation RunFor "0.01"
+sample 0.74
+emulation RunFor "0.01"
+sample 0.75
+emulation RunFor "0.01"
+sample 0.76
+emulation RunFor "0.01"
+sample 0.77
+emulation RunFor "0.01"
+sample 0.78
+emulation RunFor "0.01"
+sample 0.79
+emulation RunFor "0.01"
+sample 0.8
+emulation RunFor "0.01"
+sample 0.81
+emulation RunFor "0.01"
+sample 0.82
+emulation RunFor "0.01"
+sample 0.83
+emulation RunFor "0.01"
+sample 0.84
+emulation RunFor "0.01"
+sample 0.85
+emulation RunFor "0.01"
+sample 0.86
+emulation RunFor "0.01"
+sample 0.87
+emulation RunFor "0.01"
+sample 0.88
+emulation RunFor "0.01"
+sample 0.89
+emulation RunFor "0.01"
+sample 0.9
+emulation RunFor "0.01"
+sample 0.91
+emulation RunFor "0.01"
+sample 0.92
+emulation RunFor "0.01"
+sample 0.93
+emulation RunFor "0.01"
+sample 0.94
+emulation RunFor "0.01"
+sample 0.95
+emulation RunFor "0.01"
+sample 0.96
+emulation RunFor "0.01"
+sample 0.97
+emulation RunFor "0.01"
+sample 0.98
+emulation RunFor "0.01"
+sample 0.99
+emulation RunFor "0.01"
+sample 1.0
+emulation RunFor "0.01"
+sample 1.01
+emulation RunFor "0.01"
+sample 1.02
+emulation RunFor "0.01"
+sample 1.03
+emulation RunFor "0.01"
+sample 1.04
+emulation RunFor "0.01"
+sample 1.05
+emulation RunFor "0.01"
+sample 1.06
+emulation RunFor "0.01"
+sample 1.07
+emulation RunFor "0.01"
+sample 1.08
+emulation RunFor "0.01"
+sample 1.09
+emulation RunFor "0.01"
+sample 1.1
+emulation RunFor "0.01"
+sample 1.11
+emulation RunFor "0.01"
+sample 1.12
+emulation RunFor "0.01"
+sample 1.13
+emulation RunFor "0.01"
+sample 1.14
+emulation RunFor "0.01"
+sample 1.15
+emulation RunFor "0.01"
+sample 1.16
+emulation RunFor "0.01"
+sample 1.17
+emulation RunFor "0.01"
+sample 1.18
+emulation RunFor "0.01"
+sample 1.19
+emulation RunFor "0.01"
+sample 1.2
+emulation RunFor "0.01"
+sample 1.21
+emulation RunFor "0.01"
+sample 1.22
+emulation RunFor "0.01"
+sample 1.23
+emulation RunFor "0.01"
+sample 1.24
+emulation RunFor "0.01"
+sample 1.25
+sysbus.gpioPortB OnGPIO 12 true
+emulation RunFor "0.01"
+sample 1.26
+emulation RunFor "0.01"
+sample 1.27
+emulation RunFor "0.01"
+sample 1.28
+emulation RunFor "0.01"
+sample 1.29
+emulation RunFor "0.01"
+sample 1.3
+emulation RunFor "0.01"
+sample 1.31
+emulation RunFor "0.01"
+sample 1.32
+emulation RunFor "0.01"
+sample 1.33
+emulation RunFor "0.01"
+sample 1.34
+emulation RunFor "0.01"
+sample 1.35
+emulation RunFor "0.01"
+sample 1.36
+emulation RunFor "0.01"
+sample 1.37
+emulation RunFor "0.01"
+sample 1.38
+emulation RunFor "0.01"
+sample 1.39
+emulation RunFor "0.01"
+sample 1.4
+emulation RunFor "0.01"
+sample 1.41
+emulation RunFor "0.01"
+sample 1.42
+emulation RunFor "0.01"
+sample 1.43
+emulation RunFor "0.01"
+sample 1.44
+emulation RunFor "0.01"
+sample 1.45
+emulation RunFor "0.01"
+sample 1.46
+emulation RunFor "0.01"
+sample 1.47
+emulation RunFor "0.01"
+sample 1.48
+emulation RunFor "0.01"
+sample 1.49
+emulation RunFor "0.01"
+sample 1.5
+emulation RunFor "0.01"
+sample 1.51
+emulation RunFor "0.01"
+sample 1.52
+emulation RunFor "0.01"
+sample 1.53
+emulation RunFor "0.01"
+sample 1.54
+emulation RunFor "0.01"
+sample 1.55
+emulation RunFor "0.01"
+sample 1.56
+emulation RunFor "0.01"
+sample 1.57
+emulation RunFor "0.01"
+sample 1.58
+emulation RunFor "0.01"
+sample 1.59
+emulation RunFor "0.01"
+sample 1.6
+emulation RunFor "0.01"
+sample 1.61
+emulation RunFor "0.01"
+sample 1.62
+emulation RunFor "0.01"
+sample 1.63
+emulation RunFor "0.01"
+sample 1.64
+emulation RunFor "0.01"
+sample 1.65
+emulation RunFor "0.01"
+sample 1.66
+emulation RunFor "0.01"
+sample 1.67
+emulation RunFor "0.01"
+sample 1.68
+emulation RunFor "0.01"
+sample 1.69
+emulation RunFor "0.01"
+sample 1.7
+emulation RunFor "0.01"
+sample 1.71
+emulation RunFor "0.01"
+sample 1.72
+emulation RunFor "0.01"
+sample 1.73
+emulation RunFor "0.01"
+sample 1.74
+emulation RunFor "0.01"
+sample 1.75
+emulation RunFor "0.01"
+sample 1.76
+emulation RunFor "0.01"
+sample 1.77
+emulation RunFor "0.01"
+sample 1.78
+emulation RunFor "0.01"
+sample 1.79
+emulation RunFor "0.01"
+sample 1.8
+quit

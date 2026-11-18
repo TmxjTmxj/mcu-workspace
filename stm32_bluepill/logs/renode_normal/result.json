@@ -1,0 +1,27 @@
+{
+  "backend": "Renode 1.17.0",
+  "case": "normal",
+  "status": "SIMULATION_PASS",
+  "exit_code": 0,
+  "protocol": "Ordered protocol matched",
+  "gpio": {
+    "slow_intervals_s": [
+      0.5
+    ],
+    "fast_intervals_s": [
+      0.10000000000000009,
+      0.09999999999999987,
+      0.10000000000000009,
+      0.09999999999999987,
+      0.10000000000000009
+    ],
+    "button_low_s": [
+      1.16,
+      1.25
+    ],
+    "samples": 180
+  },
+  "led_connection": true,
+  "complete_trace": true,
+  "monitor_errors": false
+}

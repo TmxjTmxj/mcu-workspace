@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": [
+    "D:/keil",
+    "D:/Program Files",
+    "D:/Program Files (x86)",
+    "D:/tools"
+  ],
+  "selected_uv4": "D:/keil/UV4/UV4.exe",
+  "tools": [
+    {
+      "path": "D:\\keil\\ARM\\ARMCC\\bin\\armcc.exe",
+      "version": "5.06.0.151",
+      "product": "5.06"
+    },
+    {
+      "path": "D:\\keil\\ARM\\ARMCLANG\\bin\\armclang.exe",
+      "version": "19.0.0git",
+      "product": "clang"
+    },
+    {
+      "path": "D:\\keil\\Backup.001\\C51\\BIN\\C51.exe",
+      "version": "9.60.7.0",
+      "product": "C51 / CX51"
+    },
+    {
+      "path": "D:\\keil\\Backup.001\\UV4\\UV4.exe",
+      "version": "5.40.0.0",
+      "product": "μVision"
+    },
+    {
+      "path": "D:\\keil\\C51\\BIN\\C51.exe",
+      "version": "9.60.7.0",
+      "product": "C51 / CX51"
+    },
+    {
+      "path": "D:\\keil\\UV4\\UV4.exe",
+      "version": "5.14.1",
+      "product": "μVision"
+    },
+    {
+      "path": "D:\\keil\\keil5安装资料\\keil5安装资料\\Compiler Version 5编译器\\ARMCC\\bin\\armcc.exe",
+      "version": "5.06.0.151",
+      "product": "5.06"
+    }
+  ],
+  "auth": "not_required; existing Keil license state is evaluated during build, never exported"
+}

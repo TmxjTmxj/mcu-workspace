@@ -1,0 +1,15 @@
+{
+  "target": "STM32F103C8T6",
+  "action": "build",
+  "status": "BUILD_READY",
+  "time": 1790494092.604556,
+  "check": "Fresh STM32 artifacts and wiring JSON valid",
+  "firmware.elf": {
+    "bytes": 217880,
+    "sha256": "0aa798ff3845f0990c5c3a2d5210134c831fc35355f5f870cc530a871b606ea0"
+  },
+  "firmware.bin": {
+    "bytes": 4488,
+    "sha256": "0151cb98b8082abe820be0c02e4178b3fbf7832cdd59d0a90aca182880970217"
+  }
+}

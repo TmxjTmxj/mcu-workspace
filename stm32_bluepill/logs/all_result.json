@@ -1,0 +1,39 @@
+{
+  "target": "STM32F103C8T6",
+  "action": "all",
+  "status": "SIMULATION_PASS",
+  "time": 1790494282.3728507,
+  "check": "Wiring matches tested digital platform",
+  "backend": "Renode 1.17.0",
+  "case": "normal",
+  "exit_code": 0,
+  "protocol": "Ordered protocol matched",
+  "gpio": {
+    "slow_intervals_s": [
+      0.5
+    ],
+    "fast_intervals_s": [
+      0.10000000000000009,
+      0.09999999999999987,
+      0.10000000000000009,
+      0.09999999999999987,
+      0.10000000000000009
+    ],
+    "button_low_s": [
+      1.16,
+      1.25
+    ],
+    "samples": 180
+  },
+  "led_connection": true,
+  "complete_trace": true,
+  "monitor_errors": false,
+  "firmware.elf": {
+    "bytes": 217880,
+    "sha256": "0aa798ff3845f0990c5c3a2d5210134c831fc35355f5f870cc530a871b606ea0"
+  },
+  "firmware.bin": {
+    "bytes": 4488,
+    "sha256": "0151cb98b8082abe820be0c02e4178b3fbf7832cdd59d0a90aca182880970217"
+  }
+}

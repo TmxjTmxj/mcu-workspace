@@ -1,0 +1,42 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "profile": "stc-native",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\project\\firmware.uvproj",
+  "target": "STC8",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\project\\firmware.uvproj",
+      "-t",
+      "STC8",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\build.log"
+    ],
+    "pid": 27408,
+    "exit_code": 1,
+    "timed_out": false,
+    "elapsed_seconds": 1.07
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\build.log",
+  "artifacts": [
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\project\\Objects\\firmware",
+      "size": 6956,
+      "sha256": "7e5f904f270b3d20c0cab3de9d660bedc10326ebdf3f45c635375e4d6db82d57"
+    },
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151055249853Z-stc-native-060ccf5b\\project\\Objects\\firmware.hex",
+      "size": 1370,
+      "sha256": "df19d1552f4c89d93b4498b06fd42ed5218dd50abf2473d6aff48acd5e66e00d"
+    }
+  ],
+  "image_bytes": 477,
+  "error": null,
+  "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+  "limitation": null,
+  "hardware_verified": false
+}

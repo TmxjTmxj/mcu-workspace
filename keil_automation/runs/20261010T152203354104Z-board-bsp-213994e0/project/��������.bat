@@ -1,0 +1,13 @@
+del *.uvopt
+del *.uvgui.*
+del outputs\*.lst
+del outputs\*.obj
+del outputs\*.htm
+del outputs\*.
+del outputs\*.map
+del outputs\*.sbr
+del outputs\*.lnp
+del objects\*.*
+del listing\*.*
+del objects
+del listing

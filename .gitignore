@@ -1,0 +1,8 @@
+# 可重新下载的工具链（体积约 3.1 GB，且含超过 GitHub 100 MB 单文件上限的文件）
+/stm32_bluepill/tools/
+/wokwi_sim/tools/
+
+# 操作系统与编辑器杂项
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "uv4": "D:/keil/UV4/UV4.exe",
+  "c51_root": "D:/keil/C51",
+  "search_roots": ["D:/keil", "D:/Program Files", "D:/Program Files (x86)", "D:/tools"],
+  "build_timeout_seconds": 90,
+  "simulation_timeout_seconds": 45,
+  "board_project": "../开发板资料/STC8H工程标准框架/STC8.uvproj",
+  "board_header": "../开发板资料/STC8H工程标准框架/ChipDevices/STC8xxxx.H",
+  "native_source": "../wokwi_sim/firmware/native/main.c",
+  "template_project": "../开发板资料/STC8H工程标准框架/STC8.uvproj"
+}

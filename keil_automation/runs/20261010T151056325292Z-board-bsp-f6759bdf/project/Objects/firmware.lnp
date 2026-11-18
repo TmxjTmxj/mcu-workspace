@@ -1,0 +1,25 @@
+".\Objects\main.obj",
+".\Objects\System_init.obj",
+".\Objects\isr.obj",
+".\Objects\Led1.obj",
+".\Objects\WaterLight.obj",
+".\Objects\app.obj",
+".\Objects\ADC.obj",
+".\Objects\compare.obj",
+".\Objects\delay.obj",
+".\Objects\EEPROM.obj",
+".\Objects\Exti.obj",
+".\Objects\GPIO.obj",
+".\Objects\I2C.obj",
+".\Objects\PCA.obj",
+".\Objects\PWM.obj",
+".\Objects\PWM15bit.obj",
+".\Objects\Soft_UART.obj",
+".\Objects\spi.obj",
+".\Objects\timer.obj",
+".\Objects\UART.obj",
+".\Objects\WDT.obj",
+".\Objects\Geek_Task.obj" 
+TO ".\Objects\firmware" 
+
+PRINT(".\Listings\firmware.map") REMOVEUNUSED 

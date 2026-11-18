@@ -1,0 +1,11 @@
+{
+  "case": "commands",
+  "status": "SIMULATION_PASS",
+  "validation": "Manual42%, OFF, remote target40\u00b0C and convergence",
+  "samples": 200,
+  "states": 200,
+  "complete": true,
+  "telemetry_complete": true,
+  "monitor_errors": false,
+  "exit_code": 0
+}

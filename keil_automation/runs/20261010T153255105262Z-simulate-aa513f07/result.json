@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "command": "simulate",
+  "status": "PASS",
+  "run_id": "4e24540e33cb4cf78830797e66872721",
+  "assertions": {
+    "key_idle": {
+      "status": "PASS",
+      "value": 1
+    },
+    "key_down": {
+      "status": "PASS",
+      "value": 0
+    },
+    "key_up": {
+      "status": "PASS",
+      "value": 1
+    },
+    "led_idle": {
+      "status": "PASS",
+      "value": 255
+    },
+    "led_down": {
+      "status": "PASS",
+      "value": 254
+    },
+    "led_up": {
+      "status": "PASS",
+      "value": 255
+    },
+    "p6_final": {
+      "status": "PASS",
+      "value": 255
+    }
+  },
+  "missing": [],
+  "duplicate_assertions": [],
+  "debug_errors": [],
+  "complete": true,
+  "profile": "stc8h-gpio",
+  "case": "normal",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-d",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\firmware.uvproj",
+      "-t",
+      "STC8",
+      "-j0"
+    ],
+    "pid": 28604,
+    "exit_code": 0,
+    "timed_out": false,
+    "elapsed_seconds": 1.973
+  },
+  "build": {
+    "status": "PASS_WITH_WARNINGS",
+    "profile": "stc8h-gpio",
+    "case": "normal",
+    "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\firmware.uvproj",
+    "target": "STC8",
+    "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07",
+    "process": {
+      "args": [
+        "D:/keil/UV4/UV4.exe",
+        "-r",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\firmware.uvproj",
+        "-t",
+        "STC8",
+        "-j0",
+        "-o",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\build.log"
+      ],
+      "pid": 15828,
+      "exit_code": 1,
+      "timed_out": false,
+      "elapsed_seconds": 1.094
+    },
+    "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\build.log",
+    "artifacts": [
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\Objects\\firmware",
+        "size": 6737,
+        "sha256": "4cd6236fa6d316a208610b22081bb45d04dcb407d575ebeb9e4fe42bf788c95b"
+      },
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\Objects\\firmware.hex",
+        "size": 384,
+        "sha256": "7eb296e3712079e5f304fcf91afae36da288b982cb50e98db8097f78f27b5a59"
+      }
+    ],
+    "image_bytes": 127,
+    "error": null,
+    "license": "LICENSE_READ_WARNING",
+    "warnings": [
+      "main.c(1): warning C500: LICENSE ERROR (R207(3): REGISTRY READ ERROR)"
+    ],
+    "limitation": null,
+    "hardware_verified": false
+  },
+  "script": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\debug.ini",
+  "debug_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\debug.log",
+  "serial_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T153255105262Z-simulate-aa513f07\\project\\serial.log",
+  "uart_ok": true,
+  "uart_check_enabled": false,
+  "simulation_scope": "STC8H8K64U_project_P6_register_and_P3.3_logic; electrical_GPIO_and_STC8H_timing_NOT_VERIFIED",
+  "hardware_verified": false,
+  "attempted_at": "2026-10-10T15:32:55.105250+00:00"
+}

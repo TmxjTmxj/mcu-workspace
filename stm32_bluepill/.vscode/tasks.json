@@ -1,0 +1,11 @@
+{
+  "version":"2.0.0",
+  "tasks":[
+    {"label":"STM32: 编译原生固件","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","build"],"group":{"kind":"build","isDefault":true},"problemMatcher":"$gcc"},
+    {"label":"STM32: 自动仿真验收（本地无需登录）","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","all"],"problemMatcher":[]},
+    {"label":"STM32: 接线故障回归","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","regression"],"problemMatcher":[]},
+    {"label":"STM32: 启动本地 GDB 仿真","type":"process","command":"python","args":["${workspaceFolder}/scripts/debug.py"],"problemMatcher":[]},
+    {"label":"STM32: 电路和固件检查","type":"process","command":"python","args":["${workspaceFolder}/scripts/workflow.py","check"],"problemMatcher":[]},
+    {"label":"STM32: 测试验证器","type":"process","command":"python","args":["-m","unittest","discover","-s","${workspaceFolder}/tests","-v"],"group":"test","problemMatcher":[]}
+  ]
+}

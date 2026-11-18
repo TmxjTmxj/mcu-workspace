@@ -1,0 +1,10 @@
+{
+  "case": "sensor",
+  "status": "SIMULATION_PASS",
+  "validation": "Protection output 1",
+  "samples": 200,
+  "states": 200,
+  "complete": true,
+  "monitor_errors": false,
+  "exit_code": 0
+}

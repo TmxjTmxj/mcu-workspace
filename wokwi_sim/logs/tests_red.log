@@ -1,0 +1,125 @@
+test_adapter_not_native (test_workflow.WorkflowTests.test_adapter_not_native) ... FAIL
+test_board_valid (test_workflow.WorkflowTests.test_board_valid) ... FAIL
+test_duplicate_simulation_pin_rejected (test_workflow.WorkflowTests.test_duplicate_simulation_pin_rejected) ... FAIL
+test_failure_cannot_pass_serial (test_workflow.WorkflowTests.test_failure_cannot_pass_serial) ... FAIL
+test_generated_connections_have_endpoints (test_workflow.WorkflowTests.test_generated_connections_have_endpoints) ... FAIL
+test_inventory_missing_folder_rejected (test_workflow.WorkflowTests.test_inventory_missing_folder_rejected) ... FAIL
+test_missing_evidence_rejected (test_workflow.WorkflowTests.test_missing_evidence_rejected) ... FAIL
+test_partial_boot_cannot_pass_serial (test_workflow.WorkflowTests.test_partial_boot_cannot_pass_serial) ... FAIL
+test_stale_log_not_reused (test_workflow.WorkflowTests.test_stale_log_not_reused) ... FAIL
+test_unknown_connection_pin_rejected (test_workflow.WorkflowTests.test_unknown_connection_pin_rejected) ... FAIL
+test_unknown_mcu_rejected (test_workflow.WorkflowTests.test_unknown_mcu_rejected) ... FAIL
+test_unknown_voltage_rejected (test_workflow.WorkflowTests.test_unknown_voltage_rejected) ... FAIL
+
+======================================================================
+FAIL: test_adapter_not_native (test_workflow.WorkflowTests.test_adapter_not_native)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_board_valid (test_workflow.WorkflowTests.test_board_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_duplicate_simulation_pin_rejected (test_workflow.WorkflowTests.test_duplicate_simulation_pin_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_failure_cannot_pass_serial (test_workflow.WorkflowTests.test_failure_cannot_pass_serial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_generated_connections_have_endpoints (test_workflow.WorkflowTests.test_generated_connections_have_endpoints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_inventory_missing_folder_rejected (test_workflow.WorkflowTests.test_inventory_missing_folder_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_missing_evidence_rejected (test_workflow.WorkflowTests.test_missing_evidence_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_partial_boot_cannot_pass_serial (test_workflow.WorkflowTests.test_partial_boot_cannot_pass_serial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_stale_log_not_reused (test_workflow.WorkflowTests.test_stale_log_not_reused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_unknown_connection_pin_rejected (test_workflow.WorkflowTests.test_unknown_connection_pin_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_unknown_mcu_rejected (test_workflow.WorkflowTests.test_unknown_mcu_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+======================================================================
+FAIL: test_unknown_voltage_rejected (test_workflow.WorkflowTests.test_unknown_voltage_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\codex\��Ƭ��\wokwi_sim\tests\test_workflow.py", line 15, in setUp
+    self.assertIsNotNone(importlib.util.find_spec('hardware'), 'hardware validator is missing')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : hardware validator is missing
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=12)

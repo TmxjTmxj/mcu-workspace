@@ -1,0 +1,5 @@
+# This config executes AVR peripheral-equivalent firmware, NOT STC firmware.
+[wokwi]
+version = 1
+firmware = "build/equivalent.hex"
+elf = "build/equivalent.elf"

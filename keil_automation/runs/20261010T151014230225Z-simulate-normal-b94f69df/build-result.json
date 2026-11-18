@@ -1,0 +1,42 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "profile": "smoke8051",
+  "case": "normal",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\project\\firmware.uvproj",
+  "target": "Simulator",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\project\\firmware.uvproj",
+      "-t",
+      "Simulator",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\build.log"
+    ],
+    "pid": 27452,
+    "exit_code": 1,
+    "timed_out": false,
+    "elapsed_seconds": 1.328
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\build.log",
+  "artifacts": [
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\project\\Objects\\firmware",
+      "size": 3191,
+      "sha256": "4553a18981c9dea0e7f589bc20ce83c07af1052d99042a2aa1a3966ec29f8622"
+    },
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151014230225Z-simulate-normal-b94f69df\\project\\Objects\\firmware.hex",
+      "size": 634,
+      "sha256": "008853a3a3ae797ae851b5c854ffb6153d365cddb6a4fb3d85a37063224f1b89"
+    }
+  ],
+  "image_bytes": 213,
+  "error": null,
+  "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+  "limitation": null,
+  "hardware_verified": false
+}

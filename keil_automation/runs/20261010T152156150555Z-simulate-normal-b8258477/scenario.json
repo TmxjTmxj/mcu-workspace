@@ -1,0 +1,39 @@
+{
+  "commands": [
+    "RESET",
+    "G, main",
+    "G, checkpoint_high",
+    "PORT3 = 0xff",
+    "G, checkpoint_low",
+    "PORT3 = 0xfb",
+    "G, test_done"
+  ],
+  "checks": [
+    {
+      "name": "checksum",
+      "symbol": "checksum",
+      "equals": 55
+    },
+    {
+      "name": "timer",
+      "symbol": "timer_ticks",
+      "equals": 1
+    },
+    {
+      "name": "input_high",
+      "symbol": "input_high",
+      "equals": 1
+    },
+    {
+      "name": "input_low",
+      "symbol": "input_low",
+      "equals": 0
+    },
+    {
+      "name": "led",
+      "symbol": "P1",
+      "equals": 254
+    }
+  ],
+  "uart_marker": "KEIL_UART_OK"
+}

@@ -1,0 +1,1273 @@
+[16:21:17.7474] [INFO] Loaded monitor commands from: D:\codex\单片机\stm32_bluepill\tools\renode\renode_1.17.0-portable\scripts/monitor.py
+[16:21:17.8368] [INFO] Including script(s): D:\codex\单片机\stm32_control\logs\pwm.resc
+[16:21:17.8456] [INFO] System bus created.
+[16:21:18.3589] [INFO] sysbus: Loading block of 13056 bytes length at 0x8000000.
+[16:21:18.3666] [INFO] sysbus: Loading block of 928 bytes length at 0x8003300.
+[16:21:18.3668] [INFO] sysbus: Loading block of 1536 bytes length at 0x80034DC.
+[16:21:18.4441] [INFO] Old file D:\codex\单片机\stm32_control\logs\normal\serial.log moved to D:\codex\单片机\stm32_control\logs\normal\serial.log.3
+[16:21:18.5603] [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+[16:21:18.5682] [INFO] cpu: Setting initial values: PC = 0x80030B1, SP = 0x20005000.
+[16:21:18.5695] [INFO] smart_fan: Machine started.
+[16:21:18.6264] [WARNING] gpioPortB: Trying to set the state of the input pin #12
+[16:21:18.6316] [WARNING] usart1: Unhandled write to offset 0x14. Unhandled bits: [0] when writing value 0x1. Tags: EIE (0x1).
+[16:21:18.6417] [WARNING] timer2: Unhandled write to offset 0x18. Unhandled bits: [3] when writing value 0x68. Tags: Output compare 1 preload enable (OC1PE) (0x1).
+[16:21:18.6711] [INFO] smart_fan: Machine paused.
+PLANT 0.10 55.125 0.00 0 0 300.0 1 1 11
+[16:21:18.7124] [INFO] smart_fan: Machine resumed.
+[16:21:18.8121] [INFO] smart_fan: Machine paused.
+PLANT 0.20 54.081 53.00 1 0 459.0 1 1 11
+[16:21:18.8149] [INFO] smart_fan: Machine resumed.
+[16:21:18.9149] [INFO] smart_fan: Machine paused.
+PLANT 0.30 53.063 53.00 1 0 459.0 1 1 11
+[16:21:18.9160] [INFO] smart_fan: Machine resumed.
+[16:21:19.0162] [INFO] smart_fan: Machine paused.
+PLANT 0.40 52.070 53.00 1 0 459.0 1 1 11
+[16:21:19.0172] [INFO] smart_fan: Machine resumed.
+[16:21:19.1172] [INFO] smart_fan: Machine paused.
+PLANT 0.50 51.081 54.00 1 0 462.0 1 1 11
+[16:21:19.1186] [INFO] smart_fan: Machine resumed.
+[16:21:19.2186] [INFO] smart_fan: Machine paused.
+PLANT 0.60 50.116 54.00 1 0 462.0 1 1 11
+[16:21:19.2198] [INFO] smart_fan: Machine resumed.
+[16:21:19.3199] [INFO] smart_fan: Machine paused.
+PLANT 0.70 49.175 54.00 1 0 462.0 1 1 11
+[16:21:19.3217] [INFO] smart_fan: Machine resumed.
+[16:21:19.4218] [INFO] smart_fan: Machine paused.
+PLANT 0.80 48.257 54.00 1 0 462.0 1 1 11
+[16:21:19.4230] [INFO] smart_fan: Machine resumed.
+[16:21:19.5231] [INFO] smart_fan: Machine paused.
+PLANT 0.90 47.341 55.00 1 0 465.0 1 1 11
+[16:21:19.5244] [INFO] smart_fan: Machine resumed.
+[16:21:19.6252] [INFO] smart_fan: Machine paused.
+PLANT 1.00 46.469 54.00 1 0 462.0 1 1 11
+[16:21:19.6264] [INFO] smart_fan: Machine resumed.
+[16:21:19.7258] [INFO] smart_fan: Machine paused.
+PLANT 1.10 45.642 53.00 1 0 459.0 1 1 11
+[16:21:19.7269] [INFO] smart_fan: Machine resumed.
+[16:21:19.8269] [INFO] smart_fan: Machine paused.
+PLANT 1.20 44.835 53.00 1 0 459.0 1 1 11
+[16:21:19.8284] [INFO] smart_fan: Machine resumed.
+[16:21:19.9286] [INFO] smart_fan: Machine paused.
+PLANT 1.30 44.048 53.00 1 0 459.0 1 1 11
+[16:21:19.9297] [INFO] smart_fan: Machine resumed.
+[16:21:20.0297] [INFO] smart_fan: Machine paused.
+PLANT 1.40 43.302 52.00 1 0 456.0 1 1 11
+[16:21:20.0311] [INFO] smart_fan: Machine resumed.
+[16:21:20.1312] [INFO] smart_fan: Machine paused.
+PLANT 1.50 42.576 52.00 1 0 456.0 1 1 11
+[16:21:20.1325] [INFO] smart_fan: Machine resumed.
+[16:21:20.2327] [INFO] smart_fan: Machine paused.
+PLANT 1.60 41.846 53.00 1 0 459.0 1 1 11
+[16:21:20.2340] [INFO] smart_fan: Machine resumed.
+[16:21:20.3340] [INFO] smart_fan: Machine paused.
+PLANT 1.70 41.155 52.00 1 0 456.0 1 1 11
+[16:21:20.3355] [INFO] smart_fan: Machine resumed.
+[16:21:20.4355] [INFO] smart_fan: Machine paused.
+PLANT 1.80 40.504 51.00 1 0 453.0 1 1 11
+[16:21:20.4366] [INFO] smart_fan: Machine resumed.
+[16:21:20.5367] [INFO] smart_fan: Machine paused.
+PLANT 1.90 39.870 51.00 1 0 453.0 1 1 11
+[16:21:20.5379] [INFO] smart_fan: Machine resumed.
+[16:21:20.6380] [INFO] smart_fan: Machine paused.
+PLANT 2.00 39.273 50.00 1 0 450.0 1 1 11
+[16:21:20.6390] [INFO] smart_fan: Machine resumed.
+[16:21:20.6392] [INFO] smart_fan: Machine paused.
+PULSE 0.000010 0
+[16:21:20.6415] [INFO] smart_fan: Machine resumed.
+[16:21:20.6416] [INFO] smart_fan: Machine paused.
+PULSE 0.000020 0
+[16:21:20.6421] [INFO] smart_fan: Machine resumed.
+[16:21:20.6422] [INFO] smart_fan: Machine paused.
+PULSE 0.000030 0
+[16:21:20.6426] [INFO] smart_fan: Machine resumed.
+[16:21:20.6428] [INFO] smart_fan: Machine paused.
+PULSE 0.000040 0
+[16:21:20.6433] [INFO] smart_fan: Machine resumed.
+[16:21:20.6436] [INFO] smart_fan: Machine paused.
+PULSE 0.000050 0
+[16:21:20.6441] [INFO] smart_fan: Machine resumed.
+[16:21:20.6445] [INFO] smart_fan: Machine paused.
+PULSE 0.000060 0
+[16:21:20.6450] [INFO] smart_fan: Machine resumed.
+[16:21:20.6451] [INFO] smart_fan: Machine paused.
+PULSE 0.000070 0
+[16:21:20.6455] [INFO] smart_fan: Machine resumed.
+[16:21:20.6456] [INFO] smart_fan: Machine paused.
+PULSE 0.000080 0
+[16:21:20.6460] [INFO] smart_fan: Machine resumed.
+[16:21:20.6461] [INFO] smart_fan: Machine paused.
+PULSE 0.000090 0
+[16:21:20.6465] [INFO] smart_fan: Machine resumed.
+[16:21:20.6466] [INFO] smart_fan: Machine paused.
+PULSE 0.000100 0
+[16:21:20.6470] [INFO] smart_fan: Machine resumed.
+[16:21:20.6470] [INFO] smart_fan: Machine paused.
+PULSE 0.000110 0
+[16:21:20.6474] [INFO] smart_fan: Machine resumed.
+[16:21:20.6475] [INFO] smart_fan: Machine paused.
+PULSE 0.000120 0
+[16:21:20.6478] [INFO] smart_fan: Machine resumed.
+[16:21:20.6479] [INFO] smart_fan: Machine paused.
+PULSE 0.000130 0
+[16:21:20.6483] [INFO] smart_fan: Machine resumed.
+[16:21:20.6483] [INFO] smart_fan: Machine paused.
+PULSE 0.000140 0
+[16:21:20.6488] [INFO] smart_fan: Machine resumed.
+[16:21:20.6489] [INFO] smart_fan: Machine paused.
+PULSE 0.000150 0
+[16:21:20.6493] [INFO] smart_fan: Machine resumed.
+[16:21:20.6494] [INFO] smart_fan: Machine paused.
+PULSE 0.000160 0
+[16:21:20.6498] [INFO] smart_fan: Machine resumed.
+[16:21:20.6498] [INFO] smart_fan: Machine paused.
+PULSE 0.000170 0
+[16:21:20.6502] [INFO] smart_fan: Machine resumed.
+[16:21:20.6503] [INFO] smart_fan: Machine paused.
+PULSE 0.000180 0
+[16:21:20.6507] [INFO] smart_fan: Machine resumed.
+[16:21:20.6508] [INFO] smart_fan: Machine paused.
+PULSE 0.000190 0
+[16:21:20.6511] [INFO] smart_fan: Machine resumed.
+[16:21:20.6512] [INFO] smart_fan: Machine paused.
+PULSE 0.000200 0
+[16:21:20.6516] [INFO] smart_fan: Machine resumed.
+[16:21:20.6516] [INFO] smart_fan: Machine paused.
+PULSE 0.000210 0
+[16:21:20.6520] [INFO] smart_fan: Machine resumed.
+[16:21:20.6520] [INFO] smart_fan: Machine paused.
+PULSE 0.000220 0
+[16:21:20.6524] [INFO] smart_fan: Machine resumed.
+[16:21:20.6525] [INFO] smart_fan: Machine paused.
+PULSE 0.000230 0
+[16:21:20.6531] [INFO] smart_fan: Machine resumed.
+[16:21:20.6531] [INFO] smart_fan: Machine paused.
+PULSE 0.000240 0
+[16:21:20.6536] [INFO] smart_fan: Machine resumed.
+[16:21:20.6536] [INFO] smart_fan: Machine paused.
+PULSE 0.000250 0
+[16:21:20.6540] [INFO] smart_fan: Machine resumed.
+[16:21:20.6541] [INFO] smart_fan: Machine paused.
+PULSE 0.000260 0
+[16:21:20.6545] [INFO] smart_fan: Machine resumed.
+[16:21:20.6545] [INFO] smart_fan: Machine paused.
+PULSE 0.000270 0
+[16:21:20.6549] [INFO] smart_fan: Machine resumed.
+[16:21:20.6550] [INFO] smart_fan: Machine paused.
+PULSE 0.000280 0
+[16:21:20.6554] [INFO] smart_fan: Machine resumed.
+[16:21:20.6554] [INFO] smart_fan: Machine paused.
+PULSE 0.000290 0
+[16:21:20.6559] [INFO] smart_fan: Machine resumed.
+[16:21:20.6559] [INFO] smart_fan: Machine paused.
+PULSE 0.000300 0
+[16:21:20.6563] [INFO] smart_fan: Machine resumed.
+[16:21:20.6563] [INFO] smart_fan: Machine paused.
+PULSE 0.000310 0
+[16:21:20.6567] [INFO] smart_fan: Machine resumed.
+[16:21:20.6568] [INFO] smart_fan: Machine paused.
+PULSE 0.000320 0
+[16:21:20.6572] [INFO] smart_fan: Machine resumed.
+[16:21:20.6572] [INFO] smart_fan: Machine paused.
+PULSE 0.000330 0
+[16:21:20.6576] [INFO] smart_fan: Machine resumed.
+[16:21:20.6577] [INFO] smart_fan: Machine paused.
+PULSE 0.000340 0
+[16:21:20.6582] [INFO] smart_fan: Machine resumed.
+[16:21:20.6582] [INFO] smart_fan: Machine paused.
+PULSE 0.000350 0
+[16:21:20.6587] [INFO] smart_fan: Machine resumed.
+[16:21:20.6588] [INFO] smart_fan: Machine paused.
+PULSE 0.000360 0
+[16:21:20.6593] [INFO] smart_fan: Machine resumed.
+[16:21:20.6593] [INFO] smart_fan: Machine paused.
+PULSE 0.000370 0
+[16:21:20.6608] [INFO] smart_fan: Machine resumed.
+[16:21:20.6608] [INFO] smart_fan: Machine paused.
+PULSE 0.000380 0
+[16:21:20.6613] [INFO] smart_fan: Machine resumed.
+[16:21:20.6614] [INFO] smart_fan: Machine paused.
+PULSE 0.000390 0
+[16:21:20.6619] [INFO] smart_fan: Machine resumed.
+[16:21:20.6620] [INFO] smart_fan: Machine paused.
+PULSE 0.000400 0
+[16:21:20.6624] [INFO] smart_fan: Machine resumed.
+[16:21:20.6624] [INFO] smart_fan: Machine paused.
+PULSE 0.000410 0
+[16:21:20.6628] [INFO] smart_fan: Machine resumed.
+[16:21:20.6629] [INFO] smart_fan: Machine paused.
+PULSE 0.000420 0
+[16:21:20.6632] [INFO] smart_fan: Machine resumed.
+[16:21:20.6633] [INFO] smart_fan: Machine paused.
+PULSE 0.000430 0
+[16:21:20.6636] [INFO] smart_fan: Machine resumed.
+[16:21:20.6637] [INFO] smart_fan: Machine paused.
+PULSE 0.000440 0
+[16:21:20.6641] [INFO] smart_fan: Machine resumed.
+[16:21:20.6641] [INFO] smart_fan: Machine paused.
+PULSE 0.000450 0
+[16:21:20.6645] [INFO] smart_fan: Machine resumed.
+[16:21:20.6645] [INFO] smart_fan: Machine paused.
+PULSE 0.000460 0
+[16:21:20.6649] [INFO] smart_fan: Machine resumed.
+[16:21:20.6650] [INFO] smart_fan: Machine paused.
+PULSE 0.000470 0
+[16:21:20.6655] [INFO] smart_fan: Machine resumed.
+[16:21:20.6655] [INFO] smart_fan: Machine paused.
+PULSE 0.000480 0
+[16:21:20.6660] [INFO] smart_fan: Machine resumed.
+[16:21:20.6660] [INFO] smart_fan: Machine paused.
+PULSE 0.000490 0
+[16:21:20.6664] [INFO] smart_fan: Machine resumed.
+[16:21:20.6665] [INFO] smart_fan: Machine paused.
+PULSE 0.000500 0
+[16:21:20.6669] [INFO] smart_fan: Machine resumed.
+[16:21:20.6670] [INFO] smart_fan: Machine paused.
+PULSE 0.000510 0
+[16:21:20.6674] [INFO] smart_fan: Machine resumed.
+[16:21:20.6675] [INFO] smart_fan: Machine paused.
+PULSE 0.000520 0
+[16:21:20.6679] [INFO] smart_fan: Machine resumed.
+[16:21:20.6680] [INFO] smart_fan: Machine paused.
+PULSE 0.000530 0
+[16:21:20.6684] [INFO] smart_fan: Machine resumed.
+[16:21:20.6685] [INFO] smart_fan: Machine paused.
+PULSE 0.000540 0
+[16:21:20.6688] [INFO] smart_fan: Machine resumed.
+[16:21:20.6689] [INFO] smart_fan: Machine paused.
+PULSE 0.000550 0
+[16:21:20.6693] [INFO] smart_fan: Machine resumed.
+[16:21:20.6693] [INFO] smart_fan: Machine paused.
+PULSE 0.000560 0
+[16:21:20.6697] [INFO] smart_fan: Machine resumed.
+[16:21:20.6698] [INFO] smart_fan: Machine paused.
+PULSE 0.000570 0
+[16:21:20.6702] [INFO] smart_fan: Machine resumed.
+[16:21:20.6702] [INFO] smart_fan: Machine paused.
+PULSE 0.000580 0
+[16:21:20.6706] [INFO] smart_fan: Machine resumed.
+[16:21:20.6707] [INFO] smart_fan: Machine paused.
+PULSE 0.000590 0
+[16:21:20.6710] [INFO] smart_fan: Machine resumed.
+[16:21:20.6711] [INFO] smart_fan: Machine paused.
+PULSE 0.000600 0
+[16:21:20.6715] [INFO] smart_fan: Machine resumed.
+[16:21:20.6716] [INFO] smart_fan: Machine paused.
+PULSE 0.000610 0
+[16:21:20.6720] [INFO] smart_fan: Machine resumed.
+[16:21:20.6721] [INFO] smart_fan: Machine paused.
+PULSE 0.000620 0
+[16:21:20.6724] [INFO] smart_fan: Machine resumed.
+[16:21:20.6725] [INFO] smart_fan: Machine paused.
+PULSE 0.000630 0
+[16:21:20.6729] [INFO] smart_fan: Machine resumed.
+[16:21:20.6729] [INFO] smart_fan: Machine paused.
+PULSE 0.000640 0
+[16:21:20.6733] [INFO] smart_fan: Machine resumed.
+[16:21:20.6734] [INFO] smart_fan: Machine paused.
+PULSE 0.000650 0
+[16:21:20.6738] [INFO] smart_fan: Machine resumed.
+[16:21:20.6739] [INFO] smart_fan: Machine paused.
+PULSE 0.000660 0
+[16:21:20.6743] [INFO] smart_fan: Machine resumed.
+[16:21:20.6743] [INFO] smart_fan: Machine paused.
+PULSE 0.000670 0
+[16:21:20.6747] [INFO] smart_fan: Machine resumed.
+[16:21:20.6748] [INFO] smart_fan: Machine paused.
+PULSE 0.000680 0
+[16:21:20.6751] [INFO] smart_fan: Machine resumed.
+[16:21:20.6752] [INFO] smart_fan: Machine paused.
+PULSE 0.000690 0
+[16:21:20.6756] [INFO] smart_fan: Machine resumed.
+[16:21:20.6756] [INFO] smart_fan: Machine paused.
+PULSE 0.000700 0
+[16:21:20.6760] [INFO] smart_fan: Machine resumed.
+[16:21:20.6761] [INFO] smart_fan: Machine paused.
+PULSE 0.000710 0
+[16:21:20.6764] [INFO] smart_fan: Machine resumed.
+[16:21:20.6767] [INFO] smart_fan: Machine paused.
+PULSE 0.000720 0
+[16:21:20.6770] [INFO] smart_fan: Machine resumed.
+[16:21:20.6771] [INFO] smart_fan: Machine paused.
+PULSE 0.000730 0
+[16:21:20.6775] [INFO] smart_fan: Machine resumed.
+[16:21:20.6776] [INFO] smart_fan: Machine paused.
+PULSE 0.000740 0
+[16:21:20.6780] [INFO] smart_fan: Machine resumed.
+[16:21:20.6780] [INFO] smart_fan: Machine paused.
+PULSE 0.000750 0
+[16:21:20.6784] [INFO] smart_fan: Machine resumed.
+[16:21:20.6785] [INFO] smart_fan: Machine paused.
+PULSE 0.000760 0
+[16:21:20.6789] [INFO] smart_fan: Machine resumed.
+[16:21:20.6789] [INFO] smart_fan: Machine paused.
+PULSE 0.000770 0
+[16:21:20.6793] [INFO] smart_fan: Machine resumed.
+[16:21:20.6794] [INFO] smart_fan: Machine paused.
+PULSE 0.000780 0
+[16:21:20.6797] [INFO] smart_fan: Machine resumed.
+[16:21:20.6798] [INFO] smart_fan: Machine paused.
+PULSE 0.000790 0
+[16:21:20.6801] [INFO] smart_fan: Machine resumed.
+[16:21:20.6802] [INFO] smart_fan: Machine paused.
+PULSE 0.000800 0
+[16:21:20.6806] [INFO] smart_fan: Machine resumed.
+[16:21:20.6806] [INFO] smart_fan: Machine paused.
+PULSE 0.000810 0
+[16:21:20.6810] [INFO] smart_fan: Machine resumed.
+[16:21:20.6811] [INFO] smart_fan: Machine paused.
+PULSE 0.000820 0
+[16:21:20.6814] [INFO] smart_fan: Machine resumed.
+[16:21:20.6815] [INFO] smart_fan: Machine paused.
+PULSE 0.000830 0
+[16:21:20.6819] [INFO] smart_fan: Machine resumed.
+[16:21:20.6819] [INFO] smart_fan: Machine paused.
+PULSE 0.000840 0
+[16:21:20.6823] [INFO] smart_fan: Machine resumed.
+[16:21:20.6824] [INFO] smart_fan: Machine paused.
+PULSE 0.000850 0
+[16:21:20.6828] [INFO] smart_fan: Machine resumed.
+[16:21:20.6829] [INFO] smart_fan: Machine paused.
+PULSE 0.000860 0
+[16:21:20.6833] [INFO] smart_fan: Machine resumed.
+[16:21:20.6833] [INFO] smart_fan: Machine paused.
+PULSE 0.000870 0
+[16:21:20.6837] [INFO] smart_fan: Machine resumed.
+[16:21:20.6838] [INFO] smart_fan: Machine paused.
+PULSE 0.000880 0
+[16:21:20.6841] [INFO] smart_fan: Machine resumed.
+[16:21:20.6842] [INFO] smart_fan: Machine paused.
+PULSE 0.000890 0
+[16:21:20.6846] [INFO] smart_fan: Machine resumed.
+[16:21:20.6847] [INFO] smart_fan: Machine paused.
+PULSE 0.000900 0
+[16:21:20.6850] [INFO] smart_fan: Machine resumed.
+[16:21:20.6851] [INFO] smart_fan: Machine paused.
+PULSE 0.000910 0
+[16:21:20.6855] [INFO] smart_fan: Machine resumed.
+[16:21:20.6855] [INFO] smart_fan: Machine paused.
+PULSE 0.000920 0
+[16:21:20.6859] [INFO] smart_fan: Machine resumed.
+[16:21:20.6859] [INFO] smart_fan: Machine paused.
+PULSE 0.000930 0
+[16:21:20.6864] [INFO] smart_fan: Machine resumed.
+[16:21:20.6864] [INFO] smart_fan: Machine paused.
+PULSE 0.000940 0
+[16:21:20.6868] [INFO] smart_fan: Machine resumed.
+[16:21:20.6869] [INFO] smart_fan: Machine paused.
+PULSE 0.000950 0
+[16:21:20.6872] [INFO] smart_fan: Machine resumed.
+[16:21:20.6873] [INFO] smart_fan: Machine paused.
+PULSE 0.000960 0
+[16:21:20.6876] [INFO] smart_fan: Machine resumed.
+[16:21:20.6877] [INFO] smart_fan: Machine paused.
+PULSE 0.000970 0
+[16:21:20.6881] [INFO] smart_fan: Machine resumed.
+[16:21:20.6881] [INFO] smart_fan: Machine paused.
+PULSE 0.000980 0
+[16:21:20.6885] [INFO] smart_fan: Machine resumed.
+[16:21:20.6886] [INFO] smart_fan: Machine paused.
+PULSE 0.000990 0
+[16:21:20.6890] [INFO] smart_fan: Machine resumed.
+[16:21:20.6891] [INFO] smart_fan: Machine paused.
+PULSE 0.001000 0
+[16:21:20.6894] [INFO] smart_fan: Machine resumed.
+[16:21:20.6895] [INFO] smart_fan: Machine paused.
+PULSE 0.001010 0
+[16:21:20.6899] [INFO] smart_fan: Machine resumed.
+[16:21:20.6899] [INFO] smart_fan: Machine paused.
+PULSE 0.001020 0
+[16:21:20.6904] [INFO] smart_fan: Machine resumed.
+[16:21:20.6905] [INFO] smart_fan: Machine paused.
+PULSE 0.001030 0
+[16:21:20.6918] [INFO] smart_fan: Machine resumed.
+[16:21:20.6919] [INFO] smart_fan: Machine paused.
+PULSE 0.001040 0
+[16:21:20.6923] [INFO] smart_fan: Machine resumed.
+[16:21:20.6924] [INFO] smart_fan: Machine paused.
+PULSE 0.001050 0
+[16:21:20.6928] [INFO] smart_fan: Machine resumed.
+[16:21:20.6929] [INFO] smart_fan: Machine paused.
+PULSE 0.001060 0
+[16:21:20.6932] [INFO] smart_fan: Machine resumed.
+[16:21:20.6933] [INFO] smart_fan: Machine paused.
+PULSE 0.001070 0
+[16:21:20.6937] [INFO] smart_fan: Machine resumed.
+[16:21:20.6937] [INFO] smart_fan: Machine paused.
+PULSE 0.001080 0
+[16:21:20.6941] [INFO] smart_fan: Machine resumed.
+[16:21:20.6942] [INFO] smart_fan: Machine paused.
+PULSE 0.001090 0
+[16:21:20.6945] [INFO] smart_fan: Machine resumed.
+[16:21:20.6946] [INFO] smart_fan: Machine paused.
+PULSE 0.001100 0
+[16:21:20.6950] [INFO] smart_fan: Machine resumed.
+[16:21:20.6951] [INFO] smart_fan: Machine paused.
+PULSE 0.001110 0
+[16:21:20.6954] [INFO] smart_fan: Machine resumed.
+[16:21:20.6955] [INFO] smart_fan: Machine paused.
+PULSE 0.001120 0
+[16:21:20.6959] [INFO] smart_fan: Machine resumed.
+[16:21:20.6959] [INFO] smart_fan: Machine paused.
+PULSE 0.001130 0
+[16:21:20.6963] [INFO] smart_fan: Machine resumed.
+[16:21:20.6963] [INFO] smart_fan: Machine paused.
+PULSE 0.001140 0
+[16:21:20.6967] [INFO] smart_fan: Machine resumed.
+[16:21:20.6967] [INFO] smart_fan: Machine paused.
+PULSE 0.001150 0
+[16:21:20.6971] [INFO] smart_fan: Machine resumed.
+[16:21:20.6972] [INFO] smart_fan: Machine paused.
+PULSE 0.001160 0
+[16:21:20.6975] [INFO] smart_fan: Machine resumed.
+[16:21:20.6976] [INFO] smart_fan: Machine paused.
+PULSE 0.001170 0
+[16:21:20.6979] [INFO] smart_fan: Machine resumed.
+[16:21:20.6980] [INFO] smart_fan: Machine paused.
+PULSE 0.001180 0
+[16:21:20.6984] [INFO] smart_fan: Machine resumed.
+[16:21:20.6984] [INFO] smart_fan: Machine paused.
+PULSE 0.001190 0
+[16:21:20.6988] [INFO] smart_fan: Machine resumed.
+[16:21:20.6989] [INFO] smart_fan: Machine paused.
+PULSE 0.001200 0
+[16:21:20.6993] [INFO] smart_fan: Machine resumed.
+[16:21:20.6993] [INFO] smart_fan: Machine paused.
+PULSE 0.001210 0
+[16:21:20.6996] [INFO] smart_fan: Machine resumed.
+[16:21:20.6997] [INFO] smart_fan: Machine paused.
+PULSE 0.001220 0
+[16:21:20.7000] [INFO] smart_fan: Machine resumed.
+[16:21:20.7001] [INFO] smart_fan: Machine paused.
+PULSE 0.001230 0
+[16:21:20.7004] [INFO] smart_fan: Machine resumed.
+[16:21:20.7004] [INFO] smart_fan: Machine paused.
+PULSE 0.001240 0
+[16:21:20.7008] [INFO] smart_fan: Machine resumed.
+[16:21:20.7009] [INFO] smart_fan: Machine paused.
+PULSE 0.001250 0
+[16:21:20.7012] [INFO] smart_fan: Machine resumed.
+[16:21:20.7013] [INFO] smart_fan: Machine paused.
+PULSE 0.001260 0
+[16:21:20.7017] [INFO] smart_fan: Machine resumed.
+[16:21:20.7017] [INFO] smart_fan: Machine paused.
+PULSE 0.001270 0
+[16:21:20.7021] [INFO] smart_fan: Machine resumed.
+[16:21:20.7021] [INFO] smart_fan: Machine paused.
+PULSE 0.001280 0
+[16:21:20.7025] [INFO] smart_fan: Machine resumed.
+[16:21:20.7025] [INFO] smart_fan: Machine paused.
+PULSE 0.001290 0
+[16:21:20.7030] [INFO] smart_fan: Machine resumed.
+[16:21:20.7031] [INFO] smart_fan: Machine paused.
+PULSE 0.001300 0
+[16:21:20.7035] [INFO] smart_fan: Machine resumed.
+[16:21:20.7035] [INFO] smart_fan: Machine paused.
+PULSE 0.001310 0
+[16:21:20.7039] [INFO] smart_fan: Machine resumed.
+[16:21:20.7040] [INFO] smart_fan: Machine paused.
+PULSE 0.001320 0
+[16:21:20.7043] [INFO] smart_fan: Machine resumed.
+[16:21:20.7044] [INFO] smart_fan: Machine paused.
+PULSE 0.001330 0
+[16:21:20.7048] [INFO] smart_fan: Machine resumed.
+[16:21:20.7048] [INFO] smart_fan: Machine paused.
+PULSE 0.001340 0
+[16:21:20.7052] [INFO] smart_fan: Machine resumed.
+[16:21:20.7053] [INFO] smart_fan: Machine paused.
+PULSE 0.001350 0
+[16:21:20.7056] [INFO] smart_fan: Machine resumed.
+[16:21:20.7057] [INFO] smart_fan: Machine paused.
+PULSE 0.001360 0
+[16:21:20.7060] [INFO] smart_fan: Machine resumed.
+[16:21:20.7061] [INFO] smart_fan: Machine paused.
+PULSE 0.001370 0
+[16:21:20.7064] [INFO] smart_fan: Machine resumed.
+[16:21:20.7065] [INFO] smart_fan: Machine paused.
+PULSE 0.001380 0
+[16:21:20.7069] [INFO] smart_fan: Machine resumed.
+[16:21:20.7070] [INFO] smart_fan: Machine paused.
+PULSE 0.001390 0
+[16:21:20.7074] [INFO] smart_fan: Machine resumed.
+[16:21:20.7075] [INFO] smart_fan: Machine paused.
+PULSE 0.001400 0
+[16:21:20.7080] [INFO] smart_fan: Machine resumed.
+[16:21:20.7080] [INFO] smart_fan: Machine paused.
+PULSE 0.001410 0
+[16:21:20.7084] [INFO] smart_fan: Machine resumed.
+[16:21:20.7085] [INFO] smart_fan: Machine paused.
+PULSE 0.001420 0
+[16:21:20.7088] [INFO] smart_fan: Machine resumed.
+[16:21:20.7089] [INFO] smart_fan: Machine paused.
+PULSE 0.001430 0
+[16:21:20.7092] [INFO] smart_fan: Machine resumed.
+[16:21:20.7093] [INFO] smart_fan: Machine paused.
+PULSE 0.001440 0
+[16:21:20.7097] [INFO] smart_fan: Machine resumed.
+[16:21:20.7097] [INFO] smart_fan: Machine paused.
+PULSE 0.001450 0
+[16:21:20.7101] [INFO] smart_fan: Machine resumed.
+[16:21:20.7101] [INFO] smart_fan: Machine paused.
+PULSE 0.001460 0
+[16:21:20.7105] [INFO] smart_fan: Machine resumed.
+[16:21:20.7105] [INFO] smart_fan: Machine paused.
+PULSE 0.001470 0
+[16:21:20.7109] [INFO] smart_fan: Machine resumed.
+[16:21:20.7109] [INFO] smart_fan: Machine paused.
+PULSE 0.001480 0
+[16:21:20.7113] [INFO] smart_fan: Machine resumed.
+[16:21:20.7114] [INFO] smart_fan: Machine paused.
+PULSE 0.001490 0
+[16:21:20.7118] [INFO] smart_fan: Machine resumed.
+[16:21:20.7118] [INFO] smart_fan: Machine paused.
+PULSE 0.001500 0
+[16:21:20.7122] [INFO] smart_fan: Machine resumed.
+[16:21:20.7123] [INFO] smart_fan: Machine paused.
+PULSE 0.001510 0
+[16:21:20.7126] [INFO] smart_fan: Machine resumed.
+[16:21:20.7126] [INFO] smart_fan: Machine paused.
+PULSE 0.001520 0
+[16:21:20.7130] [INFO] smart_fan: Machine resumed.
+[16:21:20.7130] [INFO] smart_fan: Machine paused.
+PULSE 0.001530 0
+[16:21:20.7133] [INFO] smart_fan: Machine resumed.
+[16:21:20.7134] [INFO] smart_fan: Machine paused.
+PULSE 0.001540 0
+[16:21:20.7138] [INFO] smart_fan: Machine resumed.
+[16:21:20.7138] [INFO] smart_fan: Machine paused.
+PULSE 0.001550 0
+[16:21:20.7142] [INFO] smart_fan: Machine resumed.
+[16:21:20.7142] [INFO] smart_fan: Machine paused.
+PULSE 0.001560 0
+[16:21:20.7146] [INFO] smart_fan: Machine resumed.
+[16:21:20.7147] [INFO] smart_fan: Machine paused.
+PULSE 0.001570 0
+[16:21:20.7150] [INFO] smart_fan: Machine resumed.
+[16:21:20.7151] [INFO] smart_fan: Machine paused.
+PULSE 0.001580 0
+[16:21:20.7155] [INFO] smart_fan: Machine resumed.
+[16:21:20.7155] [INFO] smart_fan: Machine paused.
+PULSE 0.001590 0
+[16:21:20.7159] [INFO] smart_fan: Machine resumed.
+[16:21:20.7160] [INFO] smart_fan: Machine paused.
+PULSE 0.001600 0
+[16:21:20.7163] [INFO] smart_fan: Machine resumed.
+[16:21:20.7164] [INFO] smart_fan: Machine paused.
+PULSE 0.001610 0
+[16:21:20.7167] [INFO] smart_fan: Machine resumed.
+[16:21:20.7168] [INFO] smart_fan: Machine paused.
+PULSE 0.001620 0
+[16:21:20.7171] [INFO] smart_fan: Machine resumed.
+[16:21:20.7172] [INFO] smart_fan: Machine paused.
+PULSE 0.001630 0
+[16:21:20.7175] [INFO] smart_fan: Machine resumed.
+[16:21:20.7176] [INFO] smart_fan: Machine paused.
+PULSE 0.001640 0
+[16:21:20.7180] [INFO] smart_fan: Machine resumed.
+[16:21:20.7180] [INFO] smart_fan: Machine paused.
+PULSE 0.001650 0
+[16:21:20.7184] [INFO] smart_fan: Machine resumed.
+[16:21:20.7184] [INFO] smart_fan: Machine paused.
+PULSE 0.001660 0
+[16:21:20.7188] [INFO] smart_fan: Machine resumed.
+[16:21:20.7188] [INFO] smart_fan: Machine paused.
+PULSE 0.001670 0
+[16:21:20.7192] [INFO] smart_fan: Machine resumed.
+[16:21:20.7192] [INFO] smart_fan: Machine paused.
+PULSE 0.001680 0
+[16:21:20.7196] [INFO] smart_fan: Machine resumed.
+[16:21:20.7197] [INFO] smart_fan: Machine paused.
+PULSE 0.001690 0
+[16:21:20.7201] [INFO] smart_fan: Machine resumed.
+[16:21:20.7201] [INFO] smart_fan: Machine paused.
+PULSE 0.001700 0
+[16:21:20.7205] [INFO] smart_fan: Machine resumed.
+[16:21:20.7205] [INFO] smart_fan: Machine paused.
+PULSE 0.001710 0
+[16:21:20.7209] [INFO] smart_fan: Machine resumed.
+[16:21:20.7209] [INFO] smart_fan: Machine paused.
+PULSE 0.001720 0
+[16:21:20.7213] [INFO] smart_fan: Machine resumed.
+[16:21:20.7214] [INFO] smart_fan: Machine paused.
+PULSE 0.001730 0
+[16:21:20.7217] [INFO] smart_fan: Machine resumed.
+[16:21:20.7218] [INFO] smart_fan: Machine paused.
+PULSE 0.001740 0
+[16:21:20.7221] [INFO] smart_fan: Machine resumed.
+[16:21:20.7222] [INFO] smart_fan: Machine paused.
+PULSE 0.001750 0
+[16:21:20.7226] [INFO] smart_fan: Machine resumed.
+[16:21:20.7226] [INFO] smart_fan: Machine paused.
+PULSE 0.001760 0
+[16:21:20.7230] [INFO] smart_fan: Machine resumed.
+[16:21:20.7230] [INFO] smart_fan: Machine paused.
+PULSE 0.001770 0
+[16:21:20.7234] [INFO] smart_fan: Machine resumed.
+[16:21:20.7234] [INFO] smart_fan: Machine paused.
+PULSE 0.001780 0
+[16:21:20.7238] [INFO] smart_fan: Machine resumed.
+[16:21:20.7239] [INFO] smart_fan: Machine paused.
+PULSE 0.001790 0
+[16:21:20.7243] [INFO] smart_fan: Machine resumed.
+[16:21:20.7244] [INFO] smart_fan: Machine paused.
+PULSE 0.001800 0
+[16:21:20.7248] [INFO] smart_fan: Machine resumed.
+[16:21:20.7248] [INFO] smart_fan: Machine paused.
+PULSE 0.001810 0
+[16:21:20.7252] [INFO] smart_fan: Machine resumed.
+[16:21:20.7253] [INFO] smart_fan: Machine paused.
+PULSE 0.001820 0
+[16:21:20.7257] [INFO] smart_fan: Machine resumed.
+[16:21:20.7257] [INFO] smart_fan: Machine paused.
+PULSE 0.001830 0
+[16:21:20.7261] [INFO] smart_fan: Machine resumed.
+[16:21:20.7261] [INFO] smart_fan: Machine paused.
+PULSE 0.001840 0
+[16:21:20.7265] [INFO] smart_fan: Machine resumed.
+[16:21:20.7266] [INFO] smart_fan: Machine paused.
+PULSE 0.001850 0
+[16:21:20.7269] [INFO] smart_fan: Machine resumed.
+[16:21:20.7270] [INFO] smart_fan: Machine paused.
+PULSE 0.001860 0
+[16:21:20.7273] [INFO] smart_fan: Machine resumed.
+[16:21:20.7274] [INFO] smart_fan: Machine paused.
+PULSE 0.001870 0
+[16:21:20.7278] [INFO] smart_fan: Machine resumed.
+[16:21:20.7278] [INFO] smart_fan: Machine paused.
+PULSE 0.001880 0
+[16:21:20.7282] [INFO] smart_fan: Machine resumed.
+[16:21:20.7283] [INFO] smart_fan: Machine paused.
+PULSE 0.001890 0
+[16:21:20.7286] [INFO] smart_fan: Machine resumed.
+[16:21:20.7287] [INFO] smart_fan: Machine paused.
+PULSE 0.001900 0
+[16:21:20.7290] [INFO] smart_fan: Machine resumed.
+[16:21:20.7291] [INFO] smart_fan: Machine paused.
+PULSE 0.001910 0
+[16:21:20.7295] [INFO] smart_fan: Machine resumed.
+[16:21:20.7295] [INFO] smart_fan: Machine paused.
+PULSE 0.001920 0
+[16:21:20.7299] [INFO] smart_fan: Machine resumed.
+[16:21:20.7299] [INFO] smart_fan: Machine paused.
+PULSE 0.001930 0
+[16:21:20.7303] [INFO] smart_fan: Machine resumed.
+[16:21:20.7304] [INFO] smart_fan: Machine paused.
+PULSE 0.001940 0
+[16:21:20.7308] [INFO] smart_fan: Machine resumed.
+[16:21:20.7308] [INFO] smart_fan: Machine paused.
+PULSE 0.001950 0
+[16:21:20.7312] [INFO] smart_fan: Machine resumed.
+[16:21:20.7312] [INFO] smart_fan: Machine paused.
+PULSE 0.001960 0
+[16:21:20.7316] [INFO] smart_fan: Machine resumed.
+[16:21:20.7316] [INFO] smart_fan: Machine paused.
+PULSE 0.001970 0
+[16:21:20.7320] [INFO] smart_fan: Machine resumed.
+[16:21:20.7320] [INFO] smart_fan: Machine paused.
+PULSE 0.001980 0
+[16:21:20.7330] [INFO] smart_fan: Machine resumed.
+[16:21:20.7332] [INFO] smart_fan: Machine paused.
+PULSE 0.001990 0
+[16:21:20.7336] [INFO] smart_fan: Machine resumed.
+[16:21:20.7336] [INFO] smart_fan: Machine paused.
+PULSE 0.002000 0
+[16:21:20.7340] [INFO] smart_fan: Machine resumed.
+[16:21:20.7341] [INFO] smart_fan: Machine paused.
+PULSE 0.002010 0
+[16:21:20.7344] [INFO] smart_fan: Machine resumed.
+[16:21:20.7345] [INFO] smart_fan: Machine paused.
+PULSE 0.002020 0
+[16:21:20.7348] [INFO] smart_fan: Machine resumed.
+[16:21:20.7349] [INFO] smart_fan: Machine paused.
+PULSE 0.002030 0
+[16:21:20.7352] [INFO] smart_fan: Machine resumed.
+[16:21:20.7354] [INFO] smart_fan: Machine paused.
+PULSE 0.002040 0
+[16:21:20.7357] [INFO] smart_fan: Machine resumed.
+[16:21:20.7358] [INFO] smart_fan: Machine paused.
+PULSE 0.002050 0
+[16:21:20.7362] [INFO] smart_fan: Machine resumed.
+[16:21:20.7362] [INFO] smart_fan: Machine paused.
+PULSE 0.002060 0
+[16:21:20.7366] [INFO] smart_fan: Machine resumed.
+[16:21:20.7367] [INFO] smart_fan: Machine paused.
+PULSE 0.002070 0
+[16:21:20.7371] [INFO] smart_fan: Machine resumed.
+[16:21:20.7372] [INFO] smart_fan: Machine paused.
+PULSE 0.002080 0
+[16:21:20.7376] [INFO] smart_fan: Machine resumed.
+[16:21:20.7376] [INFO] smart_fan: Machine paused.
+PULSE 0.002090 0
+[16:21:20.7380] [INFO] smart_fan: Machine resumed.
+[16:21:20.7380] [INFO] smart_fan: Machine paused.
+PULSE 0.002100 0
+[16:21:20.7384] [INFO] smart_fan: Machine resumed.
+[16:21:20.7384] [INFO] smart_fan: Machine paused.
+PULSE 0.002110 0
+[16:21:20.7388] [INFO] smart_fan: Machine resumed.
+[16:21:20.7389] [INFO] smart_fan: Machine paused.
+PULSE 0.002120 0
+[16:21:20.7393] [INFO] smart_fan: Machine resumed.
+[16:21:20.7393] [INFO] smart_fan: Machine paused.
+PULSE 0.002130 0
+[16:21:20.7397] [INFO] smart_fan: Machine resumed.
+[16:21:20.7397] [INFO] smart_fan: Machine paused.
+PULSE 0.002140 0
+[16:21:20.7401] [INFO] smart_fan: Machine resumed.
+[16:21:20.7401] [INFO] smart_fan: Machine paused.
+PULSE 0.002150 0
+[16:21:20.7405] [INFO] smart_fan: Machine resumed.
+[16:21:20.7406] [INFO] smart_fan: Machine paused.
+PULSE 0.002160 0
+[16:21:20.7410] [INFO] smart_fan: Machine resumed.
+[16:21:20.7411] [INFO] smart_fan: Machine paused.
+PULSE 0.002170 0
+[16:21:20.7414] [INFO] smart_fan: Machine resumed.
+[16:21:20.7415] [INFO] smart_fan: Machine paused.
+PULSE 0.002180 0
+[16:21:20.7418] [INFO] smart_fan: Machine resumed.
+[16:21:20.7419] [INFO] smart_fan: Machine paused.
+PULSE 0.002190 0
+[16:21:20.7423] [INFO] smart_fan: Machine resumed.
+[16:21:20.7423] [INFO] smart_fan: Machine paused.
+PULSE 0.002200 0
+[16:21:20.7427] [INFO] smart_fan: Machine resumed.
+[16:21:20.7427] [INFO] smart_fan: Machine paused.
+PULSE 0.002210 0
+[16:21:20.7431] [INFO] smart_fan: Machine resumed.
+[16:21:20.7431] [INFO] smart_fan: Machine paused.
+PULSE 0.002220 0
+[16:21:20.7435] [INFO] smart_fan: Machine resumed.
+[16:21:20.7435] [INFO] smart_fan: Machine paused.
+PULSE 0.002230 0
+[16:21:20.7439] [INFO] smart_fan: Machine resumed.
+[16:21:20.7439] [INFO] smart_fan: Machine paused.
+PULSE 0.002240 0
+[16:21:20.7443] [INFO] smart_fan: Machine resumed.
+[16:21:20.7443] [INFO] smart_fan: Machine paused.
+PULSE 0.002250 0
+[16:21:20.7448] [INFO] smart_fan: Machine resumed.
+[16:21:20.7449] [INFO] smart_fan: Machine paused.
+PULSE 0.002260 0
+[16:21:20.7453] [INFO] smart_fan: Machine resumed.
+[16:21:20.7453] [INFO] smart_fan: Machine paused.
+PULSE 0.002270 0
+[16:21:20.7457] [INFO] smart_fan: Machine resumed.
+[16:21:20.7458] [INFO] smart_fan: Machine paused.
+PULSE 0.002280 0
+[16:21:20.7461] [INFO] smart_fan: Machine resumed.
+[16:21:20.7462] [INFO] smart_fan: Machine paused.
+PULSE 0.002290 0
+[16:21:20.7465] [INFO] smart_fan: Machine resumed.
+[16:21:20.7466] [INFO] smart_fan: Machine paused.
+PULSE 0.002300 0
+[16:21:20.7469] [INFO] smart_fan: Machine resumed.
+[16:21:20.7470] [INFO] smart_fan: Machine paused.
+PULSE 0.002310 0
+[16:21:20.7473] [INFO] smart_fan: Machine resumed.
+[16:21:20.7474] [INFO] smart_fan: Machine paused.
+PULSE 0.002320 0
+[16:21:20.7477] [INFO] smart_fan: Machine resumed.
+[16:21:20.7478] [INFO] smart_fan: Machine paused.
+PULSE 0.002330 0
+[16:21:20.7481] [INFO] smart_fan: Machine resumed.
+[16:21:20.7482] [INFO] smart_fan: Machine paused.
+PULSE 0.002340 0
+[16:21:20.7485] [INFO] smart_fan: Machine resumed.
+[16:21:20.7486] [INFO] smart_fan: Machine paused.
+PULSE 0.002350 0
+[16:21:20.7490] [INFO] smart_fan: Machine resumed.
+[16:21:20.7490] [INFO] smart_fan: Machine paused.
+PULSE 0.002360 0
+[16:21:20.7494] [INFO] smart_fan: Machine resumed.
+[16:21:20.7494] [INFO] smart_fan: Machine paused.
+PULSE 0.002370 0
+[16:21:20.7498] [INFO] smart_fan: Machine resumed.
+[16:21:20.7498] [INFO] smart_fan: Machine paused.
+PULSE 0.002380 0
+[16:21:20.7502] [INFO] smart_fan: Machine resumed.
+[16:21:20.7503] [INFO] smart_fan: Machine paused.
+PULSE 0.002390 0
+[16:21:20.7506] [INFO] smart_fan: Machine resumed.
+[16:21:20.7507] [INFO] smart_fan: Machine paused.
+PULSE 0.002400 0
+[16:21:20.7510] [INFO] smart_fan: Machine resumed.
+[16:21:20.7511] [INFO] smart_fan: Machine paused.
+PULSE 0.002410 0
+[16:21:20.7515] [INFO] smart_fan: Machine resumed.
+[16:21:20.7515] [INFO] smart_fan: Machine paused.
+PULSE 0.002420 0
+[16:21:20.7519] [INFO] smart_fan: Machine resumed.
+[16:21:20.7520] [INFO] smart_fan: Machine paused.
+PULSE 0.002430 0
+[16:21:20.7523] [INFO] smart_fan: Machine resumed.
+[16:21:20.7524] [INFO] smart_fan: Machine paused.
+PULSE 0.002440 0
+[16:21:20.7527] [INFO] smart_fan: Machine resumed.
+[16:21:20.7528] [INFO] smart_fan: Machine paused.
+PULSE 0.002450 0
+[16:21:20.7532] [INFO] smart_fan: Machine resumed.
+[16:21:20.7533] [INFO] smart_fan: Machine paused.
+PULSE 0.002460 0
+[16:21:20.7536] [INFO] smart_fan: Machine resumed.
+[16:21:20.7537] [INFO] smart_fan: Machine paused.
+PULSE 0.002470 0
+[16:21:20.7541] [INFO] smart_fan: Machine resumed.
+[16:21:20.7541] [INFO] smart_fan: Machine paused.
+PULSE 0.002480 0
+[16:21:20.7545] [INFO] smart_fan: Machine resumed.
+[16:21:20.7545] [INFO] smart_fan: Machine paused.
+PULSE 0.002490 0
+[16:21:20.7549] [INFO] smart_fan: Machine resumed.
+[16:21:20.7549] [INFO] smart_fan: Machine paused.
+PULSE 0.002500 0
+[16:21:20.7553] [INFO] smart_fan: Machine resumed.
+[16:21:20.7553] [INFO] smart_fan: Machine paused.
+PULSE 0.002510 0
+[16:21:20.7557] [INFO] smart_fan: Machine resumed.
+[16:21:20.7558] [INFO] smart_fan: Machine paused.
+PULSE 0.002520 0
+[16:21:20.7561] [INFO] smart_fan: Machine resumed.
+[16:21:20.7562] [INFO] smart_fan: Machine paused.
+PULSE 0.002530 0
+[16:21:20.7565] [INFO] smart_fan: Machine resumed.
+[16:21:20.7567] [INFO] smart_fan: Machine paused.
+PULSE 0.002540 0
+[16:21:20.7574] [INFO] smart_fan: Machine resumed.
+[16:21:20.7576] [INFO] smart_fan: Machine paused.
+PULSE 0.002550 0
+[16:21:20.7580] [INFO] smart_fan: Machine resumed.
+[16:21:20.7581] [INFO] smart_fan: Machine paused.
+PULSE 0.002560 0
+[16:21:20.7585] [INFO] smart_fan: Machine resumed.
+[16:21:20.7585] [INFO] smart_fan: Machine paused.
+PULSE 0.002570 0
+[16:21:20.7589] [INFO] smart_fan: Machine resumed.
+[16:21:20.7590] [INFO] smart_fan: Machine paused.
+PULSE 0.002580 0
+[16:21:20.7594] [INFO] smart_fan: Machine resumed.
+[16:21:20.7594] [INFO] smart_fan: Machine paused.
+PULSE 0.002590 0
+[16:21:20.7598] [INFO] smart_fan: Machine resumed.
+[16:21:20.7598] [INFO] smart_fan: Machine paused.
+PULSE 0.002600 0
+[16:21:20.7602] [INFO] smart_fan: Machine resumed.
+[16:21:20.7602] [INFO] smart_fan: Machine paused.
+PULSE 0.002610 0
+[16:21:20.7606] [INFO] smart_fan: Machine resumed.
+[16:21:20.7606] [INFO] smart_fan: Machine paused.
+PULSE 0.002620 0
+[16:21:20.7611] [INFO] smart_fan: Machine resumed.
+[16:21:20.7611] [INFO] smart_fan: Machine paused.
+PULSE 0.002630 0
+[16:21:20.7616] [INFO] smart_fan: Machine resumed.
+[16:21:20.7617] [INFO] smart_fan: Machine paused.
+PULSE 0.002640 0
+[16:21:20.7621] [INFO] smart_fan: Machine resumed.
+[16:21:20.7621] [INFO] smart_fan: Machine paused.
+PULSE 0.002650 0
+[16:21:20.7625] [INFO] smart_fan: Machine resumed.
+[16:21:20.7626] [INFO] smart_fan: Machine paused.
+PULSE 0.002660 0
+[16:21:20.7629] [INFO] smart_fan: Machine resumed.
+[16:21:20.7630] [INFO] smart_fan: Machine paused.
+PULSE 0.002670 0
+[16:21:20.7633] [INFO] smart_fan: Machine resumed.
+[16:21:20.7634] [INFO] smart_fan: Machine paused.
+PULSE 0.002680 0
+[16:21:20.7637] [INFO] smart_fan: Machine resumed.
+[16:21:20.7638] [INFO] smart_fan: Machine paused.
+PULSE 0.002690 0
+[16:21:20.7641] [INFO] smart_fan: Machine resumed.
+[16:21:20.7642] [INFO] smart_fan: Machine paused.
+PULSE 0.002700 0
+[16:21:20.7645] [INFO] smart_fan: Machine resumed.
+[16:21:20.7646] [INFO] smart_fan: Machine paused.
+PULSE 0.002710 0
+[16:21:20.7649] [INFO] smart_fan: Machine resumed.
+[16:21:20.7650] [INFO] smart_fan: Machine paused.
+PULSE 0.002720 0
+[16:21:20.7654] [INFO] smart_fan: Machine resumed.
+[16:21:20.7654] [INFO] smart_fan: Machine paused.
+PULSE 0.002730 0
+[16:21:20.7659] [INFO] smart_fan: Machine resumed.
+[16:21:20.7659] [INFO] smart_fan: Machine paused.
+PULSE 0.002740 0
+[16:21:20.7663] [INFO] smart_fan: Machine resumed.
+[16:21:20.7663] [INFO] smart_fan: Machine paused.
+PULSE 0.002750 0
+[16:21:20.7667] [INFO] smart_fan: Machine resumed.
+[16:21:20.7668] [INFO] smart_fan: Machine paused.
+PULSE 0.002760 0
+[16:21:20.7672] [INFO] smart_fan: Machine resumed.
+[16:21:20.7673] [INFO] smart_fan: Machine paused.
+PULSE 0.002770 0
+[16:21:20.7677] [INFO] smart_fan: Machine resumed.
+[16:21:20.7678] [INFO] smart_fan: Machine paused.
+PULSE 0.002780 0
+[16:21:20.7682] [INFO] smart_fan: Machine resumed.
+[16:21:20.7682] [INFO] smart_fan: Machine paused.
+PULSE 0.002790 0
+[16:21:20.7687] [INFO] smart_fan: Machine resumed.
+[16:21:20.7687] [INFO] smart_fan: Machine paused.
+PULSE 0.002800 0
+[16:21:20.7692] [INFO] smart_fan: Machine resumed.
+[16:21:20.7692] [INFO] smart_fan: Machine paused.
+PULSE 0.002810 0
+[16:21:20.7697] [INFO] smart_fan: Machine resumed.
+[16:21:20.7697] [INFO] smart_fan: Machine paused.
+PULSE 0.002820 0
+[16:21:20.7702] [INFO] smart_fan: Machine resumed.
+[16:21:20.7702] [INFO] smart_fan: Machine paused.
+PULSE 0.002830 0
+[16:21:20.7707] [INFO] smart_fan: Machine resumed.
+[16:21:20.7707] [INFO] smart_fan: Machine paused.
+PULSE 0.002840 0
+[16:21:20.7712] [INFO] smart_fan: Machine resumed.
+[16:21:20.7712] [INFO] smart_fan: Machine paused.
+PULSE 0.002850 0
+[16:21:20.7717] [INFO] smart_fan: Machine resumed.
+[16:21:20.7717] [INFO] smart_fan: Machine paused.
+PULSE 0.002860 0
+[16:21:20.7722] [INFO] smart_fan: Machine resumed.
+[16:21:20.7723] [INFO] smart_fan: Machine paused.
+PULSE 0.002870 0
+[16:21:20.7727] [INFO] smart_fan: Machine resumed.
+[16:21:20.7727] [INFO] smart_fan: Machine paused.
+PULSE 0.002880 0
+[16:21:20.7732] [INFO] smart_fan: Machine resumed.
+[16:21:20.7732] [INFO] smart_fan: Machine paused.
+PULSE 0.002890 0
+[16:21:20.7737] [INFO] smart_fan: Machine resumed.
+[16:21:20.7737] [INFO] smart_fan: Machine paused.
+PULSE 0.002900 0
+[16:21:20.7742] [INFO] smart_fan: Machine resumed.
+[16:21:20.7743] [INFO] smart_fan: Machine paused.
+PULSE 0.002910 0
+[16:21:20.7747] [INFO] smart_fan: Machine resumed.
+[16:21:20.7748] [INFO] smart_fan: Machine paused.
+PULSE 0.002920 0
+[16:21:20.7752] [INFO] smart_fan: Machine resumed.
+[16:21:20.7752] [INFO] smart_fan: Machine paused.
+PULSE 0.002930 0
+[16:21:20.7756] [INFO] smart_fan: Machine resumed.
+[16:21:20.7757] [INFO] smart_fan: Machine paused.
+PULSE 0.002940 0
+[16:21:20.7760] [INFO] smart_fan: Machine resumed.
+[16:21:20.7761] [INFO] smart_fan: Machine paused.
+PULSE 0.002950 0
+[16:21:20.7792] [INFO] smart_fan: Machine resumed.
+[16:21:20.7794] [INFO] smart_fan: Machine paused.
+PULSE 0.002960 0
+[16:21:20.7802] [INFO] smart_fan: Machine resumed.
+[16:21:20.7803] [INFO] smart_fan: Machine paused.
+PULSE 0.002970 0
+[16:21:20.7807] [INFO] smart_fan: Machine resumed.
+[16:21:20.7808] [INFO] smart_fan: Machine paused.
+PULSE 0.002980 0
+[16:21:20.7812] [INFO] smart_fan: Machine resumed.
+[16:21:20.7813] [INFO] smart_fan: Machine paused.
+PULSE 0.002990 0
+[16:21:20.7818] [INFO] smart_fan: Machine resumed.
+[16:21:20.7819] [INFO] smart_fan: Machine paused.
+PULSE 0.003000 0
+[16:21:20.7824] [INFO] smart_fan: Machine resumed.
+[16:21:20.7824] [INFO] smart_fan: Machine paused.
+PULSE 0.003010 0
+[16:21:20.7829] [INFO] smart_fan: Machine resumed.
+[16:21:20.7829] [INFO] smart_fan: Machine paused.
+PULSE 0.003020 0
+[16:21:20.7845] [INFO] smart_fan: Machine resumed.
+[16:21:20.7846] [INFO] smart_fan: Machine paused.
+PULSE 0.003030 0
+[16:21:20.7851] [INFO] smart_fan: Machine resumed.
+[16:21:20.7852] [INFO] smart_fan: Machine paused.
+PULSE 0.003040 0
+[16:21:20.7857] [INFO] smart_fan: Machine resumed.
+[16:21:20.7857] [INFO] smart_fan: Machine paused.
+PULSE 0.003050 0
+[16:21:20.7862] [INFO] smart_fan: Machine resumed.
+[16:21:20.7862] [INFO] smart_fan: Machine paused.
+PULSE 0.003060 0
+[16:21:20.7867] [INFO] smart_fan: Machine resumed.
+[16:21:20.7867] [INFO] smart_fan: Machine paused.
+PULSE 0.003070 0
+[16:21:20.7872] [INFO] smart_fan: Machine resumed.
+[16:21:20.7872] [INFO] smart_fan: Machine paused.
+PULSE 0.003080 0
+[16:21:20.7877] [INFO] smart_fan: Machine resumed.
+[16:21:20.7877] [INFO] smart_fan: Machine paused.
+PULSE 0.003090 0
+[16:21:20.7882] [INFO] smart_fan: Machine resumed.
+[16:21:20.7882] [INFO] smart_fan: Machine paused.
+PULSE 0.003100 0
+[16:21:20.7887] [INFO] smart_fan: Machine resumed.
+[16:21:20.7887] [INFO] smart_fan: Machine paused.
+PULSE 0.003110 0
+[16:21:20.7892] [INFO] smart_fan: Machine resumed.
+[16:21:20.7892] [INFO] smart_fan: Machine paused.
+PULSE 0.003120 0
+[16:21:20.7896] [INFO] smart_fan: Machine resumed.
+[16:21:20.7897] [INFO] smart_fan: Machine paused.
+PULSE 0.003130 0
+[16:21:20.7902] [INFO] smart_fan: Machine resumed.
+[16:21:20.7903] [INFO] smart_fan: Machine paused.
+PULSE 0.003140 0
+[16:21:20.7908] [INFO] smart_fan: Machine resumed.
+[16:21:20.7908] [INFO] smart_fan: Machine paused.
+PULSE 0.003150 0
+[16:21:20.7913] [INFO] smart_fan: Machine resumed.
+[16:21:20.7913] [INFO] smart_fan: Machine paused.
+PULSE 0.003160 0
+[16:21:20.7918] [INFO] smart_fan: Machine resumed.
+[16:21:20.7918] [INFO] smart_fan: Machine paused.
+PULSE 0.003170 0
+[16:21:20.7923] [INFO] smart_fan: Machine resumed.
+[16:21:20.7924] [INFO] smart_fan: Machine paused.
+PULSE 0.003180 0
+[16:21:20.7928] [INFO] smart_fan: Machine resumed.
+[16:21:20.7929] [INFO] smart_fan: Machine paused.
+PULSE 0.003190 0
+[16:21:20.7933] [INFO] smart_fan: Machine resumed.
+[16:21:20.7933] [INFO] smart_fan: Machine paused.
+PULSE 0.003200 0
+[16:21:20.7937] [INFO] smart_fan: Machine resumed.
+[16:21:20.7938] [INFO] smart_fan: Machine paused.
+PULSE 0.003210 0
+[16:21:20.7942] [INFO] smart_fan: Machine resumed.
+[16:21:20.7942] [INFO] smart_fan: Machine paused.
+PULSE 0.003220 0
+[16:21:20.7946] [INFO] smart_fan: Machine resumed.
+[16:21:20.7947] [INFO] smart_fan: Machine paused.
+PULSE 0.003230 0
+[16:21:20.7951] [INFO] smart_fan: Machine resumed.
+[16:21:20.7951] [INFO] smart_fan: Machine paused.
+PULSE 0.003240 0
+[16:21:20.7955] [INFO] smart_fan: Machine resumed.
+[16:21:20.7955] [INFO] smart_fan: Machine paused.
+PULSE 0.003250 0
+[16:21:20.7959] [INFO] smart_fan: Machine resumed.
+[16:21:20.7960] [INFO] smart_fan: Machine paused.
+PULSE 0.003260 0
+[16:21:20.7964] [INFO] smart_fan: Machine resumed.
+[16:21:20.7964] [INFO] smart_fan: Machine paused.
+PULSE 0.003270 0
+[16:21:20.7968] [INFO] smart_fan: Machine resumed.
+[16:21:20.7969] [INFO] smart_fan: Machine paused.
+PULSE 0.003280 0
+[16:21:20.7972] [INFO] smart_fan: Machine resumed.
+[16:21:20.7973] [INFO] smart_fan: Machine paused.
+PULSE 0.003290 0
+[16:21:20.7977] [INFO] smart_fan: Machine resumed.
+[16:21:20.7977] [INFO] smart_fan: Machine paused.
+PULSE 0.003300 0
+[16:21:20.7981] [INFO] smart_fan: Machine resumed.
+[16:21:20.7981] [INFO] smart_fan: Machine paused.
+PULSE 0.003310 0
+[16:21:20.7985] [INFO] smart_fan: Machine resumed.
+[16:21:20.7986] [INFO] smart_fan: Machine paused.
+PULSE 0.003320 0
+[16:21:20.7990] [INFO] smart_fan: Machine resumed.
+[16:21:20.7990] [INFO] smart_fan: Machine paused.
+PULSE 0.003330 0
+[16:21:20.7994] [INFO] smart_fan: Machine resumed.
+[16:21:20.7994] [INFO] smart_fan: Machine paused.
+PULSE 0.003340 0
+[16:21:20.7998] [INFO] smart_fan: Machine resumed.
+[16:21:20.7998] [INFO] smart_fan: Machine paused.
+PULSE 0.003350 0
+[16:21:20.8002] [INFO] smart_fan: Machine resumed.
+[16:21:20.8003] [INFO] smart_fan: Machine paused.
+PULSE 0.003360 0
+[16:21:20.8006] [INFO] smart_fan: Machine resumed.
+[16:21:20.8007] [INFO] smart_fan: Machine paused.
+PULSE 0.003370 0
+[16:21:20.8010] [INFO] smart_fan: Machine resumed.
+[16:21:20.8011] [INFO] smart_fan: Machine paused.
+PULSE 0.003380 0
+[16:21:20.8014] [INFO] smart_fan: Machine resumed.
+[16:21:20.8015] [INFO] smart_fan: Machine paused.
+PULSE 0.003390 0
+[16:21:20.8018] [INFO] smart_fan: Machine resumed.
+[16:21:20.8019] [INFO] smart_fan: Machine paused.
+PULSE 0.003400 0
+[16:21:20.8023] [INFO] smart_fan: Machine resumed.
+[16:21:20.8023] [INFO] smart_fan: Machine paused.
+PULSE 0.003410 0
+[16:21:20.8028] [INFO] smart_fan: Machine resumed.
+[16:21:20.8028] [INFO] smart_fan: Machine paused.
+PULSE 0.003420 0
+[16:21:20.8032] [INFO] smart_fan: Machine resumed.
+[16:21:20.8033] [INFO] smart_fan: Machine paused.
+PULSE 0.003430 0
+[16:21:20.8036] [INFO] smart_fan: Machine resumed.
+[16:21:20.8037] [INFO] smart_fan: Machine paused.
+PULSE 0.003440 0
+[16:21:20.8041] [INFO] smart_fan: Machine resumed.
+[16:21:20.8041] [INFO] smart_fan: Machine paused.
+PULSE 0.003450 0
+[16:21:20.8045] [INFO] smart_fan: Machine resumed.
+[16:21:20.8047] [INFO] smart_fan: Machine paused.
+PULSE 0.003460 0
+[16:21:20.8051] [INFO] smart_fan: Machine resumed.
+[16:21:20.8052] [INFO] smart_fan: Machine paused.
+PULSE 0.003470 0
+[16:21:20.8056] [INFO] smart_fan: Machine resumed.
+[16:21:20.8056] [INFO] smart_fan: Machine paused.
+PULSE 0.003480 0
+[16:21:20.8060] [INFO] smart_fan: Machine resumed.
+[16:21:20.8060] [INFO] smart_fan: Machine paused.
+PULSE 0.003490 0
+[16:21:20.8064] [INFO] smart_fan: Machine resumed.
+[16:21:20.8065] [INFO] smart_fan: Machine paused.
+PULSE 0.003500 0
+[16:21:20.8069] [INFO] smart_fan: Machine resumed.
+[16:21:20.8069] [INFO] smart_fan: Machine paused.
+PULSE 0.003510 0
+[16:21:20.8073] [INFO] smart_fan: Machine resumed.
+[16:21:20.8074] [INFO] smart_fan: Machine paused.
+PULSE 0.003520 0
+[16:21:20.8078] [INFO] smart_fan: Machine resumed.
+[16:21:20.8078] [INFO] smart_fan: Machine paused.
+PULSE 0.003530 0
+[16:21:20.8082] [INFO] smart_fan: Machine resumed.
+[16:21:20.8083] [INFO] smart_fan: Machine paused.
+PULSE 0.003540 0
+[16:21:20.8087] [INFO] smart_fan: Machine resumed.
+[16:21:20.8088] [INFO] smart_fan: Machine paused.
+PULSE 0.003550 0
+[16:21:20.8092] [INFO] smart_fan: Machine resumed.
+[16:21:20.8092] [INFO] smart_fan: Machine paused.
+PULSE 0.003560 0
+[16:21:20.8096] [INFO] smart_fan: Machine resumed.
+[16:21:20.8097] [INFO] smart_fan: Machine paused.
+PULSE 0.003570 0
+[16:21:20.8100] [INFO] smart_fan: Machine resumed.
+[16:21:20.8101] [INFO] smart_fan: Machine paused.
+PULSE 0.003580 0
+[16:21:20.8104] [INFO] smart_fan: Machine resumed.
+[16:21:20.8105] [INFO] smart_fan: Machine paused.
+PULSE 0.003590 0
+[16:21:20.8108] [INFO] smart_fan: Machine resumed.
+[16:21:20.8111] [INFO] smart_fan: Machine paused.
+PULSE 0.003600 0
+[16:21:20.8115] [INFO] smart_fan: Machine resumed.
+[16:21:20.8115] [INFO] smart_fan: Machine paused.
+PULSE 0.003610 0
+[16:21:20.8119] [INFO] smart_fan: Machine resumed.
+[16:21:20.8119] [INFO] smart_fan: Machine paused.
+PULSE 0.003620 0
+[16:21:20.8123] [INFO] smart_fan: Machine resumed.
+[16:21:20.8124] [INFO] smart_fan: Machine paused.
+PULSE 0.003630 0
+[16:21:20.8127] [INFO] smart_fan: Machine resumed.
+[16:21:20.8128] [INFO] smart_fan: Machine paused.
+PULSE 0.003640 0
+[16:21:20.8131] [INFO] smart_fan: Machine resumed.
+[16:21:20.8132] [INFO] smart_fan: Machine paused.
+PULSE 0.003650 0
+[16:21:20.8136] [INFO] smart_fan: Machine resumed.
+[16:21:20.8136] [INFO] smart_fan: Machine paused.
+PULSE 0.003660 0
+[16:21:20.8140] [INFO] smart_fan: Machine resumed.
+[16:21:20.8140] [INFO] smart_fan: Machine paused.
+PULSE 0.003670 0
+[16:21:20.8144] [INFO] smart_fan: Machine resumed.
+[16:21:20.8144] [INFO] smart_fan: Machine paused.
+PULSE 0.003680 0
+[16:21:20.8148] [INFO] smart_fan: Machine resumed.
+[16:21:20.8148] [INFO] smart_fan: Machine paused.
+PULSE 0.003690 0
+[16:21:20.8152] [INFO] smart_fan: Machine resumed.
+[16:21:20.8153] [INFO] smart_fan: Machine paused.
+PULSE 0.003700 0
+[16:21:20.8156] [INFO] smart_fan: Machine resumed.
+[16:21:20.8157] [INFO] smart_fan: Machine paused.
+PULSE 0.003710 0
+[16:21:20.8160] [INFO] smart_fan: Machine resumed.
+[16:21:20.8161] [INFO] smart_fan: Machine paused.
+PULSE 0.003720 0
+[16:21:20.8164] [INFO] smart_fan: Machine resumed.
+[16:21:20.8165] [INFO] smart_fan: Machine paused.
+PULSE 0.003730 0
+[16:21:20.8169] [INFO] smart_fan: Machine resumed.
+[16:21:20.8170] [INFO] smart_fan: Machine paused.
+PULSE 0.003740 0
+[16:21:20.8173] [INFO] smart_fan: Machine resumed.
+[16:21:20.8174] [INFO] smart_fan: Machine paused.
+PULSE 0.003750 0
+[16:21:20.8177] [INFO] smart_fan: Machine resumed.
+[16:21:20.8178] [INFO] smart_fan: Machine paused.
+PULSE 0.003760 0
+[16:21:20.8182] [INFO] smart_fan: Machine resumed.
+[16:21:20.8182] [INFO] smart_fan: Machine paused.
+PULSE 0.003770 0
+[16:21:20.8186] [INFO] smart_fan: Machine resumed.
+[16:21:20.8186] [INFO] smart_fan: Machine paused.
+PULSE 0.003780 0
+[16:21:20.8190] [INFO] smart_fan: Machine resumed.
+[16:21:20.8191] [INFO] smart_fan: Machine paused.
+PULSE 0.003790 0
+[16:21:20.8196] [INFO] smart_fan: Machine resumed.
+[16:21:20.8196] [INFO] smart_fan: Machine paused.
+PULSE 0.003800 0
+[16:21:20.8200] [INFO] smart_fan: Machine resumed.
+[16:21:20.8201] [INFO] smart_fan: Machine paused.
+PULSE 0.003810 0
+[16:21:20.8205] [INFO] smart_fan: Machine resumed.
+[16:21:20.8205] [INFO] smart_fan: Machine paused.
+PULSE 0.003820 0
+[16:21:20.8209] [INFO] smart_fan: Machine resumed.
+[16:21:20.8210] [INFO] smart_fan: Machine paused.
+PULSE 0.003830 0
+[16:21:20.8214] [INFO] smart_fan: Machine resumed.
+[16:21:20.8215] [INFO] smart_fan: Machine paused.
+PULSE 0.003840 0
+[16:21:20.8218] [INFO] smart_fan: Machine resumed.
+[16:21:20.8219] [INFO] smart_fan: Machine paused.
+PULSE 0.003850 0
+[16:21:20.8222] [INFO] smart_fan: Machine resumed.
+[16:21:20.8223] [INFO] smart_fan: Machine paused.
+PULSE 0.003860 0
+[16:21:20.8226] [INFO] smart_fan: Machine resumed.
+[16:21:20.8227] [INFO] smart_fan: Machine paused.
+PULSE 0.003870 0
+[16:21:20.8230] [INFO] smart_fan: Machine resumed.
+[16:21:20.8231] [INFO] smart_fan: Machine paused.
+PULSE 0.003880 0
+[16:21:20.8235] [INFO] smart_fan: Machine resumed.
+[16:21:20.8236] [INFO] smart_fan: Machine paused.
+PULSE 0.003890 0
+[16:21:20.8240] [INFO] smart_fan: Machine resumed.
+[16:21:20.8241] [INFO] smart_fan: Machine paused.
+PULSE 0.003900 0
+[16:21:20.8245] [INFO] smart_fan: Machine resumed.
+[16:21:20.8246] [INFO] smart_fan: Machine paused.
+PULSE 0.003910 0
+[16:21:20.8249] [INFO] smart_fan: Machine resumed.
+[16:21:20.8250] [INFO] smart_fan: Machine paused.
+PULSE 0.003920 0
+[16:21:20.8254] [INFO] smart_fan: Machine resumed.
+[16:21:20.8254] [INFO] smart_fan: Machine paused.
+PULSE 0.003930 0
+[16:21:20.8258] [INFO] smart_fan: Machine resumed.
+[16:21:20.8259] [INFO] smart_fan: Machine paused.
+PULSE 0.003940 0
+[16:21:20.8262] [INFO] smart_fan: Machine resumed.
+[16:21:20.8262] [INFO] smart_fan: Machine paused.
+PULSE 0.003950 0
+[16:21:20.8266] [INFO] smart_fan: Machine resumed.
+[16:21:20.8266] [INFO] smart_fan: Machine paused.
+PULSE 0.003960 0
+[16:21:20.8270] [INFO] smart_fan: Machine resumed.
+[16:21:20.8270] [INFO] smart_fan: Machine paused.
+PULSE 0.003970 0
+[16:21:20.8274] [INFO] smart_fan: Machine resumed.
+[16:21:20.8275] [INFO] smart_fan: Machine paused.
+PULSE 0.003980 0
+[16:21:20.8280] [INFO] smart_fan: Machine resumed.
+[16:21:20.8282] [INFO] smart_fan: Machine paused.
+PULSE 0.003990 0
+[16:21:20.8287] [INFO] smart_fan: Machine resumed.
+[16:21:20.8287] [INFO] smart_fan: Machine paused.
+PULSE 0.004000 0
+[16:21:20.8443] [INFO] smart_fan: Disposed.

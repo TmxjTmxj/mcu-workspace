@@ -1,0 +1,24 @@
+".\Outputs\main.obj",
+".\Outputs\System_init.obj",
+".\Outputs\isr.obj",
+".\Outputs\Led1.obj",
+".\Outputs\app.obj",
+".\Outputs\ADC.obj",
+".\Outputs\compare.obj",
+".\Outputs\delay.obj",
+".\Outputs\EEPROM.obj",
+".\Outputs\Exti.obj",
+".\Outputs\GPIO.obj",
+".\Outputs\I2C.obj",
+".\Outputs\PCA.obj",
+".\Outputs\PWM.obj",
+".\Outputs\PWM15bit.obj",
+".\Outputs\Soft_UART.obj",
+".\Outputs\spi.obj",
+".\Outputs\timer.obj",
+".\Outputs\UART.obj",
+".\Outputs\WDT.obj",
+".\Outputs\Geek_Task.obj" 
+TO ".\Outputs\Geek_STC8" 
+
+PRINT(".\Outputs\Geek_STC8.map") REMOVEUNUSED 

@@ -1,0 +1,6 @@
+mach create "smart_fan"
+machine LoadPlatformDescription @D:/codex/单片机/stm32_control/logs/debug/platform.repl
+sysbus LoadELF @D:/codex/单片机/stm32_control/build/stm32/bluepill/firmware.elf
+sysbus.gpioPortB OnGPIO 12 true
+include @D:/codex/单片机/stm32_control/renode/plant.py
+machine StartGdbServer 3333 true

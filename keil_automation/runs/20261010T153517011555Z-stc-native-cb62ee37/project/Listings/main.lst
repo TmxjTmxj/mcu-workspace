@@ -1,0 +1,94 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:35:17 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE main.c LARGE OMF2 OPTIMIZE(8,SPEED) INCDIR(.) DEBUG PRINT(.\Listings\main.l
+                    -st) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+*** WARNING C500 IN LINE 1 OF main.c: LICENSE ERROR (R207(3): REGISTRY READ ERROR)
+
+   1          /* Minimal STC bring-up. Register definitions are reused from STC's supplied BSP.
+   2           * Configure STC-ISP IRC=24MHz; J1 UART 3-5/4-6; J2 closed. No hardware is flashed.
+   3           * Polling UART/Timer0 avoids linking the full BSP under Keil's 2KB evaluation cap.
+   4           */
+   5          #include "STC8xxxx.H"
+   6          
+   7          static void serial(char code *s) {
+   8   1          unsigned int budget;
+   9   1          while (*s) {
+  10   2              TI = 0;
+  11   2              SBUF = *s++;
+  12   2              budget = 60000;
+  13   2              while (!TI && --budget) {}
+  14   2              if (!budget) return;
+  15   2          }
+  16   1      }
+  17          
+  18          static void delay_ms(unsigned int ms) {
+  19   1          while (ms--) {
+  20   2              TR0 = 0;
+  21   2              TF0 = 0;
+  22   2              TH0 = 0xf8; /* 24MHz / 12: reload 65536-2000 */
+  23   2              TL0 = 0x30;
+  24   2              TR0 = 1;
+  25   2              while (!TF0) {}
+  26   2          }
+  27   1          TR0 = 0;
+  28   1      }
+  29          
+  30          void main(void) {
+  31   1          unsigned char index = 0, pressed = 0;
+  32   1          EA = 0;
+  33   1          P6 = 0xff;
+  34   1          P6M1 = 0;
+  35   1          P6M0 = 0xff; /* strong push-pull outputs; active low */
+  36   1          P3M1 &= ~0x08;
+  37   1          P3M0 &= ~0x08;
+  38   1          P33 = 1; /* quasi-bidirectional K3 input */
+  39   1          P_SW1 &= 0x3f; /* UART1 P3.0/P3.1 */
+  40   1          SCON = 0x50;
+  41   1          AUXR = (AUXR & ~0x81) | 0x40; /* T0=12T, T1=1T, UART uses T1 */
+  42   1          TMOD = (TMOD & 0x0f) | 0x01; /* STC T1 mode0 auto reload, T0 mode1 */
+  43   1          TH1 = 0xff;
+  44   1          TL1 = 0xcc; /* STC BSP formula 65536-(24000000/4/115200) */
+  45   1          TR1 = 1;
+  46   1          serial("[BOOT] STC8H8K64U native IRC24MHz required\r\n");
+  47   1          serial("[TEST] UART_TX READY\r\n");
+  48   1          serial("[TEST] LED CONFIGURED active-low P6 J2 required\r\n");
+  49   1          delay_ms(10);
+  50   1          serial("[TEST] TIMER ELAPSED\r\n");
+  51   1          serial("[TEST] I2C SKIP unknown attached OLED\r\n");
+  52   1          serial("SYSTEM READY NATIVE UNVERIFIED\r\n");
+  53   1          for (;;) {
+C51 COMPILER V9.60.7.0   MAIN                                                              10/10/2026 23:35:17 PAGE 2   
+
+  54   2              P6 = ~(1 << index);
+  55   2              index = (index + 1) & 7;
+  56   2              if (!P33) {
+  57   3                  if (!pressed) serial("[EVENT] BUTTON K3 PRESSED\r\n");
+  58   3                  pressed = 1;
+  59   3              } else pressed = 0;
+  60   2              delay_ms(50);
+  61   2          }
+  62   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    220    ----
+   CONSTANT SIZE    =    242    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

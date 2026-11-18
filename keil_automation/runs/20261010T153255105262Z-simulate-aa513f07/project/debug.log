@@ -1,0 +1,24 @@
+SLOG > serial.log
+printf("RUN_BEGIN 4e24540e33cb4cf78830797e66872721\n");
+RUN_BEGIN 4e24540e33cb4cf78830797e66872721
+RESET
+G, main
+G, checkpoint_idle
+PORT3 = 0xff
+G, checkpoint_pressed
+PORT3 = 0xf7
+G, checkpoint_released
+PORT3 = 0xff
+G, test_done
+codex_check_4e24540e()
+ASSERT key_idle PASS value=1
+ASSERT key_down PASS value=0
+ASSERT key_up PASS value=1
+ASSERT led_idle PASS value=255
+ASSERT led_down PASS value=254
+ASSERT led_up PASS value=255
+ASSERT p6_final PASS value=255
+printf("RUN_END 4e24540e33cb4cf78830797e66872721\n");
+RUN_END 4e24540e33cb4cf78830797e66872721
+SLOG OFF
+LOG OFF

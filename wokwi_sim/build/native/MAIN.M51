@@ -1,0 +1,56 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        09/27/2026  14:10:26  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE MAIN.OBJ, D:\KEIL\C51\LIB\C51S.LIB TO MAIN
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  MAIN.OBJ (MAIN)
+  D:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  MAIN (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     00F2H     UNIT         ?CO?MAIN
+            CODE    08F2H     0093H     UNIT         ?PR?MAIN?MAIN
+            CODE    0985H     002BH     UNIT         ?PR?_SERIAL?MAIN
+            CODE    09B0H     001EH     UNIT         ?PR?_DELAY_MS?MAIN
+            CODE    09CEH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   MAIN (MAIN)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN
+  +--> ?CO?MAIN
+  +--> ?PR?_SERIAL?MAIN
+  +--> ?PR?_DELAY_MS?MAIN
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 01CEH BYTE (22%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=477
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

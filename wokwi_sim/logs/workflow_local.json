@@ -1,0 +1,68 @@
+{
+  "backend": "local",
+  "started_at": 1790490065.389364,
+  "steps": {
+    "Documentation": {
+      "status": "PASS",
+      "detail": {
+        "total": 496,
+        "unique_contents": 313,
+        "categories": {
+          "D": 31,
+          "C": 366,
+          "B": 1,
+          "E": 96,
+          "A": 2
+        },
+        "statuses": {
+          "IMAGE_VALIDATED": 26,
+          "TEXT_PARSED": 356,
+          "TEXT_EXTRACTED": 3,
+          "UNPARSED": 96,
+          "HEX_VALIDATED": 4,
+          "XML_PARSED": 7,
+          "ARCHIVE_VALIDATED": 1,
+          "NOT_ELECTRICALLY_PARSED": 3
+        }
+      }
+    },
+    "Hardware graph / diagram": {
+      "status": "PASS",
+      "detail": {
+        "parts": 21,
+        "fidelity": "BEHAVIORALLY_SIMULATED"
+      }
+    },
+    "Firmware build": {
+      "status": "PASS",
+      "detail": {
+        "equivalent": {
+          "status": "PASS",
+          "bytes": 1358,
+          "hex_sha256": "ab08c50b7dfbd21aad0e533b8eb8ef2c106d98fdbfa5b4bdfc018dcd2e138ce1"
+        }
+      }
+    },
+    "Wokwi diagram lint": {
+      "status": "PASS",
+      "detail": "Wokwi CLI diagram lint passed"
+    },
+    "Simulation": {
+      "backend": "local AVR8js",
+      "status": "PASS",
+      "serial_checks": {
+        "missing": [],
+        "errors": []
+      },
+      "fidelity": "BEHAVIORALLY_SIMULATED",
+      "evidence": "logs/local_none.json"
+    },
+    "Verification": {
+      "status": "PASS",
+      "detail": "Unit and CPU-level fault-injection regressions passed"
+    }
+  },
+  "status": "EQUIVALENT_LOCAL_WORKFLOW_READY",
+  "native_runtime": "NOT_VERIFIED",
+  "completed_at": 1790490072.0955608
+}

@@ -1,0 +1,4 @@
+".\Objects\main.obj" 
+TO ".\Objects\firmware" 
+
+PRINT(".\Listings\firmware.map")

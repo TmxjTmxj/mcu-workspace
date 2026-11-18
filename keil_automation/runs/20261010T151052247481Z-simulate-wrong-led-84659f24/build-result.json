@@ -1,0 +1,42 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "profile": "smoke8051",
+  "case": "wrong-led",
+  "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\firmware.uvproj",
+  "target": "Simulator",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-r",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\firmware.uvproj",
+      "-t",
+      "Simulator",
+      "-j0",
+      "-o",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\build.log"
+    ],
+    "pid": 27568,
+    "exit_code": 1,
+    "timed_out": false,
+    "elapsed_seconds": 0.974
+  },
+  "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\build.log",
+  "artifacts": [
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\Objects\\firmware",
+      "size": 3209,
+      "sha256": "00aae05e062ac54d2d71e186efe75b86de6013a2baf7fe82ba069e9602c60934"
+    },
+    {
+      "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151052247481Z-simulate-wrong-led-84659f24\\project\\Objects\\firmware.hex",
+      "size": 634,
+      "sha256": "4b54fc7478e5620d699198a509e76565d29d8b69156812556038aeaacd867a49"
+    }
+  ],
+  "image_bytes": 213,
+  "error": null,
+  "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+  "limitation": null,
+  "hardware_verified": false
+}

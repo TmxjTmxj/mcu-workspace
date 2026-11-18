@@ -1,0 +1,6 @@
+# Select this configuration only for a debugger session; it starts paused.
+[wokwi]
+version = 1
+firmware = "build/bluepill/firmware.bin"
+elf = "build/bluepill/firmware.elf"
+gdbServerPort = 3333

@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Board2Sim: local workflow", "type": "process", "command": "python", "args": ["${workspaceFolder}/wokwi_sim/run_workflow.py", "--backend", "local"], "group": {"kind": "build", "isDefault": true}, "problemMatcher": []},
+    {"label": "Board2Sim: build AVR equivalent", "type": "process", "command": "python", "args": ["${workspaceFolder}/wokwi_sim/scripts/build_firmware.py", "--target", "equivalent"], "problemMatcher": "$gcc"},
+    {"label": "Board2Sim: build STC native minimal", "type": "process", "command": "python", "args": ["${workspaceFolder}/wokwi_sim/scripts/build_firmware.py", "--target", "native"], "problemMatcher": []},
+    {"label": "Board2Sim: regression tests", "type": "process", "command": "python", "args": ["-m", "unittest", "discover", "-s", "${workspaceFolder}/wokwi_sim/tests", "-v"], "group": "test", "problemMatcher": []},
+    {"label": "Keil: doctor", "type": "process", "command": "python", "args": ["${workspaceFolder}/keil_automation/scripts/keil_cli.py", "doctor"], "problemMatcher": []},
+    {"label": "Keil: compile and simulate", "type": "process", "command": "python", "args": ["${workspaceFolder}/keil_automation/scripts/keil_cli.py", "simulate"], "group": "build", "problemMatcher": []},
+    {"label": "Keil: regression", "type": "process", "command": "python", "args": ["${workspaceFolder}/keil_automation/scripts/keil_cli.py", "regress"], "group": "test", "problemMatcher": []},
+    {"label": "Keil: STC native build", "type": "process", "command": "python", "args": ["${workspaceFolder}/keil_automation/scripts/keil_cli.py", "build", "--profile", "stc-native"], "group": "build", "problemMatcher": []},
+    {"label": "Keil: all", "type": "process", "command": "python", "args": ["${workspaceFolder}/keil_automation/scripts/keil_cli.py", "all"], "group": "build", "problemMatcher": []},
+    {"label": "Keil: runner unit tests", "type": "process", "command": "python", "args": ["-m", "unittest", "discover", "-s", "${workspaceFolder}/keil_automation/tests", "-v"], "group": "test", "problemMatcher": []}
+  ]
+}

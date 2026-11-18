@@ -1,0 +1,63 @@
+{
+  "time": 1790492170.0689692,
+  "proxy_detected": true,
+  "results": [
+    {
+      "mode": "direct",
+      "url": "https://wokwi.com/status",
+      "transport": "FAILED",
+      "error_type": "PermissionError",
+      "seconds": 0.09
+    },
+    {
+      "mode": "direct",
+      "url": "https://wokwi.com/login",
+      "transport": "FAILED",
+      "error_type": "PermissionError",
+      "seconds": 0.08
+    },
+    {
+      "mode": "direct",
+      "url": "https://identitytoolkit.googleapis.com/",
+      "transport": "FAILED",
+      "error_type": "PermissionError",
+      "seconds": 0.13
+    },
+    {
+      "mode": "direct",
+      "url": "https://securetoken.googleapis.com/",
+      "transport": "FAILED",
+      "error_type": "PermissionError",
+      "seconds": 0.13
+    },
+    {
+      "mode": "system_or_environment_proxy",
+      "url": "https://wokwi.com/status",
+      "transport": "HTTP_RESPONSE",
+      "http_status": 200,
+      "seconds": 0.84
+    },
+    {
+      "mode": "system_or_environment_proxy",
+      "url": "https://wokwi.com/login",
+      "transport": "HTTP_RESPONSE",
+      "http_status": 200,
+      "seconds": 0.83
+    },
+    {
+      "mode": "system_or_environment_proxy",
+      "url": "https://identitytoolkit.googleapis.com/",
+      "transport": "HTTP_RESPONSE",
+      "http_status": 404,
+      "seconds": 0.56
+    },
+    {
+      "mode": "system_or_environment_proxy",
+      "url": "https://securetoken.googleapis.com/",
+      "transport": "HTTP_RESPONSE",
+      "http_status": 404,
+      "seconds": 0.51
+    }
+  ],
+  "scope": "Public HTTP connectivity only; no browser authentication or credentials tested. HTTP 4xx still proves a response, not successful login."
+}

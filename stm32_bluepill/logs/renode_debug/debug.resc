@@ -1,0 +1,5 @@
+mach create "bluepill"
+machine LoadPlatformDescription @D:/codex/单片机/stm32_bluepill/logs/renode_debug/platform.repl
+sysbus LoadELF @D:/codex/单片机/stm32_bluepill/build/bluepill/firmware.elf
+sysbus.gpioPortB OnGPIO 12 true
+machine StartGdbServer 3333 true

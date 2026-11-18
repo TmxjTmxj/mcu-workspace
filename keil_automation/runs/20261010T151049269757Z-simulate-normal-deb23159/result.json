@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "run_id": "0e226b707a034b789f3fd3dde95f46e4",
+  "assertions": {
+    "checksum": {
+      "status": "PASS",
+      "value": 55
+    },
+    "timer": {
+      "status": "PASS",
+      "value": 1
+    },
+    "input_high": {
+      "status": "PASS",
+      "value": 1
+    },
+    "input_low": {
+      "status": "PASS",
+      "value": 0
+    },
+    "led": {
+      "status": "PASS",
+      "value": 254
+    }
+  },
+  "missing": [],
+  "duplicate_assertions": [],
+  "debug_errors": [],
+  "complete": true,
+  "profile": "smoke8051",
+  "case": "normal",
+  "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159",
+  "process": {
+    "args": [
+      "D:/keil/UV4/UV4.exe",
+      "-d",
+      "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\firmware.uvproj",
+      "-t",
+      "Simulator",
+      "-j0"
+    ],
+    "pid": 7300,
+    "exit_code": 0,
+    "timed_out": false,
+    "elapsed_seconds": 2.007
+  },
+  "build": {
+    "status": "PASS_WITH_WARNINGS",
+    "profile": "smoke8051",
+    "case": "normal",
+    "project": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\firmware.uvproj",
+    "target": "Simulator",
+    "run_dir": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159",
+    "process": {
+      "args": [
+        "D:/keil/UV4/UV4.exe",
+        "-r",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\firmware.uvproj",
+        "-t",
+        "Simulator",
+        "-j0",
+        "-o",
+        "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\build.log"
+      ],
+      "pid": 27824,
+      "exit_code": 1,
+      "timed_out": false,
+      "elapsed_seconds": 0.961
+    },
+    "build_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\build.log",
+    "artifacts": [
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\Objects\\firmware",
+        "size": 3191,
+        "sha256": "c852cd570152b98cb535256f81a29b7cc0c6bb3d8ef082871ac1e579160b9bd3"
+      },
+      {
+        "path": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\Objects\\firmware.hex",
+        "size": 634,
+        "sha256": "008853a3a3ae797ae851b5c854ffb6153d365cddb6a4fb3d85a37063224f1b89"
+      }
+    ],
+    "image_bytes": 213,
+    "error": null,
+    "license": "NO_RESTRICTION_MESSAGE_OBSERVED",
+    "limitation": null,
+    "hardware_verified": false
+  },
+  "script": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\debug.ini",
+  "debug_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\debug.log",
+  "serial_log": "D:\\codex\\单片机\\keil_automation\\runs\\20261010T151049269757Z-simulate-normal-deb23159\\project\\serial.log",
+  "uart_ok": true,
+  "simulation_scope": "standard_8051_cpu_timer_uart_gpio; NOT_STC8H_PERIPHERALS",
+  "hardware_verified": false
+}

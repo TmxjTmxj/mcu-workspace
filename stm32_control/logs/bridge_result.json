@@ -1,0 +1,6 @@
+{
+  "status": "BRIDGE_BUILD_PASS",
+  "action": "bridge",
+  "target": "STM32F103C8 + ESP32",
+  "time": 1790496651.5815573
+}

@@ -1,0 +1,49 @@
+C51 COMPILER V9.60.0.0   APP                                                               01/12/2024 12:59:12 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE APP
+OBJECT MODULE PLACED IN .\Outputs\app.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE APP\app.c LARGE OMF2 OPTIMIZE(8,SPEED) BROWSE INCDIR(.\User;.\App;.\Chip
+                    -Devices;.\ISR;.\UserDevices) DEBUG PRINT(.\Outputs\app.lst) TABS(2) OBJECT(.\Outputs\app.obj)
+
+line level    source
+
+   1          
+   2          #include  "Geek_Task.h"
+   3          
+   4          //将用到的任务应用对应的头文件加到这里
+   5          #include "Led1.h"
+   6          #include  "Encoder.h"
+   7          
+   8          TASK_COMPONENTS Task_Comps[]=
+   9          {
+  10          //状态  计数  周期  函数
+  11            {0, 200, 200, Led1},        /* task 1 Period： 250ms */
+  12          //  {0, 200, 200, SendEncoder},   /* task 2 Period： 200ms */
+  13          //  {0, 20, 20, Sample_INTtoUART},    /* task 3 Period： 20ms */
+  14          
+  15          //  {0, 1, 1, Sample_PCA_Capture},    /* task 10 Period： 1ms */
+  16          //  {0, 1, 1, Sample_PWM15bit},       /* task 11 Period： 1ms */
+  17          
+  18            /* Add new task here */
+  19          };
+  20          
+  21          u8 Tasks_Max = sizeof(Task_Comps)/sizeof(Task_Comps[0]);
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =      9    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

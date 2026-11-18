@@ -1,0 +1,7 @@
+Reset_Handler () at tools\platformio\packages\framework-stm32cubef1\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\gcc/startup_stm32f103xb.S:64
+64	    bl  SystemInit
+Breakpoint 1 at 0x8000f1c: file src\main.c, line 75.
+
+Breakpoint 1, main () at src\main.c:75
+75	int main(void) {
+pc             0x8000f1c	0x8000f1c <main>
